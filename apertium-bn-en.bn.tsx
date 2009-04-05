@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tagger name="Nepali">
+<tagger name="Bengali">
   <tagset>
     <def-label name="NOMF">
       <tags-item tags="cat:cat:n.gen:f"/>   <!-- probably broken -->
