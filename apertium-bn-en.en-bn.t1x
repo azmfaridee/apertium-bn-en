@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer default="chunk">
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="article">
+      <cat-item lemma="the" tags="det.*"/>
+      <cat-item lemma="a" tags="det.*"/>
+    </def-cat>
+    <def-cat n="on">
+      <cat-item lemma="on" tags="pr"/>
+    </def-cat>
+    <def-cat n="in">
+      <cat-item lemma="in" tags="pr"/>
+    </def-cat>
+    <def-cat n="genitive">
+      <cat-item tags="gen"/>
+    </def-cat>
+    <def-cat n="direction">
+      <cat-item lemma="direction" tags="n.*"/>
+    </def-cat>
+    <def-cat n="vblex">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="vb">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="gen:nt"/>
+      <attr-item tags="gen:any"/>
+    </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="a_tns">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="inf"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="case"/>
+    <def-var n="genere"/>
+  </section-def-vars>
+
+  <section-rules>
+
+    <!-- Sintagmas nominales -->
+
+    <rule comment="REGLA: NOM">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+<!--
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen" link-to="2"/>
+              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+              <lit-tag v="4"/>
+-->              
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ARTICLE NOM">
+      <pattern>
+        <pattern-item n="article"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: on ARTICLE NOM - on the cat">
+      <pattern>
+        <pattern-item n="on"/>
+        <pattern-item n="article"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom_on" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+
+    <rule comment="REGLA: in NOM's direction  - NOM tira ko">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="genitive"/>
+        <pattern-item n="direction"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom_onxxx" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: in NOM's direction  - NOM tira ko">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="article"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="genitive"/>
+        <pattern-item n="direction"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom_onxxx" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+
+    <rule comment="REGLA: ARTICLE ADJ NOM">
+      <pattern>
+        <pattern-item n="article"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	  <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: ARTICLE NOM">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	  <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: VERB">
+      <pattern>
+        <pattern-item n="vb"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+  </section-rules>
+</transfer>

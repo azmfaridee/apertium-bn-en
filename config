@@ -1,0 +1,17 @@
+/* config.  Generated from config.in by configure.  */
+/* config.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "lkhatiwada@users.sourceforge.net"
+
+/* Define to the full name of this package. */
+#define PACKAGE_NAME "apertium-bn-en"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "apertium-bn-en 0.1"
+
+/* Define to the one symbol short name of this package. */
+#define PACKAGE_TARNAME "apertium-bn-en"
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "0.1"
