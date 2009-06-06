@@ -199,7 +199,9 @@ class SpelingFormatWriter{
 }
 
 $connection  = PersistantConnection::getConnection();
-$spellingFormatWriter = new SpelingFormatWriter('speling', $connection);
+$spellingFormatWriter = new SpelingFormatWriter('spelingNoun', $connection);
 //$spellingFormatWriter->writeVerbToFile();
+$spellingFormatWriter->writeNounToFile();
+$spellingFormatWriter = new SpelingFormatWriter('spelingVerb', $connection);
 $spellingFormatWriter->writeNounToFile();
 ?>

@@ -86,10 +86,10 @@
         
         public function inflectNouns(){
             try{
-                $sqlSelect = "SELECT noun, animacy FROM noun_source";
+                $sqlSelect = "SELECT lemma, animacy FROM noun_source_freq";
                 $stmtSelect = $this->conn->prepare($sqlSelect);
                 
-                $stmtSelect->bindColumn("noun", $noun);
+                $stmtSelect->bindColumn("lemma", $noun);
                 $stmtSelect->bindColumn("animacy", $animacy);
                 
                 $stmtSelect->execute();
