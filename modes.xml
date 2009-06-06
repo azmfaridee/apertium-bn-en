@@ -29,6 +29,26 @@
     </pipeline>
   </mode>
 
+  <mode name="en-bn-chunker">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-bn.automorf.bin"/>
+      </program>
+<!--      <program name="apertium-tagger -g $2"> -->
+      <program name="apertium-tagger -g">
+        <file name="en-bn.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-bn-en.en-bn.t1x"/>
+        <file name="en-bn.t1x.bin"/>
+        <file name="en-bn.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
   <mode name="bn-en" install="yes">
     <pipeline>
       <program name="lt-proc">

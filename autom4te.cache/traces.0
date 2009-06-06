@@ -628,7 +628,7 @@ m4trace:configure.ac:10: -1- AM_INIT_AUTOMAKE([apertium-bn-en], [0.1], [no-defin
 m4trace:configure.ac:10: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
 m4trace:configure.ac:10: -1- AM_SET_CURRENT_AUTOMAKE_VERSION
 m4trace:configure.ac:10: -1- AM_AUTOMAKE_VERSION([1.10.1])
-m4trace:configure.ac:10: -1- _AM_AUTOCONF_VERSION([2.61])
+m4trace:configure.ac:10: -1- _AM_AUTOCONF_VERSION([2.63])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^INSTALL_PROGRAM$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^INSTALL_SCRIPT$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^INSTALL_DATA$])
@@ -661,6 +661,7 @@ m4trace:configure.ac:10: -1- AM_PROG_INSTALL_STRIP
 m4trace:configure.ac:10: -1- m4_pattern_allow([^STRIP$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^INSTALL_STRIP_PROGRAM$])
 m4trace:configure.ac:10: -1- AM_PROG_MKDIR_P
+m4trace:configure.ac:10: -1- m4_pattern_allow([^MKDIR_P$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^mkdir_p$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^AWK$])
 m4trace:configure.ac:10: -1- m4_pattern_allow([^SET_MAKE$])
@@ -738,4 +739,4 @@ m4trace:configure.ac:31: -1- _m4_warn([obsolete], [AC_OUTPUT should be used with
 You should run autoupdate.], [])
 m4trace:configure.ac:31: -1- m4_pattern_allow([^LIB@&t@OBJS$])
 m4trace:configure.ac:31: -1- m4_pattern_allow([^LTLIBOBJS$])
-m4trace:configure.ac:31: -1- _AC_AM_CONFIG_HEADER_HOOK([$ac_file])
+m4trace:configure.ac:31: -1- _AC_AM_CONFIG_HEADER_HOOK(["$ac_file"])
