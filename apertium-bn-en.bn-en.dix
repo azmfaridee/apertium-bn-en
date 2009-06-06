@@ -1,9 +1,13 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"/>
-    <sdef n="vblex"/>
-    <sdef n="cnjcoo"/>
+    <sdef n="n"         c="Noun"/>
+    <sdef n="num"       c="Numeral"/>
+    <sdef n="vblex"     c="Verb"/>
+    <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
+
+    <sdef n="sent"      c="End of sentence marker"/>
+    <sdef n="cm"        c="Comma"/>
   </sdefs>
   <section id="main" type="standard">
 
@@ -639,6 +643,12 @@
     <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>disturb<s n="vblex"/></r></p></e>
+
+
+    <!-- Punctuation -->
+    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
   </section>
 </dictionary>
