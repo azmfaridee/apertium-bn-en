@@ -2,6 +2,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"/>
+    <sdef n="vblex"/>
     <sdef n="cnjcoo"/>
   </sdefs>
   <section id="main" type="standard">
@@ -16,6 +17,628 @@
     <e><p><l>জীবন<s n="n"/></l><r>life<s n="n"/></r></p></e>
     <e><p><l>ঘর<s n="n"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>বই<s n="n"/></l><r>book<s n="n"/></r></p></e>
+
+
+    <!-- Verbs -->
+
+    <e><p><l>ত্যাগ কর<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
+    <e><p><l>অপহরণ কর<s n="vblex"/></l><r>abduct<s n="vblex"/></r></p></e>
+    <e><p><l>শপথ করে ত্যাগ কর<s n="vblex"/></l><r>abjure<s n="vblex"/></r></p></e>
+    <e><p><l>বাতিল কর<s n="vblex"/></l><r>abort<s n="vblex"/></r></p></e>
+    <e><p><l>আত্মভূত কর<s n="vblex"/></l><r>absorb<s n="vblex"/></r></p></e>
+    <e><p><l>গাল পাড়<s n="vblex"/></l><r>abuse<s n="vblex"/></r></p></e>
+    <e><p><l>গ্রহণ কর<s n="vblex"/></l><r>accept<s n="vblex"/></r></p></e>
+    <e><p><l>উপলব্ধি কর<s n="vblex"/></l><r>access<s n="vblex"/></r></p></e>
+    <e><p><l>সমন্বয়বিধান কর<s n="vblex"/></l><r>accommodate<s n="vblex"/></r></p></e>
+    <e><p><l>অর্জন কর<s n="vblex"/></l><r>accrue<s n="vblex"/></r></p></e>
+    <e><p><l>অভিযুক্ত কর<s n="vblex"/></l><r>accuse<s n="vblex"/></r></p></e>
+    <e><p><l>অর্জন কর<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
+    <e><p><l>অর্জন কর<s n="vblex"/></l><r>acquire<s n="vblex"/></r></p></e>
+    <e><p><l>ছেড়ে দে<s n="vblex"/></l><r>acquit<s n="vblex"/></r></p></e>
+    <e><p><l>অভিনয় কর<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
+    <e><p><l>যোগ কর<s n="vblex"/></l><r>add<s n="vblex"/></r></p></e>
+    <e><p><l>সম্বোধন কর<s n="vblex"/></l><r>address<s n="vblex"/></r></p></e>
+    <e><p><l>অনুগত থাক<s n="vblex"/></l><r>adhere<s n="vblex"/></r></p></e>
+    <e><p><l>সমন্বয়সাধন কর<s n="vblex"/></l><r>adjust<s n="vblex"/></r></p></e>
+    <e><p><l>পরিচালনা কর<s n="vblex"/></l><r>administer<s n="vblex"/></r></p></e>
+    <e><p><l>তারিফ কর<s n="vblex"/></l><r>admire<s n="vblex"/></r></p></e>
+    <e><p><l>স্বীকার কর<s n="vblex"/></l><r>admit<s n="vblex"/></r></p></e>
+    <e><p><l>অবলম্বন কর<s n="vblex"/></l><r>adopt<s n="vblex"/></r></p></e>
+    <e><p><l>অগ্রসর হ<s n="vblex"/></l><r>advance<s n="vblex"/></r></p></e>
+    <e><p><l>পরামর্শ দে<s n="vblex"/></l><r>advise<s n="vblex"/></r></p></e>
+    <e><p><l>ওকালতি কর<s n="vblex"/></l><r>advocate<s n="vblex"/></r></p></e>
+    <e><p><l>প্রভাবিত কর<s n="vblex"/></l><r>affect<s n="vblex"/></r></p></e>
+    <e><p><l>শাখারূপে অন্তর্ভুক্ত হ<s n="vblex"/></l><r>affiliate<s n="vblex"/></r></p></e>
+    <e><p><l>সমর্থ হ<s n="vblex"/></l><r>afford<s n="vblex"/></r></p></e>
+    <e><p><l>আন্দোলন কর<s n="vblex"/></l><r>agitate<s n="vblex"/></r></p></e>
+    <e><p><l>লক্ষ্য কর<s n="vblex"/></l><r>aim<s n="vblex"/></r></p></e>
+    <e><p><l>অভিযোগ কর<s n="vblex"/></l><r>allege<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমোদন কর<s n="vblex"/></l><r>allow<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>alter<s n="vblex"/></r></p></e>
+    <e><p><l>বিবর্ধন কর<s n="vblex"/></l><r>amplify<s n="vblex"/></r></p></e>
+    <e><p><l>বিশ্লেষণ কর<s n="vblex"/></l><r>analyse<s n="vblex"/></r></p></e>
+    <e><p><l>বিশ্লেষণ কর<s n="vblex"/></l><r>analyze<s n="vblex"/></r></p></e>
+    <e><p><l>নোঙর কর<s n="vblex"/></l><r>anchor<s n="vblex"/></r></p></e>
+    <e><p><l>ঘোষণা কর<s n="vblex"/></l><r>announce<s n="vblex"/></r></p></e>
+    <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>annoy<s n="vblex"/></r></p></e>
+    <e><p><l>উত্তর দে<s n="vblex"/></l><r>answer<s n="vblex"/></r></p></e>
+    <e><p><l>আবেদন কর<s n="vblex"/></l><r>appeal<s n="vblex"/></r></p></e>
+    <e><p><l>আবির্ভূত হ<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
+    <e><p><l>প্রয়োগ কর<s n="vblex"/></l><r>apply<s n="vblex"/></r></p></e>
+    <e><p><l>নিযুক্ত কর<s n="vblex"/></l><r>appoint<s n="vblex"/></r></p></e>
+    <e><p><l>মূল্যায়ন কর<s n="vblex"/></l><r>appreciate<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমোদন কর<s n="vblex"/></l><r>approve<s n="vblex"/></r></p></e>
+    <e><p><l>স্থির কর<s n="vblex"/></l><r>arrange<s n="vblex"/></r></p></e>
+    <e><p><l>গ্রেপ্তার কর<s n="vblex"/></l><r>arrest<s n="vblex"/></r></p></e>
+    <e><p><l>উপস্থিত হ<s n="vblex"/></l><r>arrive<s n="vblex"/></r></p></e>
+    <e><p><l>জিজ্ঞাসা কর<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>নির্ধারণ কর<s n="vblex"/></l><r>assess<s n="vblex"/></r></p></e>
+    <e><p><l>বরাদ্দ কর<s n="vblex"/></l><r>assign<s n="vblex"/></r></p></e>
+    <e><p><l>সহায়তা কর<s n="vblex"/></l><r>assist<s n="vblex"/></r></p></e>
+    <e><p><l>ধরে নে<s n="vblex"/></l><r>assume<s n="vblex"/></r></p></e>
+    <e><p><l>যুক্ত কর<s n="vblex"/></l><r>attach<s n="vblex"/></r></p></e>
+    <e><p><l>আক্রমণ কর<s n="vblex"/></l><r>attack<s n="vblex"/></r></p></e>
+    <e><p><l>উপনীত হ<s n="vblex"/></l><r>attain<s n="vblex"/></r></p></e>
+    <e><p><l>পেতে চেষ্টা কর<s n="vblex"/></l><r>attempt<s n="vblex"/></r></p></e>
+    <e><p><l>উপস্থিত হ<s n="vblex"/></l><r>attend<s n="vblex"/></r></p></e>
+    <e><p><l>আকর্ষণ কর<s n="vblex"/></l><r>attract<s n="vblex"/></r></p></e>
+    <e><p><l>নিলাম কর<s n="vblex"/></l><r>auction<s n="vblex"/></r></p></e>
+    <e><p><l>এড়িয়ে চল<s n="vblex"/></l><r>avoid<s n="vblex"/></r></p></e>
+    <e><p><l>অপেক্ষা কর<s n="vblex"/></l><r>await<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদান কর<s n="vblex"/></l><r>award<s n="vblex"/></r></p></e>
+    <e><p><l>কামড়া<s n="vblex"/></l><r>bite<s n="vblex"/></r></p></e>
+    <e><p><l>বহন কর<s n="vblex"/></l><r>bear<s n="vblex"/></r></p></e>
+    <e><p><l>সমর্থন কর<s n="vblex"/></l><r>back<s n="vblex"/></r></p></e>
+    <e><p><l>নিষিদ্ধ কর<s n="vblex"/></l><r>ban<s n="vblex"/></r></p></e>
+    <e><p><l>ভিত্তি কর<s n="vblex"/></l><r>base<s n="vblex"/></r></p></e>
+    <e><p><l>হ<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
+    <e><p><l>শুরু হ<s n="vblex"/></l><r>begin<s n="vblex"/></r></p></e>
+    <e><p><l>ভিক্ষা কর<s n="vblex"/></l><r>beg<s n="vblex"/></r></p></e>
+    <e><p><l>বিশ্বাস কর<s n="vblex"/></l><r>believe<s n="vblex"/></r></p></e>
+    <e><p><l>অন্তর্ভুক্ত হ<s n="vblex"/></l><r>belong<s n="vblex"/></r></p></e>
+    <e><p><l>অন্তর্ভুক্ত হ<s n="vblex"/></l><r>belong<s n="vblex"/></r></p></e>
+    <e><p><l>বাঁকা<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
+    <e><p><l>বাজি ধর<s n="vblex"/></l><r>bet<s n="vblex"/></r></p></e>
+    <e><p><l>দোষারোপ কর<s n="vblex"/></l><r>blame<s n="vblex"/></r></p></e>
+    <e><p><l>সাদা কর<s n="vblex"/></l><r>bleach<s n="vblex"/></r></p></e>
+    <e><p><l>বাধা দে<s n="vblex"/></l><r>block<s n="vblex"/></r></p></e>
+    <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>bother<s n="vblex"/></r></p></e>
+    <e><p><l>ভাঙ<s n="vblex"/></l><r>break<s n="vblex"/></r></p></e>
+    <e><p><l>আন<s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
+    <e><p><l>সংক্ষেপে বল<s n="vblex"/></l><r>brief<s n="vblex"/></r></p></e>
+    <e><p><l>পোড়<s n="vblex"/></l><r>burn<s n="vblex"/></r></p></e>
+    <e><p><l>আস<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+    <e><p><l>ধর<s n="vblex"/></l><r>catch<s n="vblex"/></r></p></e>
+    <e><p><l>গণনা কর<s n="vblex"/></l><r>calculate<s n="vblex"/></r></p></e>
+    <e><p><l>ডাক দে<s n="vblex"/></l><r>call<s n="vblex"/></r></p></e>
+    <e><p><l>বহন কর<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবেশন কর<s n="vblex"/></l><r>cater<s n="vblex"/></r></p></e>
+    <e><p><l>ঘটা<s n="vblex"/></l><r>cause<s n="vblex"/></r></p></e>
+    <e><p><l>উদযাপন কর<s n="vblex"/></l><r>celebrate<s n="vblex"/></r></p></e>
+    <e><p><l>কেন্দ্রে স্থাপন কর<s n="vblex"/></l><r>center<s n="vblex"/></r></p></e>
+    <e><p><l>শংসাপত্র দে<s n="vblex"/></l><r>certify<s n="vblex"/></r></p></e>
+    <e><p><l>চেইন দিয়ে বাধ<s n="vblex"/></l><r>chain<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>change<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতারণা কর<s n="vblex"/></l><r>cheat<s n="vblex"/></r></p></e>
+    <e><p><l>পরীক্ষা কর<s n="vblex"/></l><r>check<s n="vblex"/></r></p></e>
+    <e><p><l>বেছে নে<s n="vblex"/></l><r>choose<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদক্ষিণ কর<s n="vblex"/></l><r>circulate<s n="vblex"/></r></p></e>
+    <e><p><l>দাবী কর<s n="vblex"/></l><r>claim<s n="vblex"/></r></p></e>
+    <e><p><l>শ্রেণীভুক্ত কর<s n="vblex"/></l><r>classify<s n="vblex"/></r></p></e>
+    <e><p><l>পরিষ্কার কর<s n="vblex"/></l><r>clean<s n="vblex"/></r></p></e>
+    <e><p><l>মুছে ফেল<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
+    <e><p><l>ক্লিক কর<s n="vblex"/></l><r>click<s n="vblex"/></r></p></e>
+    <e><p><l>আরোহণ কর<s n="vblex"/></l><r>climb<s n="vblex"/></r></p></e>
+    <e><p><l>বন্ধ কর<s n="vblex"/></l><r>close<s n="vblex"/></r></p></e>
+    <e><p><l>মন্তব্য কর<s n="vblex"/></l><r>comment<s n="vblex"/></r></p></e>
+    <e><p><l>যোগাযোগ কর<s n="vblex"/></l><r>communicate<s n="vblex"/></r></p></e>
+    <e><p><l>তুলনা কর<s n="vblex"/></l><r>compare<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিযোগিতা কর<s n="vblex"/></l><r>compete<s n="vblex"/></r></p></e>
+    <e><p><l>শেষ কর<s n="vblex"/></l><r>complete<s n="vblex"/></r></p></e>
+    <e><p><l>গঠিত হ<s n="vblex"/></l><r>comprise<s n="vblex"/></r></p></e>
+    <e><p><l>গণনা কর<s n="vblex"/></l><r>compute<s n="vblex"/></r></p></e>
+    <e><p><l>গায়েব কর<s n="vblex"/></l><r>conceal<s n="vblex"/></r></p></e>
+    <e><p><l>মেনে নে<s n="vblex"/></l><r>concede<s n="vblex"/></r></p></e>
+    <e><p><l>গর্ভবতী হ<s n="vblex"/></l><r>conceive<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্বিগ্ন হ<s n="vblex"/></l><r>concern<s n="vblex"/></r></p></e>
+    <e><p><l>উপসংহার কর<s n="vblex"/></l><r>conclude<s n="vblex"/></r></p></e>
+    <e><p><l>নিন্দা কর<s n="vblex"/></l><r>condemn<s n="vblex"/></r></p></e>
+    <e><p><l>কনফিগার কর<s n="vblex"/></l><r>configure<s n="vblex"/></r></p></e>
+    <e><p><l>জয় কর<s n="vblex"/></l><r>conquer<s n="vblex"/></r></p></e>
+    <e><p><l>বিবেচনা কর<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
+    <e><p><l>গঠিত হ<s n="vblex"/></l><r>consist<s n="vblex"/></r></p></e>
+    <e><p><l>গঠন কর<s n="vblex"/></l><r>constitute<s n="vblex"/></r></p></e>
+    <e><p><l>নির্মান কর<s n="vblex"/></l><r>construct<s n="vblex"/></r></p></e>
+    <e><p><l>পরামর্শ কর<s n="vblex"/></l><r>consult<s n="vblex"/></r></p></e>
+    <e><p><l>যোগাযোগ কর<s n="vblex"/></l><r>contact<s n="vblex"/></r></p></e>
+    <e><p><l>অংশপ্রদান কর<s n="vblex"/></l><r>contribute<s n="vblex"/></r></p></e>
+    <e><p><l>নিয়ন্ত্রণ কর<s n="vblex"/></l><r>control<s n="vblex"/></r></p></e>
+    <e><p><l>রূপান্তর কর<s n="vblex"/></l><r>convert<s n="vblex"/></r></p></e>
+    <e><p><l>পৌঁছে দে<s n="vblex"/></l><r>convey<s n="vblex"/></r></p></e>
+    <e><p><l>দোষী সাব্যস্ত কর<s n="vblex"/></l><r>convict<s n="vblex"/></r></p></e>
+    <e><p><l>দৃঢ়প্রত্যয় উত্পাদন কর<s n="vblex"/></l><r>convince<s n="vblex"/></r></p></e>
+    <e><p><l>রান্না কর<s n="vblex"/></l><r>cook<s n="vblex"/></r></p></e>
+    <e><p><l>ঠান্ডা কর<s n="vblex"/></l><r>cool<s n="vblex"/></r></p></e>
+    <e><p><l>কপি কর<s n="vblex"/></l><r>copy<s n="vblex"/></r></p></e>
+    <e><p><l>সঠিক কর<s n="vblex"/></l><r>correct<s n="vblex"/></r></p></e>
+    <e><p><l>মূল্য দে<s n="vblex"/></l><r>cost<s n="vblex"/></r></p></e>
+    <e><p><l>গণনা কর<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>ঢাকা দে<s n="vblex"/></l><r>cover<s n="vblex"/></r></p></e>
+    <e><p><l>কাঁদ<s n="vblex"/></l><r>cry<s n="vblex"/></r></p></e>
+    <e><p><l>ভেঙ্গে পড়<s n="vblex"/></l><r>crash<s n="vblex"/></r></p></e>
+    <e><p><l>তৈরি কর<s n="vblex"/></l><r>create<s n="vblex"/></r></p></e>
+    <e><p><l>ধার দে<s n="vblex"/></l><r>credit<s n="vblex"/></r></p></e>
+    <e><p><l>কর<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>মর<s n="vblex"/></l><r>die<s n="vblex"/></r></p></e>
+    <e><p><l>খনন কর<s n="vblex"/></l><r>dig<s n="vblex"/></r></p></e>
+    <e><p><l>ক্ষতি কর<s n="vblex"/></l><r>damage<s n="vblex"/></r></p></e>
+    <e><p><l>নাচ<s n="vblex"/></l><r>dance<s n="vblex"/></r></p></e>
+    <e><p><l>চুক্তি<s n="vblex"/></l><r>deal<s n="vblex"/></r></p></e>
+    <e><p><l>ত্রুটিমুক্ত কর<s n="vblex"/></l><r>debug<s n="vblex"/></r></p></e>
+    <e><p><l>অভিষেক হ<s n="vblex"/></l><r>debut<s n="vblex"/></r></p></e>
+    <e><p><l>ঠকা<s n="vblex"/></l><r>deceive<s n="vblex"/></r></p></e>
+    <e><p><l>সিদ্ধান্ত নে<s n="vblex"/></l><r>decide<s n="vblex"/></r></p></e>
+    <e><p><l>ঘোষণা কর<s n="vblex"/></l><r>declare<s n="vblex"/></r></p></e>
+    <e><p><l>অস্বীকার কর<s n="vblex"/></l><r>decline<s n="vblex"/></r></p></e>
+    <e><p><l>উৎসর্গ কর<s n="vblex"/></l><r>dedicate<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমান কর<s n="vblex"/></l><r>deduce<s n="vblex"/></r></p></e>
+    <e><p><l>পরাজিত কর<s n="vblex"/></l><r>defeat<s n="vblex"/></r></p></e>
+    <e><p><l>আত্মরক্ষা কর<s n="vblex"/></l><r>defend<s n="vblex"/></r></p></e>
+    <e><p><l>সংজ্ঞায়িত কর<s n="vblex"/></l><r>define<s n="vblex"/></r></p></e>
+    <e><p><l>বিলম্বিত কর<s n="vblex"/></l><r>delay<s n="vblex"/></r></p></e>
+    <e><p><l>মুছে ফেল<s n="vblex"/></l><r>delete<s n="vblex"/></r></p></e>
+    <e><p><l>বিলি কর<s n="vblex"/></l><r>deliver<s n="vblex"/></r></p></e>
+    <e><p><l>দাবী কর<s n="vblex"/></l><r>demand<s n="vblex"/></r></p></e>
+    <e><p><l>অস্বীকার কর<s n="vblex"/></l><r>deny<s n="vblex"/></r></p></e>
+    <e><p><l>নির্ভর কর<s n="vblex"/></l><r>depend<s n="vblex"/></r></p></e>
+    <e><p><l>নির্বাসিত কর<s n="vblex"/></l><r>deport<s n="vblex"/></r></p></e>
+    <e><p><l>উৎপত্তি নির্ণয় কর<s n="vblex"/></l><r>derive<s n="vblex"/></r></p></e>
+    <e><p><l>বর্ণনা কর<s n="vblex"/></l><r>describe<s n="vblex"/></r></p></e>
+    <e><p><l>পরিকল্পনা কর<s n="vblex"/></l><r>design<s n="vblex"/></r></p></e>
+    <e><p><l>ধ্বংস কর<s n="vblex"/></l><r>destroy<s n="vblex"/></r></p></e>
+    <e><p><l>সনাক্ত কর<s n="vblex"/></l><r>detect<s n="vblex"/></r></p></e>
+    <e><p><l>নির্ধারণ কর<s n="vblex"/></l><r>determine<s n="vblex"/></r></p></e>
+    <e><p><l>রোগ নির্নয় কর<s n="vblex"/></l><r>diagnose<s n="vblex"/></r></p></e>
+    <e><p><l>ভিন্নমত হ<s n="vblex"/></l><r>differ<s n="vblex"/></r></p></e>
+    <e><p><l>নিষ্ক্রিয় কর<s n="vblex"/></l><r>disable<s n="vblex"/></r></p></e>
+    <e><p><l>অন্তর্ধান কর<s n="vblex"/></l><r>disappear<s n="vblex"/></r></p></e>
+    <e><p><l>আলোচনা কর<s n="vblex"/></l><r>discuss<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদর্শন কর<s n="vblex"/></l><r>display<s n="vblex"/></r></p></e>
+    <e><p><l>বন্টন কর<s n="vblex"/></l><r>distribute<s n="vblex"/></r></p></e>
+    <e><p><l>সরিয়ে নে<s n="vblex"/></l><r>divert<s n="vblex"/></r></p></e>
+    <e><p><l>ভাগ কর<s n="vblex"/></l><r>divide<s n="vblex"/></r></p></e>
+    <e><p><l>দান কর<s n="vblex"/></l><r>donate<s n="vblex"/></r></p></e>
+    <e><p><l>পান কর<s n="vblex"/></l><r>drink<s n="vblex"/></r></p></e>
+    <e><p><l>আঁক<s n="vblex"/></l><r>draw<s n="vblex"/></r></p></e>
+    <e><p><l>চালা<s n="vblex"/></l><r>drive<s n="vblex"/></r></p></e>
+    <e><p><l>টেনে নিয়ে যা<s n="vblex"/></l><r>drag<s n="vblex"/></r></p></e>
+    <e><p><l>ফেলে দে<s n="vblex"/></l><r>drop<s n="vblex"/></r></p></e>
+    <e><p><l>আখ্যা দে<s n="vblex"/></l><r>dub<s n="vblex"/></r></p></e>
+    <e><p><l>ফেলে দে<s n="vblex"/></l><r>dump<s n="vblex"/></r></p></e>
+    <e><p><l>আয় কর<s n="vblex"/></l><r>earn<s n="vblex"/></r></p></e>
+    <e><p><l>খা<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+    <e><p><l>সম্পাদনা কর<s n="vblex"/></l><r>edit<s n="vblex"/></r></p></e>
+    <e><p><l>শিক্ষিত কর<s n="vblex"/></l><r>educate<s n="vblex"/></r></p></e>
+    <e><p><l>নির্বাচিত কর<s n="vblex"/></l><r>elect<s n="vblex"/></r></p></e>
+    <e><p><l>সরিয়ে ফেল<s n="vblex"/></l><r>eliminate<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ভূত হ<s n="vblex"/></l><r>emerge<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ভূত হ<s n="vblex"/></l><r>emerge<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ভূত হ<s n="vblex"/></l><r>emerge<s n="vblex"/></r></p></e>
+    <e><p><l>চাকরী দে<s n="vblex"/></l><r>employ<s n="vblex"/></r></p></e>
+    <e><p><l>সম্মুখীন হ<s n="vblex"/></l><r>encounter<s n="vblex"/></r></p></e>
+    <e><p><l>উৎ‍সাহিত কর<s n="vblex"/></l><r>encourage<s n="vblex"/></r></p></e>
+    <e><p><l>শেষ হ<s n="vblex"/></l><r>end<s n="vblex"/></r></p></e>
+    <e><p><l>বলবৎ কর<s n="vblex"/></l><r>enforce<s n="vblex"/></r></p></e>
+    <e><p><l>নিযুক্ত কর<s n="vblex"/></l><r>engage<s n="vblex"/></r></p></e>
+    <e><p><l>উপভোগ কর<s n="vblex"/></l><r>enjoy<s n="vblex"/></r></p></e>
+    <e><p><l>নিশ্চিতকরণ কর<s n="vblex"/></l><r>ensure<s n="vblex"/></r></p></e>
+    <e><p><l>ঢোকা<s n="vblex"/></l><r>enter<s n="vblex"/></r></p></e>
+    <e><p><l>ঢোকা<s n="vblex"/></l><r>enter<s n="vblex"/></r></p></e>
+    <e><p><l>চিত্তবিনোদন কর<s n="vblex"/></l><r>entertain<s n="vblex"/></r></p></e>
+    <e><p><l>মুছে ফেল<s n="vblex"/></l><r>erase<s n="vblex"/></r></p></e>
+    <e><p><l>হিসাব কর<s n="vblex"/></l><r>estimate<s n="vblex"/></r></p></e>
+    <e><p><l>মূল্যায়ন কর<s n="vblex"/></l><r>evaluate<s n="vblex"/></r></p></e>
+    <e><p><l>বিবর্ধিত হ<s n="vblex"/></l><r>evolve<s n="vblex"/></r></p></e>
+    <e><p><l>পরীক্ষা কর<s n="vblex"/></l><r>examine<s n="vblex"/></r></p></e>
+    <e><p><l>অতিক্রম কর<s n="vblex"/></l><r>exceed<s n="vblex"/></r></p></e>
+    <e><p><l>অতিক্রম কর<s n="vblex"/></l><r>exceed<s n="vblex"/></r></p></e>
+    <e><p><l>আদান প্রদান কর<s n="vblex"/></l><r>exchange<s n="vblex"/></r></p></e>
+    <e><p><l>বাদ দে<s n="vblex"/></l><r>exclude<s n="vblex"/></r></p></e>
+    <e><p><l>রান কর<s n="vblex"/></l><r>execute<s n="vblex"/></r></p></e>
+    <e><p><l>অনুশীলন কর<s n="vblex"/></l><r>exercise<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদর্শন কর<s n="vblex"/></l><r>exhibit<s n="vblex"/></r></p></e>
+    <e><p><l>নির্বাসনে পাঠা<s n="vblex"/></l><r>exile<s n="vblex"/></r></p></e>
+    <e><p><l>প্রস্থান কর<s n="vblex"/></l><r>exit<s n="vblex"/></r></p></e>
+    <e><p><l>সম্প্রসারণ কর<s n="vblex"/></l><r>expand<s n="vblex"/></r></p></e>
+    <e><p><l>আশা কর<s n="vblex"/></l><r>expect<s n="vblex"/></r></p></e>
+    <e><p><l>বহিষ্কার কর<s n="vblex"/></l><r>expel<s n="vblex"/></r></p></e>
+    <e><p><l>বিস্ফেরণ ঘট<s n="vblex"/></l><r>explode<s n="vblex"/></r></p></e>
+    <e><p><l>শোষণ কর<s n="vblex"/></l><r>exploit<s n="vblex"/></r></p></e>
+    <e><p><l>রপ্তানি কর<s n="vblex"/></l><r>export<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যক্ত কর<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
+    <e><p><l>প্রসারিত কর<s n="vblex"/></l><r>extend<s n="vblex"/></r></p></e>
+    <e><p><l>নিষ্কাশন কর<s n="vblex"/></l><r>extract<s n="vblex"/></r></p></e>
+    <e><p><l>লড়াই কর<s n="vblex"/></l><r>fight<s n="vblex"/></r></p></e>
+    <e><p><l>খুঁজে পা<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>পড়<s n="vblex"/></l><r>fall<s n="vblex"/></r></p></e>
+    <e><p><l>সম্মুখীন হ<s n="vblex"/></l><r>face<s n="vblex"/></r></p></e>
+    <e><p><l>সুবিধাজনক কর<s n="vblex"/></l><r>facilitate<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যর্থ হ<s n="vblex"/></l><r>fail<s n="vblex"/></r></p></e>
+    <e><p><l>প্রশ্রয় দে<s n="vblex"/></l><r>favour<s n="vblex"/></r></p></e>
+    <e><p><l>জোগান দে<s n="vblex"/></l><r>feed<s n="vblex"/></r></p></e>
+    <e><p><l>অনুভব কর<s n="vblex"/></l><r>feel<s n="vblex"/></r></p></e>
+    <e><p><l>ভয় কর<s n="vblex"/></l><r>fear<s n="vblex"/></r></p></e>
+    <e><p><l>দাখিল কর<s n="vblex"/></l><r>file<s n="vblex"/></r></p></e>
+    <e><p><l>ভর্তি কর<s n="vblex"/></l><r>fill<s n="vblex"/></r></p></e>
+    <e><p><l>ফিল্টার কর<s n="vblex"/></l><r>filter<s n="vblex"/></r></p></e>
+    <e><p><l>শেষ কর<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+    <e><p><l>খাপ খা<s n="vblex"/></l><r>fit<s n="vblex"/></r></p></e>
+    <e><p><l>মেরামত কর<s n="vblex"/></l><r>fix<s n="vblex"/></r></p></e>
+    <e><p><l>ওড়<s n="vblex"/></l><r>fly<s n="vblex"/></r></p></e>
+    <e><p><l>প্লাবিত হ<s n="vblex"/></l><r>flood<s n="vblex"/></r></p></e>
+    <e><p><l>ফোকাস কর<s n="vblex"/></l><r>focus<s n="vblex"/></r></p></e>
+    <e><p><l>ভাজ কর<s n="vblex"/></l><r>fold<s n="vblex"/></r></p></e>
+    <e><p><l>অনুসরণ কর<s n="vblex"/></l><r>follow<s n="vblex"/></r></p></e>
+    <e><p><l>নিষেধ কর<s n="vblex"/></l><r>forbid<s n="vblex"/></r></p></e>
+    <e><p><l>বাধ্য কর<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
+    <e><p><l>বাধ্য কর<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
+    <e><p><l>ভুলে যা<s n="vblex"/></l><r>forget<s n="vblex"/></r></p></e>
+    <e><p><l>সংগঠিত কর<s n="vblex"/></l><r>form<s n="vblex"/></r></p></e>
+    <e><p><l>গঠন কর<s n="vblex"/></l><r>found<s n="vblex"/></r></p></e>
+    <e><p><l>ছেড়ে দে<s n="vblex"/></l><r>free<s n="vblex"/></r></p></e>
+    <e><p><l>দে<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e>
+    <e><p><l>পা<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>লাভ কর<s n="vblex"/></l><r>gain<s n="vblex"/></r></p></e>
+    <e><p><l>সমবেত হ<s n="vblex"/></l><r>gather<s n="vblex"/></r></p></e>
+    <e><p><l>তৈরি কর<s n="vblex"/></l><r>generate<s n="vblex"/></r></p></e>
+    <e><p><l>শাসন কর<s n="vblex"/></l><r>govern<s n="vblex"/></r></p></e>
+    <e><p><l>বৃদ্ধি কর<s n="vblex"/></l><r>grow<s n="vblex"/></r></p></e>
+    <e><p><l>পাস কর<s n="vblex"/></l><r>graduate<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদান কর<s n="vblex"/></l><r>grant<s n="vblex"/></r></p></e>
+    <e><p><l>উপলব্ধি কর<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
+    <e><p><l>অভিবাদন কর<s n="vblex"/></l><r>greet<s n="vblex"/></r></p></e>
+    <e><p><l>নিশ্চয়তা প্রদান কর<s n="vblex"/></l><r>guarantee<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমান কর<s n="vblex"/></l><r>guess<s n="vblex"/></r></p></e>
+    <e><p><l>পরিচালনা কর<s n="vblex"/></l><r>guide<s n="vblex"/></r></p></e>
+    <e><p><l>ধর<s n="vblex"/></l><r>hold<s n="vblex"/></r></p></e>
+    <e><p><l>ঝোলা<s n="vblex"/></l><r>hang<s n="vblex"/></r></p></e>
+    <e><p><l>রাখ<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
+    <e><p><l>বাধা দে<s n="vblex"/></l><r>hamper<s n="vblex"/></r></p></e>
+    <e><p><l>পরিচালনা কর<s n="vblex"/></l><r>handle<s n="vblex"/></r></p></e>
+    <e><p><l>ঘট<s n="vblex"/></l><r>happen<s n="vblex"/></r></p></e>
+    <e><p><l>ক্ষতি কর<s n="vblex"/></l><r>harm<s n="vblex"/></r></p></e>
+    <e><p><l>ঘৃণা কর<s n="vblex"/></l><r>hate<s n="vblex"/></r></p></e>
+    <e><p><l>নেতৃত্ব দে<s n="vblex"/></l><r>head<s n="vblex"/></r></p></e>
+    <e><p><l>শুন<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+    <e><p><l>তাপ দে<s n="vblex"/></l><r>heat<s n="vblex"/></r></p></e>
+    <e><p><l>সাহায্য কর<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
+    <e><p><l>সম্মান কর<s n="vblex"/></l><r>honour<s n="vblex"/></r></p></e>
+    <e><p><l>আশা কর<s n="vblex"/></l><r>hope<s n="vblex"/></r></p></e>
+    <e><p><l>শিকার কর<s n="vblex"/></l><r>hunt<s n="vblex"/></r></p></e>
+    <e><p><l>দ্রুত অগ্রসর হ<s n="vblex"/></l><r>hurry<s n="vblex"/></r></p></e>
+    <e><p><l>সনাক্ত কর<s n="vblex"/></l><r>identify<s n="vblex"/></r></p></e>
+    <e><p><l>উপেক্ষা কর<s n="vblex"/></l><r>ignore<s n="vblex"/></r></p></e>
+    <e><p><l>অলংকরণ কর<s n="vblex"/></l><r>illustrate<s n="vblex"/></r></p></e>
+    <e><p><l>কল্পনা কর<s n="vblex"/></l><r>imagine<s n="vblex"/></r></p></e>
+    <e><p><l>আমদানি কর<s n="vblex"/></l><r>import<s n="vblex"/></r></p></e>
+    <e><p><l>উন্নতি কর<s n="vblex"/></l><r>improve<s n="vblex"/></r></p></e>
+    <e><p><l>অন্তর্ভুক্ত কর<s n="vblex"/></l><r>include<s n="vblex"/></r></p></e>
+    <e><p><l>বৃদ্ধি কর<s n="vblex"/></l><r>increase<s n="vblex"/></r></p></e>
+    <e><p><l>নির্দেশ কর<s n="vblex"/></l><r>indicate<s n="vblex"/></r></p></e>
+    <e><p><l>সংক্রামিত কর<s n="vblex"/></l><r>infect<s n="vblex"/></r></p></e>
+    <e><p><l>প্রভাবিত কর<s n="vblex"/></l><r>influence<s n="vblex"/></r></p></e>
+    <e><p><l>জানা<s n="vblex"/></l><r>inform<s n="vblex"/></r></p></e>
+    <e><p><l>উত্তরাধিকারসূত্রে পা<s n="vblex"/></l><r>inherit<s n="vblex"/></r></p></e>
+    <e><p><l>আহত কর<s n="vblex"/></l><r>injure<s n="vblex"/></r></p></e>
+    <e><p><l>পিড়াপিড়ি কর<s n="vblex"/></l><r>insist<s n="vblex"/></r></p></e>
+    <e><p><l>অনুপ্রাণিত কর<s n="vblex"/></l><r>inspire<s n="vblex"/></r></p></e>
+    <e><p><l>ইনস্টল কর<s n="vblex"/></l><r>install<s n="vblex"/></r></p></e>
+    <e><p><l>জোরদার কর<s n="vblex"/></l><r>intensify<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যাখ্যা কর<s n="vblex"/></l><r>interpret<s n="vblex"/></r></p></e>
+    <e><p><l>জিজ্ঞাসাবাদ কর<s n="vblex"/></l><r>interrogate<s n="vblex"/></r></p></e>
+    <e><p><l>ধারাবাহিকতা ভঙ্গ কর<s n="vblex"/></l><r>interrupt<s n="vblex"/></r></p></e>
+    <e><p><l>উপস্থাপন কর<s n="vblex"/></l><r>introduce<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ভাবন কর<s n="vblex"/></l><r>invent<s n="vblex"/></r></p></e>
+    <e><p><l>বিনিয়োগ কর<s n="vblex"/></l><r>invest<s n="vblex"/></r></p></e>
+    <e><p><l>আমন্ত্রণ কর<s n="vblex"/></l><r>invite<s n="vblex"/></r></p></e>
+    <e><p><l>সংশ্লিষ্ট কর<s n="vblex"/></l><r>involve<s n="vblex"/></r></p></e>
+    <e><p><l>প্রচার কর<s n="vblex"/></l><r>issue<s n="vblex"/></r></p></e>
+    <e><p><l>লাফা<s n="vblex"/></l><r>jump<s n="vblex"/></r></p></e>
+    <e><p><l>সমর্থন কর<s n="vblex"/></l><r>justify<s n="vblex"/></r></p></e>
+    <e><p><l>রাখ<s n="vblex"/></l><r>keep<s n="vblex"/></r></p></e>
+    <e><p><l>অপহরণ কর<s n="vblex"/></l><r>kidnap<s n="vblex"/></r></p></e>
+    <e><p><l>হত্যা কর<s n="vblex"/></l><r>kill<s n="vblex"/></r></p></e>
+    <e><p><l>চুম্বন কর<s n="vblex"/></l><r>kiss<s n="vblex"/></r></p></e>
+    <e><p><l>জান<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>অবতরণ কর<s n="vblex"/></l><r>land<s n="vblex"/></r></p></e>
+    <e><p><l>চালু কর<s n="vblex"/></l><r>launch<s n="vblex"/></r></p></e>
+    <e><p><l>নেতৃত্ব দে<s n="vblex"/></l><r>lead<s n="vblex"/></r></p></e>
+    <e><p><l>ছেড়ে চলে যা<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+    <e><p><l>হেলান দে<s n="vblex"/></l><r>lean<s n="vblex"/></r></p></e>
+    <e><p><l>শেখ<s n="vblex"/></l><r>learn<s n="vblex"/></r></p></e>
+    <e><p><l>লীজ দে<s n="vblex"/></l><r>lease<s n="vblex"/></r></p></e>
+    <e><p><l>ধার দে<s n="vblex"/></l><r>lend<s n="vblex"/></r></p></e>
+    <e><p><l>জ্বালা<s n="vblex"/></l><r>light<s n="vblex"/></r></p></e>
+    <e><p><l>পছন্দ কর<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
+    <e><p><l>সীমাবদ্ধ কর<s n="vblex"/></l><r>limit<s n="vblex"/></r></p></e>
+    <e><p><l>লাইন দে<s n="vblex"/></l><r>line<s n="vblex"/></r></p></e>
+    <e><p><l>সংযোগ কর<s n="vblex"/></l><r>link<s n="vblex"/></r></p></e>
+    <e><p><l>তালিকাভুক্ত কর<s n="vblex"/></l><r>list<s n="vblex"/></r></p></e>
+    <e><p><l>শুন<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
+    <e><p><l>বসবাস কর<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
+    <e><p><l>হারা<s n="vblex"/></l><r>lose<s n="vblex"/></r></p></e>
+    <e><p><l>লোড কর<s n="vblex"/></l><r>load<s n="vblex"/></r></p></e>
+    <e><p><l>ধার দে<s n="vblex"/></l><r>loan<s n="vblex"/></r></p></e>
+    <e><p><l>অবস্থান নির্ণয় কর<s n="vblex"/></l><r>locate<s n="vblex"/></r></p></e>
+    <e><p><l>দেখ<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>দেখ<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>ভালবাস<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
+    <e><p><l>মধ্যাহ্নভোজন কর<s n="vblex"/></l><r>lunch<s n="vblex"/></r></p></e>
+    <e><p><l>তৈরি কর<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+    <e><p><l>বজায় রাখ<s n="vblex"/></l><r>maintain<s n="vblex"/></r></p></e>
+    <e><p><l>নিপুণভাবে ব্যবহার কর<s n="vblex"/></l><r>manipulate<s n="vblex"/></r></p></e>
+    <e><p><l>উৎ‍পাদন কর<s n="vblex"/></l><r>manufacture<s n="vblex"/></r></p></e>
+    <e><p><l>চিহ্নিত কর<s n="vblex"/></l><r>mark<s n="vblex"/></r></p></e>
+    <e><p><l>গুরুত্বপূর্ণ হ<s n="vblex"/></l><r>matter<s n="vblex"/></r></p></e>
+    <e><p><l>দেখা কর<s n="vblex"/></l><r>meet<s n="vblex"/></r></p></e>
+    <e><p><l>অভিপ্রায় কর<s n="vblex"/></l><r>mean<s n="vblex"/></r></p></e>
+    <e><p><l>পরিমাপ কর<s n="vblex"/></l><r>measure<s n="vblex"/></r></p></e>
+    <e><p><l>গলা<s n="vblex"/></l><r>melt<s n="vblex"/></r></p></e>
+    <e><p><l>উল্লেখ কর<s n="vblex"/></l><r>mention<s n="vblex"/></r></p></e>
+    <e><p><l>দোহন কর<s n="vblex"/></l><r>milk<s n="vblex"/></r></p></e>
+    <e><p><l>অভিমান কর<s n="vblex"/></l><r>mind<s n="vblex"/></r></p></e>
+    <e><p><l>লক্ষ্যভ্রষ্ট হ<s n="vblex"/></l><r>miss<s n="vblex"/></r></p></e>
+    <e><p><l>মিশ্রিত কর<s n="vblex"/></l><r>mix<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>modify<s n="vblex"/></r></p></e>
+    <e><p><l>পর্যবেক্ষণ কর<s n="vblex"/></l><r>monitor<s n="vblex"/></r></p></e>
+    <e><p><l>মাউন্ট কর<s n="vblex"/></l><r>mount<s n="vblex"/></r></p></e>
+    <e><p><l>চল<s n="vblex"/></l><r>move<s n="vblex"/></r></p></e>
+    <e><p><l>বংশবৃদ্ধি কর<s n="vblex"/></l><r>multiply<s n="vblex"/></r></p></e>
+    <e><p><l>খুন কর<s n="vblex"/></l><r>murder<s n="vblex"/></r></p></e>
+    <e><p><l>বিড় বিড় কর<s n="vblex"/></l><r>mutter<s n="vblex"/></r></p></e>
+    <e><p><l>নাম কর<s n="vblex"/></l><r>name<s n="vblex"/></r></p></e>
+    <e><p><l>প্রয়োজন বোধ কর<s n="vblex"/></l><r>need<s n="vblex"/></r></p></e>
+    <e><p><l>আপোষে ঠিক কর<s n="vblex"/></l><r>negotiate<s n="vblex"/></r></p></e>
+    <e><p><l>মনোনয়ন কর<s n="vblex"/></l><r>nominate<s n="vblex"/></r></p></e>
+    <e><p><l>লক্ষ্য কর<s n="vblex"/></l><r>note<s n="vblex"/></r></p></e>
+    <e><p><l>ঘোষণা কর<s n="vblex"/></l><r>notify<s n="vblex"/></r></p></e>
+    <e><p><l>লক্ষ্য কর<s n="vblex"/></l><r>notice<s n="vblex"/></r></p></e>
+    <e><p><l>পর্যবেক্ষণ কর<s n="vblex"/></l><r>observe<s n="vblex"/></r></p></e>
+    <e><p><l>বাধা দে<s n="vblex"/></l><r>obstruct<s n="vblex"/></r></p></e>
+    <e><p><l>অর্জন কর<s n="vblex"/></l><r>obtain<s n="vblex"/></r></p></e>
+    <e><p><l>দখল কর<s n="vblex"/></l><r>occupy<s n="vblex"/></r></p></e>
+    <e><p><l>ঘটা<s n="vblex"/></l><r>occur<s n="vblex"/></r></p></e>
+    <e><p><l>প্রস্তাব দে<s n="vblex"/></l><r>offer<s n="vblex"/></r></p></e>
+    <e><p><l>বাদ দে<s n="vblex"/></l><r>omit<s n="vblex"/></r></p></e>
+    <e><p><l>পরিচালনা কর<s n="vblex"/></l><r>operate<s n="vblex"/></r></p></e>
+    <e><p><l>পছন্দ কর<s n="vblex"/></l><r>opt<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যাবস্থা কর<s n="vblex"/></l><r>organise<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যাবস্থা কর<s n="vblex"/></l><r>organise<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ভূত হ<s n="vblex"/></l><r>originate<s n="vblex"/></r></p></e>
+    <e><p><l>রূপরেখা বর্ণনা কর<s n="vblex"/></l><r>outline<s n="vblex"/></r></p></e>
+    <e><p><l>মালিক হ<s n="vblex"/></l><r>own<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদান কর<s n="vblex"/></l><r>pay<s n="vblex"/></r></p></e>
+    <e><p><l>রং কর<s n="vblex"/></l><r>paint<s n="vblex"/></r></p></e>
+    <e><p><l>প্রদর্শন করা<s n="vblex"/></l><r>parade<s n="vblex"/></r></p></e>
+    <e><p><l>অংশগ্রহণ কর<s n="vblex"/></l><r>participate<s n="vblex"/></r></p></e>
+    <e><p><l>পাশ কর<s n="vblex"/></l><r>pass<s n="vblex"/></r></p></e>
+    <e><p><l>থাম<s n="vblex"/></l><r>pause<s n="vblex"/></r></p></e>
+    <e><p><l>কর্ম সম্পাদন কর<s n="vblex"/></l><r>perform<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমতি দে<s n="vblex"/></l><r>permit<s n="vblex"/></r></p></e>
+    <e><p><l>টিকে থাক<s n="vblex"/></l><r>persist<s n="vblex"/></r></p></e>
+    <e><p><l>ফটোকপি কর<s n="vblex"/></l><r>photocopy<s n="vblex"/></r></p></e>
+    <e><p><l>রাখ<s n="vblex"/></l><r>place<s n="vblex"/></r></p></e>
+    <e><p><l>পরিকল্পনা কর<s n="vblex"/></l><r>plan<s n="vblex"/></r></p></e>
+    <e><p><l>চালা<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>খুশী কর<s n="vblex"/></l><r>please<s n="vblex"/></r></p></e>
+    <e><p><l>নোংরা কর<s n="vblex"/></l><r>pollute<s n="vblex"/></r></p></e>
+    <e><p><l>অবস্থানে রাখ<s n="vblex"/></l><r>position<s n="vblex"/></r></p></e>
+    <e><p><l>ভোগদখল কর<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
+    <e><p><l>মুলতবি রাখ<s n="vblex"/></l><r>postpone<s n="vblex"/></r></p></e>
+    <e><p><l>অভ্যাস কর<s n="vblex"/></l><r>practice<s n="vblex"/></r></p></e>
+    <e><p><l>অভ্যাস কর<s n="vblex"/></l><r>practise<s n="vblex"/></r></p></e>
+    <e><p><l>প্রশংসা কর<s n="vblex"/></l><r>praise<s n="vblex"/></r></p></e>
+    <e><p><l>প্রার্থনা কর<s n="vblex"/></l><r>pray<s n="vblex"/></r></p></e>
+    <e><p><l>কর্তৃত্বপূর্ণ হ<s n="vblex"/></l><r>predominate<s n="vblex"/></r></p></e>
+    <e><p><l>পছন্দ কর<s n="vblex"/></l><r>prefer<s n="vblex"/></r></p></e>
+    <e><p><l>প্রস্তুত কর<s n="vblex"/></l><r>prepare<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যবহার করতে উপদেশ দে<s n="vblex"/></l><r>prescribe<s n="vblex"/></r></p></e>
+    <e><p><l>উপস্থাপন কর<s n="vblex"/></l><r>present<s n="vblex"/></r></p></e>
+    <e><p><l>বজায় রাখ<s n="vblex"/></l><r>preserve<s n="vblex"/></r></p></e>
+    <e><p><l>চাপ দে<s n="vblex"/></l><r>press<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিরোধ কর<s n="vblex"/></l><r>prevent<s n="vblex"/></r></p></e>
+    <e><p><l>প্রিন্ট কর<s n="vblex"/></l><r>print<s n="vblex"/></r></p></e>
+    <e><p><l>প্রসেস কর<s n="vblex"/></l><r>process<s n="vblex"/></r></p></e>
+    <e><p><l>ঘোষনা কর<s n="vblex"/></l><r>proclaim<s n="vblex"/></r></p></e>
+    <e><p><l>তৈরি কর<s n="vblex"/></l><r>produce<s n="vblex"/></r></p></e>
+    <e><p><l>অগ্রগতি কর<s n="vblex"/></l><r>progress<s n="vblex"/></r></p></e>
+    <e><p><l>প্রক্ষেপ কর<s n="vblex"/></l><r>project<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিজ্ঞা কর<s n="vblex"/></l><r>promise<s n="vblex"/></r></p></e>
+    <e><p><l>উৎসাহিত কর<s n="vblex"/></l><r>promote<s n="vblex"/></r></p></e>
+    <e><p><l>ঘোষণা কর<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
+    <e><p><l>প্রস্তাব কর<s n="vblex"/></l><r>propose<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিরক্ষা কর<s n="vblex"/></l><r>protect<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিবাদ কর<s n="vblex"/></l><r>protest<s n="vblex"/></r></p></e>
+    <e><p><l>প্রমাণ কর<s n="vblex"/></l><r>prove<s n="vblex"/></r></p></e>
+    <e><p><l>জোগান দে<s n="vblex"/></l><r>provide<s n="vblex"/></r></p></e>
+    <e><p><l>প্রকাশনা কর<s n="vblex"/></l><r>publish<s n="vblex"/></r></p></e>
+    <e><p><l>টান<s n="vblex"/></l><r>pull<s n="vblex"/></r></p></e>
+    <e><p><l>শাস্তি দি<s n="vblex"/></l><r>punish<s n="vblex"/></r></p></e>
+    <e><p><l>ক্রয় কর<s n="vblex"/></l><r>purchase<s n="vblex"/></r></p></e>
+    <e><p><l>রাখ<s n="vblex"/></l><r>put<s n="vblex"/></r></p></e>
+    <e><p><l>প্রশ্ন কর<s n="vblex"/></l><r>question<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ধৃত কর<s n="vblex"/></l><r>quote<s n="vblex"/></r></p></e>
+    <e><p><l>উঠ<s n="vblex"/></l><r>rise<s n="vblex"/></r></p></e>
+    <e><p><l>চালা<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+    <e><p><l>উত্তোলন কর<s n="vblex"/></l><r>raise<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিক্রিয়া ব্যক্ত কর<s n="vblex"/></l><r>react<s n="vblex"/></r></p></e>
+    <e><p><l>কারণ দেখা<s n="vblex"/></l><r>reason<s n="vblex"/></r></p></e>
+    <e><p><l>গ্রহন কর<s n="vblex"/></l><r>receive<s n="vblex"/></r></p></e>
+    <e><p><l>আবৃত্তি কর<s n="vblex"/></l><r>recite<s n="vblex"/></r></p></e>
+    <e><p><l>মূল্য বিচার কর<s n="vblex"/></l><r>reckon<s n="vblex"/></r></p></e>
+    <e><p><l>উপলব্ধি কর<s n="vblex"/></l><r>recognise<s n="vblex"/></r></p></e>
+    <e><p><l>সুপারিশ কর<s n="vblex"/></l><r>recommend<s n="vblex"/></r></p></e>
+    <e><p><l>পুনর্নিমাণ কর<s n="vblex"/></l><r>reconstruct<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরুদ্ধার কর<s n="vblex"/></l><r>recover<s n="vblex"/></r></p></e>
+    <e><p><l>উল্লেখ কর<s n="vblex"/></l><r>refer<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিফলন কর<s n="vblex"/></l><r>reflect<s n="vblex"/></r></p></e>
+    <e><p><l>অস্বীকার কর<s n="vblex"/></l><r>refuse<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরায় উৎ‍পাদন কর<s n="vblex"/></l><r>regenerate<s n="vblex"/></r></p></e>
+    <e><p><l>নিবন্ধন কর<s n="vblex"/></l><r>register<s n="vblex"/></r></p></e>
+    <e><p><l>পুনর্বহাল কর<s n="vblex"/></l><r>reinstate<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরাবৃত্তি কর<s n="vblex"/></l><r>reiterate<s n="vblex"/></r></p></e>
+    <e><p><l>বাতিল কর<s n="vblex"/></l><r>reject<s n="vblex"/></r></p></e>
+    <e><p><l>ভরসা কর<s n="vblex"/></l><r>rely<s n="vblex"/></r></p></e>
+    <e><p><l>সম্বন্ধস্থাপন কর<s n="vblex"/></l><r>relate<s n="vblex"/></r></p></e>
+    <e><p><l>মুক্তি দে<s n="vblex"/></l><r>release<s n="vblex"/></r></p></e>
+    <e><p><l>থাক<s n="vblex"/></l><r>remain<s n="vblex"/></r></p></e>
+    <e><p><l>থাক<s n="vblex"/></l><r>remain<s n="vblex"/></r></p></e>
+    <e><p><l>সরিয়ে দে<s n="vblex"/></l><r>remove<s n="vblex"/></r></p></e>
+    <e><p><l>ভাড়া কর<s n="vblex"/></l><r>rent<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরাবৃত্তি কর<s n="vblex"/></l><r>repeat<s n="vblex"/></r></p></e>
+    <e><p><l>উত্তর দে<s n="vblex"/></l><r>reply<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিস্থাপন কর<s n="vblex"/></l><r>replace<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিস্থাপন কর<s n="vblex"/></l><r>replace<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিবেদন কর<s n="vblex"/></l><r>report<s n="vblex"/></r></p></e>
+    <e><p><l>প্রতিনিধিত্ব কর<s n="vblex"/></l><r>represent<s n="vblex"/></r></p></e>
+    <e><p><l>অনুরোধ কর<s n="vblex"/></l><r>request<s n="vblex"/></r></p></e>
+    <e><p><l>অনুরোধ কর<s n="vblex"/></l><r>request<s n="vblex"/></r></p></e>
+    <e><p><l>প্রয়োজন বোধ কর<s n="vblex"/></l><r>require<s n="vblex"/></r></p></e>
+    <e><p><l>উদ্ধার কর<s n="vblex"/></l><r>rescue<s n="vblex"/></r></p></e>
+    <e><p><l>সংরক্ষণ কর<s n="vblex"/></l><r>reserve<s n="vblex"/></r></p></e>
+    <e><p><l>পদত্যাগ কর<s n="vblex"/></l><r>resign<s n="vblex"/></r></p></e>
+    <e><p><l>স্থিরসঙ্কল্প কর<s n="vblex"/></l><r>resolve<s n="vblex"/></r></p></e>
+    <e><p><l>শরণ নে<s n="vblex"/></l><r>resort<s n="vblex"/></r></p></e>
+    <e><p><l>সম্মান কর<s n="vblex"/></l><r>respect<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরায় শুরু কর<s n="vblex"/></l><r>restart<s n="vblex"/></r></p></e>
+    <e><p><l>পুনরুদ্ধার কর<s n="vblex"/></l><r>restore<s n="vblex"/></r></p></e>
+    <e><p><l>ফলস্বরূপ উদ্ভূত হ<s n="vblex"/></l><r>result<s n="vblex"/></r></p></e>
+    <e><p><l>আহরন কর<s n="vblex"/></l><r>retrieve<s n="vblex"/></r></p></e>
+    <e><p><l>ফিরে আস<s n="vblex"/></l><r>return<s n="vblex"/></r></p></e>
+    <e><p><l>প্রকাশ কর<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
+    <e><p><l>পর্যালোচনা কর<s n="vblex"/></l><r>review<s n="vblex"/></r></p></e>
+    <e><p><l>রিপ কর<s n="vblex"/></l><r>rip<s n="vblex"/></r></p></e>
+    <e><p><l>ঝুঁকি নে<s n="vblex"/></l><r>risk<s n="vblex"/></r></p></e>
+    <e><p><l>শাসন কর<s n="vblex"/></l><r>rule<s n="vblex"/></r></p></e>
+    <e><p><l>গা<s n="vblex"/></l><r>sing<s n="vblex"/></r></p></e>
+    <e><p><l>বিক্রি কর<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
+    <e><p><l>বল<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>বরখাস্ত কর<s n="vblex"/></l><r>sack<s n="vblex"/></r></p></e>
+    <e><p><l>সংরক্ষণ কর<s n="vblex"/></l><r>save<s n="vblex"/></r></p></e>
+    <e><p><l>স্ক্যান কর<s n="vblex"/></l><r>scan<s n="vblex"/></r></p></e>
+    <e><p><l>ছড়া<s n="vblex"/></l><r>scatter<s n="vblex"/></r></p></e>
+    <e><p><l>চেঁচা<s n="vblex"/></l><r>scream<s n="vblex"/></r></p></e>
+    <e><p><l>অনুসন্ধান কর<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
+    <e><p><l>নিরাপদ কর<s n="vblex"/></l><r>secure<s n="vblex"/></r></p></e>
+    <e><p><l>মনে হ<s n="vblex"/></l><r>seem<s n="vblex"/></r></p></e>
+    <e><p><l>বাজেয়াপ্ত কর<s n="vblex"/></l><r>seize<s n="vblex"/></r></p></e>
+    <e><p><l>নির্বাচন কর<s n="vblex"/></l><r>select<s n="vblex"/></r></p></e>
+    <e><p><l>পাঠা<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
+    <e><p><l>আলাদা কর<s n="vblex"/></l><r>separate<s n="vblex"/></r></p></e>
+    <e><p><l>সরবরাহ কর<s n="vblex"/></l><r>serve<s n="vblex"/></r></p></e>
+    <e><p><l>নিযুক্ত কর<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e>
+    <e><p><l>মীমাংসা কর<s n="vblex"/></l><r>settle<s n="vblex"/></r></p></e>
+    <e><p><l>ভাগাভাগি কর<s n="vblex"/></l><r>share<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>shift<s n="vblex"/></r></p></e>
+    <e><p><l>কিরণ দে<s n="vblex"/></l><r>shine<s n="vblex"/></r></p></e>
+    <e><p><l>গুলি কর<s n="vblex"/></l><r>shoot<s n="vblex"/></r></p></e>
+    <e><p><l>সংক্ষিপ্ত কর<s n="vblex"/></l><r>shorten<s n="vblex"/></r></p></e>
+    <e><p><l>বন্ধ কর<s n="vblex"/></l><r>shut<s n="vblex"/></r></p></e>
+    <e><p><l>সই কর<s n="vblex"/></l><r>sign<s n="vblex"/></r></p></e>
+    <e><p><l>সিমুলেট কর<s n="vblex"/></l><r>simulate<s n="vblex"/></r></p></e>
+    <e><p><l>পাপ কর<s n="vblex"/></l><r>sin<s n="vblex"/></r></p></e>
+    <e><p><l>ঘুমা<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+    <e><p><l>পিছলে যা<s n="vblex"/></l><r>slip<s n="vblex"/></r></p></e>
+    <e><p><l>ধীরে কর<s n="vblex"/></l><r>slow<s n="vblex"/></r></p></e>
+    <e><p><l>হাস<s n="vblex"/></l><r>smile<s n="vblex"/></r></p></e>
+    <e><p><l>সমাধান কর<s n="vblex"/></l><r>solve<s n="vblex"/></r></p></e>
+    <e><p><l>সাজা<s n="vblex"/></l><r>sort<s n="vblex"/></r></p></e>
+    <e><p><l>শব্দ কর<s n="vblex"/></l><r>sound<s n="vblex"/></r></p></e>
+    <e><p><l>কথা বল<s n="vblex"/></l><r>speak<s n="vblex"/></r></p></e>
+    <e><p><l>উল্লেখ কর<s n="vblex"/></l><r>specify<s n="vblex"/></r></p></e>
+    <e><p><l>খরচ কর<s n="vblex"/></l><r>spend<s n="vblex"/></r></p></e>
+    <e><p><l>বিভক্ত কর<s n="vblex"/></l><r>split<s n="vblex"/></r></p></e>
+    <e><p><l>প্রসারিত হ<s n="vblex"/></l><r>spread<s n="vblex"/></r></p></e>
+    <e><p><l>কচলা<s n="vblex"/></l><r>squeeze<s n="vblex"/></r></p></e>
+    <e><p><l>চুরি কর<s n="vblex"/></l><r>steal<s n="vblex"/></r></p></e>
+    <e><p><l>দাঁড়া<s n="vblex"/></l><r>stand<s n="vblex"/></r></p></e>
+    <e><p><l>মঞ্চস্থ কর<s n="vblex"/></l><r>stage<s n="vblex"/></r></p></e>
+    <e><p><l>শুরু কর<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
+    <e><p><l>থাক<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e>
+    <e><p><l>থাম<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
+    <e><p><l>সংরক্ষণ কর<s n="vblex"/></l><r>store<s n="vblex"/></r></p></e>
+    <e><p><l>শক্তিশালী কর<s n="vblex"/></l><r>strengthen<s n="vblex"/></r></p></e>
+    <e><p><l>চাপ দে<s n="vblex"/></l><r>stress<s n="vblex"/></r></p></e>
+    <e><p><l>প্রসারিত কর<s n="vblex"/></l><r>stretch<s n="vblex"/></r></p></e>
+    <e><p><l>আঘাত কর<s n="vblex"/></l><r>strike<s n="vblex"/></r></p></e>
+    <e><p><l>সংগ্রাম কর<s n="vblex"/></l><r>struggle<s n="vblex"/></r></p></e>
+    <e><p><l>অধ্যয়ন কর<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
+    <e><p><l>দাখিল কর<s n="vblex"/></l><r>submit<s n="vblex"/></r></p></e>
+    <e><p><l>সফল হ<s n="vblex"/></l><r>succeed<s n="vblex"/></r></p></e>
+    <e><p><l>ভুগ<s n="vblex"/></l><r>suffer<s n="vblex"/></r></p></e>
+    <e><p><l>ইঙ্গিত কর<s n="vblex"/></l><r>suggest<s n="vblex"/></r></p></e>
+    <e><p><l>সমন জারি কর<s n="vblex"/></l><r>summon<s n="vblex"/></r></p></e>
+    <e><p><l>সরাবরাহ কর<s n="vblex"/></l><r>supply<s n="vblex"/></r></p></e>
+    <e><p><l>সমর্থন কর<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
+    <e><p><l>অনুমান কর<s n="vblex"/></l><r>suppose<s n="vblex"/></r></p></e>
+    <e><p><l>দমন কর<s n="vblex"/></l><r>suppress<s n="vblex"/></r></p></e>
+    <e><p><l>অতিক্রম কর<s n="vblex"/></l><r>surpass<s n="vblex"/></r></p></e>
+    <e><p><l>চমক দে<s n="vblex"/></l><r>surprise<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবেষ্টন কর<s n="vblex"/></l><r>surround<s n="vblex"/></r></p></e>
+    <e><p><l>বেচে থাক<s n="vblex"/></l><r>survive<s n="vblex"/></r></p></e>
+    <e><p><l>সন্দেহ কর<s n="vblex"/></l><r>suspect<s n="vblex"/></r></p></e>
+    <e><p><l>নিলম্বন কর<s n="vblex"/></l><r>suspend<s n="vblex"/></r></p></e>
+    <e><p><l>দোলা<s n="vblex"/></l><r>swing<s n="vblex"/></r></p></e>
+    <e><p><l>সাঁতার কাট<s n="vblex"/></l><r>swim<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>switch<s n="vblex"/></r></p></e>
+    <e><p><l>বল<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e><p><l>শিক্ষা প্রদান কর<s n="vblex"/></l><r>teach<s n="vblex"/></r></p></e>
+    <e><p><l>গ্রহণ কর<s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
+    <e><p><l>কথা বল<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>নিশানা কর<s n="vblex"/></l><r>target<s n="vblex"/></r></p></e>
+    <e><p><l>প্রবণ হ<s n="vblex"/></l><r>tend<s n="vblex"/></r></p></e>
+    <e><p><l>পরীক্ষা কর<s n="vblex"/></l><r>test<s n="vblex"/></r></p></e>
+    <e><p><l>ভাব<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
+    <e><p><l>ধন্যবাদ জানা<s n="vblex"/></l><r>thank<s n="vblex"/></r></p></e>
+    <e><p><l>সময়<s n="vblex"/></l><r>time<s n="vblex"/></r></p></e>
+    <e><p><l>সহ্য কর<s n="vblex"/></l><r>tolerate<s n="vblex"/></r></p></e>
+    <e><p><l>উৎপীড়ন কর<s n="vblex"/></l><r>torture<s n="vblex"/></r></p></e>
+    <e><p><l>স্পর্শ কর<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>চেষ্টা কর<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+    <e><p><l>রূপান্তরিত কর<s n="vblex"/></l><r>transform<s n="vblex"/></r></p></e>
+    <e><p><l>অনুবাদ কর<s n="vblex"/></l><r>translate<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবহণ কর<s n="vblex"/></l><r>transport<s n="vblex"/></r></p></e>
+    <e><p><l>ভ্রমণ কর<s n="vblex"/></l><r>travel<s n="vblex"/></r></p></e>
+    <e><p><l>অতীব মূল্যবান বলে গন্য কর<s n="vblex"/></l><r>treasure<s n="vblex"/></r></p></e>
+    <e><p><l>চিকিৎসা কর<s n="vblex"/></l><r>treat<s n="vblex"/></r></p></e>
+    <e><p><l>বিশ্বাস কর<s n="vblex"/></l><r>trust<s n="vblex"/></r></p></e>
+    <e><p><l>বদলা<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e>
+    <e><p><l>টাইপ কর<s n="vblex"/></l><r>type<s n="vblex"/></r></p></e>
+    <e><p><l>সহ্য কর<s n="vblex"/></l><r>undergo<s n="vblex"/></r></p></e>
+    <e><p><l>বোঝ<s n="vblex"/></l><r>understand<s n="vblex"/></r></p></e>
+    <e><p><l>একত্র কর<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
+    <e><p><l>আপডেট কর<s n="vblex"/></l><r>update<s n="vblex"/></r></p></e>
+    <e><p><l>মিনতি কর<s n="vblex"/></l><r>urge<s n="vblex"/></r></p></e>
+    <e><p><l>ব্যবহার কর<s n="vblex"/></l><r>use<s n="vblex"/></r></p></e>
+    <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>vary<s n="vblex"/></r></p></e>
+    <e><p><l>দেখ<s n="vblex"/></l><r>view<s n="vblex"/></r></p></e>
+    <e><p><l>পরিদর্শন কর<s n="vblex"/></l><r>visit<s n="vblex"/></r></p></e>
+    <e><p><l>ভোট দে<s n="vblex"/></l><r>vote<s n="vblex"/></r></p></e>
+    <e><p><l>পরিধান কর<s n="vblex"/></l><r>wear<s n="vblex"/></r></p></e>
+    <e><p><l>জয় কর<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
+    <e><p><l>অপেক্ষা কর<s n="vblex"/></l><r>wait<s n="vblex"/></r></p></e>
+    <e><p><l>উঠ<s n="vblex"/></l><r>wake<s n="vblex"/></r></p></e>
+    <e><p><l>হাঁট<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+    <e><p><l>চা<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
+    <e><p><l>সাবধান কর<s n="vblex"/></l><r>warn<s n="vblex"/></r></p></e>
+    <e><p><l>ধুয়ে ফেল<s n="vblex"/></l><r>wash<s n="vblex"/></r></p></e>
+    <e><p><l>ওজন কর<s n="vblex"/></l><r>weigh<s n="vblex"/></r></p></e>
+    <e><p><l>ফিসফিস কর<s n="vblex"/></l><r>whisper<s n="vblex"/></r></p></e>
+    <e><p><l>ইচ্ছা কর<s n="vblex"/></l><r>wish<s n="vblex"/></r></p></e>
+    <e><p><l>কাজ কর<s n="vblex"/></l><r>work<s n="vblex"/></r></p></e>
+    <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
+    <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
+    <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>disturb<s n="vblex"/></r></p></e>
 
   </section>
 </dictionary>
