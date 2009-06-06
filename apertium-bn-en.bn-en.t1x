@@ -5,8 +5,15 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
-    <def-cat n="num">
-      <cat-item tags="num.*"/>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="genitive">
+      <cat-item tags="gen"/>
+    </def-cat>
+    <def-cat n="vblex">
+      <cat-item tags="vblex.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -15,24 +22,29 @@
       <attr-item tags="n"/>
       <attr-item tags="np"/>
     </def-attr>
-    <def-attr n="a_num">
-      <attr-item tags="num"/>
-    </def-attr>
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
-      <attr-item tags="gen:nt"/>
-      <attr-item tags="gen:any"/>
+      <attr-item tags="nt"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="inf"/>
     </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="case"/>
     <def-var n="genere"/>
   </section-def-vars>
 
@@ -40,33 +52,7 @@
 
     <!-- Sintagmas nominales -->
 
-    <rule>
-      <pattern>
-        <pattern-item n="num"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="num" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-<!--              
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_num"/>
-              <clip pos="1" side="tl" part="nbr" link-to="2"/>
--->              
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-
-    <rule>
+    <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -75,20 +61,22 @@
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-<!--              
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="nbr" link-to="2"/>
--->              
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
+
+
 
   </section-rules>
 </transfer>
