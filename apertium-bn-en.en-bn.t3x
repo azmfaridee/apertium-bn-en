@@ -6,9 +6,6 @@
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
-    <def-cat n="nom_on">
-      <cat-item name="nom_on"/>
-    </def-cat>
   </section-def-cats>
 
 
@@ -38,40 +35,5 @@
       </action>
     </rule>
 
-
-    <rule comment="CHUNK: nom">
-      <pattern>
-        <pattern-item n="nom_on"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" part="whole"/>
-          </lu>
-	  <b pos="1"/>
-          <lu>
-            <clip pos="2" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-<!--
-    <rule comment="CHUNK: adj_nom">
-      <pattern>
-        <pattern-item n="adj_nom"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" part="whole"/>
-          </lu>
-	  <b pos="1"/>
-          <lu>
-            <clip pos="2" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
--->
   </section-rules>
 </postchunk>

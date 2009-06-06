@@ -70737,7 +70737,7 @@
 
     <!-- Conjunctions -->
  
-    <pardef n="আর__cnjcoo">
+    <pardef n="এবং__cnjcoo">
       <e>
         <p>
           <l></l>
@@ -70751,7 +70751,8 @@
 
     <!-- Conjunctions -->
 
-    <e lm="আর"><i>আর</i><par n="আর__cnjcoo"/></e>
+    <e lm="এবং"><i>এবং</i><par n="এবং__cnjcoo"/></e>
+    <e lm="আর"><i>আর</i><par n="এবং__cnjcoo"/></e>
 
     <!-- Nouns -->
 

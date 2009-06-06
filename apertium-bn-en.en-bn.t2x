@@ -6,9 +6,6 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
-    <def-cat n="SVpast">
-      <cat-item tags="SV.past"/>
-    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
@@ -19,7 +16,8 @@
     <def-attr n="gen">
       <attr-item tags="f"/>
       <attr-item tags="m"/>
-      <attr-item tags="gen:any"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="nt"/>
       <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="nbr">
@@ -47,41 +45,6 @@
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="REGLA: SN SVpast SN">
-      <pattern>
-        <pattern-item n="SN"/>
-        <pattern-item n="SVpast"/>
-        <pattern-item n="SN"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-	  <b/>
-          <chunk><!-- Here should be added a chunk with ले<vibhakti>, f.eks like  ^nom<SN>{^ले<vibhakti>$}$  -->
-                <lit v="nom"/><lit-tag v="SN"/>
-                <lit v="{^ले"/><lit-tag v="vibhakti"/><lit v="$}"/>
-          </chunk>
-	  <b pos="1"/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-	  <b pos="2"/>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
       </action>
