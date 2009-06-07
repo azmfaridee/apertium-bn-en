@@ -5,6 +5,9 @@
       <cat-item lemma="prpers" tags="prn.subj.*"/>
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
+    <def-cat n="prn_ref">
+      <cat-item tags="prn.ref.*"/>
+    </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.past"/>
       <cat-item tags="vblex.pres"/>
@@ -31,6 +34,15 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+    </def-attr>
+    <def-attr n="tipus_prn">
+      <attr-item tags="ref"/>
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="dem"/>
     </def-attr>
     <def-attr n="gen">
       <attr-item tags="m"/>
@@ -59,7 +71,7 @@
 
   <section-def-vars>
     <def-var n="number"/>
-    <def-var n="case"/>
+    <def-var n="case" v="&lt;nom&gt;"/>
     <def-var n="genere"/>
     <def-var n="person"/>
   </section-def-vars>
@@ -119,6 +131,35 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: PRNREF">
+      <pattern>
+        <pattern-item n="prn_ref"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnref" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><var n="case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="tipus_prn"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: VERB CONJ">
       <pattern>

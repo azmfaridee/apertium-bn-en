@@ -26,6 +26,12 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="case">
+      <attr-item tags="nom"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="gen"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -57,6 +63,10 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="obj"/>
+        </let>
         <out>
           <chunk>
             <clip pos="1" part="lem"/>

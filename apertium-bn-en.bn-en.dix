@@ -7,6 +7,7 @@
     <sdef n="obj"       c="Object"/>
     <sdef n="pos"       c=""/>
     <sdef n="nom"       c="Nominative"/>
+    <sdef n="ref"       c="Reflexive"/>
     <sdef n="mf"        c=""/>
     <sdef n="sg"        c=""/>
     <sdef n="sp"        c=""/>
@@ -32,6 +33,7 @@
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <!-- Nouns -->
                             <!-- TODO: Add gender on the Bengali side -->
