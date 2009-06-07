@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="prn_subj">
+      <cat-item lemma="prpers" tags="prn.subj.*"/>
+      <cat-item lemma="prpers" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="verbcj">
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.pres.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -35,6 +45,11 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
     <def-attr n="temps">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
@@ -46,6 +61,7 @@
     <def-var n="number"/>
     <def-var n="case"/>
     <def-var n="genere"/>
+    <def-var n="person"/>
   </section-def-vars>
 
   <section-rules>
@@ -72,6 +88,58 @@
               <clip pos="1" side="tl" part="nbr" link-to="2"/>
               <lit-tag v="3"/>
               <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: PRNSUBJ">
+      <pattern>
+        <pattern-item n="prn_subj"/>
+      </pattern>
+      <action>
+        <let>
+          <var n="person"/>
+          <clip pos="1" side="tl" part="pers"/>
+        </let>
+        <out>
+          <chunk name="prnsubj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: VERB CONJ">
+      <pattern>
+        <pattern-item n="verbcj"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="temps"/>
+          <concat>
+            <clip pos="1" side="tl" part="temps"/>
+            <var n="person"/>
+          </concat>
+        </let>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

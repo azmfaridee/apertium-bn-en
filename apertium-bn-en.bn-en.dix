@@ -5,9 +5,11 @@
     <sdef n="prn"       c="Pronoun"/>
     <sdef n="subj"      c="Subject"/>
     <sdef n="obj"       c="Object"/>
+    <sdef n="pos"       c=""/>
     <sdef n="nom"       c="Nominative"/>
     <sdef n="mf"        c=""/>
     <sdef n="sg"        c=""/>
+    <sdef n="sp"        c=""/>
 
     <sdef n="p1"        c="First person"/>
 
@@ -29,6 +31,7 @@
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <!-- Nouns -->
                             <!-- TODO: Add gender on the Bengali side -->
@@ -543,6 +546,7 @@
     <e><p><l>শাসন কর<s n="vblex"/></l><r>rule<s n="vblex"/></r></p></e>
     <e><p><l>গা<s n="vblex"/></l><r>sing<s n="vblex"/></r></p></e>
     <e><p><l>বিক্রি কর<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
+    <e><p><l>দখ<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
     <e><p><l>বল<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
     <e><p><l>বরখাস্ত কর<s n="vblex"/></l><r>sack<s n="vblex"/></r></p></e>
     <e><p><l>সংরক্ষণ কর<s n="vblex"/></l><r>save<s n="vblex"/></r></p></e>
