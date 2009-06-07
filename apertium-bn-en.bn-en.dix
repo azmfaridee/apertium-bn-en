@@ -16,12 +16,14 @@
     <e><p><l>এবং<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
 
     <!-- Nouns -->
-
+                            <!-- TODO: Add gender on the Bengali side -->
     <e><p><l>মানুষ<s n="n"/></l><r>man<s n="n"/></r></p></e>
     <e><p><l>জীবন<s n="n"/></l><r>life<s n="n"/></r></p></e>
     <e><p><l>ঘর<s n="n"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>বই<s n="n"/></l><r>book<s n="n"/></r></p></e>
-
+    <e><p><l>বন্ধু<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+    <e><p><l>মেয়ে<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
+    <e><p><l>বিড়াল<s n="n"/></l><r>cat<s n="n"/></r></p></e>
 
     <!-- Verbs -->
 

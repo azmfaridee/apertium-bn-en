@@ -37,8 +37,22 @@
     <sdef n="obj"/>
     <sdef n="pl"/>
     <sdef n="sg"/>
+
+    <sdef n="sent"/>
   </sdefs>
   <pardefs>
+    <!-- Punctuation -->
+
+    <pardef n="separa">
+      <e>
+        <re>[.\?;:!]</re>
+        <p>
+          <l/>
+         <r><s n="sent"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <!-- Verbs -->
 
@@ -71730,5 +71744,8 @@
 <!--    <e lm="বৃষ্টি পড়"><i></i><par n="/বৃষ্টি পড়__vblex"/></e> -->
 
 
+  </section>
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
   </section>
 </dictionary>
