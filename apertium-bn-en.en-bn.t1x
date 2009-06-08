@@ -139,6 +139,10 @@
             </let>
           </otherwise>  
         </choose>
+        <let>
+          <clip pos="1" side="tl" part="pers"/>
+          <var n="person"/>
+        </let>
         <out>
           <chunk name="prnsubj" case="caseFirstWord">
             <tags>

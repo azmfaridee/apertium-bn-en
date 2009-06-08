@@ -2,6 +2,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"         c="Noun"/>
+    <sdef n="det"         c="Determiner"/>
     <sdef n="prn"       c="Pronoun"/>
     <sdef n="subj"      c="Subject"/>
     <sdef n="obj"       c="Object"/>
@@ -23,6 +24,7 @@
     <sdef n="vblex"     c="Verb"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
 
+    <sdef n="ND"        c="Number to be determined"/>
     <sdef n="GD"        c="Gender to be determined"/>
 
     <sdef n="sent"      c="End of sentence marker"/>
@@ -79,6 +81,12 @@
     <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>theirs<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e r="RL"><p><l>আমার<s n="det"/><s n="pos"/><s n="sp"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>আমাদের<s n="det"/><s n="pos"/><s n="sp"/></l><r>our<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>তাদের<s n="det"/><s n="pos"/><s n="sp"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+
+    <e r="RL"><p><l>তোমার<s n="det"/><s n="pos"/><s n="ND"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 
 
     <!-- Nouns -->
