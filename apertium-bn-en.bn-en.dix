@@ -9,15 +9,21 @@
     <sdef n="nom"       c="Nominative"/>
     <sdef n="ref"       c="Reflexive"/>
     <sdef n="mf"        c=""/>
+    <sdef n="m"         c=""/>
+    <sdef n="f"         c=""/>
     <sdef n="sg"        c=""/>
     <sdef n="sp"        c=""/>
+    <sdef n="pl"        c=""/>
 
     <sdef n="p1"        c="First person"/>
+    <sdef n="p2"        c="Second person"/>
+    <sdef n="p3"        c="Third person"/>
 
     <sdef n="num"       c="Numeral"/>
     <sdef n="vblex"     c="Verb"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
 
+    <sdef n="GD"        c="Gender to be determined"/>
 
     <sdef n="sent"      c="End of sentence marker"/>
     <sdef n="cm"        c="Comma"/>
@@ -28,12 +34,52 @@
 
     <e><p><l>এবং<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
 
-    <!-- Pronouns -->
+    <!-- Pronouns --> 
+
+      <!-- We group pronouns by person and number. The subject pronoun is translated 
+           by default to the nominative, and the object pronoun to the objective. It might 
+           be good to treat reflexive and possessive pronouns similarly in English. -->
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>yours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/><s n="GD"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+
+
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>ours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+
+
+    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>theirs<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
 
     <!-- Nouns -->
                             <!-- TODO: Add gender on the Bengali side -->
@@ -83,7 +129,6 @@
     <e><p><l>পরিবর্তন কর<s n="vblex"/></l><r>alter<s n="vblex"/></r></p></e>
     <e><p><l>বিবর্ধন কর<s n="vblex"/></l><r>amplify<s n="vblex"/></r></p></e>
     <e><p><l>বিশ্লেষণ কর<s n="vblex"/></l><r>analyse<s n="vblex"/></r></p></e>
-    <e><p><l>বিশ্লেষণ কর<s n="vblex"/></l><r>analyze<s n="vblex"/></r></p></e>
     <e><p><l>নোঙর কর<s n="vblex"/></l><r>anchor<s n="vblex"/></r></p></e>
     <e><p><l>ঘোষণা কর<s n="vblex"/></l><r>announce<s n="vblex"/></r></p></e>
     <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>annoy<s n="vblex"/></r></p></e>
