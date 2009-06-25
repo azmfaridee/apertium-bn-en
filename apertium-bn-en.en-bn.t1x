@@ -129,12 +129,27 @@
               <clip pos="1" side="tl" part="pers"/>
             </let>
           </when>
-          <otherwise>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="pers"/>
+                <lit-tag v="p2"/>
+              </equal>
+            </test>   
             <let>
               <var n="person"/>
               <concat>
                 <clip pos="1" side="tl" part="pers"/>
                 <lit-tag v="pol"/>
+              </concat>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="person"/>
+              <concat>
+                <clip pos="1" side="tl" part="pers"/>
+                <lit-tag v="infml"/>
               </concat>
             </let>
           </otherwise>  
