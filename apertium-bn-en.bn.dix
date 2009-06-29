@@ -72377,6 +72377,16 @@
 
     <!-- Postpositions -->
 
+    <e lm="জন্য"><i>জন্য</i><par n="এর__post"/></e>
+    <e lm="সঙ্গে"><i>সঙ্গে</i><par n="এর__post"/></e>
+    <e lm="নিয়ে"><i>নিয়ে</i><par n="এর__post"/></e>
+    <e lm="এক"><i>এক</i><par n="এর__post"/></e>
+    <e lm="কোনো"><i>কোনো</i><par n="এর__post"/></e>
+    <e lm="গত"><i>গত</i><par n="এর__post"/></e>
+    <e lm="গতকাল"><i>গতকাল</i><par n="এর__post"/></e>
+    <e lm="কথা"><i>কথা</i><par n="এর__post"/></e>
+    <e lm="কিন্তু"><i>কিন্তু</i><par n="এর__post"/></e>
+
     <e lm="পরে"><i>পরে</i><par n="এর__post"/></e>
     <e lm="বিরুদ্ধে"><i>বিরুদ্ধে</i><par n="এর__post"/></e>
     <e lm="আগে"><i>আগে</i><par n="এর__post"/></e>
