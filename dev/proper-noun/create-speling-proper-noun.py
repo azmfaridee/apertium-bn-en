@@ -5,6 +5,18 @@
 import os
 import sys
 import MySQLdb
+import re
+
+V = "[অআইঈউঊঋএঐওঔ]"
+C = "[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহড়ঢ়য়ঁ]"
+K = "[ািীুূৃেৈোৌ]"
+
+def get_inflection(stem, animate):
+    p_book = re.compile(C + V + '$')
+    if animate == True:
+        pass
+    else:
+        pass
 
 try:
     conn = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "bengali_conjugator")
@@ -20,21 +32,23 @@ try:
 	
     gender_tag = None
     for row in rows: #{
-	    lemma, gender, nptag = row
-	    if nptag == '0': #{
-	        # we got a human name
-	        if gender == '1': #{
-	            # if male gender
-	            gender_tag = 'm'
+        lemma, gender, nptag = row
+        if nptag == '0': #{
+        # we got a human name
+            if gender == '1': #{
+            # if male gender
+                    gender_tag = 'm'
             #}
             if gender == '2': #{
-                gender_tag = 'f'
+                    gender_tag = 'f'
             #}
         #}
-        elif nptag == '1':
+        if nptag == '1': #{
             pass
-        else:
+        #}
+        if nptag == '5': #{
             pass
+        #}            
     #}
 
 	
