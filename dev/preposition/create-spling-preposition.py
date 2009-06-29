@@ -4,7 +4,7 @@
 
 
 '''
-    TODO: proper handle for preadv and cnjadv
+    Quick and dirty make of preposition speling file, sorry Fran to keep you waithing ...
 '''
 
 import sys, string, codecs, MySQLdb;
@@ -16,13 +16,13 @@ try:
 	cursor = conn.cursor ()
 	cursor.execute ('SET CHARACTER SET utf8')
 
-	cursor.execute ("select word from meaning where pos like 'RB'")
+	cursor.execute ("SELECT word FROM meaning where pos like 'in' or pos like 'rp'")
 	
 	rows = cursor.fetchall()
 	
 	for row in rows:
 		lemma, = row	
-		sys.stdout.write(lemma + "; " + lemma + "; adv\n")
+		sys.stdout.write(lemma + "; " + lemma + "; pr\n")
 	
 	cursor.close ()
 	conn.close ()
