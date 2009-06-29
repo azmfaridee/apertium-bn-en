@@ -17,8 +17,13 @@
     <sdef n="pl"        c=""/>
 
     <sdef n="nt"        c="Neuter"/>
+    <sdef n="mf"        c="Masculine / feminine"/>
 
+    <sdef n="aa"        c="Animate"/>
     <sdef n="nn"        c="Inanimate"/>
+    <sdef n="an"        c="Inanimate / animate"/>
+    <sdef n="hu"        c="Human"/>
+    <sdef n="el"        c="Elite"/>
 
     <sdef n="p1"        c="First person"/>
     <sdef n="p2"        c="Second person"/>
