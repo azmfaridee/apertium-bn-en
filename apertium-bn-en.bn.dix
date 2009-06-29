@@ -16,6 +16,7 @@
     <sdef n="rel" c="Relative"/>
     <sdef n="det" c="Determiner"/>
     <sdef n="adv" c="Adverb"/>
+    <sdef n="post" c="Postposition"/>
 
 
     <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
@@ -72346,6 +72347,18 @@
       </e>
     </pardef>
 
+    <!-- Postpositions -->
+ 
+    <pardef n="এর__post">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="post"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
         
 
   </pardefs>
@@ -72362,6 +72375,29 @@
     <e lm="আমাদের"><i>আমাদের</i><par n="আমার__det"/></e>
     <e lm="তাদের"><i>তাদের</i><par n="আমার__det"/></e>
 
+    <!-- Postpositions -->
+
+    <e lm="পরে"><i>পরে</i><par n="এর__post"/></e>
+    <e lm="বিরুদ্ধে"><i>বিরুদ্ধে</i><par n="এর__post"/></e>
+    <e lm="আগে"><i>আগে</i><par n="এর__post"/></e>
+    <e lm="পাশে"><i>পাশে</i><par n="এর__post"/></e>
+    <e lm="ব্যতীত"><i>ব্যতীত</i><par n="এর__post"/></e>
+    <e lm="মধ্যে"><i>মধ্যে</i><par n="এর__post"/></e>
+    <e lm="বাদে"><i>বাদে</i><par n="এর__post"/></e>
+    <e lm="এর"><i>এর</i><par n="এর__post"/></e>
+    <e lm="বাইরে"><i>বাইরে</i><par n="এর__post"/></e>
+    <e lm="বাইরে"><i>বাইরে</i><par n="এর__post"/></e>
+    <e lm="বরং"><i>বরং</i><par n="এর__post"/></e>
+    <e lm="অতঃপর"><i>অতঃপর</i><par n="এর__post"/></e>
+    <e lm="চেয়ে"><i>চেয়ে</i><par n="এর__post"/></e>
+    <e lm="প্রতি"><i>প্রতি</i><par n="এর__post"/></e>
+    <e lm="দিকে"><i>দিকে</i><par n="এর__post"/></e>
+    <e lm="দিকে"><i>দিকে</i><par n="এর__post"/></e>
+    <e lm="তলদেশে"><i>তলদেশে</i><par n="এর__post"/></e>
+    <e lm="উপর"><i>উপর</i><par n="এর__post"/></e>
+    <e lm="উচ্চতর অংশ"><i>উচ্চতর<b/>অংশ</i><par n="এর__post"/></e>
+    <e lm="মধ্যে"><i>মধ্যে</i><par n="এর__post"/></e>
+    <e lm="উপরে"><i>উপরে</i><par n="এর__post"/></e>
 
     <!-- Pronouns -->
 
