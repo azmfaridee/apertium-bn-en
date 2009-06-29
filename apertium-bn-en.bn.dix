@@ -40,7 +40,6 @@
     <sdef n="pol" c="Polite"/>
     <sdef n="ppst" c=""/>
     <sdef n="prescnt" c="Present continuous"/>
-    <sdef n="presimp" c=""/>
     <sdef n="pres" c="Present simple"/>
     <sdef n="prft" c=""/>
     <sdef n="vblex" c="Verb"/>
@@ -974,73 +973,73 @@
       <e>
         <p>
           <l>হাটুক</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবেনা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাট</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবেনা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাট</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবিনা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটুন</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবেননা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটুক</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবেনা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটুন</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাটবেননা</l>
-          <r>হাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>হাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -2020,73 +2019,73 @@
       <e>
         <p>
           <l>ফেলুক</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবেনা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেল</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবেনা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেল</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবিনা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলুন</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবেননা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলুক</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবেনা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলুন</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফেলবেননা</l>
-          <r>ফেল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ফেল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -3066,73 +3065,73 @@
       <e>
         <p>
           <l>িক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াও</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>িবিনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেননা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>িক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেননা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -4112,73 +4111,73 @@
       <e>
         <p>
           <l>পাক</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবেনা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাও</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবেনা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবিনা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পান</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবেননা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাক</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবেনা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পান</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাবেননা</l>
-          <r>পা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>পা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -5158,73 +5157,73 @@
       <e>
         <p>
           <l>ঢোকাক</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবিনা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাও</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবেনা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবিনা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকান</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবেননা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাক</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবিনা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকান</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঢোকাবেনা</l>
-          <r>ঢোকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ঢোকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -6204,73 +6203,73 @@
       <e>
         <p>
           <l>দিক</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেবেনা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দাও</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেবেনা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দে</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবিনা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেন</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেবেননা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিক</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেবেনা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেন</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেবেননা</l>
-          <r>দে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>দে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -7250,73 +7249,73 @@
       <e>
         <p>
           <l>থাকুক</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবেনা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাক</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবেনা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাক</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবিনা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকুন</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবেননা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকুক</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবেনা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকুন</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>থাকবেননা</l>
-          <r>থাক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>থাক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -8296,73 +8295,73 @@
       <e>
         <p>
           <l>রাখুক</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবেনা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখ</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবেনা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখ</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবিনা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখুন</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবেননা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখুক</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবেনা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখুন</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>রাখবেননা</l>
-          <r>রাখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>রাখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -9342,73 +9341,73 @@
       <e>
         <p>
           <l>ুগুক</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবেনা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>োগ</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবেনা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগ</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবিনা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগুন</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবেননা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগুক</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবেনা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগুন</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুগবেননা</l>
-          <r>োগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>োগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -10388,73 +10387,73 @@
       <e>
         <p>
           <l>ুলুক</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবেনা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>োল</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবেনা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুল</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবিনা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলুন</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবেননা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলুক</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবেনা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলুন</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুলবেননা</l>
-          <r>োল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>োল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -11434,73 +11433,73 @@
       <e>
         <p>
           <l>লেখুক</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবেনা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখ</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবেনা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখ</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবিনা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখুন</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবেননা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখুক</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবেনা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখুন</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লেখবেননা</l>
-          <r>লেখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>লেখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -12480,73 +12479,73 @@
       <e>
         <p>
           <l>আনুক</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবেনা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আন</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবেনা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আন</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবিনা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনুন</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবেননা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনুক</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবেনা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনুন</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আনবেননা</l>
-          <r>আন<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>আন<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -13526,73 +13525,73 @@
       <e>
         <p>
           <l>াক</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াও</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>া</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবিনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেননা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াক</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেননা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -14572,73 +14571,73 @@
       <e>
         <p>
           <l>করুক</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবেনা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কর</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবেনা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কর</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবিনা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করুন</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবেননা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করুক</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবেনা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করুন</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করবেননা</l>
-          <r>কর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>কর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -15618,73 +15617,73 @@
       <e>
         <p>
           <l>ুক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বিনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -16664,73 +16663,73 @@
       <e>
         <p>
           <l>চলুক</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবেনা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চল</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবেনা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চল</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবিনা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলুন</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবেননা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলুক</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবেনা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলুন</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>চলবেননা</l>
-          <r>চল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>চল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -17710,73 +17709,73 @@
       <e>
         <p>
           <l>াঙুক</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবেনা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙ</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবেনা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙ</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবিনা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙুন</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবেননা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙুক</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবেনা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙুন</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঙবেননা</l>
-          <r>াঙ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াঙ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -18756,73 +18755,73 @@
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>বিভিন্নদিকে ছড়িয়ে পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -19802,73 +19801,73 @@
       <e>
         <p>
           <l>াক</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবিনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াও</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>া</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবিনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেননা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াক</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবিনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াবেনা</l>
-          <r>া<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>া<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -20848,73 +20847,73 @@
       <e>
         <p>
           <l>পড়ুক</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বেনা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বেনা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বিনা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়ুন</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বেননা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়ুক</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বেনা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়ুন</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পড়বেননা</l>
-          <r>পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -21894,73 +21893,73 @@
       <e>
         <p>
           <l>াঁটুক</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবেনা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁট</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবেনা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁট</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবিনা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটুন</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবেননা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটুক</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবেনা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটুন</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁটবেননা</l>
-          <r>াঁট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াঁট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -22940,73 +22939,73 @@
       <e>
         <p>
           <l>ভাসুক</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবেনা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাস</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবেনা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাস</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবিনা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসুন</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবেননা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসুক</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবেনা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসুন</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাসবেননা</l>
-          <r>ভাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ভাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -23986,73 +23985,73 @@
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>ওড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ওড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -25032,73 +25031,73 @@
       <e>
         <p>
           <l>াকুক</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবেনা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াক</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবেনা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াক</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবিনা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকুন</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবেননা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকুক</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবেনা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকুন</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াকবেননা</l>
-          <r>াক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -26078,73 +26077,73 @@
       <e>
         <p>
           <l>খুলুক</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খোল</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুল</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবিনা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুন</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেননা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুক</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুন</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেননা</l>
-          <r>খোল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>খোল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -27124,73 +27123,73 @@
       <e>
         <p>
           <l>যাক</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবেনা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাও</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবেনা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবিনা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যান</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবেননা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাক</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবেনা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যান</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>যাবেননা</l>
-          <r>যা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>যা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -28170,73 +28169,73 @@
       <e>
         <p>
           <l>বলুক</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবেনা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বল</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবেনা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বল</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবিনা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলুন</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবেননা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলুক</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবেনা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলুন</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বলবেননা</l>
-          <r>বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -29216,73 +29215,73 @@
       <e>
         <p>
           <l>খাক</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবেনা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাও</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবেনা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবিনা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খান</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবেননা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাক</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবেনা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খান</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খাবেননা</l>
-          <r>খা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>খা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -30262,73 +30261,73 @@
       <e>
         <p>
           <l>ফলাক</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবিনা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাও</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবেনা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবিনা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলান</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবেননা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাক</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবিনা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলান</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ফলাবেনা</l>
-          <r>ফলা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ফলা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -31308,73 +31307,73 @@
       <e>
         <p>
           <l>দিক</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবেনা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিও</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবেনা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দি</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবিনা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিন</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবেননা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিক</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবেনা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিন</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দিবেননা</l>
-          <r>দি<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>দি<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -32354,73 +32353,73 @@
       <e>
         <p>
           <l>ঘুরুক</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবেনা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘোর</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবেনা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুর</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবিনা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরুন</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবেননা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরুক</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবেনা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরুন</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘুরবেননা</l>
-          <r>ঘোর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘোর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -33400,73 +33399,73 @@
       <e>
         <p>
           <l>হক</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবেনা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হও</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবেনা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হ</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবিনা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হন</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবেননা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হক</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবেনা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হন</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হবেননা</l>
-          <r>হ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>হ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -34446,73 +34445,73 @@
       <e>
         <p>
           <l>পারুক</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবেনা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পার</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবেনা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পার</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবিনা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারুন</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবেননা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারুক</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবেনা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারুন</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পারবেননা</l>
-          <r>পার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>পার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -35492,73 +35491,73 @@
       <e>
         <p>
           <l>ঘটুক</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবেনা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘট</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবেনা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘট</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবিনা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটুন</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবেননা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটুক</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবেনা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটুন</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটবেননা</l>
-          <r>ঘট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -36538,73 +36537,73 @@
       <e>
         <p>
           <l>কাটুক</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবেনা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাট</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবেনা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাট</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবিনা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটুন</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবেননা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটুক</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবেনা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটুন</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটবেননা</l>
-          <r>কাট<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>কাট<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -37584,73 +37583,73 @@
       <e>
         <p>
           <l>সাজাক</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবিনা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাও</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবেনা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবিনা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজান</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবেননা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাক</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবিনা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজান</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>সাজাবেনা</l>
-          <r>সাজা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>সাজা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -38630,73 +38629,73 @@
       <e>
         <p>
           <l>জানাক</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবিনা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাও</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবেনা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবিনা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানান</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবেননা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাক</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবিনা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানান</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জানাবেনা</l>
-          <r>জানা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>জানা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -39676,73 +39675,73 @@
       <e>
         <p>
           <l>জ্বলুক</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবেনা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বল</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবেনা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বল</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবিনা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলুন</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবেননা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলুক</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবেনা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলুন</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>জ্বলবেননা</l>
-          <r>জ্বল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>জ্বল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -40722,73 +40721,73 @@
       <e>
         <p>
           <l>ুক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বিনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -41768,73 +41767,73 @@
       <e>
         <p>
           <l>িক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াও</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>িবিনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেননা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>িক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেননা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -42814,73 +42813,73 @@
       <e>
         <p>
           <l>ধরুক</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবেনা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধর</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবেনা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধর</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবিনা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরুন</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবেননা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরুক</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবেনা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরুন</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ধরবেননা</l>
-          <r>ধর<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ধর<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -43860,73 +43859,73 @@
       <e>
         <p>
           <l>ভাঙ্গাক</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবেনা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাও</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবেনা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবিনা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গান</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবেননা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাক</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবেনা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গান</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ভাঙ্গাবেননা</l>
-          <r>ভাঙ্গা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ভাঙ্গা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -44906,73 +44905,73 @@
       <e>
         <p>
           <l>খুলুক</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুল</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুল</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবিনা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুন</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেননা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুক</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেনা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলুন</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>খুলবেননা</l>
-          <r>খুল<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>খুল<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -45952,73 +45951,73 @@
       <e>
         <p>
           <l>আসুক</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবেনা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আস</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবেনা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আস</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবিনা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসুন</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবেননা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসুক</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবেনা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসুন</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আসবেননা</l>
-          <r>আস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>আস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -46998,73 +46997,73 @@
       <e>
         <p>
           <l>াঁদুক</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবেনা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদ</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবেনা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদ</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবিনা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদুন</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবেননা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদুক</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবেনা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদুন</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াঁদবেননা</l>
-          <r>াঁদ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াঁদ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -48044,73 +48043,73 @@
       <e>
         <p>
           <l>আঁকুক</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবেনা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁক</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবেনা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁক</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবিনা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকুন</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবেননা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকুক</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবেনা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকুন</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>আঁকবেননা</l>
-          <r>আঁক<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>আঁক<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -49090,73 +49089,73 @@
       <e>
         <p>
           <l>হাসুক</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবেনা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাস</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবেনা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাস</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবিনা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসুন</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবেননা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসুক</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবেনা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসুন</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>হাসবেননা</l>
-          <r>হাস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>হাস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -50136,73 +50135,73 @@
       <e>
         <p>
           <l>দেখাক</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবিনা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাও</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবেনা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবিনা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখান</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবেননা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাক</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবিনা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখান</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>দেখাবেনা</l>
-          <r>দেখা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>দেখা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -51182,73 +51181,73 @@
       <e>
         <p>
           <l>াখুক</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবেনা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখ</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবেনা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখ</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবিনা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখুন</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবেননা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখুক</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবেনা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখুন</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াখবেননা</l>
-          <r>াখ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াখ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -52228,73 +52227,73 @@
       <e>
         <p>
           <l>কাটাক</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবিনা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাও</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবেনা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবিনা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটান</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবেননা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাক</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবিনা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটান</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>কাটাবেনা</l>
-          <r>কাটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>কাটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -53274,73 +53273,73 @@
       <e>
         <p>
           <l>াচুক</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবেনা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচ</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবেনা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচ</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবিনা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচুন</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবেননা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচুক</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবেনা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচুন</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াচবেননা</l>
-          <r>াচ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াচ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -54320,73 +54319,73 @@
       <e>
         <p>
           <l>ুড়ুক</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বেনা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>োড়</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বেনা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বিনা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়ুন</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বেননা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়ুক</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বেনা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়ুন</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ুড়বেননা</l>
-          <r>োড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>োড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -55366,73 +55365,73 @@
       <e>
         <p>
           <l>করাক</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবিনা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাও</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবেনা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবিনা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করান</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবেননা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাক</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবিনা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করান</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>করাবেনা</l>
-          <r>করা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>করা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -56412,73 +56411,73 @@
       <e>
         <p>
           <l>াগুক</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবেনা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগ</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবেনা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগ</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবিনা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগুন</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবেননা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগুক</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবেনা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগুন</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াগবেননা</l>
-          <r>াগ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াগ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -57458,73 +57457,73 @@
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>বৃষ্টি পড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>বৃষ্টি পড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -58504,73 +58503,73 @@
       <e>
         <p>
           <l>েক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবিনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েও</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবিনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেননা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েক</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবিনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েন</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>েবেনা</l>
-          <r>ে<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ে<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -59550,73 +59549,73 @@
       <e>
         <p>
           <l>লাগাক</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবিনা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাও</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবেনা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবিনা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগান</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবেননা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাক</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবিনা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগান</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>লাগাবেনা</l>
-          <r>লাগা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>লাগা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -60596,73 +60595,73 @@
       <e>
         <p>
           <l>পাঠাক</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবিনা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাও</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবেনা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবিনা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠান</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবেননা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাক</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবিনা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠান</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাঠাবেনা</l>
-          <r>পাঠা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>পাঠা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -61642,73 +61641,73 @@
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>গাল পাড়<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>গাল পাড়<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -62688,73 +62687,73 @@
       <e>
         <p>
           <l>পাকাক</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবিনা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাও</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবেনা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবিনা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকান</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবেননা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাক</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবিনা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকান</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>পাকাবেনা</l>
-          <r>পাকা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>পাকা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -63734,73 +63733,73 @@
       <e>
         <p>
           <l>বাধুক</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবেনা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধ</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবেনা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধ</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবিনা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধুন</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবেননা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধুক</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবেনা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধুন</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বাধবেননা</l>
-          <r>বাধ<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>বাধ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -64780,73 +64779,73 @@
       <e>
         <p>
           <l>ানুক</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবেনা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবেনা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ান</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবিনা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানুন</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবেননা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানুক</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবেনা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানুন</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ানবেননা</l>
-          <r>ান<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ান<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -65826,73 +65825,73 @@
       <e>
         <p>
           <l>মারুক</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবেনা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মার</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবেনা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মার</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবিনা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারুন</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবেননা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারুক</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবেনা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারুন</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>মারবেননা</l>
-          <r>মার<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>মার<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -66872,73 +66871,73 @@
       <e>
         <p>
           <l>ক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ও</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বিনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ক</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেনা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ন</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>বেননা</l>
-          <r><s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -67918,73 +67917,73 @@
       <e>
         <p>
           <l>ামুক</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবেনা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াম</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবেনা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াম</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবিনা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামুন</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবেননা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামুক</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবেনা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামুন</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ামবেননা</l>
-          <r>াম<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াম<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -68964,73 +68963,73 @@
       <e>
         <p>
           <l>াসুক</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবেনা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াস</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবেনা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াস</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবিনা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসুন</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবেননা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসুক</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবেনা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসুন</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>াসবেননা</l>
-          <r>াস<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>াস<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
@@ -70010,73 +70009,73 @@
       <e>
         <p>
           <l>ঘটাক</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="impr"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="impr"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবিনা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="impr"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="impr"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাও</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবেনা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="fam"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবিনা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটান</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবেননা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাক</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবিনা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="infml"/><s n="neg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটান</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ঘটাবেনা</l>
-          <r>ঘটা<s n="vblex"/><s n="presimp"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
+          <r>ঘটা<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pol"/><s n="neg"/></r>
         </p>
       </e>
       <e>
