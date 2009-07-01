@@ -6,17 +6,95 @@ import os
 import sys
 import MySQLdb
 import re
+import pdb
 
 V = "[অআইঈউঊঋএঐওঔ]"
 C = "[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহড়ঢ়য়ঁ]"
 K = "[ািীুূৃেৈোৌ]"
 
+#'[অআইঈউঊঋএঐওঔ‌‌](ঁ)?', 'বই')
 def get_inflection(stem, animate):
-    p_book = re.compile(C + V + '$')
-    if animate == True:
-        pass
-    else:
-        pass
+    nom = None
+    obj = None
+    gen = None
+    loc = None
+    stem = stem.strip()        
+        
+        # যমুনা
+    pattern = K + '(ঁ)?$'
+    if re.search(pattern, stem):
+        #print 'yamuna'
+        if animate == True:
+            """nom = stem, stem + 'টা' ,  stem + 'রা'
+            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
+            gen = stem + 'র',  stem + 'টার' ,  stem + 'দের'
+            loc = None"""
+            nom = stem
+            obj = stem + 'কে'
+            gen = stem + 'র'
+            loc = None
+        else:
+            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
+            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
+            gen = stem + 'র',  stem + 'টার' ,  stem + 'গুলোর'
+            loc = stem + 'য়',  stem + 'টায়' ,  stem + 'গুলোয়'"""
+            nom = stem
+            obj = stem
+            gen = stem + 'র'
+            loc = stem + 'য়'
+        return nom, obj, gen, loc
+        
+        
+        # সুমন
+    pattern = C + '(ঁ)?$'
+    if re.search(pattern, stem):
+        #print 'suman'
+        if animate == True:
+            """nom = stem, stem + 'টা' ,  stem + 'েরা'
+            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
+            gen = stem + 'ের',  stem + 'টার' ,  stem + 'দের'
+            loc = None"""
+            nom = stem
+            obj = stem + 'কে'
+            gen = stem + 'ের'
+            loc = None
+        else:
+            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
+            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
+            gen = stem + 'ের',  stem + 'টার' ,  stem + 'গুলোর'
+            loc = stem + 'ে',  stem + 'টায়' ,  stem + 'গুলোয়'"""
+            nom = stem
+            obj = stem
+            gen = stem + 'ের'
+            loc = stem + 'ে'
+        return nom, obj, gen, loc
+        
+        # কই
+    pattern = V + '(ঁ)?$'
+    if re.search(pattern, stem):
+        #pdb.set_trace()
+        #print 'Book'
+        #print re.search(pattern, stem).group()
+        if animate == True:
+            """nom = stem, stem + 'টা' ,  stem + 'য়েরা'
+            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
+            gen = stem + 'য়ের',  stem + 'টার' ,  stem + 'দের'
+            loc = None"""
+            nom = stem
+            obj = stem + 'কে'
+            gen = stem + 'য়ের'
+            loc = None
+        else:
+            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
+            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
+            gen = stem + 'য়ের',  stem + 'টার' ,  stem + 'গুলোর'
+            loc = stem + 'য়ে',  stem + 'টায়' ,  stem + 'গুলোয়'"""
+            nom = stem
+            obj = stem
+            gen = stem + 'য়ের'
+            loc = stem + 'য়ে'
+        return nom, obj, gen, loc
+        
 
 try:
     conn = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "bengali_conjugator")
@@ -37,17 +115,31 @@ try:
         # we got a human name
             if gender == '1': #{
             # if male gender
-                    gender_tag = 'm'
+                gender_tag = 'm'
             #}
             if gender == '2': #{
-                    gender_tag = 'f'
+                gender_tag = 'f'
             #}
+            nom, obj, gen, loc =  get_inflection(lemma, True)
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; " + gender_tag + ".n" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; " + gender_tag + ".n"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; " + gender_tag + ".n" 
         #}
+        # we got some geological name
         if nptag == '1': #{
-            pass
+            nom, obj, gen, loc =  get_inflection(lemma, False)
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; n" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; n"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; n"
+            print lemma + "; " + loc + "; " + 'sg.loc' + "; n"
         #}
+        # misc
         if nptag == '5': #{
-            pass
+            nom, obj, gen, loc =  get_inflection(lemma, False)
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; n" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; n"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; n"
+            print lemma + "; " + loc + "; " + 'sg.loc' + "; n"
         #}            
     #}
 
