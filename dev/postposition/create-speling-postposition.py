@@ -4,7 +4,7 @@
 
 
 '''
-    Quick and dirty make of preposition speling file, sorry Fran to keep you waithing ...
+    Quick and dirty make of postposition speling file, sorry Fran to keep you waithing ...
 '''
 
 import sys, string, codecs, MySQLdb;
@@ -22,7 +22,7 @@ try:
 	
 	for row in rows:
 		lemma, = row	
-		sys.stdout.write(lemma + "; " + lemma + "; pr\n")
+		sys.stdout.write(lemma + "; " + lemma + "; ; post\n")
 	
 	cursor.close ()
 	conn.close ()
