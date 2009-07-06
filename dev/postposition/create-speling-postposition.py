@@ -24,6 +24,16 @@ try:
 		lemma, = row	
 		sys.stdout.write(lemma + "; " + lemma + "; ; post\n")
 	
+	#some new adverbs, we need to have a seperate table for this, but right now this is what we have
+	cursor.execute (""" SELECT word from unknown_words where pos like '%7%' """)
+	
+	rows = cursor.fetchall()
+	
+	for row in rows:
+		word, = row	
+		sys.stdout.write(word + "; " + word + "; ; post\n")
+	
+	
 	cursor.close ()
 	conn.close ()
 
