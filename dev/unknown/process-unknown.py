@@ -2,6 +2,7 @@
 # coding=utf-8
 # -*- encoding: utf-8 -*-
 
+''' this script processes the unknown word list from apertium format'''
 import os
 import sys
 import re

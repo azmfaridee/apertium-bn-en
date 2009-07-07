@@ -8,6 +8,8 @@ import MySQLdb
 import re
 import pdb
 
+''' we use this script to insert new unknown words into our database '''
+
         
 try:
     # read the file

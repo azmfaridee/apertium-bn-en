@@ -1,11 +1,12 @@
 #!/usr/bin/php
 
-/*
+<?php
+
+    /*
     This script uses the rules to generate a working copy of the noun in the data
     -base, we can then use that to directly generate the speling format
-*/
+    */
 
-<?php
 
     require_once "../config/PersistantConnection.class.php";
     require_once "Noun.class.php";
@@ -214,7 +215,7 @@
         }
     }
 
-/*    
+    
     $connection  = PersistantConnection::getConnection();
     $nounUpdater = new NounUpdater($connection);
     
@@ -223,7 +224,7 @@
     //$nounUpdater->createDummyNounTable();
     $nounUpdater->cleanNounWorkingCopy();
     $nounUpdater->inflectNouns();
-  */  
+      
     
 /*    $nounStem = 'চাবি';
     $nounStem = 'পক্ষী';
