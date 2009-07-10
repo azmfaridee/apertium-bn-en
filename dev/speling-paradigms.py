@@ -236,8 +236,8 @@ for lemma in lemmata.keys(): #{
 	        #}
 
             # spectie, I belive this was the problem we were keeping the space, whereas it should be replaced by </b>, what do you think?
-	        print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';
-	        #print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem.replace(' ', '<b/>') + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';        
+	        #print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';
+	        print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem.replace(' ', '<b/>') + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';        
 	#}
 #}
 
