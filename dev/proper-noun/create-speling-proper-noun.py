@@ -18,30 +18,38 @@ def get_inflection(stem, animate):
     obj = None
     gen = None
     loc = None
-    stem = stem.strip()        
-        
+    stem = stem.strip()     
+    
         # যমুনা
-    pattern = K + '(ঁ)?$'
+    pattern = 'া(ঁ)?$'
     if re.search(pattern, stem):
         #print 'yamuna'
         if animate == True:
-            """nom = stem, stem + 'টা' ,  stem + 'রা'
-            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
-            gen = stem + 'র',  stem + 'টার' ,  stem + 'দের'
-            loc = None"""
             nom = stem
             obj = stem + 'কে'
             gen = stem + 'র'
             loc = None
         else:
-            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
-            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
-            gen = stem + 'র',  stem + 'টার' ,  stem + 'গুলোর'
-            loc = stem + 'য়',  stem + 'টায়' ,  stem + 'গুলোয়'"""
             nom = stem
             obj = stem
             gen = stem + 'র'
             loc = stem + 'য়'
+        return nom, obj, gen, loc       
+    
+        # রাজশাহী    
+    pattern = K + '(ঁ)?$'
+    if re.search(pattern, stem):
+        #print 'yamuna'
+        if animate == True:
+            nom = stem
+            obj = stem + 'কে'
+            gen = stem + 'র'
+            loc = None
+        else:
+            nom = stem
+            obj = stem
+            gen = stem + 'র'
+            loc = stem + 'তে'
         return nom, obj, gen, loc
         
         
@@ -50,19 +58,11 @@ def get_inflection(stem, animate):
     if re.search(pattern, stem):
         #print 'suman'
         if animate == True:
-            """nom = stem, stem + 'টা' ,  stem + 'েরা'
-            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
-            gen = stem + 'ের',  stem + 'টার' ,  stem + 'দের'
-            loc = None"""
             nom = stem
             obj = stem + 'কে'
             gen = stem + 'ের'
             loc = None
         else:
-            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
-            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
-            gen = stem + 'ের',  stem + 'টার' ,  stem + 'গুলোর'
-            loc = stem + 'ে',  stem + 'টায়' ,  stem + 'গুলোয়'"""
             nom = stem
             obj = stem
             gen = stem + 'ের'
@@ -76,19 +76,11 @@ def get_inflection(stem, animate):
         #print 'Book'
         #print re.search(pattern, stem).group()
         if animate == True:
-            """nom = stem, stem + 'টা' ,  stem + 'য়েরা'
-            obj = stem + 'কে',  stem + 'টাকে' ,  stem + 'দেরকে'
-            gen = stem + 'য়ের',  stem + 'টার' ,  stem + 'দের'
-            loc = None"""
             nom = stem
             obj = stem + 'কে'
             gen = stem + 'য়ের'
             loc = None
         else:
-            """nom = stem, stem + 'টা' ,  stem + 'গুলো'
-            obj = stem,  stem + 'টা' ,  stem + 'গুলো'
-            gen = stem + 'য়ের',  stem + 'টার' ,  stem + 'গুলোর'
-            loc = stem + 'য়ে',  stem + 'টায়' ,  stem + 'গুলোয়'"""
             nom = stem
             obj = stem
             gen = stem + 'য়ের'
@@ -121,25 +113,25 @@ try:
                 gender_tag = 'f'
             #}
             nom, obj, gen, loc =  get_inflection(lemma, True)
-            print lemma + "; " + nom + "; " + 'sg.nom' + "; " + gender_tag + ".n" 
-            print lemma + "; " + obj + "; " + 'sg.obj' + "; " + gender_tag + ".n"
-            print lemma + "; " + gen + "; " + 'sg.gen' + "; " + gender_tag + ".n" 
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; " + gender_tag + ".np" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; " + gender_tag + ".np"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; " + gender_tag + ".np" 
         #}
         # we got some geological name
         if nptag == '1': #{
             nom, obj, gen, loc =  get_inflection(lemma, False)
-            print lemma + "; " + nom + "; " + 'sg.nom' + "; n" 
-            print lemma + "; " + obj + "; " + 'sg.obj' + "; n"
-            print lemma + "; " + gen + "; " + 'sg.gen' + "; n"
-            print lemma + "; " + loc + "; " + 'sg.loc' + "; n"
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; np" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; np"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; np"
+            print lemma + "; " + loc + "; " + 'sg.loc' + "; np"
         #}
-        # misc
-        if nptag == '5': #{
+        # misc or org
+        if nptag == '5' or nptag == '4': #{
             nom, obj, gen, loc =  get_inflection(lemma, False)
-            print lemma + "; " + nom + "; " + 'sg.nom' + "; n" 
-            print lemma + "; " + obj + "; " + 'sg.obj' + "; n"
-            print lemma + "; " + gen + "; " + 'sg.gen' + "; n"
-            print lemma + "; " + loc + "; " + 'sg.loc' + "; n"
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; np" 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; np"
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; np"
+            print lemma + "; " + loc + "; " + 'sg.loc' + "; np"
         #}            
     #}
 

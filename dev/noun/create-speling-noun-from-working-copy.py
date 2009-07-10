@@ -23,7 +23,7 @@ try:
     for row in rows:
         stem, surface, animacy, gcase, number, gender = row
         if surface != '':
-    	    sys.stdout.write(surface + "; " + stem + "; " + animacy + ".")
+    	    sys.stdout.write(stem + "; " + surface + "; " + animacy + ".")
     	    if number == 'sd':
     	        sys.stdout.write('sg.')
             else:
