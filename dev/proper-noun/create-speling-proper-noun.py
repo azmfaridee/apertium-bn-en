@@ -20,7 +20,7 @@ def get_inflection(stem, animate):
     loc = None
     stem = stem.strip()     
     
-        # যমুনা
+    # যমুনা
     pattern = 'া(ঁ)?$'
     if re.search(pattern, stem):
         #print 'yamuna'
@@ -36,7 +36,7 @@ def get_inflection(stem, animate):
             loc = stem + 'য়'
         return nom, obj, gen, loc       
     
-        # রাজশাহী    
+    # রাজশাহী    
     pattern = K + '(ঁ)?$'
     if re.search(pattern, stem):
         #print 'yamuna'
@@ -53,7 +53,7 @@ def get_inflection(stem, animate):
         return nom, obj, gen, loc
         
         
-        # সুমন
+    # সুমন
     pattern = C + '(ঁ)?$'
     if re.search(pattern, stem):
         #print 'suman'
@@ -69,7 +69,7 @@ def get_inflection(stem, animate):
             loc = stem + 'ে'
         return nom, obj, gen, loc
         
-        # কই
+    # কই
     pattern = V + '(ঁ)?$'
     if re.search(pattern, stem):
         #pdb.set_trace()
@@ -113,9 +113,9 @@ try:
                 gender_tag = 'f'
             #}
             nom, obj, gen, loc =  get_inflection(lemma, True)
-            print lemma + "; " + nom + "; " + 'sg.nom' + "; " + gender_tag + ".np" 
-            print lemma + "; " + obj + "; " + 'sg.obj' + "; " + gender_tag + ".np"
-            print lemma + "; " + gen + "; " + 'sg.gen' + "; " + gender_tag + ".np" 
+            print lemma + "; " + nom + "; " + 'sg.nom' + "; " + "np." + gender_tag 
+            print lemma + "; " + obj + "; " + 'sg.obj' + "; " + "np." + gender_tag
+            print lemma + "; " + gen + "; " + 'sg.gen' + "; " + "np." + gender_tag 
         #}
         # we got some geological name
         if nptag == '1': #{
