@@ -3,6 +3,7 @@
 # -*- encoding: utf-8 -*-
 
 import os
+import string
 import sys
 import codecs
 import re
@@ -146,6 +147,12 @@ def get_symbols(list):
         symbols.append(s)
     return symbols
 
+def get_sym(list):
+    sym = ''
+    for e in list:
+        sym = sym + '<s n=\"' + e + '\">'
+    return sym
+
 def get_enclitic_paradef():
     paradefs = []
     
@@ -176,6 +183,37 @@ def get_enclitic_paradef():
     p.append(r)
     
     return paradefs
+    
+enclitic = """    <pardef n="ই__enclitic">
+      <!-- passthrough -->
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ই</l>
+          <r><j/>ই<s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ও__enclitic">
+      <!-- passthrough -->
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ও</l>
+          <r><j/>ও<s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>"""
     
 try:
     conn = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "bengali_conjugator")
@@ -249,7 +287,7 @@ try:
                                         'loc_o': dic_loc_o
                             }
                           }
-    
+    """
     dictionary = ElementTree.Element('dictionary')
     paradefs = ElementTree.Element('paradefs')
     dictionary.append(paradefs)
@@ -260,8 +298,7 @@ try:
     #enclitic paradefs
     for paradef in get_enclitic_paradef():
         paradefs.append(paradef)
-   
-    
+
     #pprint(entries)
     for lemma, properties in entries.iteritems():
         paradef = ElementTree.Element('paradef', n=lemma + '__' + properties['pos'] + '_' + properties['gender'])
@@ -299,14 +336,72 @@ try:
         
         par = ElementTree.Element('par', n=lemma + '__' + properties['pos'] + '_' + properties['gender'])
         e.append(par)
-
+        
     # create the xml string
     string = ElementTree.tostring(dictionary, encoding='utf-8')
     doc = minidom.parseString(string)
     doc.normalize()
     string = doc.toprettyxml().replace('###', '<b/>')
-    print string
-	
+    print string"""
+    
+    print '<dictionary>';
+    print '  <pardefs>';
+    
+    print enclitic
+    for lemma, properties in entries.iteritems():
+        print '    <paradef n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender']+'\">'
+        for inflection, details in properties['inflections'].iteritems():
+            if details == None:
+                continue
+            print '      <e>'
+            print '        <p>'
+            '''
+            # this snipped removes the enclitic from the l part so that it can be passed to its enclitic paradef, is this really necessary?
+            if details['enclitic']:
+                l = details['surface'].decode('utf-8')[:details['surface'].rfind(details['enclitic']['par'].decode('utf-8')[:1])]
+            else:
+                l = details['surface']'''
+            l = details['surface']
+            print '          <l>' + l + '</l>'
+            print '          <r>' + get_sym([properties['pos'], properties['gender'], properties['subtype'], details['number'], details['case']]) +'</r>'
+            print '        </p>'
+            if details['enclitic']:
+                print '        <par n=\"' + details['enclitic']['par'] +'\">'
+            print '      </e>'
+        print '    </paradef>'
+        
+        """paradef = ElementTree.Element('paradef', n=lemma + '__' + properties['pos'] + '_' + properties['gender'])
+        paradefs.append(paradef)
+        for inflection, details in properties['inflections'].iteritems():
+            if details == None:
+                continue
+            #print details
+            e = ElementTree.Element('e')
+            paradef.append(e)
+            
+            p = ElementTree.Element('p')
+            e.append(p)
+            
+            l = ElementTree.Element('l')
+            l.text = details['surface']
+            p.append(l)
+            
+            r = ElementTree.Element('r')
+            for s in get_symbols([properties['pos'], properties['gender'], properties['subtype'], details['number'], details['case']]):
+                r.append(s)
+            if details['enclitic']:
+                r.append(ElementTree.Element('j'))
+                r.append(ElementTree.Element('par', n = details['enclitic']['par']))
+            p.append(r)"""
+    
+    print '  </pardefs>';
+    print '  <section id="main" type="standard"/>';
+    for lemma, properties in entries.iteritems():
+        print '    <e lm=\"' + lemma + '\"><i>' + lemma.replace(' ', '<b/>') +'</i><par n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender'] + '\"/></e>'      
+    print '  </section>';
+    print '</dictionary>';
+
+    
 except MySQLdb.Error, e:
 	print "Error %d: %s" % (e.args[0], e.args[1])
 	sys.exit (1)
