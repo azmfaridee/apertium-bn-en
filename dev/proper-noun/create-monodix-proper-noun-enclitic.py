@@ -150,7 +150,7 @@ def get_symbols(list):
 def get_sym(list):
     sym = ''
     for e in list:
-        sym = sym + '<s n=\"' + e + '\">'
+        sym = sym + '<s n=\"' + e + '\"/>'
     return sym
 
 def get_enclitic_paradef():
@@ -184,7 +184,7 @@ def get_enclitic_paradef():
     
     return paradefs
     
-enclitic = """    <pardef n="ই__enclitic">
+enclitic = """    <pardef n="enclitic">
       <!-- passthrough -->
       <e>
         <p>
@@ -192,21 +192,14 @@ enclitic = """    <pardef n="ই__enclitic">
           <r></r>
         </p>
       </e>
+      <!-- ই -->
       <e>
         <p>
           <l>ই</l>
           <r><j/>ই<s n="adv"/></r>
         </p>
       </e>
-    </pardef>
-    <pardef n="ও__enclitic">
-      <!-- passthrough -->
-      <e>
-        <p>
-          <l></l>
-          <r></r>
-        </p>
-      </e>
+      <!-- ও -->
       <e>
         <p>
           <l>ও</l>
@@ -222,7 +215,7 @@ try:
     cursor.execute('SET CHARACTER SET utf8')
 	
     ''' Note: we are excluding type 6, this type now hold the errors that anubadok created '''
-    #sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6' and nptag = 0 limit 1"
+    #sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6' and nptag = 0 limit 20"
     sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6'"
     cursor.execute(sql)
 	
@@ -274,8 +267,11 @@ try:
                           'inflections': {'nom': dic_nom,
                                         'obj': dic_obj,
                                         'gen': dic_gen,
-                                        'loc': dic_loc,
-                                        
+                                        'loc': dic_loc
+                            }
+                          }
+        """
+        
                                         'nom_e': dic_nom_e,
                                         'obj_e': dic_obj_e,
                                         'gen_e': dic_gen_e,
@@ -285,8 +281,9 @@ try:
                                         'obj_o': dic_obj_o,
                                         'gen_o': dic_gen_o,
                                         'loc_o': dic_loc_o
-                            }
-                          }
+        """
+        
+    #pprint(entries)
     """
     dictionary = ElementTree.Element('dictionary')
     paradefs = ElementTree.Element('paradefs')
@@ -349,7 +346,7 @@ try:
     
     print enclitic
     for lemma, properties in entries.iteritems():
-        print '    <paradef n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender']+'\">'
+        print '    <pardef n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender']+'\">'
         for inflection, details in properties['inflections'].iteritems():
             if details == None:
                 continue
@@ -363,12 +360,14 @@ try:
                 l = details['surface']'''
             l = details['surface']
             print '          <l>' + l + '</l>'
-            print '          <r>' + get_sym([properties['pos'], properties['gender'], properties['subtype'], details['number'], details['case']]) +'</r>'
+            print '          <r>' + get_sym([properties['pos'], properties['subtype'], properties['gender'], details['number'], details['case']]) +'</r>'
             print '        </p>'
-            if details['enclitic']:
-                print '        <par n=\"' + details['enclitic']['par'] +'\">'
+            '''if details['enclitic']:
+                print '        <par n=\"' + details['enclitic']['par'] +'\"/>'
+            '''
+            print '        <par n=\"enclitic\"/>'
             print '      </e>'
-        print '    </paradef>'
+        print '    </pardef>'
         
         """paradef = ElementTree.Element('paradef', n=lemma + '__' + properties['pos'] + '_' + properties['gender'])
         paradefs.append(paradef)
@@ -395,7 +394,7 @@ try:
             p.append(r)"""
     
     print '  </pardefs>';
-    print '  <section id="main" type="standard"/>';
+    print '  <section id="main" type="standard">';
     for lemma, properties in entries.iteritems():
         print '    <e lm=\"' + lemma + '\"><i>' + lemma.replace(' ', '<b/>') +'</i><par n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender'] + '\"/></e>'      
     print '  </section>';
