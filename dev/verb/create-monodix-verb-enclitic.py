@@ -535,7 +535,7 @@ def process_verbs(list):
 		inflection[decoded_verb] = get_inflection_write(decoded_verb, length)
 		continue
 	    
-	    ''' CKC as in পাড়, নাড় '''	
+	    ''' CKC as in পাড়, নাড়, ছুট '''	
 	    regex = BnChars['consonant_real'] + BnChars['marker'] + u'(ঁ?)' + BnChars['consonant'] + '$'
 	    p = re.compile(regex)
 	    m = p.search(verb.decode())
@@ -698,8 +698,14 @@ def get_prepared_list_from_database(cursor):
 	    verb, = row
 	    single_word_verbs.append(verb)
 	    
-    
     return single_word_verbs
+
+
+def print_speling():
+    for lemma, v in inflection.iteritems():
+	for tense, exapand in v.iteritems():
+	    print lemma + "; " + exapand + "; " +  speling_tags[tense] + "; vblex"
+    
 try:
     conn = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "bengali_conjugator")
     
@@ -719,10 +725,7 @@ try:
     process_verbs(single_word_verbs)
     
     #pprint(inflection)
-    for lemma, v in inflection.iteritems():
-	for tense, exapand in v.iteritems():
-	    print lemma + "; " + exapand + "; " +  speling_tags[tense] + "; vblex"
-    """"""
+    print_speling()
     """
     for row in rows:
 	db_lemma, db_animacy, db_gender = row

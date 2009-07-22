@@ -5,6 +5,7 @@
 import sys, codecs, copy, Ft;
 from Ft.Xml.Domlette import NonvalidatingReader;
 from Ft.Xml.XPath import Evaluate;
+import os;
 
 #from xml.dom import minidom;
 #from xml import xpath;
@@ -16,7 +17,15 @@ sys.setrecursionlimit(20000);
 
 dictionary = sys.argv[1];
 
-doc = NonvalidatingReader.parseUri('file:///' + dictionary);
+f = open(sys.argv[1]);
+contents = f.read()
+f.close()
+
+# quick and dirty fix for the multiword problem, we'll replace the back in the end
+contents = contents.replace('<b/>', '###')
+
+doc = NonvalidatingReader.parseString(contents)
+#doc = NonvalidatingReader.parseUri('file:///' + dictionary);
 path = '/dictionary/pardefs/pardef';
 
 paradigms = {};
@@ -252,7 +261,8 @@ for paradigm in paradigms.keys(): #{
 		if pair[0] == type(None): #{
 			print '          <l/>';
 		else: #{
-			print('          <l>%s</l>' % (pair[0]));
+			#print('          <l>%s</l>' % (pair[0]));
+			print('          <l>%s</l>' % (pair[0].replace('###', '<b/>')));			
 		#}
 		rpost = paradigm[bar_idx:udr_idx];
 		if paradigm.find('/') == -1: #{
