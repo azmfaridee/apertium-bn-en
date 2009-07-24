@@ -10,12 +10,16 @@ import pdb
 import codecs
 from pprint import pprint
 
+# these are kept here for comatibility, will remove that soon, please try to use BnChars dictionary
 V = u'[অআইঈউঊঋএঐওঔ]'
 C = u'[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়]'
 K = u'[ািীুূৃেৈোৌ]'
 N = u'[০১২৩৪৫৬৭৮৯]'
 M = u'[ঁংঃ]'
 H = u'[্]'
+
+animacy_table = {'0': 'nn', '1': 'aa', '2': 'hu', '3': 'el'}
+gender_table = {'0': 'mf', '1': 'm', '2': 'f', '3': 'nt'}
 
 BnChars = {'vowel': u'[অআইঈউঊঋএঐওঔ]',
 	   'consonant_real': u'[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়]',
@@ -30,6 +34,8 @@ BnChars = {'vowel': u'[অআইঈউঊঋএঐওঔ]',
 	   
 	   'consonant': u'[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়' + u'ংঃ' + u'্]'}
 
+# be careful here, the ordering is really very important, we'll use this tuple in the zip fuction to
+# create a dictionary
 forms = ('inf',
 	 'gen',
 	 'ger',
@@ -92,14 +98,16 @@ forms = ('inf',
 	 )
 
 tags = {}
+''' create tags for the xml '''
 for form in forms:
-    symbol_tags = ""
+    symbol_tags = '<s n=\"vblex\"/>'
     for s in form.split('_'):
-	symbol_tags +=  '<n s=\"' + s + '\"/>'
+	symbol_tags +=  '<s n=\"' + s + '\"/>'
     tags[form] = symbol_tags
     
     
 speling_tags = {}
+''' create tag for the speling format '''
 for form in forms:
     symbol_tags = form.replace('_', '.')
     speling_tags[form] = symbol_tags
@@ -112,9 +120,6 @@ DEBUG = False
 def dprint(str):
     if DEBUG == True:
 	print "DEBUG: " + str
-
-animacy_table = {'0': 'nn', '1': 'aa', '2': 'hu', '3': 'el'}
-gender_table = {'0': 'mf', '1': 'm', '2': 'f', '3': 'nt'}
 
 def get_sym(list):
     sym = ''
@@ -150,7 +155,24 @@ enclitic = """    <pardef n="enclitic">
       </e>
     </pardef>"""
     
+def find_longest_common_substring(a, b):
+    candidate = ''
+    length = len(a.decode('utf-8'))
+    for char in a.decode('utf-8'):
+        candidate = candidate + char
+        if b.find(candidate.encode('utf-8')) == -1:
+            return candidate[0:len(candidate)-1]
+    return candidate
+
+def find_longest_common_substring_from_list(list):
+    ''' Longest common substring for a given list '''
+    a = list[0]
+    for b in list[1:]:
+        a = find_longest_common_substring(a, b)
+    return a
+    
 def append_real_verbs(cursor, sql, single_word_verbs):
+    ''' Splits the REAL verbs from the compund verbs and adds them to the single_word_verbs list '''
     cursor.execute(sql)
     rows = cursor.fetchall()
     for row in rows:
@@ -159,12 +181,13 @@ def append_real_verbs(cursor, sql, single_word_verbs):
 	if real_verb != None and real_verb != '\n' and real_verb not in single_word_verbs:
 	    single_word_verbs.append(real_verb)
 
-def string_length_compare(a, b): 
-	if len(a) == len(b): 
-		return 0;
-	if len(a) > len(b): 
-		return 1;
-	return -1;
+def string_length_compare(a, b):
+    ''' comparison function that can be fed to a sort function '''
+    if len(a) == len(b): 
+        return 0;
+    if len(a) > len(b): 
+	return 1;
+    return -1;
 
 def get_inflection_do(verb, effective_length):
     ''' XCK as in করা/পড়া/নাড়া
@@ -205,22 +228,22 @@ def get_inflection_do(verb, effective_length):
     if DEBUG == True:
 	print verb, umlaut
     
-    inflections = ( verb + "তে",
-		    verb + "নোর",
-		    verb + "নো",
-		    verb + "ই",  verb + "ন", verb + "ও", verb + "স",  verb + "ন", verb + "য়",  verb + "য়",
-		    verb + "চ্ছি",  verb + "চ্ছেন", verb + "চ্ছ", verb + "চ্ছিস",  verb + "চ্ছেন", verb + "চ্ছে",  verb + "চ্ছে",
-		    verb + "লাম",  verb + "লেন", verb + "লে", verb + "লি",  verb + "লেন", verb + "ল",  verb + "ল",
-		    verb + "চ্ছিলাম",  verb + "চ্ছিলেন", verb + "চ্ছিলে", verb + "চ্ছিলি",  verb + "চ্ছিলেন", verb + "চ্ছিল",  verb + "চ্ছিল",
-		    verb + "তাম",  verb + "তেন", verb + "তে", verb + "তি",  verb + "তেন", verb + "ত",  verb + "ত",
-		    verb + "ব",  verb + "বেন", verb + "বে", verb + "বি",  verb + "বেন", verb + "বে",  verb + "বে",
-		    verb + "তে থাকব",  verb + "তে থাকবেন", verb + "তে থাকবে", verb + "তে থাকবি",  verb + "তে থাকবেন", verb + "তে থাকবে",  verb + "তে থাকবে",
-		    umlaut + "য়েছি",  umlaut + "য়েছেন", umlaut + "য়েছ", umlaut + "য়েছিস",  umlaut + "য়েছেন", umlaut + "য়েছে",  umlaut + "য়েছে",
-		    umlaut + "য়েছিলাম",  umlaut + "য়েছিলেন", umlaut + "য়েছিলে", umlaut + "য়েছিলি",  umlaut + "য়েছিলেন", umlaut + "য়েছিল",  umlaut + "য়েছিল",		    
-		    umlaut + "য়ে",
-		    verb + "লে",		    
-		    verb + "ন", verb + "ও", verb, verb + "ন", verb + "ক", verb + "ক",
-		    verb + "বেন", verb + "বে", verb + "বি",  verb + "বে", verb + "বি", verb + "বি" 
+    inflections = ( verb + u'তে',
+		    verb + u'নোর',
+		    verb + u'নো',
+		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
+		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
+		    verb + u'লাম',  verb + u'লেন', verb + u'লে', verb + u'লি',  verb + u'লেন', verb + u'ল',  verb + u'ল',
+		    verb + u'চ্ছিলাম',  verb + u'চ্ছিলেন', verb + u'চ্ছিলে', verb + u'চ্ছিলি',  verb + u'চ্ছিলেন', verb + u'চ্ছিল',  verb + u'চ্ছিল',
+		    verb + u'তাম',  verb + u'তেন', verb + u'তে', verb + u'তি',  verb + u'তেন', verb + u'ত',  verb + u'ত',
+		    verb + u'ব',  verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বেন', verb + u'বে',  verb + u'বে',
+		    verb + u'তে থাকব',  verb + u'তে থাকবেন', verb + u'তে থাকবে', verb + u'তে থাকবি',  verb + u'তে থাকবেন', verb + u'তে থাকবে',  verb + u'তে থাকবে',
+		    umlaut + u'য়েছি',  umlaut + u'য়েছেন', umlaut + u'য়েছ', umlaut + u'য়েছিস',  umlaut + u'য়েছেন', umlaut + u'য়েছে',  umlaut + u'য়েছে',
+		    umlaut + u'য়েছিলাম',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিলে', umlaut + u'য়েছিলি',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিল',  umlaut + u'য়েছিল',		    
+		    umlaut + u'য়ে',
+		    verb + u'লে',		    
+		    verb + u'ন', verb + u'ও', verb, verb + u'ন', verb + u'ক', verb + u'ক',
+		    verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বে', verb + u'বি', verb + u'বি' 
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -268,22 +291,22 @@ def get_inflection_write(verb, effective_length):
     
     #inflections ={}
     
-    inflections = ( umlaut + "তে",
-		    verb + "ার",
-		    verb + "া",
-		    umlaut + "ি",  verb + "েন", verb, umlaut + "িস",  verb + "েন", verb + "ে",  verb + "ে",
-		    umlaut + "ছি",  umlaut + "ছেন", umlaut + "ছ", umlaut + "ছিস",  umlaut + "ছেন", umlaut + "ছে",  umlaut + "ছে",
-		    umlaut + "লাম",  umlaut + "লেন", umlaut + "লে", umlaut + "লি",  umlaut + "লেন", umlaut + "ল",  umlaut + "ল",
-		    umlaut + "ছিলাম",  umlaut + "ছিলেন", umlaut + "ছিলে", umlaut + "ছিলি",  umlaut + "ছিলেন", umlaut + "ছিল",  umlaut + "ছিল",
-		    umlaut + "তাম",  umlaut + "তেন", umlaut + "তে", umlaut + "তি",  umlaut + "তেন", umlaut + "ত",  umlaut + "ত",
-		    umlaut + "ব",  umlaut + "বেন", umlaut + "বে", umlaut + "বি",  umlaut + "বেন", umlaut + "বে",  umlaut + "বে",
-		    umlaut + "তে থাকব",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে", umlaut + "তে থাকবি",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে",  umlaut + "তে থাকবে",
-		    umlaut + "েছি",  umlaut + "েছেন", umlaut + "েছ", umlaut + "েছিস",  umlaut + "েছেন", umlaut + "েছে",  umlaut + "েছে",
-		    umlaut + "েছিলাম",  umlaut + "েছিলেন", umlaut + "েছিলে", umlaut + "েছিলি",  umlaut + "েছিলেন", umlaut + "েছিল", umlaut + "েছিল",  umlaut + "েছিল",					
-		    umlaut + "ে",
-		    umlaut + "লে",		    
-		    umlaut + "ুন", verb, umlaut,  umlaut + "ুন", umlaut + "ুক", umlaut + "ুক",
-		    umlaut + "বেন", verb + "ো", umlaut + "িস",  umlaut + "বেন", umlaut + "বে", umlaut + "বে"
+    inflections = ( umlaut + u'তে',
+		    verb + u'ার',
+		    verb + u'া',
+		    umlaut + u'ি',  verb + u'েন', verb, umlaut + u'িস',  verb + u'েন', verb + u'ে',  verb + u'ে',
+		    umlaut + u'ছি',  umlaut + u'ছেন', umlaut + u'ছ', umlaut + u'ছিস',  umlaut + u'ছেন', umlaut + u'ছে',  umlaut + u'ছে',
+		    umlaut + u'লাম',  umlaut + u'লেন', umlaut + u'লে', umlaut + u'লি',  umlaut + u'লেন', umlaut + u'ল',  umlaut + u'ল',
+		    umlaut + u'ছিলাম',  umlaut + u'ছিলেন', umlaut + u'ছিলে', umlaut + u'ছিলি',  umlaut + u'ছিলেন', umlaut + u'ছিল',  umlaut + u'ছিল',
+		    umlaut + u'তাম',  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
+		    umlaut + u'ব',  umlaut + u'বেন', umlaut + u'বে', umlaut + u'বি',  umlaut + u'বেন', umlaut + u'বে',  umlaut + u'বে',
+		    umlaut + u'তে থাকব',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে', umlaut + u'তে থাকবি',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে',  umlaut + u'তে থাকবে',
+		    umlaut + u'েছি',  umlaut + u'েছেন', umlaut + u'েছ', umlaut + u'েছিস',  umlaut + u'েছেন', umlaut + u'েছে',  umlaut + u'েছে',
+		    umlaut + u'েছিলাম',  umlaut + u'েছিলেন', umlaut + u'েছিলে', umlaut + u'েছিলি',  umlaut + u'েছিলেন', umlaut + u'েছিল', umlaut + u'েছিল',  umlaut + u'েছিল',					
+		    umlaut + u'ে',
+		    umlaut + u'লে',		    
+		    umlaut + u'ুন', verb, umlaut,  umlaut + u'ুন', umlaut + u'ুক', umlaut + u'ুক',
+		    umlaut + u'বেন', verb + u'ো', umlaut + u'িস',  umlaut + u'বেন', umlaut + u'বে', umlaut + u'বে'
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -323,22 +346,22 @@ def get_inflection_shake(verb, effective_length):
 	print verb, umlaut
     
     # here comes the actual calculation for the forms
-    inflections = ( verb + "তে",
-		    verb + "ার",
-		    verb + "া",
-		    verb + "ি", verb + "েন", verb, verb + "িস", verb + "েন", verb + "ে", verb + "ে",
-		    verb + "ছি", verb + "ছেন", verb + "ছ", verb + "ছিস", verb + "ছেন", verb + "ছে", verb + "ছে", 
-		    verb + "লাম",  verb + "লেন", verb + "লে", verb + "লি",  verb + "লেন", verb + "ল",  verb + "ল",
-		    verb + "ছিলাম", verb + "ছিলেন", verb + "ছিলে", verb + "ছিলি", verb + "ছিলেন", verb + "ছিল", verb + "ছিল",
-		    verb + "তাম", verb + "তেন", verb + "তে", verb + "তি", verb + "তেন", verb + "ত", verb + "ত",
-		    verb + "ব", verb + "বেন", verb + "বে", verb + "বি", verb + "বেন", verb + "বে", verb + "বে",
-		    verb + "তে থাকব", verb + "তে থাকবেন", verb + "তে থাকবে", verb + "তে থাকবি", verb + "তে থাকবেন", verb + "তে থাকবে", verb + "তে থাকবে",
-		    umlaut + "েছি", umlaut + "েছেন", umlaut + "েছ", umlaut + "েছিস", umlaut + "েছেন", umlaut + "েছে", umlaut + "েছে",
-		    umlaut + "েছিলাম", umlaut + "েছিলেন", umlaut + "েছিলে", umlaut + "েছিলি", umlaut + "েছিলেন", umlaut + "েছিল", umlaut + "েছিল", umlaut + "েছিল",
-		    umlaut + "ে",
-		    verb + "লে",		    
-		    verb + "ুন", verb, verb, verb + "ুন", verb + "ুক", verb + "ুক",
-		    verb + "বেন", umlaut + "ো", verb + "িস", verb + "বেন", verb + "বে", verb + "বে"
+    inflections = ( verb + u'তে',
+		    verb + u'ার',
+		    verb + u'া',
+		    verb + u'ি', verb + u'েন', verb, verb + u'িস', verb + u'েন', verb + u'ে', verb + u'ে',
+		    verb + u'ছি', verb + u'ছেন', verb + u'ছ', verb + u'ছিস', verb + u'ছেন', verb + u'ছে', verb + u'ছে', 
+		    verb + u'লাম',  verb + u'লেন', verb + u'লে', verb + u'লি',  verb + u'লেন', verb + u'ল',  verb + u'ল',
+		    verb + u'ছিলাম', verb + u'ছিলেন', verb + u'ছিলে', verb + u'ছিলি', verb + u'ছিলেন', verb + u'ছিল', verb + u'ছিল',
+		    verb + u'তাম', verb + u'তেন', verb + u'তে', verb + u'তি', verb + u'তেন', verb + u'ত', verb + u'ত',
+		    verb + u'ব', verb + u'বেন', verb + u'বে', verb + u'বি', verb + u'বেন', verb + u'বে', verb + u'বে',
+		    verb + u'তে থাকব', verb + u'তে থাকবেন', verb + u'তে থাকবে', verb + u'তে থাকবি', verb + u'তে থাকবেন', verb + u'তে থাকবে', verb + u'তে থাকবে',
+		    umlaut + u'েছি', umlaut + u'েছেন', umlaut + u'েছ', umlaut + u'েছিস', umlaut + u'েছেন', umlaut + u'েছে', umlaut + u'েছে',
+		    umlaut + u'েছিলাম', umlaut + u'েছিলেন', umlaut + u'েছিলে', umlaut + u'েছিলি', umlaut + u'েছিলেন', umlaut + u'েছিল', umlaut + u'েছিল', umlaut + u'েছিল',
+		    umlaut + u'ে',
+		    verb + u'লে',		    
+		    verb + u'ুন', verb, verb, verb + u'ুন', verb + u'ুক', verb + u'ুক',
+		    verb + u'বেন', umlaut + u'ো', verb + u'িস', verb + u'বেন', verb + u'বে', verb + u'বে'
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -346,29 +369,29 @@ def get_inflection_shake(verb, effective_length):
 
 def get_inflection_be(verb, length):
     # special inflection case for verb আছ - be
-    umlaut = 'থাক'
-    umlaut2 = 'রই'
+    umlaut = u'থাক'
+    umlaut2 = u'রই'
     
     inflections = {}
     if DEBUG == True:
 	print verb
     
-    inflections = ( umlaut + "তে",
-		    umlaut + "ার",
-		    umlaut + "া",
-		    verb + "ি",  verb + "েন", verb, verb + "িস",  verb + "েন", verb + "ে",  verb + "ে",
-		    umlaut + "ছি",  umlaut + "ছেন", umlaut + "ছ", umlaut + "ছিস",  umlaut + "ছেন", umlaut + "ছে",  umlaut + "ছে",
-		    umlaut + "লাম",  umlaut + "লেন", umlaut + "লে", umlaut + "লি",  umlaut + "লেন", umlaut + "ল",  umlaut + "ল",
-		    umlaut + "ছিলাম",  umlaut + "ছিলেন", umlaut + "ছিলে", umlaut + "ছিলি",  umlaut + "ছিলেন", umlaut + "ছিল",  umlaut + "ছিল",
-		    umlaut + "তাম",  umlaut + "তেন", umlaut + "তে", umlaut + "তি",  umlaut + "তেন", umlaut + "ত",  umlaut + "ত",
-		    umlaut + "ব",  umlaut + "বেন", umlaut + "বে", umlaut + "বি",  umlaut + "বেন", umlaut + "বে",  umlaut + "বে",
-		    umlaut2 + "তে থাকব",  umlaut2 + "তে থাকবেন", umlaut2 + "তে থাকবে", umlaut2 + "তে থাকবি",  umlaut2 + "তে থাকবেন", umlaut2 + "তে থাকবে",  umlaut2 + "তে থাকবে",
-		    verb + "ি",  verb + "েন", verb, verb + "িস",  verb + "েন", verb + "ে",  verb + "ে",
-		    "ছিলাম",  "ছিলেন", "ছিলে", "ছিলি", "ছিলেন", "ছিল", "ছিল",
-		    "থেকে",
-		    umlaut + "লে",		    
-		    umlaut + "ুন", umlaut, umlaut, umlaut + "ুন", umlaut + "ুক", umlaut + "ুক",
-		    umlaut + "বেন", "থেকো", "থাকিস",  umlaut + "বেন", umlaut + "বে", umlaut + "বে" 		    
+    inflections = ( umlaut + u'তে',
+		    umlaut + u'ার',
+		    umlaut + u'া',
+		    verb + u'ি',  verb + u'েন', verb, verb + u'িস',  verb + u'েন', verb + u'ে',  verb + u'ে',
+		    umlaut + u'ছি',  umlaut + u'ছেন', umlaut + u'ছ', umlaut + u'ছিস',  umlaut + u'ছেন', umlaut + u'ছে',  umlaut + u'ছে',
+		    umlaut + u'লাম',  umlaut + u'লেন', umlaut + u'লে', umlaut + u'লি',  umlaut + u'লেন', umlaut + u'ল',  umlaut + u'ল',
+		    umlaut + u'ছিলাম',  umlaut + u'ছিলেন', umlaut + u'ছিলে', umlaut + u'ছিলি',  umlaut + u'ছিলেন', umlaut + u'ছিল',  umlaut + u'ছিল',
+		    umlaut + u'তাম',  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
+		    umlaut + u'ব',  umlaut + u'বেন', umlaut + u'বে', umlaut + u'বি',  umlaut + u'বেন', umlaut + u'বে',  umlaut + u'বে',
+		    umlaut2 + u'তে থাকব',  umlaut2 + u'তে থাকবেন', umlaut2 + u'তে থাকবে', umlaut2 + u'তে থাকবি',  umlaut2 + u'তে থাকবেন', umlaut2 + u'তে থাকবে',  umlaut2 + u'তে থাকবে',
+		    verb + u'ি',  verb + u'েন', verb, verb + u'িস',  verb + u'েন', verb + u'ে',  verb + u'ে',
+		    u'ছিলাম',  u'ছিলেন', u'ছিলে', u'ছিলি', u'ছিলেন', u'ছিল', u'ছিল',
+		    u'থেকে',
+		    umlaut + u'লে',		    
+		    umlaut + u'ুন', umlaut, umlaut, umlaut + u'ুন', umlaut + u'ুক', umlaut + u'ুক',
+		    umlaut + u'বেন', u'থেকো', u'থাকিস',  umlaut + u'বেন', umlaut + u'বে', umlaut + u'বে' 		    
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -386,22 +409,22 @@ def get_inflection_eat(verb, length):
     
     inflections = {}
     
-    inflections = ( umlaut + "তে",
-		    verb + "ার",
-		    verb + "ওয়া",
-		    verb + "ই",  verb + "ন", verb + "ও", verb + "স",  verb + "ন", verb + "য়",  verb + "য়",
-		    verb + "চ্ছি",  verb + "চ্ছেন", verb + "চ্ছ", verb + "চ্ছিস",  verb + "চ্ছেন", verb + "চ্ছে",  verb + "চ্ছে",
-		    umlaut + "লাম",  umlaut + "লেন", umlaut + "লে", umlaut + "লি",  umlaut + "লেন", umlaut + "ল",  umlaut + "ল",
-		    verb + "চ্ছিলাম",  verb + "চ্ছিলেন", verb + "চ্ছিলে", verb + "চ্ছিলি",  verb + "চ্ছিলেন", verb + "চ্ছিল",  verb + "চ্ছিল",
-		    umlaut + "তাম" ,  umlaut + "তেন", umlaut + "তে", umlaut + "তি",  umlaut + "তেন", umlaut + "ত",  umlaut + "ত",
-		    verb + "ব",  verb + "বেন", verb + "বে", verb + "বি",  verb + "বেন", verb + "বে",  verb + "বে",
-		    umlaut + "তে থাকব",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে", umlaut + "তে থাকবি",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে",  umlaut + "তে থাকবে",
-		    umlaut + "য়েছি",  umlaut + "য়েছেন", umlaut + "য়েছ", umlaut + "য়েছিস",  umlaut + "য়েছেন", umlaut + "য়েছে",  umlaut + "য়েছে",
-		    umlaut + "য়েছিলাম",  umlaut + "য়েছিলেন", umlaut + "য়েছিলে", umlaut + "য়েছিলি",  umlaut + "য়েছিলেন", umlaut + "য়েছিল",  umlaut + "য়েছিল",		    
-		    umlaut + "য়ে",
-		    umlaut + "লে",		    
-		    verb + "ন", verb + "ও", verb, verb + "ন", verb + "ক", verb + "ক",
-		    verb + "বেন", umlaut + "ও", verb + "স",  verb + "বেন", verb + "বে", verb + "বে"
+    inflections = ( umlaut + u'তে',
+		    verb + u'বার',
+		    verb + u'ওয়া',
+		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
+		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
+		    umlaut + u'লাম',  umlaut + u'লেন', umlaut + u'লে', umlaut + u'লি',  umlaut + u'লেন', umlaut + u'ল',  umlaut + u'ল',
+		    verb + u'চ্ছিলাম',  verb + u'চ্ছিলেন', verb + u'চ্ছিলে', verb + u'চ্ছিলি',  verb + u'চ্ছিলেন', verb + u'চ্ছিল',  verb + u'চ্ছিল',
+		    umlaut + u'তাম' ,  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
+		    verb + u'ব',  verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বেন', verb + u'বে',  verb + u'বে',
+		    umlaut + u'তে থাকব',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে', umlaut + u'তে থাকবি',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে',  umlaut + u'তে থাকবে',
+		    umlaut + u'য়েছি',  umlaut + u'য়েছেন', umlaut + u'য়েছ', umlaut + u'য়েছিস',  umlaut + u'য়েছেন', umlaut + u'য়েছে',  umlaut + u'য়েছে',
+		    umlaut + u'য়েছিলাম',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিলে', umlaut + u'য়েছিলি',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিল',  umlaut + u'য়েছিল',		    
+		    umlaut + u'য়ে',
+		    umlaut + u'লে',		    
+		    verb + u'ন', verb + u'ও', verb, verb + u'ন', verb + u'ক', verb + u'ক',
+		    verb + u'বেন', umlaut + u'ও', verb + u'স',  verb + u'বেন', verb + u'বে', verb + u'বে'
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -420,22 +443,22 @@ def get_inflection_go(verb, length):
     
     inflections = {}
         
-    inflections = ( umlaut + "তে",
-		    verb + "বার",
-		    verb + "ওয়া",
-		    verb + "ই",  verb + "ন", verb + "ও", verb + "স",  verb + "ন", verb + "য়",  verb + "য়",
-		    verb + "চ্ছি",  verb + "চ্ছেন", verb + "চ্ছ", verb + "চ্ছিস",  verb + "চ্ছেন", verb + "চ্ছে",  verb + "চ্ছে",
-		    umlaut2 + "লাম",  umlaut2 + "লেন", umlaut2 + "লে", umlaut2 + "লি",  umlaut2 + "লেন", umlaut2 + "ল",  umlaut2 + "ল",
-		    verb + "চ্ছিলাম",  verb + "চ্ছিলেন", verb + "চ্ছিলে", verb + "চ্ছিলি",  verb + "চ্ছিলেন", verb + "চ্ছিল",  verb + "চ্ছিল",
-		    umlaut + "তাম",  umlaut + "তেন", umlaut + "তে", umlaut + "তি",  umlaut + "তেন", umlaut + "ত",  umlaut + "ত",
-		    verb + "ব",  verb + "বেন", verb + "বে", verb + "বি",  verb + "বেন", verb + "বে",  verb + "বে",
-		    umlaut + "তে থাকব",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে", umlaut + "তে থাকবি",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে",  umlaut + "তে থাকবে",
-		    umlaut3 + "য়েছি",  umlaut3 + "য়েছেন", umlaut3 + "য়েছ", umlaut3 + "য়েছিস",  umlaut3 + "য়েছেন", umlaut3 + "য়েছে",  umlaut3 + "য়েছে",
-		    umlaut3 + "য়েছিলাম",  umlaut3 + "য়েছিলেন", umlaut3 + "য়েছিলে", umlaut3 + "য়েছিলি",  umlaut3 + "য়েছিলেন", umlaut3 + "য়েছিল",  umlaut3 + "য়েছিল",
-		    umlaut3 + "য়ে",
-		    umlaut2 + "লে",		    
-		    verb + "ন", verb + "ও", verb, verb + "ন", verb + "ক", verb + "ক",
-		    verb + "বেন", verb + "বে", verb + "বি",  verb + "বেন", verb + "বে", verb + "বে" 		    
+    inflections = ( umlaut + u'তে',
+		    verb + u'বার',
+		    verb + u'ওয়া',
+		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
+		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
+		    umlaut2 + u'লাম',  umlaut2 + u'লেন', umlaut2 + u'লে', umlaut2 + u'লি',  umlaut2 + u'লেন', umlaut2 + u'ল',  umlaut2 + u'ল',
+		    verb + u'চ্ছিলাম',  verb + u'চ্ছিলেন', verb + u'চ্ছিলে', verb + u'চ্ছিলি',  verb + u'চ্ছিলেন', verb + u'চ্ছিল',  verb + u'চ্ছিল',
+		    umlaut + u'তাম',  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
+		    verb + u'ব',  verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বেন', verb + u'বে',  verb + u'বে',
+		    umlaut + u'তে থাকব',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে', umlaut + u'তে থাকবি',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে',  umlaut + u'তে থাকবে',
+		    umlaut3 + u'য়েছি',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছ', umlaut3 + u'য়েছিস',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছে',  umlaut3 + u'য়েছে',
+		    umlaut3 + u'য়েছিলাম',  umlaut3 + u'য়েছিলেন', umlaut3 + u'য়েছিলে', umlaut3 + u'য়েছিলি',  umlaut3 + u'য়েছিলেন', umlaut3 + u'য়েছিল',  umlaut3 + u'য়েছিল',
+		    umlaut3 + u'য়ে',
+		    umlaut2 + u'লে',		    
+		    verb + u'ন', verb + u'ও', verb, verb + u'ন', verb + u'ক', verb + u'ক',
+		    verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বেন', verb + u'বে', verb + u'বে' 		    
 		   )
     inflections = dict(zip(forms, inflections))
         
@@ -459,22 +482,22 @@ def get_inflection_take(verb, length):
         
     #inflections = {}
 
-    inflections = ( umlaut + "তে",
-		    verb + "বার",
-		    verb + "ওয়া",
-		    verb + "ই",  verb + "ন", umlaut2 + "ও", umlaut + "স",  verb + "ন", verb + "য়",  verb + "য়",
-		    umlaut + "চ্ছি",  umlaut + "চ্ছেন", umlaut + "চ্ছ", umlaut + "চ্ছিস",  umlaut + "চ্ছেন", umlaut + "চ্ছে",  umlaut + "চ্ছে",
-		    umlaut + "লাম",  umlaut + "লেন", umlaut + "লে", umlaut + "লি",  umlaut + "লেন", umlaut + "ল",  umlaut + "ল",
-		    umlaut + "চ্ছিলাম",  umlaut + "চ্ছিলেন", umlaut + "চ্ছিলে", umlaut + "চ্ছিলি",  umlaut + "চ্ছিলেন", umlaut + "চ্ছিল",  umlaut + "চ্ছিল",
-		    umlaut + "তাম",  umlaut + "তেন", umlaut + "তে", umlaut + "তি",  umlaut + "তেন", umlaut + "ত",  umlaut + "ত",
-		    verb + "ব",  verb + "বেন", verb + "বে", umlaut + "বি",  verb + "বেন", verb + "বে",  verb + "বে",
-		    umlaut + "তে থাকব",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে", umlaut + "তে থাকবি",  umlaut + "তে থাকবেন", umlaut + "তে থাকবে",  umlaut + "তে থাকবে",
-		    umlaut + "য়েছি",  umlaut + "য়েছেন", umlaut + "য়েছ", umlaut + "য়েছিস",  umlaut + "য়েছেন", umlaut + "য়েছে",  umlaut + "য়েছে",
-		    umlaut + "য়েছিলাম",  umlaut + "য়েছিলেন", umlaut + "য়েছিলে", umlaut + "য়েছিলি",  umlaut + "য়েছিলেন", umlaut + "য়েছিল",  umlaut + "য়েছিল",
-		    umlaut + "য়ে",
-		    umlaut + "লে",		    
-		    verb + "ন", umlaut2 + "ও", verb,  verb + "ন", umlaut + "ক", umlaut + "ক",
-		    verb + "বেন", umlaut + "ও", umlaut + "স",  verb + "বেন", verb + "বে", verb + "বে"
+    inflections = ( umlaut + u'তে',
+		    verb + u'বার',
+		    verb + u'ওয়া',
+		    verb + u'ই',  verb + u'ন', umlaut2 + u'ও', umlaut + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
+		    umlaut + u'চ্ছি',  umlaut + u'চ্ছেন', umlaut + u'চ্ছ', umlaut + u'চ্ছিস',  umlaut + u'চ্ছেন', umlaut + u'চ্ছে',  umlaut + u'চ্ছে',
+		    umlaut + u'লাম',  umlaut + u'লেন', umlaut + u'লে', umlaut + u'লি',  umlaut + u'লেন', umlaut + u'ল',  umlaut + u'ল',
+		    umlaut + u'চ্ছিলাম',  umlaut + u'চ্ছিলেন', umlaut + u'চ্ছিলে', umlaut + u'চ্ছিলি',  umlaut + u'চ্ছিলেন', umlaut + u'চ্ছিল',  umlaut + u'চ্ছিল',
+		    umlaut + u'তাম',  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
+		    verb + u'ব',  verb + u'বেন', verb + u'বে', umlaut + u'বি',  verb + u'বেন', verb + u'বে',  verb + u'বে',
+		    umlaut + u'তে থাকব',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে', umlaut + u'তে থাকবি',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে',  umlaut + u'তে থাকবে',
+		    umlaut + u'য়েছি',  umlaut + u'য়েছেন', umlaut + u'য়েছ', umlaut + u'য়েছিস',  umlaut + u'য়েছেন', umlaut + u'য়েছে',  umlaut + u'য়েছে',
+		    umlaut + u'য়েছিলাম',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিলে', umlaut + u'য়েছিলি',  umlaut + u'য়েছিলেন', umlaut + u'য়েছিল',  umlaut + u'য়েছিল',
+		    umlaut + u'য়ে',
+		    umlaut + u'লে',		    
+		    verb + u'ন', umlaut2 + u'ও', verb,  verb + u'ন', umlaut + u'ক', umlaut + u'ক',
+		    verb + u'বেন', umlaut + u'ও', umlaut + u'স',  verb + u'বেন', verb + u'বে', verb + u'বে'
 		   )
     inflections = dict(zip(forms, inflections))
     
@@ -653,6 +676,7 @@ def normalize(list):
     return normalized_list
 
 def insert_into_database(list, cursor):
+    ''' update the verb_stems table in the datebase '''
     for verb in list:
 	sql_check = ''' select count(*) from verb_stems where lemma = '%s' ''' % (verb.encode('utf-8'))
 	#print sql_check
@@ -687,6 +711,7 @@ def get_list_from_database(cursor):
 
 
 def get_prepared_list_from_database(cursor):
+    ''' get single word verbs from the database '''
     sql_select = ''' SELECT lemma FROM verb_stems '''
     
     single_word_verbs = []
@@ -702,11 +727,72 @@ def get_prepared_list_from_database(cursor):
 
 
 def print_speling():
+    ''' create the speling format '''
     for lemma, v in inflection.iteritems():
 	for tense, exapand in v.iteritems():
 	    print lemma + "; " + exapand + "; " +  speling_tags[tense] + "; vblex"
+	    
+def preprocess_dix_format():
+    for lemma, details in inflection.iteritems():
+	
+	# we need to find the longest common substring from the inflectoion list
+	tense_list, inflection_list = zip(*details.items())
+	common = find_longest_common_substring_from_list(inflection_list)
+	
+	# create the pardef name
+	pardef_name =  common + '/' +  lemma.replace(common, '', 1) + '__vblex'
+	#print pardef_name
+	
+	dix_inflection_list = []
+	
+	for e in inflection_list:
+	    # make sure we don't replace the lemma more than once of it's also occurs inside as a part 
+	    dix_inflection_list.append(e.replace(common, '', 1))
+	
+	# now update the dix format
+	dix_format[pardef_name] = {'suffixes': dict(zip(tense_list, dix_inflection_list)),
+				   'lemma_end': lemma.replace(common, '', 1),
+				   'lemma_start': common}
+	
+def print_dix():
+    print '<dictionary>';
+    print '  <pardefs>';
+    
+    print enclitic
+    
+    for pardef, properties in dix_format.iteritems():
+	print '    <pardef n=\"' + pardef + '\">'     
+	
+	lemma_start = properties['lemma_start']
+	lemma_end = properties['lemma_end']
+	
+	for tense, suffix in properties['suffixes'].iteritems():
+	    l = suffix
+	    r = lemma_end + tags[tense]
+	    print '      <e>'
+	    print '        <p>'
+	    print '          <l>' + l + '</l>'
+	    print '          <r>' + r + '</r>'
+	    print '        </p>'
+	    print '        <par n=\"enclitic\"/>'
+	    print '      </e>'
+	print '    </pardef>'
+	    
+    print '  </pardefs>';
+    
+    print '  <section id="main" type="standard">'
+    for pardef, properties in dix_format.iteritems():
+	lemma_start = properties['lemma_start']
+	lemma_end = properties['lemma_end']
+	# this lemma does not contain any blank space, otherwise we'll need to take care of them too
+        print '    <e lm=\"' + lemma_start + lemma_end + '\"><i>' + lemma_start +'</i><par n=\"'  + pardef + '\"/></e>'
+    print '  </section>'
+    print '</dictionary>'
+    
     
 try:
+    print >> sys.stderr, "STARTING"
+    
     conn = MySQLdb.connect(host = "localhost", user = "root", passwd = "root", db = "bengali_conjugator")
     
     cursor = conn.cursor()
@@ -719,78 +805,24 @@ try:
     insert_into_database(single_word_verbs, cursor)
     '''
     inflection = {}
+    dix_format = {}
     
     # use this segment to get the prepared verbs from the verb_stems table
     single_word_verbs = get_prepared_list_from_database(cursor)
     process_verbs(single_word_verbs)
     
     #pprint(inflection)
-    print_speling()
-    """
-    for row in rows:
-	db_lemma, db_animacy, db_gender = row
-	#pprint(row)
-	
-	lemma = db_lemma
-	gender = gender_table[db_gender]
-	animacy = animacy_table[db_animacy]
-	entries[lemma] = {'pos' : 'n', 'gender': gender, 'animacy': animacy, 'inflections': {}}
-	
-	#print lemma
-	entries[lemma]['inflections']['nom'], entries[lemma]['inflections']['obj'], entries[lemma]['inflections']['gen'], entries[lemma]['inflections']['loc'] = get_inflection(lemma = lemma, animacy = animacy)
     
-    #pprint(entries)
+    #print_speling()
     
-    print '<dictionary>';
-    print '  <pardefs>';
-    
-    print enclitic
-    
-    for lemma, properties in entries.iteritems():
-	#pprint(lemma)
-	#pprint(properties)
-	pos = properties['pos']
-	gender = properties['gender']
-	animacy = properties['animacy']
-	print '    <pardef n=\"' + lemma + '__' + pos + '_' + gender +'\">'     
-        
-	for case, details in properties['inflections'].iteritems():
-	    #print case, details
-	    for type, details2 in details.iteritems():
-		#print case, type, details2
-		if details2 == None:
-		    continue
-		for number, affix in details2.iteritems():
-		    #print case, type, number, affix
-		    print '      <e>'
-		    print '        <p>'
-		    print '          <l>' + affix + '</l>'
-		    r = get_sym([pos, gender, animacy])
-		    number_symbol, def_symbol = get_num(number)
-		    r = r + number_symbol + get_sym([case])
-		    if def_symbol != None:
-			r = r + def_symbol
-		    print '          <r>' + r +'</r>'
-		    print '        </p>'
-		    print '        <par n=\"enclitic\"/>'
-		    print '      </e>'
-		    
-		    # add enclitic e
-		    
-		    # add enclitic o
-		    
-	print '    </pardef>'
-	    
-    print '  </pardefs>';
-    print '  <section id="main" type="standard">'
-    for lemma, properties in entries.iteritems():
-        print '    <e lm=\"' + lemma + '\"><i>' + lemma.replace(' ', '<b/>') +'</i><par n=\"' + lemma + '__' + properties['pos'] + '_' + properties['gender'] + '\"/></e>'
-    print '  </section>'
-    print '</dictionary>'
-    """
+    preprocess_dix_format()
+    #pprint(dix_format)
+    print_dix()
     
     cursor.close()
     conn.close()
+    
+    print >> sys.stderr, "DONE"
 except MySQLdb.Error, e:
 	print "Error %d: %s" % (e.args[0], e.args[1])
 	sys.exit (1)
