@@ -7,6 +7,9 @@ from Ft.Xml.Domlette import NonvalidatingReader;
 from Ft.Xml.XPath import Evaluate;
 import os;
 
+# just for debugging
+import pdb;
+
 #from xml.dom import minidom;
 #from xml import xpath;
 
@@ -22,7 +25,12 @@ contents = f.read()
 f.close()
 
 # quick and dirty fix for the multiword problem, we'll replace the back in the end
-contents = contents.replace('<b/>', '###')
+contents = contents.replace('<b/>', '##b##');
+
+# another quick and diry fix for the anclitic join problem :(
+# this makes the <j/> part of the node text, mostly occurs in the right side
+#contents = contents.replace('<j/>', '##j##');
+
 
 doc = NonvalidatingReader.parseString(contents)
 #doc = NonvalidatingReader.parseUri('file:///' + dictionary);
@@ -35,6 +43,31 @@ paradigms = {};
 #
 # n.m.sg --> <s n="n"/><s n="m"/><s n="sg"/>
 #
+
+# the cnclitic pardef
+parenclitic = """    <pardef n="enclitic">
+      <!-- passthrough -->
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+      <!-- ই -->
+      <e>
+        <p>
+          <l>ই</l>
+          <r><j/>ই<s n="adv"/></r>
+        </p>
+      </e>
+      <!-- ও -->
+      <e>
+        <p>
+          <l>ও</l>
+          <r><j/>ও<s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>"""
 
 def return_symlist(symlist): #{
 	if len(symlist) < 1: #{
@@ -135,6 +168,12 @@ count = 0;
 # For each paradigm definition in the pardefs section
 for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
         pardef = node.getAttributeNS(None, 'n');
+	
+	# we skip the the pardef is enclitic, as there is some bug
+	# we'll the enclitic later
+	if pardef == 'enclitic': #{
+		continue;
+	#}
 
 	if pardef not in paradigms: #{
 		# Create a new list for the suffix/symbol tuples
@@ -148,6 +187,25 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 
 	# For each entry <e> in the paradigm,
 	for child in Ft.Xml.XPath.Evaluate('.//e', contextNode=node): #{
+		
+		# checking if we have any nested pardef, then well just associate those
+		# with current pardef
+		# TODO: need to fix the order the pardef occurs
+		
+		nestedpar = ''
+		for nested in Ft.Xml.XPath.Evaluate('.//par', contextNode=child): #{
+			if type(nested) != type(None): #{
+				name = nested.getAttributeNS(None, 'n');
+				if name != '': #{
+					if nestedpar == '': #{
+						nestedpar = name;
+					else:
+						nestedpar = nestedpar  + '.' + name;
+					#}
+				#}
+			#}
+		#}
+		
 		# For each pair <p> in the entry,
 		for pair in Ft.Xml.XPath.Evaluate('.//p', contextNode=child): #{
 			suffix = '';
@@ -163,6 +221,16 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 			symbols = '';
 			# The right side <r> is the list of symbols
 			right =  Ft.Xml.XPath.Evaluate('.//r', contextNode=pair)[0];
+			
+			"""
+			# get the right node value if the right side contains some
+			if type(right) != type(None): #{
+				righttext = left.nodeValue;
+			else: #{
+				righttext = ''
+			#}
+			"""
+			
 			for sym in Ft.Xml.XPath.Evaluate('.//s', contextNode=right): #{
 				symbol = '';
 				if type(sym) != type(None): #{
@@ -171,7 +239,7 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 				symbols = symbols + '.' + symbol;
 			#}
 
-			p = (suffix, symbols);
+			p = (suffix, symbols, nestedpar);
 
 			# Add the tuple of suffix and symbols to the paradigm
 			# e.g. for the noun `pan' the following tuples:
@@ -250,6 +318,7 @@ print >> sys.stderr, '---';
 # Print out new dictionary and pardefs section.
 print '<dictionary>';
 print '  <pardefs>';
+print parenclitic
 for paradigm in paradigms.keys(): #{
 	bar_idx = paradigm.find(u'/') + 1;
 	udr_idx = paradigm.find(u'_');
@@ -262,7 +331,7 @@ for paradigm in paradigms.keys(): #{
 			print '          <l/>';
 		else: #{
 			#print('          <l>%s</l>' % (pair[0]));
-			print('          <l>%s</l>' % (pair[0].replace('###', '<b/>')));			
+			print('          <l>%s</l>' % (pair[0].replace('##b##', '<b/>')));			
 		#}
 		rpost = paradigm[bar_idx:udr_idx];
 		if paradigm.find('/') == -1: #{
@@ -270,6 +339,13 @@ for paradigm in paradigms.keys(): #{
 		#}
 		print '          <r>' + rpost + return_symlist(pair[1]) + '</r>';
 		print '        </p>';
+		
+		# check to print nested par
+		if pair[2] != '': #{
+			for nestedpar in pair[2].split('.'): #{
+				print '        <par n="' + nestedpar +'"/>';	
+			#}
+		#}
 		print '      </e>';
 	#}
 	print '    </pardef>';

@@ -40,62 +40,52 @@ forms = ('inf',
 	 'gen',
 	 'ger',
 	 
-	 'pres_smpl_p1',
-	 'pres_smpl_p2_pol', 'pres_smpl_p2_fam', 'pres_smpl_p2_infml',
-	 'pres_smpl_p3_pol', 'pres_smpl_p3_infml',
-	 'pres_smpl_impers',
+	 'pres_smpl_p1', 'pres_smpl_p2_pol', 'pres_smpl_p2_fam', 'pres_smpl_p2_infml', 'pres_smpl_p3_pol', 'pres_smpl_p3_infml', 'pres_smpl_impers',
+	 'pres_smpl_p1_neg', 'pres_smpl_p2_pol_neg', 'pres_smpl_p2_fam_neg', 'pres_smpl_p2_infml_neg', 'pres_smpl_p3_pol_neg', 'pres_smpl_p3_infml_neg', 'pres_smpl_impers_neg',
 	 
-	 'pres_cnt_p1',
-	 'pres_cnt_p2_pol', 'pres_cnt_p2_fam', 'pres_cnt_p2_infml',
-	 'pres_cnt_p3_pol', 'pres_cnt_p3_infml',
-	 'pres_cnt_impers',
 	 
-	 'past_smpl_p1',
-	 'past_smpl_p2_pol', 'past_smpl_p2_fam', 'past_smpl_p2_infml',
-	 'past_smpl_p3_pol', 'past_smpl_p3_infml',
-	 'past_smpl_impers',
+         'pres_cnt_p1', 'pres_cnt_p2_pol', 'pres_cnt_p2_fam', 'pres_cnt_p2_infml', 'pres_cnt_p3_pol', 'pres_cnt_p3_infml', 'pres_cnt_impers',
+	 'pres_cnt_p1_neg', 'pres_cnt_p2_pol_neg', 'pres_cnt_p2_fam_neg', 'pres_cnt_p2_infml_neg', 'pres_cnt_p3_pol_neg', 'pres_cnt_p3_infml_neg', 'pres_cnt_impers_neg',
 	 
-	 'past_cnt_p1',
-	 'past_cnt_p2_pol', 'past_cnt_p2_fam', 'past_cnt_p2_infml',
-	 'past_cnt_p3_pol', 'past_cnt_p3_infml',
-	 'past_cnt_impers',
+         
+	 'past_smpl_p1', 'past_smpl_p2_pol', 'past_smpl_p2_fam', 'past_smpl_p2_infml', 'past_smpl_p3_pol', 'past_smpl_p3_infml', 'past_smpl_impers',
+	 'past_smpl_p1_neg', 'past_smpl_p2_pol_neg', 'past_smpl_p2_fam_neg', 'past_smpl_p2_infml_neg', 'past_smpl_p3_pol_neg', 'past_smpl_p3_infml_neg', 'past_smpl_impers_neg',
 	 
-	 'past_hbtl_p1',
-	 'past_hbtl_p2_pol', 'past_hbtl_p2_fam', 'past_hbtl_p2_infml',
-	 'past_hbtl_p3_pol', 'past_hbtl_p3_infml',
-	 'past_hbtl_impers',
+         
+	 'past_cnt_p1', 'past_cnt_p2_pol', 'past_cnt_p2_fam', 'past_cnt_p2_infml', 'past_cnt_p3_pol', 'past_cnt_p3_infml', 'past_cnt_impers',
+	 'past_cnt_p1_neg', 'past_cnt_p2_pol_neg', 'past_cnt_p2_fam_neg', 'past_cnt_p2_infml_neg', 'past_cnt_p3_pol_neg', 'past_cnt_p3_infml_neg', 'past_cnt_impers_neg',
 	 
-	 'ft_smpl_p1',
-	 'ft_smpl_p2_pol', 'ft_smpl_p2_fam', 'ft_smpl_p2_infml',
-	 'ft_smpl_p3_pol', 'ft_smpl_p3_infml',
-	 'ft_smpl_impers',
+         
+	 'past_hbtl_p1', 'past_hbtl_p2_pol', 'past_hbtl_p2_fam', 'past_hbtl_p2_infml', 'past_hbtl_p3_pol', 'past_hbtl_p3_infml', 'past_hbtl_impers',
+	 'past_hbtl_p1_neg', 'past_hbtl_p2_pol_neg', 'past_hbtl_p2_fam_neg', 'past_hbtl_p2_infml_neg', 'past_hbtl_p3_pol_neg', 'past_hbtl_p3_infml_neg', 'past_hbtl_impers_neg',
 	 
-	 'ft_cnt_p1',
-	 'ft_cnt_p2_pol', 'ft_cnt_p2_fam', 'ft_cnt_p2_infml',
-	 'ft_cnt_p3_pol', 'ft_cnt_p3_infml',
-	 'ft_cnt_impers',
+         
+	 'ft_smpl_p1', 'ft_smpl_p2_pol', 'ft_smpl_p2_fam', 'ft_smpl_p2_infml', 'ft_smpl_p3_pol', 'ft_smpl_p3_infml', 'ft_smpl_impers',
+	 'ft_smpl_p1_neg', 'ft_smpl_p2_pol_neg', 'ft_smpl_p2_fam_neg', 'ft_smpl_p2_infml_neg', 'ft_smpl_p3_pol_neg', 'ft_smpl_p3_infml_neg', 'ft_smpl_impers_neg',
 	 
-	 'prft_p1',
-	 'prft_p2_pol', 'prft_p2_fam', 'prft_p2_infml',
-	 'prft_p3_pol', 'prft_p3_infml',
-	 'prft_impers',
+         
+	 'ft_cnt_p1', 'ft_cnt_p2_pol', 'ft_cnt_p2_fam', 'ft_cnt_p2_infml', 'ft_cnt_p3_pol', 'ft_cnt_p3_infml', 'ft_cnt_impers',
+	 'ft_cnt_p1_neg', 'ft_cnt_p2_pol_neg', 'ft_cnt_p2_fam_neg', 'ft_cnt_p2_infml_neg', 'ft_cnt_p3_pol_neg', 'ft_cnt_p3_infml_neg', 'ft_cnt_impers_neg',
 	 
-	 'plprft_p1',
-	 'plprft_p2_pol', 'plprft_p2_fam', 'plprft_p2_infml',
-	 'plprft_p3_pol', 'plprft_p3_infml',
-	 'plprft_impers',
+         
+	 'prft_p1', 'prft_p2_pol', 'prft_p2_fam', 'prft_p2_infml', 'prft_p3_pol', 'prft_p3_infml', 'prft_impers',
+	 'prft_p1_neg', 'prft_p2_pol_neg', 'prft_p2_fam_neg', 'prft_p2_infml_neg', 'prft_p3_pol_neg', 'prft_p3_infml_neg', 'prft_impers_neg',
 	 
+         
+	 'plprft_p1', 'plprft_p2_pol', 'plprft_p2_fam', 'plprft_p2_infml', 'plprft_p3_pol', 'plprft_p3_infml', 'plprft_impers',
+	 'plprft_p1_neg', 'plprft_p2_pol_neg', 'plprft_p2_fam_neg', 'plprft_p2_infml_neg', 'plprft_p3_pol_neg', 'plprft_p3_infml_neg', 'plprft_impers_neg',
+	 
+         
 	 'ppst',
 	 'pcnd',
 	 
-	 'pres_imp_p2_pol', 'pres_imp_p2_fam', 'pres_imp_p2_infml',
-	 'pres_imp_p3_pol', 'pres_imp_p3_infml',
-	 'pres_imp_impers',
+	 'pres_imp_p2_pol', 'pres_imp_p2_fam', 'pres_imp_p2_infml', 'pres_imp_p3_pol', 'pres_imp_p3_infml', 'pres_imp_impers',
+	 'pres_imp_p2_pol_neg', 'pres_imp_p2_fam_neg', 'pres_imp_p2_infml_neg', 'pres_imp_p3_pol_neg', 'pres_imp_p3_infml_neg', 'pres_imp_impers_neg',
 	 
-	 'ft_imp_p2_pol', 'ft_imp_p2_fam', 'ft_imp_p2_infml',
-	 'ft_imp_p3_pol', 'ft_imp_p3_infml',
-	 'ft_imp_impers',
-	 )
+	 'ft_imp_p2_pol', 'ft_imp_p2_fam', 'ft_imp_p2_infml', 'ft_imp_p3_pol', 'ft_imp_p3_infml', 'ft_imp_impers',
+	 'ft_imp_p2_pol_neg', 'ft_imp_p2_fam_neg', 'ft_imp_p2_infml_neg', 'ft_imp_p3_pol_neg', 'ft_imp_p3_infml_neg', 'ft_imp_impers_neg',
+	 
+         )
 
 tags = {}
 ''' create tags for the xml '''
@@ -231,8 +221,11 @@ def get_inflection_do(verb, effective_length):
     inflections = ( verb + u'তে',
 		    verb + u'নোর',
 		    verb + u'নো',
+                    
 		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
-		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
+		    
+                    
+                    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
 		    verb + u'লাম',  verb + u'লেন', verb + u'লে', verb + u'লি',  verb + u'লেন', verb + u'ল',  verb + u'ল',
 		    verb + u'চ্ছিলাম',  verb + u'চ্ছিলেন', verb + u'চ্ছিলে', verb + u'চ্ছিলি',  verb + u'চ্ছিলেন', verb + u'চ্ছিল',  verb + u'চ্ছিল',
 		    verb + u'তাম',  verb + u'তেন', verb + u'তে', verb + u'তি',  verb + u'তেন', verb + u'ত',  verb + u'ত',

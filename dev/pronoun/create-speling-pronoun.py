@@ -27,7 +27,7 @@ try:
 
 		#print lemma, surface, person, number, gcase, pos, tag, gender, animacy, tag2
 		#print surface + "; " + lemma + ";",
-		sys.stdout.write(surface + "; " + lemma + "; ")
+		sys.stdout.write(lemma + "; " + surface + "; ")
 		if person != 'all':
 			sys.stdout.write(person + ".")
 		if tag != '':

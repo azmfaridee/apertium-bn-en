@@ -23,7 +23,30 @@
         </p>
       </e>
     </pardef>
-    <pardef n="বঙ্গবন্ধু__np_m">
+    <pardef n="খালেদা__np_f">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>কে</l>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obj"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>র</l>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+    </pardef>
+    <pardef n="এসআই__np_m">
       <e>
         <p>
           <l></l>
@@ -41,351 +64,6 @@
       <e>
         <p>
           <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="সালাম__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="তারেক__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="করিম__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="রাসেল__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="চৌধুরী__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="জিয়া__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="ইউসুফ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="আলম__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="জাহাঙ্গীর__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="হোসেন__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="জয়__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="হাসান__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="দত্ত__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="আবদুল্লাহ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="খান__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
           <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
         <par n="enclitic"/>
@@ -414,336 +92,38 @@
         <par n="enclitic"/>
       </e>
     </pardef>
-    <pardef n="মুহাম্মদ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="নীল__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="শাহ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="সুমন__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="মাইকেল__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="বুশ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="বাবু__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="আজাদ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="খালেদা__np_f">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="গোলাম__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ের</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="মোহাম্মদ__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="এসআই__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="কাজী__np_m">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obj"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
   </pardefs>
   <section id="main" type="standard">
-    <e lm="বঙ্গবন্ধু"><i>বঙ্গবন্ধু</i><par n="বঙ্গবন্ধু__np_m"/></e>
-    <e lm="সালাম"><i>সালাম</i><par n="সালাম__np_m"/></e>
-    <e lm="তারেক"><i>তারেক</i><par n="তারেক__np_m"/></e>
-    <e lm="করিম"><i>করিম</i><par n="করিম__np_m"/></e>
-    <e lm="রাসেল"><i>রাসেল</i><par n="রাসেল__np_m"/></e>
-    <e lm="চৌধুরী"><i>চৌধুরী</i><par n="চৌধুরী__np_m"/></e>
-    <e lm="জিয়া"><i>জিয়া</i><par n="জিয়া__np_m"/></e>
-    <e lm="ইউসুফ"><i>ইউসুফ</i><par n="ইউসুফ__np_m"/></e>
-    <e lm="আলম"><i>আলম</i><par n="আলম__np_m"/></e>
-    <e lm="জাহাঙ্গীর"><i>জাহাঙ্গীর</i><par n="জাহাঙ্গীর__np_m"/></e>
-    <e lm="হোসেন"><i>হোসেন</i><par n="হোসেন__np_m"/></e>
-    <e lm="জয়"><i>জয়</i><par n="জয়__np_m"/></e>
-    <e lm="হাসান"><i>হাসান</i><par n="হাসান__np_m"/></e>
-    <e lm="দত্ত"><i>দত্ত</i><par n="দত্ত__np_m"/></e>
-    <e lm="আবদুল্লাহ"><i>আবদুল্লাহ</i><par n="আবদুল্লাহ__np_m"/></e>
-    <e lm="খান"><i>খান</i><par n="খান__np_m"/></e>
+    <e lm="বঙ্গবন্ধু"><i>বঙ্গবন্ধু</i><par n="এসআই__np_m"/></e>
+    <e lm="সালাম"><i>সালাম</i><par n="জন__np_m"/></e>
+    <e lm="তারেক"><i>তারেক</i><par n="জন__np_m"/></e>
+    <e lm="করিম"><i>করিম</i><par n="জন__np_m"/></e>
+    <e lm="রাসেল"><i>রাসেল</i><par n="জন__np_m"/></e>
+    <e lm="চৌধুরী"><i>চৌধুরী</i><par n="এসআই__np_m"/></e>
+    <e lm="জিয়া"><i>জিয়া</i><par n="এসআই__np_m"/></e>
+    <e lm="ইউসুফ"><i>ইউসুফ</i><par n="জন__np_m"/></e>
+    <e lm="আলম"><i>আলম</i><par n="জন__np_m"/></e>
+    <e lm="জাহাঙ্গীর"><i>জাহাঙ্গীর</i><par n="জন__np_m"/></e>
+    <e lm="হোসেন"><i>হোসেন</i><par n="জন__np_m"/></e>
+    <e lm="জয়"><i>জয়</i><par n="জন__np_m"/></e>
+    <e lm="হাসান"><i>হাসান</i><par n="জন__np_m"/></e>
+    <e lm="দত্ত"><i>দত্ত</i><par n="জন__np_m"/></e>
+    <e lm="আবদুল্লাহ"><i>আবদুল্লাহ</i><par n="জন__np_m"/></e>
+    <e lm="খান"><i>খান</i><par n="জন__np_m"/></e>
     <e lm="জন"><i>জন</i><par n="জন__np_m"/></e>
-    <e lm="মুহাম্মদ"><i>মুহাম্মদ</i><par n="মুহাম্মদ__np_m"/></e>
-    <e lm="নীল"><i>নীল</i><par n="নীল__np_m"/></e>
-    <e lm="শাহ"><i>শাহ</i><par n="শাহ__np_m"/></e>
-    <e lm="সুমন"><i>সুমন</i><par n="সুমন__np_m"/></e>
-    <e lm="মাইকেল"><i>মাইকেল</i><par n="মাইকেল__np_m"/></e>
-    <e lm="বুশ"><i>বুশ</i><par n="বুশ__np_m"/></e>
-    <e lm="বাবু"><i>বাবু</i><par n="বাবু__np_m"/></e>
-    <e lm="আজাদ"><i>আজাদ</i><par n="আজাদ__np_m"/></e>
+    <e lm="মুহাম্মদ"><i>মুহাম্মদ</i><par n="এসআই__np_m"/></e>
+    <e lm="নীল"><i>নীল</i><par n="জন__np_m"/></e>
+    <e lm="শাহ"><i>শাহ</i><par n="জন__np_m"/></e>
+    <e lm="সুমন"><i>সুমন</i><par n="জন__np_m"/></e>
+    <e lm="মাইকেল"><i>মাইকেল</i><par n="জন__np_m"/></e>
+    <e lm="বুশ"><i>বুশ</i><par n="জন__np_m"/></e>
+    <e lm="বাবু"><i>বাবু</i><par n="এসআই__np_m"/></e>
+    <e lm="আজাদ"><i>আজাদ</i><par n="এসআই__np_m"/></e>
     <e lm="খালেদা"><i>খালেদা</i><par n="খালেদা__np_f"/></e>
-    <e lm="গোলাম"><i>গোলাম</i><par n="গোলাম__np_m"/></e>
-    <e lm="মোহাম্মদ"><i>মোহাম্মদ</i><par n="মোহাম্মদ__np_m"/></e>
+    <e lm="গোলাম"><i>গোলাম</i><par n="জন__np_m"/></e>
+    <e lm="মোহাম্মদ"><i>মোহাম্মদ</i><par n="এসআই__np_m"/></e>
     <e lm="এসআই"><i>এসআই</i><par n="এসআই__np_m"/></e>
-    <e lm="কাজী"><i>কাজী</i><par n="কাজী__np_m"/></e>
+    <e lm="কাজী"><i>কাজী</i><par n="এসআই__np_m"/></e>
+
   </section>
 </dictionary>

@@ -59,18 +59,18 @@ try:
         if(degree == '1'):
             comp, sup = get_sansktrit_inflection(lemma)
             sys.stdout.write(lemma + "; " + lemma + "; sint." + gender + "; adj\n")
-            sys.stdout.write(comp + "; " + lemma + "; " + "sint.comp." + gender + "; adj\n")
-            sys.stdout.write(sup + "; " + lemma + "; " + "sint.sup." + gender + "; adj\n")
+            sys.stdout.write(lemma + "; " + comp + "; " + "sint.comp." + gender + "; adj\n")
+            sys.stdout.write(lemma + "; " + sup + "; " + "sint.sup." + gender + "; adj\n")
         # when the adjective has only synth superlative
         if(degree == '2'):
             comp, sup = get_sansktrit_inflection(lemma)
             sys.stdout.write(lemma + "; " + lemma + "; psint." + gender + "; adj\n")
-            sys.stdout.write(sup + "; " + lemma + "; " + "psint.sup." + gender + "; adj\n")
+            sys.stdout.write(lemma + "; " + sup + "; " + "psint.sup." + gender + "; adj\n")
         # when the adjective has only syth comparative, no superlative
         if(degree == '3'):
             comp, sup = get_sansktrit_inflection(lemma)
             sys.stdout.write(lemma + "; " + lemma + "; psint." + gender + "; adj\n")
-            sys.stdout.write(comp + "; " + lemma + "; " + "psint.comp." + gender + "; adj\n")
+            sys.stdout.write(lemma + "; " + comp + "; " + "psint.comp." + gender + "; adj\n")
     cursor.close ()
     conn.close ()
 
