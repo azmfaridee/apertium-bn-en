@@ -106,8 +106,8 @@ try:
     cursor.execute('SET CHARACTER SET utf8')
 	
     ''' Note: we are excluding type 6, this type now hold the errors that anubadok created '''
-    sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6' and nptag = 0 limit 30"
-    #sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6'"
+    #sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6' and nptag = 0 limit 30"
+    sql = " select lemma, gender, nptag from proper_noun_source_freq where nptag <> '6'"
     cursor.execute(sql)
 	
     rows = cursor.fetchall()
