@@ -30,6 +30,8 @@
     <sdef n="p2"        c="Second person"/>
     <sdef n="p3"        c="Third person"/>
 
+    <sdef n="dem"       c="Demonstrative"/>
+
     <sdef n="num"       c="Numeral"/>
     <sdef n="vblex"     c="Verb"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
@@ -53,14 +55,14 @@
            be good to treat reflexive and possessive pronouns similarly in English. -->
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="aa"/><s n="mf"/><s n="sg"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>yours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>yours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="aa"/><s n="mf"/><s n="sg"/></l><r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -78,12 +80,16 @@
     <e r="LR"><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/></l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
 
 
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>ours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
-    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>ours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="aa"/><s n="mf"/><s n="pl"/></l><r>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>নিজে<s n="prn"/><s n="ref"/><s n="aa"/><s n="mf"/><s n="pl"/></l><r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
 

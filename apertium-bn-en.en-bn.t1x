@@ -76,6 +76,7 @@
       <attr-item tags="p3"/>
     </def-attr>
     <def-attr n="temps">
+      <attr-item tags="pres.smpl"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="inf"/>
@@ -161,45 +162,57 @@
         <choose>
           <when>
             <test>
-              <equal>
-                <clip pos="1" side="tl" part="pers"/>
-                <lit-tag v="p1"/>
-              </equal>
-            </test>   
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="tipus_prn"/>
+                  <lit-tag v="dem"/>
+                </equal>
+              </not>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <lit-tag v="p1"/>
+                  </equal>
+                </test>   
+                <let>
+                  <var n="person"/>
+                  <clip pos="1" side="tl" part="pers"/>
+                </let>
+              </when>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <lit-tag v="p2"/>
+                  </equal>
+                </test>   
+                <let>
+                  <var n="person"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <lit-tag v="pol"/>
+                  </concat>
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                  <var n="person"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <lit-tag v="infml"/>
+                  </concat>
+                </let>
+              </otherwise>  
+            </choose>
             <let>
-              <var n="person"/>
               <clip pos="1" side="tl" part="pers"/>
+              <var n="person"/>
             </let>
           </when>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="pers"/>
-                <lit-tag v="p2"/>
-              </equal>
-            </test>   
-            <let>
-              <var n="person"/>
-              <concat>
-                <clip pos="1" side="tl" part="pers"/>
-                <lit-tag v="pol"/>
-              </concat>
-            </let>
-          </when>
-          <otherwise>
-            <let>
-              <var n="person"/>
-              <concat>
-                <clip pos="1" side="tl" part="pers"/>
-                <lit-tag v="infml"/>
-              </concat>
-            </let>
-          </otherwise>  
         </choose>
-        <let>
-          <clip pos="1" side="tl" part="pers"/>
-          <var n="person"/>
-        </let>
         <out>
           <chunk name="prnsubj" case="caseFirstWord">
             <tags>
@@ -250,6 +263,23 @@
         <pattern-item n="verbcj"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pres"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
+        </choose>
         <let>
           <clip pos="1" side="tl" part="temps"/>
           <concat>
