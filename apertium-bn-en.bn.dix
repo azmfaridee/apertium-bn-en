@@ -26,7 +26,7 @@
     <sdef n="dem"          c="Demonstrative"/>
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
-    <sdef n="rec"          c=""/>
+    <sdef n="rec"          c="Reciprocal"/>
     <sdef n="itg"          c="Interrogative"/>
 
     <sdef n="fam"          c="Familiar"/>
