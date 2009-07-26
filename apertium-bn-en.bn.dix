@@ -11,6 +11,12 @@
     <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
     <sdef n="vblex"        c="Verb"/>
 
+    <sdef n="al"           c="Altres"/>
+    <sdef n="top"          c="Toponyms"/>
+    <sdef n="ant"          c="Antroponyms"/>
+    <sdef n="cog"          c="Cognomen"/>
+    <sdef n="org"          c="Organisation"/>
+
     <sdef n="sint"         c="Synthetic"/>
     <sdef n="psint"        c="Partially synthetic"/>
     <sdef n="comp"         c="Comparative"/>
@@ -20,6 +26,8 @@
     <sdef n="dem"          c="Demonstrative"/>
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
+    <sdef n="rec"          c=""/>
+    <sdef n="itg"          c="Interrogative"/>
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -2067,7 +2075,7 @@
       <e>
         <p>
           <l />
-          <r><s n="post" /><s n="" /></r>
+          <r><s n="post" /></r>
         </p>
       </e>
     </pardef>
@@ -2078,7 +2086,7 @@
       <e>
         <p>
           <l />
-          <r><s n="prn" /><s n="p3" /><s n="rec" /><s n="mf" /><s n="pl" /><s n="" /></r>
+          <r><s n="prn" /><s n="p3" /><s n="rec" /><s n="mf" /><s n="pl" /></r>
         </p>
       </e>
     </pardef>
@@ -2122,7 +2130,7 @@
       <e>
         <p>
           <l />
-          <r><s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r>
+          <r><s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r>
         </p>
       </e>
     </pardef>
@@ -2314,7 +2322,7 @@
       <e>
         <p>
           <l />
-          <r><s n="prn" /><s n="p3" /><s n="rec" /><s n="mf" /><s n="sp" /><s n="" /></r>
+          <r><s n="prn" /><s n="p3" /><s n="rec" /><s n="mf" /><s n="sp" /></r>
         </p>
       </e>
     </pardef>
@@ -2322,19 +2330,19 @@
       <e>
         <p>
           <l>ার</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>িসে</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>ি</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
@@ -2358,13 +2366,13 @@
       <e>
         <p>
           <l>দের</l>
-          <r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="gen" /></r>
+          <r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
+          <r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
@@ -2916,13 +2924,13 @@
       <e>
         <p>
           <l>ার</l>
-          <r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
+          <r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
+          <r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
