@@ -45,6 +45,12 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="post"         c="Postposition"/>
     <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
     <sdef n="vblex"        c="Verb"/>
+    
+     <sdef n="al"           c="Altres"/>
+     <sdef n="top"          c="Toponyms"/>
+     <sdef n="ant"          c="Antroponyms"/>
+     <sdef n="cog"          c="Cognomen"/>
+     <sdef n="org"          c="Organisation"/>
 
     <sdef n="sint"         c="Synthetic"/>
     <sdef n="psint"        c="Partially synthetic"/>
@@ -55,6 +61,8 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="dem"          c="Demonstrative"/>
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
+    <sdef n="rec"          c="Reciprocal"/>
+    <sdef n="int"          c="Interrogative"/>
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -99,6 +107,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="ppst"         c="Past Participle"/>
     <sdef n="pcnd"         c="Conditional Participle"/>
     <sdef n="imp"          c="Imperative"/>
+
 
     <sdef n="sent"         c="End of sentence marker"/>
   </sdefs>

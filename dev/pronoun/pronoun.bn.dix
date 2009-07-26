@@ -27,7 +27,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="pl"/><s n=""/></r>
+          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -263,7 +263,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="sp"/><s n=""/></r>
+          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>

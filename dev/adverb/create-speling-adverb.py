@@ -31,7 +31,7 @@ try:
 	
 	for row in rows:
 		word, = row	
-		sys.stdout.write(word + "; " + word + "; ;adv\n")
+		sys.stdout.write(word + "; " + word + ";;adv\n")
 	
 	cursor.close ()
 	conn.close ()

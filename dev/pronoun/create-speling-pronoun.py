@@ -27,18 +27,30 @@ try:
 
 		#print lemma, surface, person, number, gcase, pos, tag, gender, animacy, tag2
 		#print surface + "; " + lemma + ";",
-		sys.stdout.write(lemma + "; " + surface + "; ")
-		if person != 'all':
-			sys.stdout.write(person + ".")
-		if tag != '':
-			sys.stdout.write(tag + ".")
-		if tag2 != '':
-			sys.stdout.write(tag2 + ".")
-		if animacy != '':
-			sys.stdout.write(animacy + ".")
-		sys.stdout.write(gender  + "." + number + "." + gcase + "; " + pos)
+		buff = ''
 		
-		sys.stdout.write("\n")
+		#sys.stdout.write(lemma + "; " + surface + "; ")
+		buff = lemma + "; " + surface + "; "
+		if person != 'all':
+			#sys.stdout.write(person + ".")
+			buff += person + "."
+		if tag != '':
+			#sys.stdout.write(tag + ".")
+			buff += tag + "."
+		if tag2 != '':
+			#sys.stdout.write(tag2 + ".")
+			buff += tag2 + "."
+		if animacy != '':
+			#sys.stdout.write(animacy + ".")
+			buff += animacy + "."
+
+		#sys.stdout.write(gender  + "." + number + "." + gcase + "; " + pos)
+		if gcase != '':
+			buff += gender  + "." + number + "." + gcase + "; " + pos + "\n"
+		else:
+			buff += gender  + "." + number + "; " + pos + "\n"
+		
+		sys.stdout.write(buff)
 	
 	cursor.close ()
 	conn.close ()

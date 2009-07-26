@@ -10,12 +10,12 @@
     <sdef n="post"         c="Postposition"/>
     <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
     <sdef n="vblex"        c="Verb"/>
-
-    <sdef n="al"           c="Altres"/>
-    <sdef n="top"          c="Toponyms"/>
-    <sdef n="ant"          c="Antroponyms"/>
-    <sdef n="cog"          c="Cognomen"/>
-    <sdef n="org"          c="Organisation"/>
+    
+     <sdef n="al"           c="Altres"/>
+     <sdef n="top"          c="Toponyms"/>
+     <sdef n="ant"          c="Antroponyms"/>
+     <sdef n="cog"          c="Cognomen"/>
+     <sdef n="org"          c="Organisation"/>
 
     <sdef n="sint"         c="Synthetic"/>
     <sdef n="psint"        c="Partially synthetic"/>
@@ -27,7 +27,7 @@
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
     <sdef n="rec"          c="Reciprocal"/>
-    <sdef n="itg"          c="Interrogative"/>
+    <sdef n="int"          c="Interrogative"/>
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -72,6 +72,7 @@
     <sdef n="ppst"         c="Past Participle"/>
     <sdef n="pcnd"         c="Conditional Participle"/>
     <sdef n="imp"          c="Imperative"/>
+
 
     <sdef n="sent"         c="End of sentence marker"/>
   </sdefs>
@@ -2130,7 +2131,7 @@
       <e>
         <p>
           <l />
-          <r><s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r>
+          <r><s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r>
         </p>
       </e>
     </pardef>
@@ -2330,19 +2331,19 @@
       <e>
         <p>
           <l>ার</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>িসে</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>ি</l>
-          <r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
+          <r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
@@ -2366,13 +2367,13 @@
       <e>
         <p>
           <l>দের</l>
-          <r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="gen" /></r>
+          <r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
+          <r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
@@ -2924,13 +2925,13 @@
       <e>
         <p>
           <l>ার</l>
-          <r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
+          <r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
         </p>
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
+          <r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r>
         </p>
       </e>
     </pardef>
@@ -27489,6 +27490,7 @@
     <e lm="এবার"><i>এবার</i><par n="ও__adv" /></e>
     <e lm="সবচেয়ে"><i>সবচেয়ে</i><par n="ও__adv" /></e>
     <e lm="যেন"><i>যেন</i><par n="ও__adv" /></e>
+    <e lm="তাহলে"><i>তাহলে</i><par n="ও__adv" /></e>
     <e lm="এদিক"><i>এদিক</i><par n="ও__adv" /></e>
     <e lm="থেকেই"><i>থেকেই</i><par n="ও__adv" /></e>
     <e lm="এত"><i>এত</i><par n="ও__adv" /></e>
@@ -28881,33 +28883,36 @@
 
     <!-- Postpositions -->
 
-    <e lm="উপরে"><i>উপরে</i><par n="এর__post" /></e>
-    <e lm="বিরুদ্ধে"><i>বিরুদ্ধে</i><par n="এর__post" /></e>
-    <e lm="চেয়ে"><i>চেয়ে</i><par n="এর__post" /></e>
-    <e lm="মধ্যে"><i>মধ্যে</i><par n="এর__post" /></e>
-    <e lm="পাশে"><i>পাশে</i><par n="এর__post" /></e>
-    <e lm="জন্যই"><i>জন্যই</i><par n="এর__post" /></e>
-    <e lm="বাইরে"><i>বাইরে</i><par n="এর__post" /></e>
-    <e lm="ব্যতীত"><i>ব্যতীত</i><par n="এর__post" /></e>
-    <e lm="বরং"><i>বরং</i><par n="এর__post" /></e>
-    <e lm="আগে"><i>আগে</i><par n="এর__post" /></e>
-    <e lm="উপর"><i>উপর</i><par n="এর__post" /></e>
-    <e lm="মানে"><i>মানে</i><par n="এর__post" /></e>
-    <e lm="সত্ত্বেও"><i>সত্ত্বেও</i><par n="এর__post" /></e>
-    <e lm="তলদেশে"><i>তলদেশে</i><par n="এর__post" /></e>
-    <e lm="অতঃপর"><i>অতঃপর</i><par n="এর__post" /></e>
-    <e lm="দ্বারা"><i>দ্বারা</i><par n="এর__post" /></e>
-    <e lm="ছাড়া"><i>ছাড়া</i><par n="এর__post" /></e>
     <e lm="পরে"><i>পরে</i><par n="এর__post" /></e>
-    <e lm="মধ্যেই"><i>মধ্যেই</i><par n="এর__post" /></e>
-    <e lm="দিকে"><i>দিকে</i><par n="এর__post" /></e>
-    <e lm="অনুযায়ী"><i>অনুযায়ী</i><par n="এর__post" /></e>
-    <e lm="প্রতি"><i>প্রতি</i><par n="এর__post" /></e>
-    <e lm="ছাড়াও"><i>ছাড়াও</i><par n="এর__post" /></e>
+    <e lm="বিরুদ্ধে"><i>বিরুদ্ধে</i><par n="এর__post" /></e>
+    <e lm="আগে"><i>আগে</i><par n="এর__post" /></e>
+    <e lm="পাশে"><i>পাশে</i><par n="এর__post" /></e>
+    <e lm="ব্যতীত"><i>ব্যতীত</i><par n="এর__post" /></e>
+    <e lm="মধ্যে"><i>মধ্যে</i><par n="এর__post" /></e>
     <e lm="বাদে"><i>বাদে</i><par n="এর__post" /></e>
-    <e lm="ছাড়াই"><i>ছাড়াই</i><par n="এর__post" /></e>
-    <e lm="উচ্চতর অংশ"><i>উচ্চতর<b />অংশ</i><par n="এর__post" /></e>
     <e lm="এর"><i>এর</i><par n="এর__post" /></e>
+    <e lm="বাইরে"><i>বাইরে</i><par n="এর__post" /></e>
+    <e lm="বাইরে"><i>বাইরে</i><par n="এর__post" /></e>
+    <e lm="বরং"><i>বরং</i><par n="এর__post" /></e>
+    <e lm="অতঃপর"><i>অতঃপর</i><par n="এর__post" /></e>
+    <e lm="চেয়ে"><i>চেয়ে</i><par n="এর__post" /></e>
+    <e lm="প্রতি"><i>প্রতি</i><par n="এর__post" /></e>
+    <e lm="দিকে"><i>দিকে</i><par n="এর__post" /></e>
+    <e lm="দিকে"><i>দিকে</i><par n="এর__post" /></e>
+    <e lm="তলদেশে"><i>তলদেশে</i><par n="এর__post" /></e>
+    <e lm="উপর"><i>উপর</i><par n="এর__post" /></e>
+    <e lm="উচ্চতর অংশ"><i>উচ্চতর<b />অংশ</i><par n="এর__post" /></e>
+    <e lm="মধ্যে"><i>মধ্যে</i><par n="এর__post" /></e>
+    <e lm="উপরে"><i>উপরে</i><par n="এর__post" /></e>
+    <e lm="ছাড়া"><i>ছাড়া</i><par n="এর__post" /></e>
+    <e lm="অনুযায়ী"><i>অনুযায়ী</i><par n="এর__post" /></e>
+    <e lm="ছাড়াও"><i>ছাড়াও</i><par n="এর__post" /></e>
+    <e lm="জন্যই"><i>জন্যই</i><par n="এর__post" /></e>
+    <e lm="মধ্যেই"><i>মধ্যেই</i><par n="এর__post" /></e>
+    <e lm="সত্ত্বেও"><i>সত্ত্বেও</i><par n="এর__post" /></e>
+    <e lm="মানে"><i>মানে</i><par n="এর__post" /></e>
+    <e lm="দ্বারা"><i>দ্বারা</i><par n="এর__post" /></e>
+    <e lm="ছাড়াই"><i>ছাড়াই</i><par n="এর__post" /></e>
 
     <!-- Pronouns -->
 

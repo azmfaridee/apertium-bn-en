@@ -71,9 +71,9 @@ Prpers; তাদের; p3.infml.aa.mf.pl.obj; prn
 যা; যে; p3.infml.rel.aa.mf.sg.nom; prn
 যা; যারা; p3.infml.rel.aa.mf.pl.nom; prn
 যা; যা; p3.rel.nn.mf.sp.nom; prn
-আপনা আপনি; আপনা আপনি; p3.rec.mf.sp.; prn
-পরস্পর; পরস্পর; p3.rec.mf.pl.; prn
-নিজে নিজে; নিজে নিজে; p3.rec.mf.sp.; prn
+আপনা আপনি; আপনা আপনি; p3.rec.mf.sp; prn
+পরস্পর; পরস্পর; p3.rec.mf.pl; prn
+নিজে নিজে; নিজে নিজে; p3.rec.mf.sp; prn
 কেউ; কেউ; p3.aa.mf.sp.nom; prn
 কিছু; কিছু; p3.mf.pl.nom; prn
 কিসের; কিসের; p3.int.nn.mf.sp.gen; prn
