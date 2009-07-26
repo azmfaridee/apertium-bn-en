@@ -51,9 +51,11 @@
       <attr-item tags="dem"/>
     </def-attr>
     <def-attr n="anim">
+      <attr-item tags="an"/>
       <attr-item tags="nn"/>
       <attr-item tags="aa"/>
-      <attr-item tags="an"/>
+      <attr-item tags="el"/>
+      <attr-item tags="hu"/>
     </def-attr>
     <def-attr n="gen">
       <attr-item tags="m"/>
