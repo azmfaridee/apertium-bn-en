@@ -31,7 +31,7 @@ try:
 		
 		#sys.stdout.write(lemma + "; " + surface + "; ")
 		buff = lemma + "; " + surface + "; "
-		if person != 'all':
+		if person != 'all' and person != '':
 			#sys.stdout.write(person + ".")
 			buff += person + "."
 		if tag != '':
@@ -43,12 +43,14 @@ try:
 		if animacy != '':
 			#sys.stdout.write(animacy + ".")
 			buff += animacy + "."
+		if gender != '':
+			buff += gender  + "."
 
 		#sys.stdout.write(gender  + "." + number + "." + gcase + "; " + pos)
 		if gcase != '':
-			buff += gender  + "." + number + "." + gcase + "; " + pos + "\n"
+			buff += number + "." + gcase + "; " + pos + "\n"
 		else:
-			buff += gender  + "." + number + "; " + pos + "\n"
+			buff += number + "; " + pos + "\n"
 		
 		sys.stdout.write(buff)
 	

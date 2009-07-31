@@ -7,9 +7,10 @@ regen_element_dix()
     ./adverb/create-adverb-dix.sh
     ./noun/create-noun-dix.sh
     ./postposition/create-postposition-dix.sh
-    ./postposition/create-postposition-dix.sh
-    ./postposition/create-postposition-dix.sh
+    ./pronoun/create-pronoun-dix.sh
+    ./proper-noun/create-proper-noun-dix.sh
     ./verb/create-verb-dix.sh    
+    ./determiner/create-determiner-dix.sh   
 }
 
 query_and_write()
@@ -28,6 +29,8 @@ query_and_write()
     xpath -p '    ' -e $1 proper-noun/proper-noun.bn.dix
     echo '\n    <!-- Verbs -->\n'
     xpath -p '    ' -e $1 verb/verb.bn.dix
+    echo '\n    <!-- Determiners -->\n'
+    xpath -p '    ' -e $1 determiner/determiner.bn.dix
 }
 
 # uncomment if you changed something in the dix
@@ -62,7 +65,11 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
     <sdef n="rec"          c="Reciprocal"/>
+    
+    <!-- will change this asap to itg -->
     <sdef n="int"          c="Interrogative"/>
+    <sdef n="itg"          c="Interrogative"/>
+    
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -180,19 +187,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
 # we want to remove the duplicate enclitics
 query_and_write '/dictionary/pardefs/pardef[@n!="enclitic"]'
 
-echo '    <!-- Determiners -->
-
-    <pardef n="আমার__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="det"/><s n="gen"/><s n="sp"/></r>
-        </p>
-      </e>
-    </pardef>
-
-
-    <!-- Conjunctions -->
+echo '    <!-- Conjunctions -->
  
     <pardef n="এবং__cnjcoo">
       <e>
@@ -210,14 +205,8 @@ echo '  <section id="main" type="standard">
 
     <e lm="এবং"><i>এবং</i><par n="এবং__cnjcoo"/></e>
     <e lm="আর"><i>আর</i><par n="এবং__cnjcoo"/></e>
-
-    <!-- Determiners -->
-
-    <e lm="আমার"><i>আমার</i><par n="আমার__det"/></e>
-    <e lm="আমাদের"><i>আমাদের</i><par n="আমার__det"/></e>
-    <e lm="তাদের"><i>তাদের</i><par n="আমার__det"/></e>
 '
-query_and_write '/dictionary/section/e' 'section'
+query_and_write '/dictionary/section/e'
 echo '  </section>'
 echo '  <section id="final" type="inconditional">
     <e><par n="separa"/></e>

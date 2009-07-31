@@ -1,0 +1,78 @@
+<dictionary>
+  <pardefs>
+    <pardef n="enclitic">
+      <!-- passthrough -->
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+      <!-- ই -->
+      <e>
+        <p>
+          <l>ই</l>
+          <r><j/>ই<s n="adv"/></r>
+        </p>
+      </e>
+      <!-- ও -->
+      <e>
+        <p>
+          <l>ও</l>
+          <r><j/>ও<s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="এর__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ঐ__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="dem"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="/ওই__det">
+      <e>
+        <p>
+          <l>ঐ</l>
+          <r>ওই<s n="det"/><s n="dem"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="ঐ"><i>ঐ</i><par n="ঐ__det"/></e>
+    <e lm="তোমাদের"><i>তোমাদের</i><par n="এর__det"/></e>
+    <e lm="তাঁর"><i>তাঁর</i><par n="এর__det"/></e>
+    <e lm="ওদের"><i>ওদের</i><par n="এর__det"/></e>
+    <e lm="তার"><i>তার</i><par n="এর__det"/></e>
+    <e lm="এগুলোর"><i>এগুলোর</i><par n="এর__det"/></e>
+    <e lm="তাদের"><i>তাদের</i><par n="এর__det"/></e>
+    <e lm="তোর"><i>তোর</i><par n="এর__det"/></e>
+    <e lm="তাঁদের"><i>তাঁদের</i><par n="এর__det"/></e>
+    <e lm="ঐগুলোর"><i>ঐগুলোর</i><par n="এর__det"/></e>
+    <e lm="এটার"><i>এটার</i><par n="এর__det"/></e>
+    <e lm="তোমার"><i>তোমার</i><par n="এর__det"/></e>
+    <e lm="এই"><i>এই</i><par n="ঐ__det"/></e>
+    <e lm="আমাদের"><i>আমাদের</i><par n="এর__det"/></e>
+    <e lm="তোদের"><i>তোদের</i><par n="এর__det"/></e>
+    <e lm="ওগুলোর"><i>ওগুলোর</i><par n="এর__det"/></e>
+    <e lm="আপনার"><i>আপনার</i><par n="এর__det"/></e>
+    <e lm="আমার"><i>আমার</i><par n="এর__det"/></e>
+    <e lm="ওর"><i>ওর</i><par n="এর__det"/></e>
+    <e lm="ওই"><i></i><par n="/ওই__det"/></e>
+    <e lm="ওটার"><i>ওটার</i><par n="এর__det"/></e>
+    <e lm="এদের"><i>এদের</i><par n="এর__det"/></e>
+    <e lm="আপনাদের"><i>আপনাদের</i><par n="এর__det"/></e>
+    <e lm="এর"><i>এর</i><par n="এর__det"/></e>
+
+  </section>
+</dictionary>
