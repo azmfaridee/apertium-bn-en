@@ -3,15 +3,16 @@
 # used to regenerate the element dix 
 regen_element_dix()
 {
-    ./adjective/create-adjective-dix.sh
-    ./adverb/create-adverb-dix.sh
-    ./noun/create-noun-dix.sh
-    ./postposition/create-postposition-dix.sh
-    ./pronoun/create-pronoun-dix.sh
-    ./proper-noun/create-proper-noun-dix.sh
-    ./verb/create-verb-dix.sh    
-    ./determiner/create-determiner-dix.sh
-    ./numerals/create-numerals-dix.sh
+    sh adjective/create-adjective-dix.sh
+    sh adverb/create-adverb-dix.sh
+    sh noun/create-noun-dix.sh
+    sh postposition/create-postposition-dix.sh
+    sh pronoun/create-pronoun-dix.sh
+    sh proper-noun/create-proper-noun-dix.sh
+    sh verb/create-verb-dix.sh    
+    sh determiner/create-determiner-dix.sh
+    sh numerals/create-numerals-dix.sh
+    sh conjuction/create-conjunction-dix.sh
 }
 
 query_and_write()
@@ -34,6 +35,8 @@ query_and_write()
     xpath -p '    ' -e $1 determiner/determiner.bn.dix
     echo '\n    <!-- Numerals -->\n'
     xpath -p '    ' -e $1 numerals/numerals.bn.dix
+    echo '\n    <!-- Conjunctions -->\n'
+    xpath -p '    ' -e $1 conjunction/conjuction.bn.dix
 }
 
 # uncomment if you changed something in the dix
@@ -198,26 +201,11 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
 # we want to remove the duplicate enclitics
 query_and_write '/dictionary/pardefs/pardef[@n!="enclitic"]'
 
-echo '    <!-- Conjunctions -->
- 
-    <pardef n="এবং__cnjcoo">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="cnjcoo"/></r>
-        </p>
-      </e>
-    </pardef>'
-
 echo '  </pardefs>'
-echo '  <section id="main" type="standard">
+echo '  <section id="main" type="standard">'
 
-    <!-- Conjunctions -->
-
-    <e lm="এবং"><i>এবং</i><par n="এবং__cnjcoo"/></e>
-    <e lm="আর"><i>আর</i><par n="এবং__cnjcoo"/></e>
-'
 query_and_write '/dictionary/section/e'
+
 echo '  </section>'
 echo '  <section id="final" type="inconditional">
     <e><par n="separa"/></e>
