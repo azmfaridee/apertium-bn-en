@@ -31,14 +31,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ঐসব__prn">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="যা/রা__prn">
       <e>
         <p>
@@ -95,23 +87,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ও/রা__prn">
+    <pardef n="আপনা আপনি__prn">
       <e>
         <p>
-          <l>দের</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>রা</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>দেরকে</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+          <l></l>
+          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -126,64 +106,6 @@
         <p>
           <l>রা</l>
           <r>রা<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="এ/রা__prn">
-      <e>
-        <p>
-          <l>দের</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>রা</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>দের</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>দেরকে</l>
-          <r>রা<s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="ঐগুলো__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>তে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>য়</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
         </p>
       </e>
     </pardef>
@@ -259,14 +181,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="নিজে নিজে__prn">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="rec"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="ক/ি__prn">
       <e>
         <p>
@@ -292,6 +206,14 @@
         <p>
           <l></l>
           <r><s n="prn"/><s n="p3"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="অনেকে__prn">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="prn"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -325,19 +247,31 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ঐ__prn">
+    <pardef n="সব__prn">
+      <e>
+        <p>
+          <l>ার</l>
+          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
-    <pardef n="স্বয়ং__prn">
+    <pardef n="সবাই__prn">
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>কে</l>
+          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
         </p>
       </e>
     </pardef>
@@ -536,7 +470,127 @@
       </e>
       <e>
         <p>
+          <l>এগুলোতে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐগুলোতে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐগুলোয়</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলোতে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলোয়</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এরা</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এগুলো</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐগুলো</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐসব</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওরা</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলো</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এগুলোয়</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এদের</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এদেরকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এগুলোকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐগুলোকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওদেরকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলোকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলো</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>তার</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওর</l>
           <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
@@ -554,7 +608,25 @@
       </e>
       <e>
         <p>
+          <l>একে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>তাদের</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওদের</l>
           <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
@@ -574,6 +646,114 @@
         <p>
           <l>তাদেরকে</l>
           <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এর</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="an"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এ</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ও</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এটার</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওটার</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এটায়</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এটাতে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এতে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওটায়</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এটা</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওটা</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এটাকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওটাকে</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওটা</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এগুলোর</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>এদের</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ঐগুলোর</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ওগুলোর</l>
+          <r>Prpers<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
@@ -619,35 +799,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="এগুলো__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>তে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
+    <pardef n="তা__prn">
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>য়</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="prn"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -699,168 +855,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ও__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="এটা__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>য়</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>তে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="এ__prn">
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="an"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="an"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>তে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="ওটা__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>য়</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="সব__prn">
-      <e>
-        <p>
-          <l>ার</l>
-          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="ওগুলো__prn">
-      <e>
-        <p>
-          <l>র</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>তে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>য়</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="dem"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="ক/ে__prn">
       <e>
         <p>
@@ -875,17 +869,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="সবাই__prn">
+    <pardef n="স্বয়ং__prn">
       <e>
         <p>
           <l></l>
-          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>কে</l>
-          <r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="prn"/><s n="ref"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -932,41 +920,35 @@
   </pardefs>
   <section id="main" type="standard">
     <e lm="স্বয়ং"><i>স্বয়ং</i><par n="স্বয়ং__prn"/></e>
-    <e lm="ও"><i>ও</i><par n="ও__prn"/></e>
-    <e lm="ঐসব"><i>ঐসব</i><par n="ঐসব__prn"/></e>
+    <e lm="অন্যটা"><i>অন্যটা</i><par n="অন্যটা__prn"/></e>
     <e lm="অপর"><i>অপর</i><par n="অপর__prn"/></e>
     <e lm="কিসের"><i>কিসের</i><par n="কিসের__prn"/></e>
-    <e lm="ঐগুলো"><i>ঐগুলো</i><par n="ঐগুলো__prn"/></e>
-    <e lm="নিজে নিজে"><i>নিজে<b/>নিজে</i><par n="নিজে নিজে__prn"/></e>
+    <e lm="অনেকে"><i>অনেকে</i><par n="অনেকে__prn"/></e>
+    <e lm="নিজে নিজে"><i>নিজে<b/>নিজে</i><par n="আপনা আপনি__prn"/></e>
     <e lm="যা"><i>য</i><par n="য/া__prn"/></e>
     <e lm="কি"><i>ক</i><par n="ক/ি__prn"/></e>
-    <e lm="অন্যটা"><i>অন্যটা</i><par n="অন্যটা__prn"/></e>
-    <e lm="এ"><i>এ</i><par n="এ__prn"/></e>
+    <e lm="তা"><i>তা</i><par n="তা__prn"/></e>
     <e lm="কারা"><i>কা</i><par n="কা/রা__prn"/></e>
     <e lm="কেউ"><i>কেউ</i><par n="কেউ__prn"/></e>
+    <e lm="সেটা"><i>সেটা</i><par n="তা__prn"/></e>
     <e lm="যেটা"><i>যেটা</i><par n="যেটা__prn"/></e>
     <e lm="সকল"><i>সকল</i><par n="সকল__prn"/></e>
-    <e lm="এটা"><i>এটা</i><par n="এটা__prn"/></e>
     <e lm="যিনি"><i>য</i><par n="য/িনি__prn"/></e>
-    <e lm="ওগুলো"><i>ওগুলো</i><par n="ওগুলো__prn"/></e>
-    <e lm="ওরা"><i>ও</i><par n="ও/রা__prn"/></e>
     <e lm="Prpers"><i></i><par n="/Prpers__prn"/></e>
     <e lm="অন্য"><i>অন্য</i><par n="অন্য__prn"/></e>
     <e lm="কিছুটা"><i>কিছুটা</i><par n="কিছুটা__prn"/></e>
     <e lm="সবাই"><i>সবাই</i><par n="সবাই__prn"/></e>
+    <e lm="অনেকেই"><i>অনেকেই</i><par n="অনেকে__prn"/></e>
+    <e lm="কিছুই"><i>কিছুই</i><par n="তা__prn"/></e>
     <e lm="পরস্পর"><i>পরস্পর</i><par n="পরস্পর__prn"/></e>
     <e lm="নিজেরা"><i>নিজে</i><par n="নিজে/রা__prn"/></e>
     <e lm="কিছু"><i>কিছু</i><par n="কিছু__prn"/></e>
-    <e lm="আপনা আপনি"><i>আপনা<b/>আপনি</i><par n="নিজে নিজে__prn"/></e>
+    <e lm="আপনা আপনি"><i>আপনা<b/>আপনি</i><par n="আপনা আপনি__prn"/></e>
     <e lm="সব"><i>সব</i><par n="সব__prn"/></e>
     <e lm="নিজে"><i>নিজে</i><par n="নিজে__prn"/></e>
     <e lm="অপরটা"><i>অপরটা</i><par n="অপরটা__prn"/></e>
-    <e lm="এরা"><i>এ</i><par n="এ/রা__prn"/></e>
-    <e lm="ওটা"><i>ওটা</i><par n="ওটা__prn"/></e>
-    <e lm="এগুলো"><i>এগুলো</i><par n="এগুলো__prn"/></e>
     <e lm="কে"><i>ক</i><par n="ক/ে__prn"/></e>
     <e lm="অন্যরা"><i>অন্য</i><par n="অন্য/রা__prn"/></e>
-    <e lm="ঐ"><i>ঐ</i><par n="ঐ__prn"/></e>
     <e lm="যারা"><i>যা</i><par n="যা/রা__prn"/></e>
 
   </section>

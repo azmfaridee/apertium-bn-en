@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # determiner speling
-
+./create-determiner-speling.sh > determiner.bn.speling
 # there is some problem with determiner, we cannot use the chopper now :(
 
 ../speling-paradigms.py determiner.bn.speling > /tmp/determiner.bn.dix

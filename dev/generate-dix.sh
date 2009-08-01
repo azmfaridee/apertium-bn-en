@@ -10,7 +10,8 @@ regen_element_dix()
     ./pronoun/create-pronoun-dix.sh
     ./proper-noun/create-proper-noun-dix.sh
     ./verb/create-verb-dix.sh    
-    ./determiner/create-determiner-dix.sh   
+    ./determiner/create-determiner-dix.sh
+    ./numerals/create-numerals-dix.sh
 }
 
 query_and_write()
@@ -31,6 +32,8 @@ query_and_write()
     xpath -p '    ' -e $1 verb/verb.bn.dix
     echo '\n    <!-- Determiners -->\n'
     xpath -p '    ' -e $1 determiner/determiner.bn.dix
+    echo '\n    <!-- Numerals -->\n'
+    xpath -p '    ' -e $1 numerals/numerals.bn.dix
 }
 
 # uncomment if you changed something in the dix
@@ -65,11 +68,12 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="ref"          c="Reflexive"/>
     <sdef n="rel"          c="Relative"/>
     <sdef n="rec"          c="Reciprocal"/>
+    <sdef n="qnt"          c="Quentifier"/>
+    <sdef n="ind"          c="Indicative"/>
     
     <!-- will change this asap to itg -->
     <sdef n="int"          c="Interrogative"/>
-    <sdef n="itg"          c="Interrogative"/>
-    
+    <sdef n="itg"          c="Interrogative"/>    
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -147,6 +151,13 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
           <r><s n="num"/></r>
         </p>
       </e>
+      <e>
+        <re>[০১২৩৪৫৬৭৮৯]+</re>
+        <p>
+          <l>টি</l>
+          <r><s n="num"/></r>
+        </p>
+      </e>      
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>

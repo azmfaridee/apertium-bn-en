@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # pronoun speling
-
+./create-speling-pronoun.py > pronoun.bn.speling
 # there is some problem with pronoun, we cannot use the chopper now :(
 
 ../speling-paradigms.py pronoun.bn.speling > /tmp/pronoun.bn.dix
