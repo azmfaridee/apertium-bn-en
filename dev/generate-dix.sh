@@ -3,16 +3,28 @@
 # used to regenerate the element dix 
 regen_element_dix()
 {
-    sh adjective/create-adjective-dix.sh
-    sh adverb/create-adverb-dix.sh
-    sh noun/create-noun-dix.sh
-    sh postposition/create-postposition-dix.sh
-    sh pronoun/create-pronoun-dix.sh
-    sh proper-noun/create-proper-noun-dix.sh
-    sh verb/create-verb-dix.sh    
-    sh determiner/create-determiner-dix.sh
-    sh numerals/create-numerals-dix.sh
-    sh conjuction/create-conjunction-dix.sh
+    echo "Regenerating the source dix" > /dev/stderr
+    cd adjective
+    sh create-adjective-dix.sh
+    cd ../adverb
+    sh create-adverb-dix.sh
+    cd ../noun
+    sh create-noun-dix.sh
+    cd ../postposition
+    sh create-postposition-dix.sh
+    cd ../pronoun
+    sh create-pronoun-dix.sh
+    cd ../proper-noun
+    sh create-proper-noun-dix.sh
+    cd ../verb
+    sh create-verb-dix.sh    
+    cd ../determiner
+    sh create-determiner-dix.sh
+    cd ../numerals
+    sh create-numerals-dix.sh
+    cd ../conjuction
+    sh create-conjunction-dix.sh
+    cd ..
 }
 
 query_and_write()

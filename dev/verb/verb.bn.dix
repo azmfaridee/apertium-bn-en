@@ -23,6 +23,568 @@
         </p>
       </e>
     </pardef>
+    <pardef n="আগ/া__vblex">
+      <e>
+        <p>
+          <l>াচ্ছিলাম</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিল</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালে</l>
+          <r>া<s n="vblex"/><s n="pcnd"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছেন</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াল</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়ে</l>
+          <r>া<s n="vblex"/><s n="ppst"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবি</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছে</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবি</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালি</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছে</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ান</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকব</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিল</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবেন</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিল</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াব</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিল</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে</l>
+          <r>া<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিলাম</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ান</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালে</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবেন</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াস</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াই</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছি</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিলি</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ানো</l>
+          <r>া<s n="vblex"/><s n="ger"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>া</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াত</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিস</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াও</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিলেন</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিলে</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছ</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবেন</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিস</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াক</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছেন</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবেন</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবি</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবেন</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিলেন</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ায়</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছে</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালাম</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াও</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছে</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবি</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াক</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছি</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতি</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ানোর</l>
+          <r>া<s n="vblex"/><s n="gen"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে থাকবে</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতে</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিলেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছেন</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াবি</l>
+          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ান</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছ</l>
+          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ালেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিলি</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছিলেন</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াচ্ছেন</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াত</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াতাম</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>াল</l>
+          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ায়</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িয়েছিলে</l>
+          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ান</l>
+          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+    </pardef>
     <pardef n="র/__vblex">
       <e>
         <p>
@@ -453,7 +1015,7 @@
       </e>
       <e>
         <p>
-          <l>বার</l>
+          <l>ওয়ার</l>
           <r><s n="vblex"/><s n="gen"/></r>
         </p>
         <par n="enclitic"/>
@@ -5081,6 +5643,568 @@
         <par n="enclitic"/>
       </e>
     </pardef>
+    <pardef n="শ/ো__vblex">
+      <e>
+        <p>
+          <l>ুচ্ছিলাম</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিল</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলে</l>
+          <r>ো<s n="vblex"/><s n="pcnd"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছেন</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুল</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়ে</l>
+          <r>ো<s n="vblex"/><s n="ppst"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুও</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছে</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলি</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছে</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকব</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিল</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিল</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োব</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিল</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে</l>
+          <r>ো<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিলাম</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলে</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুস</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োই</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছি</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিলি</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োওয়া</l>
+          <r>ো<s n="vblex"/><s n="ger"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ো</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুত</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিস</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োও</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিলেন</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিলে</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছ</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিস</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুক</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছেন</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুবি</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবেন</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিলেন</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োয়</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছে</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলাম</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োও</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছে</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবি</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুক</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছি</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতি</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োবার</l>
+          <r>ো<s n="vblex"/><s n="gen"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে থাকবে</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতে</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিলেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছেন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুস</l>
+          <r>ো<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছ</l>
+          <r>ো<s n="vblex"/><s n="prft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুলেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিলি</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছিলেন</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুচ্ছেন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুত</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুতাম</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুল</l>
+          <r>ো<s n="vblex"/><s n="past"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োয়</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ুয়েছিলে</l>
+          <r>ো<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>োন</l>
+          <r>ো<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+    </pardef>
     <pardef n="/আন__vblex">
       <e>
         <p>
@@ -5639,568 +6763,6 @@
         <p>
           <l>আনেন</l>
           <r>আন<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-    </pardef>
-    <pardef n="জড়/া__vblex">
-      <e>
-        <p>
-          <l>াচ্ছিলাম</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিল</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালে</l>
-          <r>া<s n="vblex"/><s n="pcnd"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছেন</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াল</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়ে</l>
-          <r>া<s n="vblex"/><s n="ppst"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবি</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছে</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবি</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালি</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছে</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ান</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকব</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিল</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবেন</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিল</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াব</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিল</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে</l>
-          <r>া<s n="vblex"/><s n="inf"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিলাম</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ান</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালে</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবেন</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াস</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াই</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছি</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিলি</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ানো</l>
-          <r>া<s n="vblex"/><s n="ger"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>া</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াত</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিস</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াও</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিলেন</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিলে</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছ</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবেন</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিস</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াক</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছেন</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবেন</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবি</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবেন</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিলেন</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ায়</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছে</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালাম</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াও</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছে</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবি</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াক</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="imp"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছি</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতি</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ানোর</l>
-          <r>া<s n="vblex"/><s n="gen"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে থাকবে</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতে</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিলেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছেন</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াবি</l>
-          <r>া<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ান</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছ</l>
-          <r>া<s n="vblex"/><s n="prft"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ালেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিলি</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছিলেন</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াচ্ছেন</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াত</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াতাম</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p1"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>াল</l>
-          <r>া<s n="vblex"/><s n="past"/><s n="smpl"/><s n="impers"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ায়</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>িয়েছিলে</l>
-          <r>া<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="fam"/></r>
-        </p>
-        <par n="enclitic"/>
-      </e>
-      <e>
-        <p>
-          <l>ান</l>
-          <r>া<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
@@ -10569,7 +11131,7 @@
       </e>
       <e>
         <p>
-          <l>যাবার</l>
+          <l>যাওয়ার</l>
           <r>যা<s n="vblex"/><s n="gen"/></r>
         </p>
         <par n="enclitic"/>
@@ -10697,6 +11259,568 @@
         <p>
           <l>যান</l>
           <r>যা<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+    </pardef>
+    <pardef n="ফ/ের__vblex">
+      <e>
+        <p>
+          <l>িরছিলাম</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিল</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরে</l>
+          <r>ের<s n="vblex"/><s n="pcnd"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছেন</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরল</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিল</l>
+          <r>ের<s n="vblex"/><s n="ppst"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছে</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলি</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছে</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ির</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকব</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিল</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিল</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরব</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিল</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে</l>
+          <r>ের<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিলাম</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলে</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলে</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরিস</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরি</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছি</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিলি</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরা</l>
+          <r>ের<s n="vblex"/><s n="ger"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ের</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরিস</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরত</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিস</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>ের</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিলেন</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিলে</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছ</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিস</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরুন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছেন</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবেন</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরবি</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরুক</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিলেন</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরে</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছে</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলাম</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরুন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছে</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবি</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরুক</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="imp"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছি</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতি</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরার</l>
+          <r>ের<s n="vblex"/><s n="gen"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে থাকবে</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতে</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিলেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছেন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরো</l>
+          <r>ের<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরেন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছ</l>
+          <r>ের<s n="vblex"/><s n="prft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরলেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিলি</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছিলেন</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরছেন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরত</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরতাম</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p1"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরল</l>
+          <r>ের<s n="vblex"/><s n="past"/><s n="smpl"/><s n="impers"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরে</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>িরেছিলে</l>
+          <r>ের<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="fam"/></r>
+        </p>
+        <par n="enclitic"/>
+      </e>
+      <e>
+        <p>
+          <l>েরেন</l>
+          <r>ের<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
@@ -13379,7 +14503,7 @@
       </e>
       <e>
         <p>
-          <l>াবার</l>
+          <l>াওয়ার</l>
           <r>া<s n="vblex"/><s n="gen"/></r>
         </p>
         <par n="enclitic"/>
@@ -14076,28 +15200,28 @@
     <pardef n="দ/ে__vblex">
       <e>
         <p>
-          <l>েচ্ছিলাম</l>
+          <l>িচ্ছিলাম</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিল</l>
+          <l>িচ্ছিল</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েলে</l>
+          <l>িলে</l>
           <r>ে<s n="vblex"/><s n="pcnd"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছেন</l>
+          <l>িয়েছেন</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
@@ -14111,14 +15235,14 @@
       </e>
       <e>
         <p>
-          <l>েল</l>
+          <l>িল</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়ে</l>
+          <l>িয়ে</l>
           <r>ে<s n="vblex"/><s n="ppst"/></r>
         </p>
         <par n="enclitic"/>
@@ -14139,14 +15263,14 @@
       </e>
       <e>
         <p>
-          <l>েও</l>
+          <l>িও</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছে</l>
+          <l>িয়েছে</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14160,14 +15284,14 @@
       </e>
       <e>
         <p>
-          <l>েলি</l>
+          <l>িলি</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছে</l>
+          <l>িচ্ছে</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14181,14 +15305,14 @@
       </e>
       <e>
         <p>
-          <l>েতে থাকব</l>
+          <l>িতে থাকব</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছিল</l>
+          <l>িয়েছিল</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14202,7 +15326,7 @@
       </e>
       <e>
         <p>
-          <l>েচ্ছিল</l>
+          <l>িচ্ছিল</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
@@ -14216,21 +15340,21 @@
       </e>
       <e>
         <p>
-          <l>েয়েছিল</l>
+          <l>িয়েছিল</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে</l>
+          <l>িতে</l>
           <r>ে<s n="vblex"/><s n="inf"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছিলাম</l>
+          <l>িয়েছিলাম</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
@@ -14244,21 +15368,21 @@
       </e>
       <e>
         <p>
-          <l>েলে</l>
+          <l>িলে</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে থাকবেন</l>
+          <l>িতে থাকবেন</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েস</l>
+          <l>িস</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14272,21 +15396,21 @@
       </e>
       <e>
         <p>
-          <l>েচ্ছি</l>
+          <l>িচ্ছি</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিলি</l>
+          <l>িচ্ছিলি</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েলেন</l>
+          <l>িলেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
@@ -14307,7 +15431,7 @@
       </e>
       <e>
         <p>
-          <l>েতেন</l>
+          <l>িতেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
@@ -14328,21 +15452,21 @@
       </e>
       <e>
         <p>
-          <l>েত</l>
+          <l>িত</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে থাকবে</l>
+          <l>িতে থাকবে</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিস</l>
+          <l>িচ্ছিস</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14356,49 +15480,49 @@
       </e>
       <e>
         <p>
-          <l>েয়েছিলেন</l>
+          <l>িয়েছিলেন</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিলে</l>
+          <l>িচ্ছিলে</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছ</l>
+          <l>িচ্ছ</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে থাকবেন</l>
+          <l>িতে থাকবেন</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছিস</l>
+          <l>িয়েছিস</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েক</l>
+          <l>িক</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="imp"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছেন</l>
+          <l>িয়েছেন</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
@@ -14412,7 +15536,7 @@
       </e>
       <e>
         <p>
-          <l>েবি</l>
+          <l>িবি</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="smpl"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14426,7 +15550,7 @@
       </e>
       <e>
         <p>
-          <l>েয়েছিলেন</l>
+          <l>িয়েছিলেন</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
@@ -14440,14 +15564,14 @@
       </e>
       <e>
         <p>
-          <l>েচ্ছে</l>
+          <l>িচ্ছে</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েলাম</l>
+          <l>িলাম</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
@@ -14461,42 +15585,42 @@
       </e>
       <e>
         <p>
-          <l>েয়েছে</l>
+          <l>িয়েছে</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে থাকবে</l>
+          <l>িতে থাকবে</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে থাকবি</l>
+          <l>িতে থাকবি</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েক</l>
+          <l>িক</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="imp"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছি</l>
+          <l>িয়েছি</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতি</l>
+          <l>িতি</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14510,42 +15634,42 @@
       </e>
       <e>
         <p>
-          <l>েতে থাকবে</l>
+          <l>িতে থাকবে</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="cnt"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতে</l>
+          <l>িতে</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতেন</l>
+          <l>িতেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিলেন</l>
+          <l>িচ্ছিলেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছেন</l>
+          <l>িচ্ছেন</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েস</l>
+          <l>িস</l>
           <r>ে<s n="vblex"/><s n="ft"/><s n="imp"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
@@ -14559,56 +15683,56 @@
       </e>
       <e>
         <p>
-          <l>েয়েছ</l>
+          <l>িয়েছ</l>
           <r>ে<s n="vblex"/><s n="prft"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েলেন</l>
+          <l>িলেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েয়েছিলি</l>
+          <l>িয়েছিলি</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছিলেন</l>
+          <l>িচ্ছিলেন</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="cnt"/><s n="p2"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েচ্ছেন</l>
+          <l>িচ্ছেন</l>
           <r>ে<s n="vblex"/><s n="pres"/><s n="cnt"/><s n="p3"/><s n="pol"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েত</l>
+          <l>িত</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p3"/><s n="infml"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েতাম</l>
+          <l>িতাম</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="hbtl"/><s n="p1"/></r>
         </p>
         <par n="enclitic"/>
       </e>
       <e>
         <p>
-          <l>েল</l>
+          <l>িল</l>
           <r>ে<s n="vblex"/><s n="past"/><s n="smpl"/><s n="impers"/></r>
         </p>
         <par n="enclitic"/>
@@ -14622,7 +15746,7 @@
       </e>
       <e>
         <p>
-          <l>েয়েছিলে</l>
+          <l>িয়েছিলে</l>
           <r>ে<s n="vblex"/><s n="plprft"/><s n="p2"/><s n="fam"/></r>
         </p>
         <par n="enclitic"/>
@@ -23067,7 +24191,8 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-    <e lm="বেরা"><i>বের</i><par n="জড়/া__vblex"/></e>
+    <e lm="আগা"><i>আগ</i><par n="আগ/া__vblex"/></e>
+    <e lm="বেরা"><i>বের</i><par n="আগ/া__vblex"/></e>
     <e lm="র"><i>র</i><par n="র/__vblex"/></e>
     <e lm="দেখ"><i>দেখ</i><par n="গড়/__vblex"/></e>
     <e lm="বুন"><i>বুন</i><par n="গড়/__vblex"/></e>
@@ -23080,38 +24205,41 @@
     <e lm="ভাব"><i>ভ</i><par n="ভ/াব__vblex"/></e>
     <e lm="খোল"><i>খ</i><par n="খ/োল__vblex"/></e>
     <e lm="দোলা"><i>দ</i><par n="দ/োলা__vblex"/></e>
+    <e lm="পৌঁছা"><i>পৌঁছ</i><par n="আগ/া__vblex"/></e>
     <e lm="আন"><i></i><par n="/আন__vblex"/></e>
-    <e lm="জড়া"><i>জড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="জড়া"><i>জড়</i><par n="আগ/া__vblex"/></e>
     <e lm="বল"><i>বল</i><par n="গড়/__vblex"/></e>
     <e lm="শোনা"><i>শ</i><par n="শ/োনা__vblex"/></e>
     <e lm="আছ"><i></i><par n="/আছ__vblex"/></e>
-    <e lm="নাড়া"><i>নাড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="নাড়া"><i>নাড়</i><par n="আগ/া__vblex"/></e>
     <e lm="ভাঙ"><i>ভ</i><par n="ভ/াঙ__vblex"/></e>
     <e lm="চুষ"><i>চুষ</i><par n="গড়/__vblex"/></e>
-    <e lm="চালা"><i>চাল</i><par n="জড়/া__vblex"/></e>
+    <e lm="চালা"><i>চাল</i><par n="আগ/া__vblex"/></e>
     <e lm="শুন"><i>শুন</i><par n="গড়/__vblex"/></e>
-    <e lm="ফিরা"><i>ফির</i><par n="জড়/া__vblex"/></e>
-    <e lm="ছড়া"><i>ছড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="ফিরা"><i>ফির</i><par n="আগ/া__vblex"/></e>
+    <e lm="ছড়া"><i>ছড়</i><par n="আগ/া__vblex"/></e>
     <e lm="হাঁট"><i>হ</i><par n="হ/াঁট__vblex"/></e>
-    <e lm="ফলা"><i>ফল</i><par n="জড়/া__vblex"/></e>
-    <e lm="গলা"><i>গল</i><par n="জড়/া__vblex"/></e>
+    <e lm="ফলা"><i>ফল</i><par n="আগ/া__vblex"/></e>
+    <e lm="গলা"><i>গল</i><par n="আগ/া__vblex"/></e>
     <e lm="হ"><i>হ</i><par n="র/__vblex"/></e>
     <e lm="পড়"><i>পড়</i><par n="গড়/__vblex"/></e>
     <e lm="উঠ"><i>উঠ</i><par n="গড়/__vblex"/></e>
     <e lm="কেন"><i>ক</i><par n="ক/েন__vblex"/></e>
     <e lm="কাঁদ"><i>ক</i><par n="ক/াঁদ__vblex"/></e>
-    <e lm="রটা"><i>রট</i><par n="জড়/া__vblex"/></e>
-    <e lm="হারা"><i>হার</i><par n="জড়/া__vblex"/></e>
-    <e lm="পিছা"><i>পিছ</i><par n="জড়/া__vblex"/></e>
-    <e lm="পাকা"><i>পাক</i><par n="জড়/া__vblex"/></e>
+    <e lm="রটা"><i>রট</i><par n="আগ/া__vblex"/></e>
+    <e lm="হারা"><i>হার</i><par n="আগ/া__vblex"/></e>
+    <e lm="পিছা"><i>পিছ</i><par n="আগ/া__vblex"/></e>
+    <e lm="পাকা"><i>পাক</i><par n="আগ/া__vblex"/></e>
     <e lm="বাড়"><i>ব</i><par n="ব/াড়__vblex"/></e>
     <e lm="ঘট"><i>ঘট</i><par n="গড়/__vblex"/></e>
-    <e lm="দাঁড়া"><i>দাঁড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="দাঁড়া"><i>দাঁড়</i><par n="আগ/া__vblex"/></e>
     <e lm="যা"><i></i><par n="/যা__vblex"/></e>
     <e lm="ঘুর"><i>ঘুর</i><par n="গড়/__vblex"/></e>
     <e lm="ঢুক"><i>ঢুক</i><par n="গড়/__vblex"/></e>
+    <e lm="ভালবাস"><i>ভালব</i><par n="ভ/াস__vblex"/></e>
+    <e lm="ছাড়"><i>ছ</i><par n="ব/াড়__vblex"/></e>
     <e lm="তোল"><i>ত</i><par n="খ/োল__vblex"/></e>
-    <e lm="মানা"><i>মান</i><par n="জড়/া__vblex"/></e>
+    <e lm="মানা"><i>মান</i><par n="আগ/া__vblex"/></e>
     <e lm="মার"><i>ম</i><par n="ম/ার__vblex"/></e>
     <e lm="তোলা"><i>ত</i><par n="দ/োলা__vblex"/></e>
     <e lm="শেখ"><i>শ</i><par n="শ/েখ__vblex"/></e>
@@ -23119,79 +24247,80 @@
     <e lm="ভাস"><i>ভ</i><par n="ভ/াস__vblex"/></e>
     <e lm="কিন"><i>কিন</i><par n="গড়/__vblex"/></e>
     <e lm="ঝোলা"><i>ঝ</i><par n="দ/োলা__vblex"/></e>
-    <e lm="দৌড়া"><i>দৌড়</i><par n="জড়/া__vblex"/></e>
-    <e lm="কাটা"><i>কাট</i><par n="জড়/া__vblex"/></e>
+    <e lm="দৌড়া"><i>দৌড়</i><par n="আগ/া__vblex"/></e>
+    <e lm="কাটা"><i>কাট</i><par n="আগ/া__vblex"/></e>
     <e lm="চা"><i>চ</i><par n="খ/া__vblex"/></e>
     <e lm="কর"><i>কর</i><par n="গড়/__vblex"/></e>
     <e lm="খুল"><i>খুল</i><par n="গড়/__vblex"/></e>
     <e lm="খেল"><i>খেল</i><par n="গড়/__vblex"/></e>
     <e lm="হাট"><i>হ</i><par n="হ/াট__vblex"/></e>
     <e lm="গোছা"><i>গ</i><par n="গ/োছা__vblex"/></e>
-    <e lm="চুলকা"><i>চুলক</i><par n="জড়/া__vblex"/></e>
+    <e lm="চুলকা"><i>চুলক</i><par n="আগ/া__vblex"/></e>
     <e lm="ওড়"><i></i><par n="/ওড়__vblex"/></e>
     <e lm="পৌঁছ"><i>পৌঁছ</i><par n="গড়/__vblex"/></e>
-    <e lm="সরা"><i>সর</i><par n="জড়/া__vblex"/></e>
-    <e lm="কমা"><i>কম</i><par n="জড়/া__vblex"/></e>
-    <e lm="ভালবাস"><i>ভালব</i><par n="ভ/াস__vblex"/></e>
-    <e lm="কামড়া"><i>কামড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="সরা"><i>সর</i><par n="আগ/া__vblex"/></e>
+    <e lm="কমা"><i>কম</i><par n="আগ/া__vblex"/></e>
+    <e lm="ফের"><i>ফ</i><par n="ফ/ের__vblex"/></e>
+    <e lm="কামড়া"><i>কামড়</i><par n="আগ/া__vblex"/></e>
     <e lm="পাড়"><i>প</i><par n="ব/াড়__vblex"/></e>
     <e lm="লেখ"><i>ল</i><par n="শ/েখ__vblex"/></e>
-    <e lm="বাড়া"><i>বাড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="বাড়া"><i>বাড়</i><par n="আগ/া__vblex"/></e>
     <e lm="ঢোকা"><i>ঢ</i><par n="ঢ/োকা__vblex"/></e>
     <e lm="আস"><i></i><par n="/আস__vblex"/></e>
     <e lm="ফেল"><i>ফেল</i><par n="গড়/__vblex"/></e>
     <e lm="মর"><i>মর</i><par n="গড়/__vblex"/></e>
     <e lm="ঘির"><i>ঘির</i><par n="গড়/__vblex"/></e>
     <e lm="ঘস"><i>ঘস</i><par n="গড়/__vblex"/></e>
-    <e lm="লাফা"><i>লাফ</i><par n="জড়/া__vblex"/></e>
-    <e lm="ঘুমা"><i>ঘুম</i><par n="জড়/া__vblex"/></e>
+    <e lm="লাফা"><i>লাফ</i><par n="আগ/া__vblex"/></e>
+    <e lm="ঘুমা"><i>ঘুম</i><par n="আগ/া__vblex"/></e>
     <e lm="ওঠ"><i></i><par n="/ওঠ__vblex"/></e>
     <e lm="আঁক"><i></i><par n="/আঁক__vblex"/></e>
-    <e lm="চাপা"><i>চাপ</i><par n="জড়/া__vblex"/></e>
+    <e lm="চাপা"><i>চাপ</i><par n="আগ/া__vblex"/></e>
     <e lm="গা"><i>গ</i><par n="খ/া__vblex"/></e>
-    <e lm="বাঁকা"><i>বাঁক</i><par n="জড়/া__vblex"/></e>
-    <e lm="জানা"><i>জান</i><par n="জড়/া__vblex"/></e>
+    <e lm="বাঁকা"><i>বাঁক</i><par n="আগ/া__vblex"/></e>
+    <e lm="জানা"><i>জান</i><par n="আগ/া__vblex"/></e>
     <e lm="লাগ"><i>ল</i><par n="ল/াগ__vblex"/></e>
-    <e lm="পৌঁছা"><i>পৌঁছ</i><par n="জড়/া__vblex"/></e>
+    <e lm="শো"><i>শ</i><par n="শ/ো__vblex"/></e>
     <e lm="রাখ"><i>র</i><par n="র/াখ__vblex"/></e>
-    <e lm="বদলা"><i>বদল</i><par n="জড়/া__vblex"/></e>
-    <e lm="লাগা"><i>লাগ</i><par n="জড়/া__vblex"/></e>
+    <e lm="বদলা"><i>বদল</i><par n="আগ/া__vblex"/></e>
+    <e lm="লাগা"><i>লাগ</i><par n="আগ/া__vblex"/></e>
     <e lm="ভুগ"><i>ভুগ</i><par n="গড়/__vblex"/></e>
     <e lm="নাচ"><i>ন</i><par n="ন/াচ__vblex"/></e>
     <e lm="নে"><i>ন</i><par n="দ/ে__vblex"/></e>
-    <e lm="পাঠা"><i>পাঠ</i><par n="জড়/া__vblex"/></e>
-    <e lm="চিবা"><i>চিব</i><par n="জড়/া__vblex"/></e>
+    <e lm="পাঠা"><i>পাঠ</i><par n="আগ/া__vblex"/></e>
+    <e lm="চিবা"><i>চিব</i><par n="আগ/া__vblex"/></e>
     <e lm="বাঁচ"><i>ব</i><par n="ব/াঁচ__vblex"/></e>
     <e lm="বস"><i>বস</i><par n="গড়/__vblex"/></e>
     <e lm="পোড়"><i>প</i><par n="প/োড়__vblex"/></e>
     <e lm="থাক"><i>থ</i><par n="থ/াক__vblex"/></e>
     <e lm="জাগ"><i>জ</i><par n="ল/াগ__vblex"/></e>
     <e lm="কাট"><i>ক</i><par n="হ/াট__vblex"/></e>
-    <e lm="ঘটা"><i>ঘট</i><par n="জড়/া__vblex"/></e>
-    <e lm="দেখা"><i>দেখ</i><par n="জড়/া__vblex"/></e>
+    <e lm="ঘটা"><i>ঘট</i><par n="আগ/া__vblex"/></e>
+    <e lm="দেখা"><i>দেখ</i><par n="আগ/া__vblex"/></e>
     <e lm="ছুট"><i>ছুট</i><par n="গড়/__vblex"/></e>
-    <e lm="বেড়া"><i>বেড়</i><par n="জড়/া__vblex"/></e>
+    <e lm="আনা"><i>আন</i><par n="আগ/া__vblex"/></e>
+    <e lm="বেড়া"><i>বেড়</i><par n="আগ/া__vblex"/></e>
     <e lm="পা"><i>প</i><par n="খ/া__vblex"/></e>
-    <e lm="সাজা"><i>সাজ</i><par n="জড়/া__vblex"/></e>
+    <e lm="সাজা"><i>সাজ</i><par n="আগ/া__vblex"/></e>
     <e lm="পার"><i>প</i><par n="ম/ার__vblex"/></e>
     <e lm="তুল"><i>তুল</i><par n="গড়/__vblex"/></e>
-    <e lm="চেঁচা"><i>চেঁচ</i><par n="জড়/া__vblex"/></e>
-    <e lm="পালা"><i>পাল</i><par n="জড়/া__vblex"/></e>
+    <e lm="চেঁচা"><i>চেঁচ</i><par n="আগ/া__vblex"/></e>
+    <e lm="পালা"><i>পাল</i><par n="আগ/া__vblex"/></e>
     <e lm="বাধ"><i>ব</i><par n="ব/াধ__vblex"/></e>
-    <e lm="পৌছা"><i>পৌছ</i><par n="জড়/া__vblex"/></e>
-    <e lm="ঠকা"><i>ঠক</i><par n="জড়/া__vblex"/></e>
+    <e lm="পৌছা"><i>পৌছ</i><par n="আগ/া__vblex"/></e>
+    <e lm="ঠকা"><i>ঠক</i><par n="আগ/া__vblex"/></e>
     <e lm="বুঝ"><i>বুঝ</i><par n="গড়/__vblex"/></e>
     <e lm="চোষ"><i>চ</i><par n="চ/োষ__vblex"/></e>
     <e lm="ঘোর"><i>ঘ</i><par n="ঘ/োর__vblex"/></e>
     <e lm="জান"><i>জ</i><par n="জ/ান__vblex"/></e>
-    <e lm="কচলা"><i>কচল</i><par n="জড়/া__vblex"/></e>
+    <e lm="কচলা"><i>কচল</i><par n="আগ/া__vblex"/></e>
     <e lm="ক"><i>ক</i><par n="র/__vblex"/></e>
     <e lm="টান"><i>ট</i><par n="জ/ান__vblex"/></e>
-    <e lm="জ্বালা"><i>জ্বাল</i><par n="জড়/া__vblex"/></e>
-    <e lm="ভাঙ্গা"><i>ভাঙ্গ</i><par n="জড়/া__vblex"/></e>
-    <e lm="করা"><i>কর</i><par n="জড়/া__vblex"/></e>
+    <e lm="জ্বালা"><i>জ্বাল</i><par n="আগ/া__vblex"/></e>
+    <e lm="ভাঙ্গা"><i>ভাঙ্গ</i><par n="আগ/া__vblex"/></e>
+    <e lm="করা"><i>কর</i><par n="আগ/া__vblex"/></e>
     <e lm="খা"><i>খ</i><par n="খ/া__vblex"/></e>
-    <e lm="ঝালা"><i>ঝাল</i><par n="জড়/া__vblex"/></e>
+    <e lm="ঝালা"><i>ঝাল</i><par n="আগ/া__vblex"/></e>
     <e lm="সাঁট"><i>স</i><par n="হ/াঁট__vblex"/></e>
     <e lm="থাম"><i>থ</i><par n="থ/াম__vblex"/></e>
     <e lm="খুঁজ"><i>খুঁজ</i><par n="গড়/__vblex"/></e>

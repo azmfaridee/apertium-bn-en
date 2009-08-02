@@ -409,8 +409,9 @@ def get_inflection_eat(verb, length):
     
     inflections = {}
     
+    # verb + u'বার'> verb + u'ওয়ার'
     inflections = ( umlaut + u'তে',
-		    verb + u'বার',
+		    verb + u'ওয়ার',
 		    verb + u'ওয়া',
 		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
 		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
@@ -442,9 +443,11 @@ def get_inflection_go(verb, length):
 	print verb, umlaut, umlaut2, umlaut3
     
     inflections = {}
-        
+    
+    # need to add this alternate form or replace it
+    # verb + u'বার'> verb + u'ওয়ার'
     inflections = ( umlaut + u'তে',
-		    verb + u'বার',
+		    verb + u'ওয়ার',
 		    verb + u'ওয়া',
 		    verb + u'ই',  verb + u'ন', verb + u'ও', verb + u'স',  verb + u'ন', verb + u'য়',  verb + u'য়',
 		    verb + u'চ্ছি',  verb + u'চ্ছেন', verb + u'চ্ছ', verb + u'চ্ছিস',  verb + u'চ্ছেন', verb + u'চ্ছে',  verb + u'চ্ছে',
@@ -475,7 +478,8 @@ def get_inflection_take(verb, length):
     umlaut2 = re.sub(u'(' + BnChars['consonant_real'] +  u')(ে)(ঁ?)$', u'\g<1>া\g<3>', verb)
     
     # শো - শুতে
-    umlaut = re.sub(u'(' + BnChars['consonant_real'] +  u')(ো)(ঁ?)$', u'\g<1>ু\g<3>', verb)
+    # the source is here the previous umlaut, be careful to remember that :)
+    umlaut = re.sub(u'(' + BnChars['consonant_real'] +  u')(ো)(ঁ?)$', u'\g<1>ু\g<3>', umlaut)
     
     if DEBUG == True:    
 	print verb, umlaut, umlaut2
@@ -790,6 +794,12 @@ def print_dix():
     print '  </section>'
     print '</dictionary>'
     
+def get_prepared_list_from_file():
+    single_word_verbs = []
+    f = open('verb.bn.list')
+    for line in f:
+        single_word_verbs.append(line.strip())
+    return single_word_verbs
     
 try:
     print >> sys.stderr, "STARTING"
@@ -809,7 +819,11 @@ try:
     dix_format = {}
     
     # use this segment to get the prepared verbs from the verb_stems table
-    single_word_verbs = get_prepared_list_from_database(cursor)
+    #single_word_verbs = get_prepared_list_from_database(cursor)
+    
+    # use the file for now
+    single_word_verbs = get_prepared_list_from_file()
+    
     process_verbs(single_word_verbs)
     
     #pprint(inflection)

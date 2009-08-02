@@ -17,22 +17,27 @@ sys.stdin = codecs.getreader('utf-8')(sys.stdin);
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout);
 sys.stderr = codecs.getwriter('utf-8')(sys.stderr);
 
-
-V = "[অআইঈউঊঋএঐওঔ]"
-C = "[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহড়ঢ়য়ঁ]"
-K = "[ািীুূৃেৈোৌ]"
+BnChars = {'vowel': u'[অআইঈউঊঋএঐওঔ]',
+	   'consonant_real': u'[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়]',
+	   'marker': u'[ািীুূৃেৈোৌ]',
+	   'number': u'[০১২৩৪৫৬৭৮৯]',
+	   'misc': u'[ঁংঃ]',
+	   
+	   'hasant': u'[্]',
+	   'anusvara': u'[ং]',
+	   'chandrabindu': u'[ঁ]',
+	   'visarga': u'[ঃ]',
+	   
+	   'consonant': u'[কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়' + u'ংঃ' + u'্]'}
    
 #'[অআইঈউঊঋএঐওঔ‌‌](ঁ)?', 'বই')
 def get_inflection2(stem, animate):
-    nom = None
-    obj = None
-    gen = None
-    loc = None
-    stem = stem.strip()     
+    # be careful this is needed
+    stem = stem.strip().decode('utf-8')
     
     # যমুনা
-    regex = 'া(ঁ)?$'
-    pattern = re.compile(regex, re.UNICODE)
+    regex = u'া(ঁ)?$'
+    pattern = re.compile(regex)
     if pattern.search(stem):
         #print 'yamuna'
         if animate == True:
@@ -41,18 +46,18 @@ def get_inflection2(stem, animate):
             return u'', u'', 'র', u'য়'
     
     # রাজশাহী    
-    regex = K + '(ঁ)?$'
-    pattern = re.compile(regex, re.UNICODE)
+    regex = BnChars['marker'] + u'(ঁ)?$'
+    pattern = re.compile(regex)
     if pattern.search(stem):
-        #print 'yamuna'
+        #print 'rajshahi'
         if animate == True:
             return '', 'কে', 'র', None
         else:
             return '', '', 'র', 'তে'
         
     # সুমন
-    regex = C + '(ঁ)?$'
-    pattern = re.compile(regex, re.UNICODE)
+    regex = BnChars['consonant'] + u'$'
+    pattern = re.compile(regex)
     if pattern.search(stem):
         #print 'suman'
         if animate == True:
@@ -61,13 +66,16 @@ def get_inflection2(stem, animate):
             return '', '', 'ের', 'ে'
             
     # কই
-    regex = V + '(ঁ)?$'
-    pattern = re.compile(regex, re.UNICODE)
+    regex = BnChars['vowel'] + u'(ঁ)?$'
+    pattern = re.compile(regex)
     if pattern.search(stem):
+        #print 'koi'
         if animate == True:
             return '', 'কে', 'য়ের', None
         else:
             return '', '', 'য়ের', 'য়ে'
+    
+    print 'Nothing'
 
 def get_sym(list):
     sym = ''
@@ -120,6 +128,7 @@ try:
     	
     for row in rows:
         lemma, gender, nptag = row
+        #print 'DEBUG ' + lemma
         if nptag == '0':
             nom, obj, gen, loc = get_inflection2(lemma, True)
         else:
