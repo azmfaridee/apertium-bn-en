@@ -18,7 +18,7 @@ try:
     cursor = conn.cursor()
     cursor.execute('SET CHARACTER SET utf8')
 	
-    sql = """ SELECT word FROM unknown_words where pos like '%0%' and pos not like '%10%' """
+    sql = ''' SELECT word FROM unknown_words where pos like '%0%' and pos not like '%10%' '''
     cursor.execute(sql)    	
     rows = cursor.fetchall()
     
@@ -27,12 +27,12 @@ try:
         #print word
         
         # we need to check if this word already exists in the noun table
-        sql_check = """ SELECT count(*) as n FROM noun_source_freq where lemma = '%(word)s' """ % {'word': word}
+        sql_check = ''' SELECT count(*) as n FROM noun_source_freq where lemma = '%(word)s' ''' % {'word': word}
         cursor.execute(sql_check)
         n, = cursor.fetchone()
         if n == 0:
             print 'Inserting ' + word
-            sql_insert = """ insert into noun_source_freq(lemma, animacy, freq, gender, old) values('%(word)s', 0, 0, 0, 0) """ % {'word': word}     
+            sql_insert = ''' insert into noun_source_freq(lemma, animacy, freq, gender, old) values('%(word)s', 0, 0, 0, 0) ''' % {'word': word}     
             cursor.execute(sql_insert)
         
 except MySQLdb.Error, e:
