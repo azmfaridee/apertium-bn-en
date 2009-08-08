@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # adjective speling
-../speling-paradigms.py adjective.bn.speling > /tmp/adjective.bn.dix
+cat adjective.bn.speling adjective-extra.bn.speling > /tmp/adjective.bn.speling
+../speling-paradigms.py /tmp/adjective.bn.speling > /tmp/adjective.bn.dix
 ../paradigm-chopper.py /tmp/adjective.bn.dix > adjective.bn.dix
 
 # also generate the expand
