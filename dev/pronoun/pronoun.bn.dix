@@ -23,6 +23,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="কী__prn">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="prn"/><s n="p3"/><s n="int"/><s n="nn"/><s n="mf"/><s n="sp"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="পরস্পর__prn">
       <e>
         <p>
@@ -192,12 +200,6 @@
         <p>
           <l>িসে</l>
           <r>ি<s n="prn"/><s n="p3"/><s n="int"/><s n="nn"/><s n="mf"/><s n="sp"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ি</l>
-          <r>ি<s n="prn"/><s n="p3"/><s n="int"/><s n="nn"/><s n="mf"/><s n="sp"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -949,6 +951,7 @@
     <e lm="অপরটা"><i>অপরটা</i><par n="অপরটা__prn"/></e>
     <e lm="কে"><i>ক</i><par n="ক/ে__prn"/></e>
     <e lm="অন্যরা"><i>অন্য</i><par n="অন্য/রা__prn"/></e>
+    <e lm="কী"><i>কী</i><par n="কী__prn"/></e>
     <e lm="যারা"><i>যা</i><par n="যা/রা__prn"/></e>
 
   </section>

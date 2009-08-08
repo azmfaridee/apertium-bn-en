@@ -446,6 +446,9 @@ def get_inflection_go(verb, length):
     
     # need to add this alternate form or replace it
     # verb + u'বার'> verb + u'ওয়ার'
+    # umlaut3 + u'য়েছি',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছ', umlaut3 + u'য়েছিস',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছে',  umlaut3 + u'য়েছে'
+    # >>
+    # umlaut2 + u'ছি',  umlaut2 + u'ছেন', umlaut2 + u'ছ', umlaut2 + u'ছিস',  umlaut2 + u'ছেন', umlaut2 + u'ছে',  umlaut2 + u'ছে'
     inflections = ( umlaut + u'তে',
 		    verb + u'ওয়ার',
 		    verb + u'ওয়া',
@@ -456,7 +459,7 @@ def get_inflection_go(verb, length):
 		    umlaut + u'তাম',  umlaut + u'তেন', umlaut + u'তে', umlaut + u'তি',  umlaut + u'তেন', umlaut + u'ত',  umlaut + u'ত',
 		    verb + u'ব',  verb + u'বেন', verb + u'বে', verb + u'বি',  verb + u'বেন', verb + u'বে',  verb + u'বে',
 		    umlaut + u'তে থাকব',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে', umlaut + u'তে থাকবি',  umlaut + u'তে থাকবেন', umlaut + u'তে থাকবে',  umlaut + u'তে থাকবে',
-		    umlaut3 + u'য়েছি',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছ', umlaut3 + u'য়েছিস',  umlaut3 + u'য়েছেন', umlaut3 + u'য়েছে',  umlaut3 + u'য়েছে',
+		    umlaut2 + u'ছি',  umlaut2 + u'ছেন', umlaut2 + u'ছ', umlaut2 + u'ছিস',  umlaut2 + u'ছেন', umlaut2 + u'ছে',  umlaut2 + u'ছে',
 		    umlaut3 + u'য়েছিলাম',  umlaut3 + u'য়েছিলেন', umlaut3 + u'য়েছিলে', umlaut3 + u'য়েছিলি',  umlaut3 + u'য়েছিলেন', umlaut3 + u'য়েছিল',  umlaut3 + u'য়েছিল',
 		    umlaut3 + u'য়ে',
 		    umlaut2 + u'লে',		    

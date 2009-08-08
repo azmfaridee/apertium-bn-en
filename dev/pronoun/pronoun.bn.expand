@@ -16,7 +16,6 @@
 যা:যা<prn><p3><rel><nn><mf><sp><nom>
 কার:কি<prn><p3><int><aa><mf><sg><gen>
 কিসে:কি<prn><p3><int><nn><mf><sp><loc>
-কি:কি<prn><p3><int><nn><mf><sp><nom>
 তা:তা<prn><sg><nom>
 কাদের:কারা<prn><p3><int><mf><pl><gen>
 কারা:কারা<prn><p3><int><mf><pl><nom>
@@ -139,6 +138,7 @@
 কে:কে<prn><p3><int><aa><mf><sp><nom>
 অন্যদের:অন্যরা<prn><p3><mf><pl><gen>
 অন্যরা:অন্যরা<prn><p3><mf><pl><nom>
+কী:কী<prn><p3><int><nn><mf><sp><nom>
 যাদের:যারা<prn><p3><infml><rel><aa><mf><pl><gen>
 যাদেরকে:যারা<prn><p3><infml><rel><aa><mf><pl><obj>
 যাদের:যারা<prn><p3><infml><rel><aa><mf><pl><obj>
