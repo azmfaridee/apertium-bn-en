@@ -1,0 +1,41 @@
+1 Noun Proper Noun NP মিতuর
+2 Common Noun NC পািন, গr
+3 Verbal Noun NV করােনা, পড়ােনা
+4 Adjective Adjective ADJ লাল, গরম
+5 Cardinal (Det) Cardinal (Det) CAR eক, di
+6 Ordinal (Det) Ordinal (Det) ORD pথম, dাদশ
+7 Fractional (Det) Fractional (Det) FRA তৃতীয়াংশ
+8 Pronon Personal Pronoun PP আিম, তুিম
+9 Demonstrative Pronoun DP e, eরা, oরা
+10 Indefinite Pronoun IP েকu
+11 Relative Pronoun RP েয, িযিন, যা
+12 Reflexive Pronoun REFP আপিন, িনজ
+13 Inclusive Pronoun INCP সব, সকল, uভয়
+14 Reciprocal Pronoun RECP আপনা–আপিন
+15 Indeclinables (Obboy) Connective Conjunction CONJC o, eবং, আর
+16 Adversative Conjunction CONJA বা, aথবা
+17 Interjection INTJ বাহ!, oহ!
+18 Vocatives VOC oেগা, oের
+19 Other Indeclinables INDO যিদ, তেব, সুতরাং, বেট, িকnt
+20 Assertive Particle PRTA হয্া
+21 Negative Particle PRTN না, নাi
+22 Question Particle PRTQ িক, েক, কীেনা
+23 Onomatopes ONO টনটন, কনকন
+24 Verb Finite verb VF কির, েখিল
+25 Non-finite verb VNF করেত, েখলেত
+26 Causative verb VC করাi, েখলাi
+27 Verb Imperatives IMP কেরা, েখেলা
+28 Negative Verb VN যাiিন, কিরিন
+29 Existential Verb VE থােক, হয়, আেছ
+30 PostPositions PostPositions POSTP েথেক, িদেয়, সংেগ, সােথ
+31 Quantifiers Quantifiers QUAN িকছু, eেতা, aেনক, খুব, আেরা
+32 Adverb Temporal Adverb ADVT আজ, কাল, সবর্দা, kমশ
+33 Spatial Adverb ADVS িনেচ, uপেড়
+34 Adverb of Manner ADVM আেs, drত
+35 Punctuation Sentence-Final Punctuation PUNSF | , ?, !
+36 Quote PUNQ ", "
+37 Parenthesis PUNPAR ( ) { } [ ]
+38 Mid-sentence Punctuation PUNMS , ; :
+39 Other Punctuation PUNO %.
+40 Abbreviation ABB েমাঃ, ডাঃ
+41 Others Others OTHER

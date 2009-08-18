@@ -1,0 +1,41 @@
+NP	Proper Noun
+NC	Common Noun
+NV	Verbal Noun
+ADJ	Adjective
+CAR	Cardinal
+ORD	Ordinal
+FRA	Fractional
+PP	Personal Pronoun
+DP	Demonstrative Pronoun
+IP	Indefinite Pronoun
+RP	Relative Pronoun
+REFP	Reflexive Pronoun
+INCP	Inclusive Pronoun
+RECP	Reciprocal Pronoun
+CONJC	Connective Conjunction
+CONJA	Adversative Conjunction
+INTJ	Interjection
+VOC	Vocatives
+INDO	Indeclinables
+PRTA	Assertive Particle
+PRTN	Negative Particle
+PRTQ	Question Particle
+ONO	Onomatopes
+VF	Finite verb
+VNF	Non-finite verb
+VC	Causative verb
+IMP	Imperatives
+VN	Negative Verb
+VE	Existential Verb
+POSTP	PostPositions
+QUAN	Quantifiers
+ADVT	Temporal Adverb
+ADVS	Spatial Adverb
+ADVM	Adverb of Manner
+PUNSF	Sentence-Final Punctuation
+PUNQ	Quote
+PUNPAR	Parenthesis
+PUNMS	Mid-sentence Punctuation
+PUNO	Other Punctuation
+ABB	Abbreviation
+OTHER	Others
