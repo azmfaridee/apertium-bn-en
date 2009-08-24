@@ -31,7 +31,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="একটা__det">
+    <pardef n="তত__det">
       <e>
         <p>
           <l></l>
@@ -47,14 +47,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="কোনো__det">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="ind"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="/ওই__det">
       <e>
         <p>
@@ -63,35 +55,58 @@
         </p>
       </e>
     </pardef>
+    <pardef n="উভয়__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="ind"/></r>
+        </p>
+      </e>
+    </pardef>
   </pardefs>
   <section id="main" type="standard">
     <e lm="ঐ"><i>ঐ</i><par n="ঐ__det"/></e>
+    <e lm="তত"><i>তত</i><par n="তত__det"/></e>
     <e lm="তোমাদের"><i>তোমাদের</i><par n="এর__det"/></e>
     <e lm="তাঁর"><i>তাঁর</i><par n="এর__det"/></e>
-    <e lm="যেকোনো"><i>যেকোনো</i><par n="কোনো__det"/></e>
+    <e lm="এখানকার"><i>এখানকার</i><par n="উভয়__det"/></e>
+    <e lm="যেকোনো"><i>যেকোনো</i><par n="উভয়__det"/></e>
     <e lm="ওদের"><i>ওদের</i><par n="এর__det"/></e>
     <e lm="সেই"><i>সেই</i><par n="ঐ__det"/></e>
+    <e lm="প্রত্যেক"><i>প্রত্যেক</i><par n="উভয়__det"/></e>
     <e lm="তার"><i>তার</i><par n="এর__det"/></e>
+    <e lm="এরই"><i>এরই</i><par n="এর__det"/></e>
+    <e lm="আরেকটি"><i>আরেকটি</i><par n="উভয়__det"/></e>
     <e lm="এগুলোর"><i>এগুলোর</i><par n="এর__det"/></e>
+    <e lm="কতটুকু"><i>কতটুকু</i><par n="তত__det"/></e>
+    <e lm="আরেক"><i>আরেক</i><par n="উভয়__det"/></e>
     <e lm="তাদের"><i>তাদের</i><par n="এর__det"/></e>
     <e lm="তোর"><i>তোর</i><par n="এর__det"/></e>
     <e lm="তাঁদের"><i>তাঁদের</i><par n="এর__det"/></e>
     <e lm="ঐগুলোর"><i>ঐগুলোর</i><par n="এর__det"/></e>
+    <e lm="কয়টি"><i>কয়টি</i><par n="তত__det"/></e>
+    <e lm="কটি"><i>কটি</i><par n="তত__det"/></e>
+    <e lm="তারই"><i>তারই</i><par n="এর__det"/></e>
     <e lm="এটার"><i>এটার</i><par n="এর__det"/></e>
     <e lm="তোমার"><i>তোমার</i><par n="এর__det"/></e>
-    <e lm="একটা"><i>একটা</i><par n="একটা__det"/></e>
+    <e lm="একটা"><i>একটা</i><par n="তত__det"/></e>
     <e lm="এই"><i>এই</i><par n="ঐ__det"/></e>
-    <e lm="কোনো"><i>কোনো</i><par n="কোনো__det"/></e>
+    <e lm="কোনো"><i>কোনো</i><par n="উভয়__det"/></e>
     <e lm="আমাদের"><i>আমাদের</i><par n="এর__det"/></e>
     <e lm="তোদের"><i>তোদের</i><par n="এর__det"/></e>
+    <e lm="জনৈক"><i>জনৈক</i><par n="উভয়__det"/></e>
     <e lm="ওগুলোর"><i>ওগুলোর</i><par n="এর__det"/></e>
     <e lm="আপনার"><i>আপনার</i><par n="এর__det"/></e>
+    <e lm="উভয়"><i>উভয়</i><par n="উভয়__det"/></e>
     <e lm="আমার"><i>আমার</i><par n="এর__det"/></e>
     <e lm="ওর"><i>ওর</i><par n="এর__det"/></e>
-    <e lm="প্রতিটি"><i>প্রতিটি</i><par n="কোনো__det"/></e>
+    <e lm="প্রতিটি"><i>প্রতিটি</i><par n="উভয়__det"/></e>
+    <e lm="সেসব"><i>সেসব</i><par n="উভয়__det"/></e>
     <e lm="ওই"><i></i><par n="/ওই__det"/></e>
-    <e lm="কয়েকটি"><i>কয়েকটি</i><par n="একটা__det"/></e>
+    <e lm="কারো"><i>কারো</i><par n="এর__det"/></e>
+    <e lm="কয়েকটি"><i>কয়েকটি</i><par n="তত__det"/></e>
     <e lm="ওটার"><i>ওটার</i><par n="এর__det"/></e>
+    <e lm="যেসব"><i>যেসব</i><par n="উভয়__det"/></e>
     <e lm="এদের"><i>এদের</i><par n="এর__det"/></e>
     <e lm="আপনাদের"><i>আপনাদের</i><par n="এর__det"/></e>
     <e lm="এর"><i>এর</i><par n="এর__det"/></e>

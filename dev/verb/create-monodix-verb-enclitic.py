@@ -844,6 +844,3 @@ try:
 except MySQLdb.Error, e:
 	print "Error %d: %s" % (e.args[0], e.args[1])
 	sys.exit (1)
-
-
-

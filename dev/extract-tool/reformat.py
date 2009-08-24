@@ -40,5 +40,3 @@ for line in doc:
     else:
         # print the other line normally
         print line
-
-
