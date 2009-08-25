@@ -1291,7 +1291,7 @@
     <e><p><l>উর্দু<s n="n"/><s n="mf"/><s n="nn"/></l><r>Urdu<s n="n"/></r></p></e>
     <e><p><l>চার্জশিট<s n="n"/><s n="mf"/><s n="nn"/></l><r>charge-sheet<s n="n"/></r></p></e>
     <e><p><l>দাবি<s n="n"/><s n="mf"/><s n="nn"/></l><r>demand<s n="n"/></r></p></e>
-    <e><p><l>জাতিসংঘ<s n="n"/><s n="mf"/><s n="nn"/></l><r>United Nations<s n="n"/></r></p></e>
+    <e><p><l>জাতিসংঘ<s n="n"/><s n="mf"/><s n="nn"/></l><r>United<b/>Nations<s n="n"/></r></p></e>
     <e><p><l>বীর<s n="n"/><s n="mf"/><s n="el"/></l><r>hero<s n="n"/></r></p></e>
     <e><p><l>প্রলোভন<s n="n"/><s n="nt"/><s n="nn"/></l><r>temptation<s n="n"/></r></p></e>
     <e><p><l>বীজ<s n="n"/><s n="nt"/><s n="nn"/></l><r>seed<s n="n"/></r></p></e>
@@ -1346,7 +1346,7 @@
     <e><p><l>পালক<s n="n"/><s n="mf"/><s n="el"/></l><r>feather<s n="n"/></r></p></e>
     <e><p><l>জনতা<s n="n"/><s n="mf"/><s n="hu"/></l><r>people<s n="n"/></r></p></e>
     <e><p><l>সেমিনার<s n="n"/><s n="mf"/><s n="nn"/></l><r>seminar<s n="n"/></r></p></e>
-    <e><p><l>আইনশৃঙ্খলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>law and order<s n="n"/></r></p></e>
+    <e><p><l>আইনশৃঙ্খলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>law<b/>and<b/>order<s n="n"/></r></p></e>
     <e><p><l>কলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>banana<s n="n"/></r></p></e>
     <e><p><l>শরীর<s n="n"/><s n="mf"/><s n="nn"/></l><r>body<s n="n"/></r></p></e>
     <e><p><l>মিডিয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>media<s n="n"/></r></p></e>
@@ -1379,7 +1379,7 @@
     <e><p><l>মগ<s n="n"/><s n="nt"/><s n="nn"/></l><r>mug<s n="n"/></r></p></e>
     <e><p><l>মিষ্টি<s n="n"/><s n="mf"/><s n="nn"/></l><r>sweet<s n="n"/></r></p></e>
     <e><p><l>আনানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>bringing<s n="n"/></r></p></e>
-    <e><p><l>উচ্চবিদ্যালয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>high school<s n="n"/></r></p></e>
+    <e><p><l>উচ্চবিদ্যালয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>high<b/>school<s n="n"/></r></p></e>
     <e><p><l>মিশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>mission<s n="n"/></r></p></e>
     <e><p><l>ডেভেলপমেন্ট<s n="n"/><s n="mf"/><s n="nn"/></l><r>development<s n="n"/></r></p></e>
     <e><p><l>চালক<s n="n"/><s n="mf"/><s n="hu"/></l><r>driver<s n="n"/></r></p></e>
@@ -1397,7 +1397,7 @@
     <e><p><l>ত্বক<s n="n"/><s n="nt"/><s n="nn"/></l><r>skin<s n="n"/></r></p></e>
     <e><p><l>ঈশ্বর<s n="n"/><s n="mf"/><s n="hu"/></l><r>God<s n="n"/></r></p></e>
     <e><p><l>করপোরেশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>corporation<s n="n"/></r></p></e>
-    <e><p><l>মুক্তিযোদ্ধা<s n="n"/><s n="mf"/><s n="hu"/></l><r>freedom fighter<s n="n"/></r></p></e>
+    <e><p><l>মুক্তিযোদ্ধা<s n="n"/><s n="mf"/><s n="hu"/></l><r>freedom<b/>fighter<s n="n"/></r></p></e>
     <e><p><l>লর্ড<s n="n"/><s n="mf"/><s n="nn"/></l><r>Lord<s n="n"/></r></p></e>
     <e><p><l>ইট<s n="n"/><s n="mf"/><s n="nn"/></l><r>brick<s n="n"/></r></p></e>
     <e><p><l>আসা<s n="n"/><s n="mf"/><s n="nn"/></l><r>coming<s n="n"/></r></p></e>
@@ -1440,7 +1440,7 @@
     <e><p><l>পর্যটন<s n="n"/><s n="mf"/><s n="nn"/></l><r>tourism<s n="n"/></r></p></e>
     <e><p><l>ক্যাপ্টেন<s n="n"/><s n="mf"/><s n="hu"/></l><r>captain<s n="n"/></r></p></e>
     <e><p><l>অনুভূতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>feeling<s n="n"/></r></p></e>
-    <e><p><l>অর্থমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>finance minister<s n="n"/></r></p></e>
+    <e><p><l>অর্থমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>finance<b/>minister<s n="n"/></r></p></e>
     <e><p><l>আকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>size<s n="n"/></r></p></e>
     <e><p><l>দুর্ঘটনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>সেক্রেটারি<s n="n"/><s n="mf"/><s n="hu"/></l><r>secretary<s n="n"/></r></p></e>
@@ -1469,11 +1469,11 @@
     <e><p><l>চিবানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>chewing<s n="n"/></r></p></e>
     <e><p><l>সিস্টেম<s n="n"/><s n="mf"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>কোচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>coach<s n="n"/></r></p></e>
-    <e><p><l>প্রধানমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>prime minister<s n="n"/></r></p></e>
+    <e><p><l>প্রধানমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>prime<b/>minister<s n="n"/></r></p></e>
     <e><p><l>চলন্ত<s n="n"/><s n="nt"/><s n="nn"/></l><r>running<s n="n"/></r></p></e>
     <e><p><l>জটিলতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>complexity<s n="n"/></r></p></e>
     <e><p><l>অবসর<s n="n"/><s n="mf"/><s n="nn"/></l><r>leisure<s n="n"/></r></p></e>
-    <e><p><l>প্রেসক্লাব<s n="n"/><s n="mf"/><s n="nn"/></l><r>press club<s n="n"/></r></p></e>
+    <e><p><l>প্রেসক্লাব<s n="n"/><s n="mf"/><s n="nn"/></l><r>press<b/>club<s n="n"/></r></p></e>
     <e><p><l>মারা<s n="n"/><s n="mf"/><s n="nn"/></l><r>killing<s n="n"/></r></p></e>
     <e><p><l>উইকেট<s n="n"/><s n="mf"/><s n="nn"/></l><r>wicket<s n="n"/></r></p></e>
     <e><p><l>ভালোবাসা<s n="n"/><s n="mf"/><s n="nn"/></l><r>love<s n="n"/></r></p></e>
@@ -1513,7 +1513,7 @@
     <e><p><l>আহ্বান<s n="n"/><s n="mf"/><s n="nn"/></l><r>call<s n="n"/></r></p></e>
     <e><p><l>সমর্থক<s n="n"/><s n="mf"/><s n="nn"/></l><r>supporter<s n="n"/></r></p></e>
     <e><p><l>চেম্বার<s n="n"/><s n="mf"/><s n="nn"/></l><r>chamber<s n="n"/></r></p></e>
-    <e><p><l>মুখ্যমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>chief minister<s n="n"/></r></p></e>
+    <e><p><l>মুখ্যমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>chief<b/>minister<s n="n"/></r></p></e>
     <e><p><l>কুইজ<s n="n"/><s n="mf"/><s n="nn"/></l><r>quiz<s n="n"/></r></p></e>
     <e><p><l>সত্যতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>authenticity<s n="n"/></r></p></e>
     <e><p><l>স্মৃতি<s n="n"/><s n="nt"/><s n="nn"/></l><r>memory<s n="n"/></r></p></e>
@@ -1592,7 +1592,7 @@
     <e><p><l>টানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>pulling<s n="n"/></r></p></e>
     <e><p><l>সিরিজ<s n="n"/><s n="mf"/><s n="nn"/></l><r>series<s n="n"/></r></p></e>
     <e><p><l>লাজুক<s n="n"/><s n="mf"/><s n="hu"/></l><r>shy<s n="n"/></r></p></e>
-    <e><p><l>ডাকঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>post office<s n="n"/></r></p></e>
+    <e><p><l>ডাকঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>post<b/>office<s n="n"/></r></p></e>
     <e><p><l>অঙ্ক<s n="n"/><s n="mf"/><s n="nn"/></l><r>digit<s n="n"/></r></p></e>
     <e><p><l>ভাস্কর্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>sculpture<s n="n"/></r></p></e>
     <e><p><l>বাঁশি<s n="n"/><s n="mf"/><s n="nn"/></l><r>flute<s n="n"/></r></p></e>
@@ -1614,9 +1614,9 @@
     <e><p><l>ভুগা<s n="n"/><s n="mf"/><s n="nn"/></l><r>suffering<s n="n"/></r></p></e>
     <e><p><l>আব্বা<s n="n"/><s n="m"/><s n="hu"/></l><r>father<s n="n"/></r></p></e>
     <e><p><l>সাহস<s n="n"/><s n="mf"/><s n="nn"/></l><r>courage<s n="n"/></r></p></e>
-    <e><p><l>হাইকোর্ট<s n="n"/><s n="mf"/><s n="nn"/></l><r>high court<s n="n"/></r></p></e>
+    <e><p><l>হাইকোর্ট<s n="n"/><s n="mf"/><s n="nn"/></l><r>high<b/>court<s n="n"/></r></p></e>
     <e><p><l>পিতা<s n="n"/><s n="m"/><s n="el"/></l><r>father<s n="n"/></r></p></e>
-    <e><p><l>হাইস্কুল<s n="n"/><s n="mf"/><s n="nn"/></l><r>high school<s n="n"/></r></p></e>
+    <e><p><l>হাইস্কুল<s n="n"/><s n="mf"/><s n="nn"/></l><r>high<b/>school<s n="n"/></r></p></e>
     <e><p><l>অপারেশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>operation<s n="n"/></r></p></e>
     <e><p><l>নিহত<s n="n"/><s n="mf"/><s n="nn"/></l><r>dead<s n="n"/></r></p></e>
     <e><p><l>সম্মানিত<s n="n"/><s n="mf"/><s n="hu"/></l><r>honoured<s n="n"/></r></p></e>
@@ -1637,13 +1637,13 @@
     <e><p><l>টেনিস<s n="n"/><s n="mf"/><s n="nn"/></l><r>tennis<s n="n"/></r></p></e>
     <e><p><l>উত্সব<s n="n"/><s n="mf"/><s n="nn"/></l><r>festival<s n="n"/></r></p></e>
     <e><p><l>জনক<s n="n"/><s n="m"/><s n="hu"/></l><r>father<s n="n"/></r></p></e>
-    <e><p><l>মানবাধিকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>human right<s n="n"/></r></p></e>
+    <e><p><l>মানবাধিকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>human<b/>right<s n="n"/></r></p></e>
     <e><p><l>ইচ্ছে<s n="n"/><s n="mf"/><s n="nn"/></l><r>will<s n="n"/></r></p></e>
     <e><p><l>জিনিস<s n="n"/><s n="nt"/><s n="nn"/></l><r>matter<s n="n"/></r></p></e>
     <e><p><l>হকি<s n="n"/><s n="mf"/><s n="nn"/></l><r>hockey<s n="n"/></r></p></e>
     <e><p><l>পক্ষ<s n="n"/><s n="mf"/><s n="nn"/></l><r>side<s n="n"/></r></p></e>
     <e><p><l>সংযোজন<s n="n"/><s n="mf"/><s n="nn"/></l><r>addition<s n="n"/></r></p></e>
-    <e><p><l>দৃষ্টিকোণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>point of view<s n="n"/></r></p></e>
+    <e><p><l>দৃষ্টিকোণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>point<b/>of<b/>view<s n="n"/></r></p></e>
     <e><p><l>জ্বালানি<s n="n"/><s n="mf"/><s n="nn"/></l><r>fuel<s n="n"/></r></p></e>
     <e><p><l>অধ্যক্ষ<s n="n"/><s n="mf"/><s n="hu"/></l><r>principal<s n="n"/></r></p></e>
     <e><p><l>সোডিয়াম<s n="n"/><s n="mf"/><s n="nn"/></l><r>stadium<s n="n"/></r></p></e>
@@ -1651,13 +1651,13 @@
     <e><p><l>অভিজাত<s n="n"/><s n="mf"/><s n="el"/></l><r>aristocratic<s n="n"/></r></p></e>
     <e><p><l>বিপ্লব<s n="n"/><s n="mf"/><s n="nn"/></l><r>revolution<s n="n"/></r></p></e>
     <e><p><l>গেমস<s n="n"/><s n="mf"/><s n="nn"/></l><r>games<s n="n"/></r></p></e>
-    <e><p><l>গৃহযুদ্ধ<s n="n"/><s n="nt"/><s n="nn"/></l><r>civil war<s n="n"/></r></p></e>
+    <e><p><l>গৃহযুদ্ধ<s n="n"/><s n="nt"/><s n="nn"/></l><r>civil<b/>war<s n="n"/></r></p></e>
     <e><p><l>হেমন্ত<s n="n"/><s n="nt"/><s n="nn"/></l><r>Hemant<s n="n"/></r></p></e>
     <e><p><l>গার্মেন্টস<s n="n"/><s n="mf"/><s n="nn"/></l><r>garments<s n="n"/></r></p></e>
     <e><p><l>ডিসেম্বর<s n="n"/><s n="mf"/><s n="nn"/></l><r>December<s n="n"/></r></p></e>
     <e><p><l>তদন্তকারী<s n="n"/><s n="mf"/><s n="el"/></l><r>investigator<s n="n"/></r></p></e>
     <e><p><l>বমি<s n="n"/><s n="nt"/><s n="nn"/></l><r>puke<s n="n"/></r></p></e>
-    <e><p><l>আদিবাসী<s n="n"/><s n="mf"/><s n="hu"/></l><r>indigenous people<s n="n"/></r></p></e>
+    <e><p><l>আদিবাসী<s n="n"/><s n="mf"/><s n="hu"/></l><r>indigenous<b/>people<s n="n"/></r></p></e>
     <e><p><l>রাজনীতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>politics<s n="n"/></r></p></e>
     <e><p><l>অবাক<s n="n"/><s n="mf"/><s n="nn"/></l><r>amazed<s n="n"/></r></p></e>
     <e><p><l>নীতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>rule<s n="n"/></r></p></e>
@@ -1701,7 +1701,7 @@
     <e><p><l>বিচারপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r><s n="n"/></r></p></e>
     <e><p><l>নাটক<s n="n"/><s n="mf"/><s n="nn"/></l><r>play<s n="n"/></r></p></e>
     <e><p><l>চ্যালেঞ্জ<s n="n"/><s n="mf"/><s n="nn"/></l><r>challenge<s n="n"/></r></p></e>
-    <e><p><l>জনস্বাস্থ্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>public health<s n="n"/></r></p></e>
+    <e><p><l>জনস্বাস্থ্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>public<b/>health<s n="n"/></r></p></e>
     <e><p><l>ছায়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>shadow<s n="n"/></r></p></e>
     <e><p><l>সেন্টার<s n="n"/><s n="mf"/><s n="nn"/></l><r>center<s n="n"/></r></p></e>
     <e><p><l>অংশগ্রহণকারী<s n="n"/><s n="mf"/><s n="el"/></l><r>participant<s n="n"/></r></p></e>
@@ -1719,7 +1719,7 @@
     <e><p><l>আবহাওয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>weather<s n="n"/></r></p></e>
     <e><p><l>বন্দর<s n="n"/><s n="mf"/><s n="nn"/></l><r>port<s n="n"/></r></p></e>
     <e><p><l>অঙ্গীকার<s n="n"/><s n="nt"/><s n="nn"/></l><r>commitment<s n="n"/></r></p></e>
-    <e><p><l>দলিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>legal paper<s n="n"/></r></p></e>
+    <e><p><l>দলিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>legal<b/>paper<s n="n"/></r></p></e>
     <e><p><l>দাড়ি<s n="n"/><s n="nt"/><s n="nn"/></l><r>beard<s n="n"/></r></p></e>
     <e><p><l>বৃত্তি<s n="n"/><s n="nt"/><s n="nn"/></l><r>scholarship<s n="n"/></r></p></e>
     <e><p><l>পাট<s n="n"/><s n="mf"/><s n="nn"/></l><r>jute<s n="n"/></r></p></e>
@@ -1728,7 +1728,7 @@
     <e><p><l>কওয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>telling<s n="n"/></r></p></e>
     <e><p><l>বদলানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>changing<s n="n"/></r></p></e>
     <e><p><l>অন্ধ<s n="n"/><s n="nt"/><s n="nn"/></l><r>blind<s n="n"/></r></p></e>
-    <e><p><l>থানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>police station<s n="n"/></r></p></e>
+    <e><p><l>থানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>police<b/>station<s n="n"/></r></p></e>
     <e><p><l>শুল্ক<s n="n"/><s n="mf"/><s n="nn"/></l><r>tax<s n="n"/></r></p></e>
     <e><p><l>দেব<s n="n"/><s n="mf"/><s n="el"/></l><r>god<s n="n"/></r></p></e>
     <e><p><l>সেতু<s n="n"/><s n="mf"/><s n="nn"/></l><r>bridge<s n="n"/></r></p></e>
@@ -1770,7 +1770,7 @@
     <e><p><l>ভেতর<s n="n"/><s n="mf"/><s n="nn"/></l><r>inside<s n="n"/></r></p></e>
     <e><p><l>জাগা<s n="n"/><s n="mf"/><s n="nn"/></l><r>awakening<s n="n"/></r></p></e>
     <e><p><l>মোল্লা<s n="n"/><s n="mf"/><s n="hu"/></l><r>molla<s n="n"/></r></p></e>
-    <e><p><l>বিশ্বকাপ<s n="n"/><s n="mf"/><s n="nn"/></l><r>wold cup<s n="n"/></r></p></e>
+    <e><p><l>বিশ্বকাপ<s n="n"/><s n="mf"/><s n="nn"/></l><r>wold<b/>cup<s n="n"/></r></p></e>
     <e><p><l>অভিনেতা<s n="n"/><s n="m"/><s n="hu"/></l><r>actor<s n="n"/></r></p></e>
     <e><p><l>রেজিস্ট্রেশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>registration<s n="n"/></r></p></e>
     <e><p><l>চ্যাম্পিয়ন<s n="n"/><s n="mf"/><s n="nn"/></l><r>champion<s n="n"/></r></p></e>
@@ -1778,14 +1778,14 @@
     <e><p><l>পদার্থ<s n="n"/><s n="nt"/><s n="nn"/></l><r>matter<s n="n"/></r></p></e>
     <e><p><l>ফাউন্ডেশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>foundation<s n="n"/></r></p></e>
     <e><p><l>নভেম্বর<s n="n"/><s n="mf"/><s n="nn"/></l><r>November<s n="n"/></r></p></e>
-    <e><p><l>বিমানবন্দর<s n="n"/><s n="mf"/><s n="nn"/></l><r>air port<s n="n"/></r></p></e>
+    <e><p><l>বিমানবন্দর<s n="n"/><s n="mf"/><s n="nn"/></l><r>air<b/>port<s n="n"/></r></p></e>
     <e><p><l>কাগজ<s n="n"/><s n="mf"/><s n="nn"/></l><r>paper<s n="n"/></r></p></e>
     <e><p><l>ভূমিকম্প<s n="n"/><s n="mf"/><s n="nn"/></l><r>earthquake<s n="n"/></r></p></e>
     <e><p><l>মানব<s n="n"/><s n="m"/><s n="hu"/></l><r>human<s n="n"/></r></p></e>
     <e><p><l>ওয়ার্ড<s n="n"/><s n="mf"/><s n="nn"/></l><r>world<s n="n"/></r></p></e>
     <e><p><l>সংযুক্তি<s n="n"/><s n="nt"/><s n="nn"/></l><r>attachment<s n="n"/></r></p></e>
     <e><p><l>লঞ্চ<s n="n"/><s n="mf"/><s n="nn"/></l><r>launch<s n="n"/></r></p></e>
-    <e><p><l>অর্থবছর<s n="n"/><s n="mf"/><s n="nn"/></l><r>fiscal year<s n="n"/></r></p></e>
+    <e><p><l>অর্থবছর<s n="n"/><s n="mf"/><s n="nn"/></l><r>fiscal<b/>year<s n="n"/></r></p></e>
     <e><p><l>ইংরেজি<s n="n"/><s n="mf"/><s n="nn"/></l><r>English<s n="n"/></r></p></e>
     <e><p><l>টিন<s n="n"/><s n="mf"/><s n="nn"/></l><r>tin<s n="n"/></r></p></e>
     <e><p><l>টিম<s n="n"/><s n="mf"/><s n="nn"/></l><r>team<s n="n"/></r></p></e>
@@ -1842,7 +1842,7 @@
     <e><p><l>উদ্ভিদ<s n="n"/><s n="nt"/><s n="nn"/></l><r>plant<s n="n"/></r></p></e>
     <e><p><l>ব্যথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>pain<s n="n"/></r></p></e>
     <e><p><l>ইউনিভার্সিটি<s n="n"/><s n="mf"/><s n="nn"/></l><r>university<s n="n"/></r></p></e>
-    <e><p><l>পররাষ্ট্রমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>foreign minister<s n="n"/></r></p></e>
+    <e><p><l>পররাষ্ট্রমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>foreign<b/>minister<s n="n"/></r></p></e>
     <e><p><l>মিটার<s n="n"/><s n="mf"/><s n="nn"/></l><r>metre<s n="n"/></r></p></e>
     <e><p><l>সেন্সর<s n="n"/><s n="mf"/><s n="nn"/></l><r>sensor<s n="n"/></r></p></e>
     <e><p><l>কাগজপত্র<s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/></l><r>papers<s n="n"/></r></p></e>
@@ -1863,7 +1863,7 @@
     <e><p><l>অসুবিধা<s n="n"/><s n="mf"/><s n="nn"/></l><r>inconvenience<s n="n"/></r></p></e>
     <e><p><l>খুঁজা<s n="n"/><s n="mf"/><s n="nn"/></l><r>searching<s n="n"/></r></p></e>
     <e><p><l>ফেরা<s n="n"/><s n="mf"/><s n="nn"/></l><r>returning<s n="n"/></r></p></e>
-    <e><p><l>হালনাগাদ<s n="n"/><s n="nt"/><s n="nn"/></l><r>up to date<s n="n"/></r></p></e>
+    <e><p><l>হালনাগাদ<s n="n"/><s n="nt"/><s n="nn"/></l><r>up<b/>to<b/>date<s n="n"/></r></p></e>
     <e><p><l>মাছ<s n="n"/><s n="mf"/><s n="aa"/></l><r>fish<s n="n"/></r></p></e>
     <e><p><l>মাঝ<s n="n"/><s n="mf"/><s n="nn"/></l><r>middle<s n="n"/></r></p></e>
     <e><p><l>ধর্মঘট<s n="n"/><s n="mf"/><s n="nn"/></l><r>strike<s n="n"/></r></p></e>
@@ -1876,15 +1876,15 @@
     <e><p><l>পোস্টার<s n="n"/><s n="mf"/><s n="nn"/></l><r>poster<s n="n"/></r></p></e>
     <e><p><l>প্রতিশ্রুতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>promise<s n="n"/></r></p></e>
     <e><p><l>হাটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>walking<s n="n"/></r></p></e>
-    <e><p><l>উপাচার্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice chancellor<s n="n"/></r></p></e>
+    <e><p><l>উপাচার্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>chancellor<s n="n"/></r></p></e>
     <e><p><l>দেবী<s n="n"/><s n="f"/><s n="hu"/></l><r>goddess<s n="n"/></r></p></e>
     <e><p><l>ইঞ্চি<s n="n"/><s n="mf"/><s n="nn"/></l><r>inch<s n="n"/></r></p></e>
-    <e><p><l>তথ্যপ্রযুক্তি<s n="n"/><s n="mf"/><s n="nn"/></l><r>information technology<s n="n"/></r></p></e>
+    <e><p><l>তথ্যপ্রযুক্তি<s n="n"/><s n="mf"/><s n="nn"/></l><r>information<b/>technology<s n="n"/></r></p></e>
     <e><p><l>লেনদেন<s n="n"/><s n="mf"/><s n="nn"/></l><r>exchange<s n="n"/></r></p></e>
-    <e><p><l>রাষ্ট্রদূত<s n="n"/><s n="mf"/><s n="hu"/></l><r>high commissioner<s n="n"/></r></p></e>
+    <e><p><l>রাষ্ট্রদূত<s n="n"/><s n="mf"/><s n="hu"/></l><r>high<b/>commissioner<s n="n"/></r></p></e>
     <e><p><l>ধূসর<s n="n"/><s n="nt"/><s n="nn"/></l><r>gray<s n="n"/></r></p></e>
     <e><p><l>অভিভাবক<s n="n"/><s n="mf"/><s n="el"/></l><r>parent<s n="n"/></r></p></e>
-    <e><p><l>মুক্তিযুদ্ধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>independence war<s n="n"/></r></p></e>
+    <e><p><l>মুক্তিযুদ্ধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>independence<b/>war<s n="n"/></r></p></e>
     <e><p><l>কন্যা<s n="n"/><s n="f"/><s n="hu"/></l><r>daughter<s n="n"/></r></p></e>
     <e><p><l>ইজ্জত<s n="n"/><s n="nt"/><s n="nn"/></l><r>prestige<s n="n"/></r></p></e>
     <e><p><l>স্লোগান<s n="n"/><s n="mf"/><s n="nn"/></l><r>slogan<s n="n"/></r></p></e>
@@ -1905,7 +1905,6 @@
     <e><p><l>বুক<s n="n"/><s n="mf"/><s n="nn"/></l><r>chest<s n="n"/></r></p></e>
     <e><p><l>জায়গা<s n="n"/><s n="mf"/><s n="nn"/></l><r>place<s n="n"/></r></p></e>
     <e><p><l>জননী<s n="n"/><s n="f"/><s n="hu"/></l><r>mother<s n="n"/></r></p></e>
-
     
 
     <!-- Verbs -->
