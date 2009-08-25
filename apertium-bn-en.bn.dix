@@ -11,11 +11,11 @@
     <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
     <sdef n="vblex"        c="Verb"/>
     
-     <sdef n="al"           c="Altres"/>
-     <sdef n="top"          c="Toponyms"/>
-     <sdef n="ant"          c="Antroponyms"/>
-     <sdef n="cog"          c="Cognomen"/>
-     <sdef n="org"          c="Organisation"/>
+    <sdef n="al"           c="Altres"/>
+    <sdef n="top"          c="Toponyms"/>
+    <sdef n="ant"          c="Antroponyms"/>
+    <sdef n="cog"          c="Cognomen"/>
+    <sdef n="org"          c="Organisation"/>
 
     <sdef n="sint"         c="Synthetic"/>
     <sdef n="psint"        c="Partially synthetic"/>
