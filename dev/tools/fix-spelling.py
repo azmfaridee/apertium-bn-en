@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# coding=utf-8
+# -*- encoding: utf-8 -*-
+
 
 # Program info:
 # use this program to fix common speling errors in bengali text
