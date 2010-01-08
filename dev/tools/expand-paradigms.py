@@ -8,6 +8,12 @@ import re
 # for debugging
 from pprint import pprint
 
+# cast the input and output streams so that they can read and write unicode
+# compliant charactes properly
+sys.stdin = codecs.getreader('utf-8')(sys.stdin)
+sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+sys.stderr = codecs.getwriter('utf-8')(sys.stderr)
+
 # line buffer
 lines = []
 
@@ -26,41 +32,45 @@ get_shortest = lambda list: -1 if len(list) == 0 else sorted(list, key=len)[0]
 # the symbol string will be in 'np_mf_nn_sg_nom' format
 # we want the first tag (and sometimes with the second one depending on the pos)
 def get_pos(symbol):
-	if symbol.startswith(u'np_') or symbol.startswith(u'n_'): return reduce(lambda x, y: x + u'_' + y, symbol.split(u'_')[:2])
-	if symbol.startswith(u'vblex_') or symbol.startswith(u'cnjcoo_') or symbol.startswith(u'num_') or symbol.startswith(u'det_') or symbol.startswith(u'prn_') or symbol.startswith(u'post_') or symbol.startswith(u'adv_') or symbol.startswith(u'adj_'): return symbol.split(u'_')[0]
+	if symbol.startswith('np_') or symbol.startswith('n_'): return reduce(lambda x, y: x + '_' + y, symbol.split('_')[:2])
+	if symbol.startswith('vblex') or symbol.startswith('cnjcoo') or symbol.startswith('num') or symbol.startswith('det') or symbol.startswith('prn') or symbol.startswith('post') or symbol.startswith('adv') or symbol.startswith('adj'): return symbol.split('_')[0]
 
 # create symbol list from the xml dix
 def get_symlist(symlist):
-	symlist = symlist.replace(u':', u'_')
-	output = u''
-	for symbol in symlist.split(u'_'): output += u'<s n="' + symbol + u'"/>'
+	symlist = symlist.replace(':', '_')
+	output = ''
+	for symbol in symlist.split('_'): output += '<s n="' + symbol + '"/>'
 	return output
 
 # main program
 if __name__ == '__main__':
 	# append each line from stdin to line buffer
 	for line in sys.stdin:
-		lines.append(line.strip().decode('utf-8'))
+		lines.append(line.strip())
+
 
 	for line in lines:
+		# FIXME: right now we are not dealing REGEX
+		if line.startswith('__REGEXP__'): continue
+
 		# seperate inflection and lemma
-		inflection, lemma_with_symbol = line.split(u':')
+		inflection, lemma_with_symbol = line.split(':')
 
 		# seperate lemma from enclitics
-		if lemma_with_symbol.find(u'+') != -1:
-			lemma_base, enclitic = lemma_with_symbol.split(u'+')
-			enclitic = enclitic[:enclitic.find(u'<')], enclitic[enclitic.find(u'<'):].replace(u'><', u'_').lstrip(u'<').rstrip(u'>')
+		if lemma_with_symbol.find('+') != -1:
+			lemma_base, enclitic = lemma_with_symbol.split('+')
+			enclitic = enclitic[:enclitic.find('<')], enclitic[enclitic.find('<'):].replace('><', '_').lstrip('<').rstrip('>')
 		else:
 			lemma_base, enclitic = lemma_with_symbol, None
 
 		# create the original lemma
-		lemma = lemma_base[:lemma_base.find(u'<')]
+		lemma = lemma_base[:lemma_base.find('<')]
 
 		# seperate the stem by taking the longest common substring among lemma and inflection
 		stem = get_longest_common_substring(lemma, inflection)
 
 		# seperate the total symbols
-		symbols = lemma_base[lemma_base.find(u'<'):].replace(u'><', u'_').lstrip(u'<').rstrip(u'>')
+		symbols = lemma_base[lemma_base.find('<'):].replace('><', '_').lstrip('<').rstrip('>')
 
 		# get the pos from symbols
 		pos = get_pos(symbols)
@@ -70,10 +80,15 @@ if __name__ == '__main__':
 		tag = symbols.replace(pos, '').lstrip('_')
 
 		# generate the form, that will be saved in the flexion databse
-		form = inflection, pos + u':' + tag, enclitic
+		if tag == '': form = inflection, pos, enclitic
+		else: form = inflection, pos + ':' + tag, enclitic
 
 		# DEBUG
-		# print lemma, inflection, pos, tag, enclitic
+# 		print >> sys.stderr, 'lemma', lemma.encode('utf-8')
+# 		print >> sys.stderr, 'inflection', inflection.encode('utf-8')
+# 		print >> sys.stderr, 'pos', pos.encode('utf-8')
+# 		print >> sys.stderr, 'tag', tag.encode('utf-8')
+# 		if enclitic != None: print >> sys.stderr, 'enclitic', enclitic
 
 		if lemma not in lemmata: lemmata[lemma] = {}
 		if lemma not in flexions: flexions[lemma] = {}
@@ -89,9 +104,9 @@ if __name__ == '__main__':
 			categories[lemma][pos] = pos
 
 	# DEBUG
-# 	pprint(lemmata)
-# 	pprint(flexions)
-# 	pprint(categories)
+# 	pprint(lemmata, sys.stderr)
+# 	pprint(flexions, sys.stderr)
+# 	pprint(categories, sys.stderr)
 
 	print '<dictionary>'
 	print '  <pardefs>'
@@ -99,29 +114,33 @@ if __name__ == '__main__':
 		for pos in lemmata[lemma].keys():
 			stem =  get_shortest(lemmata[lemma][pos])
 
-			print '  <!-- ' + lemma.encode('utf-8') + '; ' + stem.encode('utf-8') + ' -->'
+			# print '  <!-- ' + lemma.encode('utf-8') + '; ' + stem.encode('utf-8') + ' -->'
+			print '  <!-- ' + lemma + '; ' + stem + ' -->'
 
 			end = lemma.lstrip(stem)
-			if end == u'': slash = ''
+			if end == '': slash = ''
 			else: slash = '/'
 
-			print '    <pardef n="' + stem.encode('utf-8') + slash + end.encode('utf-8') + '__' + categories[lemma][pos].encode('utf-8') + '">'
+			print '    <pardef n="' + stem + slash + end + '__' + categories[lemma][pos] + '">'
 
 			# FIXME: this is where we are supposed to sort the flexions, I supposed we can skip that for now
 			for pair in flexions[lemma][pos]:
+				# DEBUG
+# 				print >> sys.stderr, 'pair', pair
+
 				print '      <e>'
 				print '        <p>'
 				if len(pair[0]) > 1:
-					print '          <l>' + pair[0].replace(stem, u'', 1).replace(u' ', u'<b/>').encode('utf-8') + '</l>'
-				elif len(pair[0] == 1):
-					print '          <l>' + pair[0].replace(u' ', u'<b/>').encode('utf-8') + '</l>'
+					print '          <l>' + pair[0].replace(stem, '', 1).replace(' ', '<b/>') + '</l>'
+				elif len(pair[0]) == 1:
+					print '          <l>' + pair[0].replace(' ', '<b/>') + '</l>'
 				else:
 					print '          <l/>'
 
 				#	append enclitics
 				if pair[2] == None:	enclitic = ''
 				else: enclitic = '<j/>' + pair[2][0] + get_symlist(pair[2][1])
-				print '          <r>' + end.encode('utf-8') + get_symlist(pair[1]).encode('utf-8') + enclitic.encode('utf-8') +'</r>'
+				print '          <r>' + end + get_symlist(pair[1]) + enclitic +'</r>'
 				print '        </p>'
 				print '      </e>'
 		print '    </pardef>'
@@ -132,8 +151,8 @@ if __name__ == '__main__':
 		for pos in lemmata[lemma].keys():
 			stem = get_shortest(lemmata[lemma][pos])
 			end = lemma.lstrip(stem)
-			if end == u'': slash = ''
+			if end == '': slash = ''
 			else: slash = '/'
-			print '    <e lm="' + lemma.encode('utf-8') + '"><i>' + stem.replace(' ', '<b/>').encode('utf-8') + '</i><par n="' +  stem.encode('utf-8') + slash.encode('utf-8') + end.encode('utf-8') + '__' + categories[lemma][pos].encode('utf-8') + '"/></e>'
+			print '    <e lm="' + lemma + '"><i>' + stem.replace(' ', '<b/>') + '</i><par n="' +  stem + slash + end + '__' + categories[lemma][pos] + '"/></e>'
 	print '  </section>'
 	print '</dictionary>'
