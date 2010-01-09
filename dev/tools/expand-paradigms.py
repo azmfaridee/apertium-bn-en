@@ -7,11 +7,6 @@ import codecs
 import re
 from pprint import pprint
 
-# cast the input and output streams so that they can read and write unicode
-# compliant charactes properly
-sys.stdin = codecs.getreader('utf-8')(sys.stdin)
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
-sys.stderr = codecs.getwriter('utf-8')(sys.stderr)
 
 # line buffer
 lines = []
@@ -43,14 +38,24 @@ def get_symlist(symlist):
 
 # main program
 if __name__ == '__main__':
+	# cast the input and output streams so that they can read and write unicode
+	# compliant charactes properly
+	sys.stdin = codecs.getreader('utf-8')(sys.stdin)
+	sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+	sys.stderr = codecs.getwriter('utf-8')(sys.stderr)
+
 	# append each line from stdin to line buffer
 	for line in sys.stdin:
 		lines.append(line.strip())
 
-
 	for line in lines:
 		# FIXME: right now we are not dealing REGEX
 		if line.startswith('__REGEXP__'): continue
+		
+		# ignore comments
+		# NOTE: normal expand files do not contain comments, but one can leave
+		# commented regions when editing them afterwared
+		if line.startswith('#'): continue
 
 		# seperate inflection and lemma
 		inflection, lemma_with_symbol = line.split(':')
