@@ -5,7 +5,6 @@
 import sys
 import codecs
 import re
-# for debugging
 from pprint import pprint
 
 # cast the input and output streams so that they can read and write unicode
