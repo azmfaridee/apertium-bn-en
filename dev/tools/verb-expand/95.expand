@@ -1,3 +1,4 @@
+হচ্ছিলাম:হ<vblex><past><cnt><p1>
 হচ্ছিলামই:হ<vblex><past><cnt><p1>+ই<adv>
 হচ্ছিলামও:হ<vblex><past><cnt><p1>+ও<adv>
 হচ্ছিল:হ<vblex><past><cnt><p3><infml>
@@ -100,8 +101,8 @@
 হতেনই:হ<vblex><past><hbtl><p3><pol>+ই<adv>
 হতেনও:হ<vblex><past><hbtl><p3><pol>+ও<adv>
 হ:হ<vblex><pres><imp><p2><infml>
-হই:হ<vblex><pres><imp><p2><infml>+ই<adv>
-হও:হ<vblex><pres><imp><p2><infml>+ও<adv>
+# হই:হ<vblex><pres><imp><p2><infml>+ই<adv>
+# হও:হ<vblex><pres><imp><p2><infml>+ও<adv>
 হবেন:হ<vblex><ft><imp><p3><pol>
 হবেনই:হ<vblex><ft><imp><p3><pol>+ই<adv>
 হবেনও:হ<vblex><ft><imp><p3><pol>+ও<adv>
@@ -132,9 +133,9 @@
 হয়েছিস:হ<vblex><prft><p2><infml>
 হয়েছিসই:হ<vblex><prft><p2><infml>+ই<adv>
 হয়েছিসও:হ<vblex><prft><p2><infml>+ও<adv>
-হক:হ<vblex><pres><imp><p3><infml>
-হকই:হ<vblex><pres><imp><p3><infml>+ই<adv>
-হকও:হ<vblex><pres><imp><p3><infml>+ও<adv>
+হোক:হ<vblex><pres><imp><p3><infml>
+হোকই:হ<vblex><pres><imp><p3><infml>+ই<adv>
+হোকও:হ<vblex><pres><imp><p3><infml>+ও<adv>
 হয়েছেন:হ<vblex><prft><p3><pol>
 হয়েছেনই:হ<vblex><prft><p3><pol>+ই<adv>
 হয়েছেনও:হ<vblex><prft><p3><pol>+ও<adv>
@@ -171,9 +172,9 @@
 হতে থাকবি:হ<vblex><ft><cnt><p2><infml>
 হতে থাকবিই:হ<vblex><ft><cnt><p2><infml>+ই<adv>
 হতে থাকবিও:হ<vblex><ft><cnt><p2><infml>+ও<adv>
-হক:হ<vblex><pres><imp><impers>
-হকই:হ<vblex><pres><imp><impers>+ই<adv>
-হকও:হ<vblex><pres><imp><impers>+ও<adv>
+হোক:হ<vblex><pres><imp><impers>
+হোকই:হ<vblex><pres><imp><impers>+ই<adv>
+হোকও:হ<vblex><pres><imp><impers>+ও<adv>
 হয়েছি:হ<vblex><prft><p1>
 হয়েছিই:হ<vblex><prft><p1>+ই<adv>
 হয়েছিও:হ<vblex><prft><p1>+ও<adv>
