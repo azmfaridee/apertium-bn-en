@@ -3,7 +3,7 @@ verb-expand/1.expand -> বুঝ:vblex
 verb-expand/2.expand -> কিন:vblex
 verb-expand/3.expand -> তুল:vblex
 verb-expand/4.expand -> দোলা:vblex
-verb-expand/5.expand -> র:vblex		# DONE
+verb-expand/5.expand -> র:vblex			# DONE
 verb-expand/6.expand -> চল:vblex
 verb-expand/7.expand -> চিবা:vblex
 verb-expand/8.expand -> চালা:vblex
