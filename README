@@ -14,3 +14,12 @@ bn-en.prob 			-- Bengali--English tagger probabilities (binary)
 
 ===================================================================
 
+The morphological analyser in this module is described in the paper:
+
+    Abu Zaher Md. Faridee and Francis M. Tyers
+    2009.
+    "Development of a morphological analyser for Bengali".
+    in Proceedings of the First International Workshop on Free/Open-Source 
+         Rule-Based Machine Translation. pp. 43--51
+
+===================================================================
