@@ -1,3 +1,16 @@
 Bengali -- English translator
 ===================================================================
 
+apertium-bn-en.bn.dix		-- Bengali morphological dictionary
+apertium-bn-en.bn-en.dix	-- Bengali--English bilingual dictionary
+apertium-bn-en.bn-en.t1x	-- Chunker/transfer rules for Bengali--English
+apertium-bn-en.bn-en.t2x	-- Interchunk/transfer rules for Bengali--English
+apertium-bn-en.bn-en.t3x	-- Postchunk/transfer rules for Bengali--English
+apertium-bn-en.en-bn.t1x
+apertium-bn-en.en-bn.t2x
+apertium-bn-en.en-bn.t3x
+apertium-bn-en.en.dix		-- English morphological dictionary
+bn-en.prob 			-- Bengali--English tagger probabilities (binary)
+
+===================================================================
+
