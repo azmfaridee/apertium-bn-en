@@ -34,7 +34,7 @@ if __name__ == '__main__':
 		pos = line[line.index('<')+1:line.index('>')]
 		id = lemma + ':' + pos
 		if id not in groups.keys(): groups[id] = []
-		else: groups[id].append(line)
+		groups[id].append(line)
 	
 	filelist = []
 	i = 0
