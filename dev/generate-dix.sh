@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# used to regenerate the element dix 
+# used to regenerate the element dix
 regen_element_dix()
 {
     echo "Regenerating the source dix" > /dev/stderr
@@ -17,7 +17,7 @@ regen_element_dix()
     cd ../proper-noun
     sh create-proper-noun-dix.sh
     cd ../verb
-    sh create-verb-dix.sh    
+    sh create-verb-dix.sh
     cd ../determiner
     sh create-determiner-dix.sh
     cd ../numerals
@@ -27,28 +27,49 @@ regen_element_dix()
     cd ..
 }
 
+os_depenedent_xpath_call()
+{
+	$os=$(uname -s)
+	if [ $os = "Linux"]; then
+		xpath -p '    ' -e $1 $2
+	elif [ $os = "Darwin"]; then
+		xpath $2 $1 | awk '{print "    "$0 }'
+	fi
+}
+
 query_and_write()
 {
-    echo '\n    <!-- Adjectives -->\n'
-    xpath -p '    ' -e $1 adjective/adjective.bn.dix
+	$os=$(uname -s)
+
+	echo '\n    <!-- Adjectives -->\n'
+	os_depenedent_xpath_call $1 adjective/adjective.bn.dix
+
     echo '\n    <!-- Adverbs -->\n'
-    xpath -p '    ' -e $1 adverb/adverb.bn.dix
+	os_depenedent_xpath_call $1 adverb/adverb.bn.dix
+
     echo '\n    <!-- Nouns -->\n'
-    xpath -p '    ' -e $1 noun/noun.bn.dix
+    os_depenedent_xpath_call $1 noun/noun.bn.dix
+
     echo '\n    <!-- Postpositions -->\n'
-    xpath -p '    ' -e $1 postposition/postposition.bn.dix
+    os_depenedent_xpath_call $1 postposition/postposition.bn.dix
+
     echo '\n    <!-- Pronouns -->\n'
-    xpath -p '    ' -e $1 pronoun/pronoun.bn.dix
+    os_depenedent_xpath_call $1 pronoun/pronoun.bn.dix
+
     echo '\n    <!-- Proper Nouns -->\n'
-    xpath -p '    ' -e $1 proper-noun/proper-noun.bn.dix
+    os_depenedent_xpath_call $1 proper-noun/proper-noun.bn.dix
+
     echo '\n    <!-- Verbs -->\n'
-    xpath -p '    ' -e $1 verb/verb.bn.dix
+    os_depenedent_xpath_call $1 verb/verb.bn.dix
+
     echo '\n    <!-- Determiners -->\n'
-    xpath -p '    ' -e $1 determiner/determiner.bn.dix
+    os_depenedent_xpath_call $1 determiner/determiner.bn.dix
+
     echo '\n    <!-- Numerals -->\n'
-    xpath -p '    ' -e $1 numerals/numerals.bn.dix
+    os_depenedent_xpath_call $1 numerals/numerals.bn.dix
+
     echo '\n    <!-- Conjunctions -->\n'
-    xpath -p '    ' -e $1 conjunction/conjuction.bn.dix
+    os_depenedent_xpath_call $1 conjunction/conjuction.bn.dix
 }
 
 # uncomment if you changed something in the dix
@@ -66,7 +87,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="post"         c="Postposition"/>
     <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
     <sdef n="vblex"        c="Verb"/>
-    
+
      <sdef n="al"           c="Altres"/>
      <sdef n="top"          c="Toponyms"/>
      <sdef n="ant"          c="Antroponyms"/>
@@ -85,10 +106,10 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="rec"          c="Reciprocal"/>
     <sdef n="qnt"          c="Quentifier"/>
     <sdef n="ind"          c="Indicative"/>
-    
+
     <!-- will change this asap to itg -->
     <sdef n="int"          c="Interrogative"/>
-    <sdef n="itg"          c="Interrogative"/>    
+    <sdef n="itg"          c="Interrogative"/>
 
     <sdef n="fam"          c="Familiar"/>
     <sdef n="infml"        c="Informal"/>
@@ -118,7 +139,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="p2"           c="Second person"/>
     <sdef n="p3"           c="Third person"/>
     <sdef n="impers"       c="Impersonal"/>
-    
+
     <sdef n="inf"          c="Infinitive"/>
     <sdef n="ger"          c="Gerund"/>
     <sdef n="ft"           c="Future"/>
@@ -138,9 +159,9 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
     <sdef n="sent"         c="End of sentence marker"/>
   </sdefs>
   <pardefs>
-  
+
     <!-- Punctuation -->
-    
+
     <pardef n="separa">
       <e>
         <re>[.\?;:!।]</re>
@@ -150,7 +171,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
         </p>
       </e>
     </pardef>
- 
+
     <pardef n="numerals">
       <e>
         <re>[০১২৩৪৫৬৭৮৯]+</re>
@@ -172,7 +193,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
           <l>টি</l>
           <r><s n="num"/></r>
         </p>
-      </e>      
+      </e>
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
@@ -181,10 +202,10 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
         </p>
       </e>
     </pardef>
-    
-    
+
+
     <!-- Enclitics -->
-    
+
     <pardef n="enclitic">
       <!-- passthrough -->
       <e>
@@ -209,7 +230,7 @@ echo '<dictionary>  <alphabet>ঁংঃঅআইঈউঊঋঌএঐওঔক�
       </e>
     </pardef>
 '
-    
+
 # we want to remove the duplicate enclitics
 query_and_write '/dictionary/pardefs/pardef[@n!="enclitic"]'
 
