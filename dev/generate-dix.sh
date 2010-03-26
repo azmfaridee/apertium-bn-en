@@ -29,10 +29,10 @@ regen_element_dix()
 
 os_depenedent_xpath_call()
 {
-	$os=$(uname -s)
-	if [ $os = "Linux"]; then
+	os=$(uname -s)
+	if [ $os = "Linux" ]; then
 		xpath -p '    ' -e $1 $2
-	elif [ $os = "Darwin"]; then
+	elif [ $os = "Darwin" ]; then
 		xpath $2 $1 | awk '{print "    "$0 }'
 	fi
 }
