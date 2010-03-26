@@ -4,70 +4,47 @@
 regen_element_dix()
 {
     echo "Regenerating the source dix" > /dev/stderr
-    cd adjective
-    sh create-adjective-dix.sh
-    cd ../adverb
-    sh create-adverb-dix.sh
-    cd ../noun
-    sh create-noun-dix.sh
-    cd ../postposition
-    sh create-postposition-dix.sh
-    cd ../pronoun
-    sh create-pronoun-dix.sh
-    cd ../proper-noun
-    sh create-proper-noun-dix.sh
-    cd ../verb
-    sh create-verb-dix.sh
-    cd ../determiner
-    sh create-determiner-dix.sh
-    cd ../numerals
-    sh create-numerals-dix.sh
-    cd ../conjuction
-    sh create-conjunction-dix.sh
+    cd adjective; sh create-adjective-dix.sh
+    cd ../adverb; sh create-adverb-dix.sh
+    cd ../noun; sh create-noun-dix.sh
+    cd ../postposition; sh create-postposition-dix.sh
+    cd ../pronoun; sh create-pronoun-dix.sh
+    cd ../proper-noun; sh create-proper-noun-dix.sh
+    cd ../verb; sh create-verb-dix.sh
+    cd ../determiner; sh create-determiner-dix.sh
+    cd ../numerals; sh create-numerals-dix.sh
+    cd ../conjuction; sh create-conjunction-dix.sh
     cd ..
 }
 
 os_depenedent_xpath_call()
 {
-	$os=$(uname -s)
+	os=$(uname -s)
+	echo -e "\n    $3\n"
 	if [ $os = "Linux" ]; then
 		xpath -p '    ' -e $1 $2
 	elif [ $os = "Darwin" ]; then
-		xpath $2 $1 | awk '{print "    "$0 }'
+		echo -n '    '
+		# xpath somehow concatenates subsequent results and omits the newline
+		# so have to manually add that, so we use two perl one liners to fix that
+		xpath $2 $1 | perl -pe 's/<\/pardef><pardef/<\/pardef>\n    <pardef/g' | \
+		perl -pe 's/<\/e><e/<\/e>\n    <e/g'
+		echo -e "\n"
 	fi
 }
 
 query_and_write()
 {
-	echo '    <!-- Adjectives -->'
-	os_depenedent_xpath_call $1 adjective/adjective.bn.dix
-
-    echo '    <!-- Adverbs -->'
-	os_depenedent_xpath_call $1 adverb/adverb.bn.dix
-
-    echo '    <!-- Nouns -->'
-    os_depenedent_xpath_call $1 noun/noun.bn.dix
-
-    echo '    <!-- Postpositions -->'
-    os_depenedent_xpath_call $1 postposition/postposition.bn.dix
-
-    echo '    <!-- Pronouns -->'
-    os_depenedent_xpath_call $1 pronoun/pronoun.bn.dix
-
-    echo '    <!-- Proper Nouns -->'
-    os_depenedent_xpath_call $1 proper-noun/proper-noun.bn.dix
-
-    echo '    <!-- Verbs -->'
-    os_depenedent_xpath_call $1 verb/verb.bn.dix
-
-    echo '    <!-- Determiners -->'
-    os_depenedent_xpath_call $1 determiner/determiner.bn.dix
-
-    echo '    <!-- Numerals -->'
-    os_depenedent_xpath_call $1 numerals/numerals.bn.dix
-
-    echo '    <!-- Conjunctions -->'
-    os_depenedent_xpath_call $1 conjunction/conjuction.bn.dix
+	os_depenedent_xpath_call $1 adjective/adjective.bn.dix '<!-- Adjectives -->'
+	os_depenedent_xpath_call $1 adverb/adverb.bn.dix '<!-- Adverbs -->'
+    os_depenedent_xpath_call $1 noun/noun.bn.dix '<!-- Nouns -->'
+    os_depenedent_xpath_call $1 postposition/postposition.bn.dix '<!-- Postpositions -->'
+    os_depenedent_xpath_call $1 pronoun/pronoun.bn.dix '<!-- Pronouns -->'
+    os_depenedent_xpath_call $1 proper-noun/proper-noun.bn.dix '<!-- Proper Nouns -->'
+    os_depenedent_xpath_call $1 verb/verb.bn.dix '<!-- Verbs -->'
+    os_depenedent_xpath_call $1 determiner/determiner.bn.dix '<!-- Determiners -->'
+    os_depenedent_xpath_call $1 numerals/numerals.bn.dix '<!-- Numerals -->'
+    os_depenedent_xpath_call $1 conjunction/conjuction.bn.dix '<!-- Conjunctions -->'
 }
 
 # uncomment if you changed something in the dix
