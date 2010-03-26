@@ -1,4 +1,4 @@
-#!/usr/bin/python2.4
+#!/usr/bin/python2.5
 # coding=utf-8
 # -*- encoding: utf-8 -*-
 
@@ -56,12 +56,12 @@ def demangle_flexion_tags(a): #{
 	a = a.replace('c5', 'loc');
 	a = a.replace('c6', 'ins');
 	a = a.replace('c7', 'voc');
-	
+
 	return a;
 #}
 
 def sort_flexions(a, b): #{
-	
+
 	if(mangle_flexion_tags(a[1]) > mangle_flexion_tags(b[1])): #{
 		return 1;
 	#}
@@ -150,7 +150,7 @@ for line in list: #{
 
         inflection = row[1].strip();
 #	if lemma.decode('utf-8').islower(): #{
-#		inflection = inflection.decode('utf-8').lower().encode('utf-8');	
+#		inflection = inflection.decode('utf-8').lower().encode('utf-8');
 #	#}
 	#print lemma , ' / ' , inflection;
         full = inflection;
@@ -199,7 +199,7 @@ for lemma in lemmata.keys(): #{
 	        #}
 
 	        print '    <pardef n="' + stem + slash + end + '__' + category[lemma][pos] + '">';
-		
+
 		flexions[lemma][pos].sort(sort_flexions);
 
 	        for pair in flexions[lemma][pos]: #{
@@ -237,7 +237,7 @@ for lemma in lemmata.keys(): #{
 
             # spectie, I belive this was the problem we were keeping the space, whereas it should be replaced by </b>, what do you think?
 	        #print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';
-	        print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem.replace(' ', '<b/>') + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';        
+	        print '    <e lm="' + lemma.decode('utf-8') + '"><i>' + stem.replace(' ', '<b/>') + '</i><par n="' +  stem + slash + end + '__' + category[lemma][pos] + '"/></e>';
 	#}
 #}
 

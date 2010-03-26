@@ -1,4 +1,4 @@
-#!/usr/bin/python2.5
+#!/usr/bin/python
 # coding=utf-8
 # -*- encoding: utf-8 -*-
 
@@ -42,7 +42,7 @@ path = '/dictionary/pardefs/pardef';
 
 paradigms = {};
 
-# Convert from a dotted symbol list into a list of 
+# Convert from a dotted symbol list into a list of
 # symbols in XML:
 #
 # n.m.sg --> <s n="n"/><s n="m"/><s n="sg"/>
@@ -105,8 +105,8 @@ def roll_right(name): #{
 	if name.find('/') == -1: #{
 		rstring = '';
 	#}
-	
-	return rstring;	
+
+	return rstring;
 #}
 
 # Compare two paradigms
@@ -114,7 +114,7 @@ def roll_right(name): #{
 # Returns '1' if they are equivalent, '0' if they are not.
 #
 def compare_paradigms(paradigm1, paradigm2): #{
-	# paradigm,stem,symbols !! paradigm,stem,symbols	
+	# paradigm,stem,symbols !! paradigm,stem,symbols
 	common = 0;
 
 	if len(paradigm1) != len(paradigm2): #{
@@ -132,7 +132,7 @@ def compare_paradigms(paradigm1, paradigm2): #{
 	if common == len(paradigm1): #{
 		return 1;
 	#}
-		
+
 	return 0;
 #}
 
@@ -160,7 +160,7 @@ def duplicate_exists(p1, p2, duplicates): #{
 				return 1;
 			#}
 		#}
-	#} 
+	#}
 
 	return 0;
 #}
@@ -169,12 +169,12 @@ count = 0;
 
 #
 # Build the list of paradigms
-# 
+#
 
 # For each paradigm definition in the pardefs section
 for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
         pardef = node.getAttributeNS(None, 'n');
-	
+
 	# we skip the the pardef is enclitic, as there is some bug
 	# we shall do the enclitic later
 	if pardef == 'enclitic': #{
@@ -193,11 +193,11 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 
 	# For each entry <e> in the paradigm,
 	for child in Ft.Xml.XPath.Evaluate('.//e', contextNode=node): #{
-		
+
 		# checking if we have any nested pardef, then well just associate those
 		# with current pardef
 		# TODO: need to fix the order the pardef occurs
-		
+
 		nested_pardef = ''
 		for nested in Ft.Xml.XPath.Evaluate('.//par', contextNode=child): #{
 			if type(nested) != type(None): #{
@@ -211,7 +211,7 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 				#}
 			#}
 		#}
-		
+
 		# For each pair <p> in the entry,
 		for pair in Ft.Xml.XPath.Evaluate('.//p', contextNode=child): #{
 			suffix = '';
@@ -227,7 +227,7 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 			symbols = '';
 			# The right side <r> is the list of symbols
 			right =  Ft.Xml.XPath.Evaluate('.//r', contextNode=pair)[0];
-			
+
 			"""
 			# get the right node value if the right side contains some
 			if type(right) != type(None): #{
@@ -236,7 +236,7 @@ for node in Ft.Xml.XPath.Evaluate(path, contextNode=doc): #{
 				righttext = ''
 			#}
 			"""
-			
+
 			for sym in Ft.Xml.XPath.Evaluate('.//s', contextNode=right): #{
 				symbol = '';
 				if type(sym) != type(None): #{
@@ -271,15 +271,15 @@ sorted_paradigms.sort(string_length_compare);
 # and the key is the name of the paradigm which they are a duplicate of.
 duplicates = {};
 
-# Takes a list of paradigms, a hash of duplicates and the 
+# Takes a list of paradigms, a hash of duplicates and the
 # paradigm which is currently being processed.
 def strip_duplicates(paradigms, duplicates, current): #{
 #	print 'paradigms: ' , len(paradigms);
-	
+
 	for paradigm1 in paradigms.keys(): #{
 		# If the paradigms are the same, move along
 		if paradigm1 in paradigms and current in paradigms and current != paradigm1: #{
-			# If the current paradigm does not yet have a list of duplicates 
+			# If the current paradigm does not yet have a list of duplicates
 			# associated with it, create the list.
 			if current not in duplicates: #{
 				duplicates[current] = [];
@@ -293,9 +293,9 @@ def strip_duplicates(paradigms, duplicates, current): #{
 				# paradigm1 is a duplicate of current paradigm, add
 				# paradigm1 to the duplicate list for current.
 				duplicates[current].append(paradigm1);
-				
+
 				# Remove the paradigm we just added a duplicate of, this means
-				# that each time we find a duplicate paradigm, we reduce the 
+				# that each time we find a duplicate paradigm, we reduce the
 				# search space.
 				del paradigms[paradigm1];
 
@@ -337,7 +337,7 @@ for paradigm in paradigms.keys(): #{
 			print '          <l/>';
 		else: #{
 			# We are replacing back ##b## to <b/>
-			print('          <l>%s</l>' % (pair[0].replace('##b##', '<b/>')));			
+			print('          <l>%s</l>' % (pair[0].replace('##b##', '<b/>')));
 		#}
 		rpost = paradigm[bar_idx:udr_idx];
 		if paradigm.find('/') == -1: #{
@@ -346,11 +346,11 @@ for paradigm in paradigms.keys(): #{
 		# Replace back for the enclitics
 		print '          <r>' + rpost + (return_symlist(pair[1])).replace(u'<s n="##jই##"/>', u'<j/>ই').replace(u'<s n="##jও##"/>', u'<j/>ও') + '</r>';
 		print '        </p>';
-		
+
 		# check to print nested par
 		if pair[2] != '': #{
 			for nested_pardef in pair[2].split('.'): #{
-				print '        <par n="' + nested_pardef +'"/>';	
+				print '        <par n="' + nested_pardef +'"/>';
 			#}
 		#}
 		print '      </e>';
@@ -371,7 +371,7 @@ for line in d.readlines(): #{
 #}
 
 # For each paradigm in the hash of duplicates, take the list for
-# each one and replace each item in the list with the name of the 
+# each one and replace each item in the list with the name of the
 # paradigm as the key.
 total = 0;
 for paradigm in duplicates.keys(): #{
