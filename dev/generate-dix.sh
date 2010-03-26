@@ -29,7 +29,7 @@ regen_element_dix()
 
 os_depenedent_xpath_call()
 {
-	os=$(uname -s)
+	$os=$(uname -s)
 	if [ $os = "Linux" ]; then
 		xpath -p '    ' -e $1 $2
 	elif [ $os = "Darwin" ]; then
@@ -39,36 +39,34 @@ os_depenedent_xpath_call()
 
 query_and_write()
 {
-	$os=$(uname -s)
-
-	echo '\n    <!-- Adjectives -->\n'
+	echo '    <!-- Adjectives -->'
 	os_depenedent_xpath_call $1 adjective/adjective.bn.dix
 
-    echo '\n    <!-- Adverbs -->\n'
+    echo '    <!-- Adverbs -->'
 	os_depenedent_xpath_call $1 adverb/adverb.bn.dix
 
-    echo '\n    <!-- Nouns -->\n'
+    echo '    <!-- Nouns -->'
     os_depenedent_xpath_call $1 noun/noun.bn.dix
 
-    echo '\n    <!-- Postpositions -->\n'
+    echo '    <!-- Postpositions -->'
     os_depenedent_xpath_call $1 postposition/postposition.bn.dix
 
-    echo '\n    <!-- Pronouns -->\n'
+    echo '    <!-- Pronouns -->'
     os_depenedent_xpath_call $1 pronoun/pronoun.bn.dix
 
-    echo '\n    <!-- Proper Nouns -->\n'
+    echo '    <!-- Proper Nouns -->'
     os_depenedent_xpath_call $1 proper-noun/proper-noun.bn.dix
 
-    echo '\n    <!-- Verbs -->\n'
+    echo '    <!-- Verbs -->'
     os_depenedent_xpath_call $1 verb/verb.bn.dix
 
-    echo '\n    <!-- Determiners -->\n'
+    echo '    <!-- Determiners -->'
     os_depenedent_xpath_call $1 determiner/determiner.bn.dix
 
-    echo '\n    <!-- Numerals -->\n'
+    echo '    <!-- Numerals -->'
     os_depenedent_xpath_call $1 numerals/numerals.bn.dix
 
-    echo '\n    <!-- Conjunctions -->\n'
+    echo '    <!-- Conjunctions -->'
     os_depenedent_xpath_call $1 conjunction/conjuction.bn.dix
 }
 
