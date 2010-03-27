@@ -1,29 +1,66 @@
-Bengali -- English translator
-===================================================================
+Bengali and English
 
-apertium-bn-en.bn.dix		-- Bengali morphological dictionary
-apertium-bn-en.bn-en.dix	-- Bengali--English bilingual dictionary
-apertium-bn-en.bn-en.t1x	-- Chunker/transfer rules for Bengali--English
-apertium-bn-en.bn-en.t2x	-- Interchunk/transfer rules for Bengali--English
-apertium-bn-en.bn-en.t3x	-- Postchunk/transfer rules for Bengali--English
-apertium-bn-en.en-bn.t1x
-apertium-bn-en.en-bn.t2x
-apertium-bn-en.en-bn.t3x
-apertium-bn-en.en.dix		-- English morphological dictionary
-bn-en.prob 			-- Bengali--English tagger probabilities (binary)
+                            apertium-bn-en
+===============================================================================
 
-===================================================================
+This is an Apertium language pair for translating between Bengali and 
+English. What you can use this language package for:
 
-The morphological analyser in this module is described in the paper:
+* Translating between Bengali and English (under development)
+* Morphological analysis of Bengali and English
+* Part-of-speech tagging of Bengali and English (under development)
 
-    Abu Zaher Md. Faridee and Francis M. Tyers
-    2009.
-    "Development of a morphological analyser for Bengali".
-    in Proceedings of the First International Workshop on Free/Open-Source 
-         Rule-Based Machine Translation. pp. 43--51
+For information on the latter two points, see subheading "For more 
+information" below
 
-===================================================================
+Requirements
+===============================================================================
 
-More information about this module, and others can be found on 
-the Apertium: Wiki, http://wiki.apertium.org
+You will need the following software installed:
 
+* lttoolbox (>= 3.1.2)
+* apertium (>= 3.1.1)
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+
+$ ./configure 
+$ make
+# make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you're using a --prefix to ./configure, make sure it's the
+same one you used to install apertium itself.
+
+Files and data
+===============================================================================
+
+* apertium-bn-en.nn.dix            - Monolingual dictionary for Bengali
+* apertium-bn-en.bn-en.dix         - Bilingual dictionary 
+* apertium-bn-en.nb.dix            - Monolingual dictionary for English
+* apertium-bn-en.bn-en.t1x         - Transfer rules for translating into English
+* apertium-bn-en.en-bn.t1x         - Transfer rules for translating into Bengali
+* bn-en.prob                       - Tagger model for Bengali
+* en-bn.prob                       - Tagger model for English
+* modes.xml                        - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-bn-en
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.freenode.net
+
+See also the file AUTHORS included in this distribution.
