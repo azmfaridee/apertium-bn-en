@@ -79,6 +79,7 @@
       <attr-item tags="pres.smpl"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
+      <attr-item tags="past.smpl"/>    
       <attr-item tags="inf"/>
     </def-attr>
     
@@ -335,6 +336,8 @@
       </pattern>
       <action>
         <choose>
+
+          <!-- Condition for present indefinite -->
           <when>
             <test>
               <equal> 
@@ -350,7 +353,26 @@
               </concat>
             </let>
           </when>
+
+          <!-- Condition for past indefinitie -->
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="past"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
         </choose>
+
+        <!-- Add person tag -->
         <let>
           <clip pos="1" side="tl" part="temps"/>
           <concat>
@@ -358,6 +380,8 @@
             <var n="person"/>
           </concat>
         </let>
+
+        <!-- Actual output -->
         <out>
           <chunk name="verbcj" case="caseFirstWord">
             <tags>
