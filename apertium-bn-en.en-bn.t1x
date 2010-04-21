@@ -364,7 +364,9 @@
                 <lit-tag v="pres"/>
             </let>
           </when>
+        </choose>
 
+        <choose>
           <when>
             <test>
               <equal>
