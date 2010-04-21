@@ -393,7 +393,7 @@
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
-              <lit-tag n="vblex"/>
+              <lit-tag v="vblex"/>
               <clip pos="1" side="tl" part="temps" link-to="2"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="temps" link-to="4"/>
