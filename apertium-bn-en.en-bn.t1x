@@ -34,6 +34,9 @@
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
     </def-cat>
+    <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -76,11 +79,15 @@
       <attr-item tags="p3"/>
     </def-attr>
     <def-attr n="temps">
-      <attr-item tags="pres.smpl"/>
       <attr-item tags="pres"/>
+      <attr-item tags="pres.smpl"/>
+      <attr-item tags="pres.cnt"/>
       <attr-item tags="past"/>
-      <attr-item tags="past.smpl"/>    
+      <attr-item tags="past.smpl"/>
+      <attr-item tags="past.cnt"/>        
       <attr-item tags="inf"/>
+      <!-- present indefinite? -->
+      <attr-item tags="pri"/>
     </def-attr>
     
     <!-- Adjective Attributes -->
@@ -91,7 +98,12 @@
       <attr-item tags="adj.sint.comp"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.sint.sup"/>
-    </def-attr>  
+    </def-attr>
+
+    <!-- Vblex Attribute -->
+    <def-attr n="a_vblex">
+      <attr-item tags="ger"/>
+    </def-attr>
 
   </section-def-attrs>
 
@@ -329,6 +341,68 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: VBSER VBLEX">
+      <pattern>
+        <pattern-item n="vbser"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+
+        <choose>
+          <when>
+            <test>
+              <equal> 
+                <!-- en part has pri to denote the present, bn uses pres -->
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="pri"/>
+              </equal>
+            </test>
+            <let>
+                <!-- replace 'pri' with 'pres' -->
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pres"/>
+            </let>
+          </when>
+
+          <when>
+            <test>
+              <equal>
+                <!-- if the verb has gerund tag -->
+                <clip pos="2" side="sl" part="a_vblex"/>
+                <lit-tag v="ger"/>
+              </equal>
+            </test>
+            <let>
+              <!-- add cnt tag -->
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="cnt"/>
+              </concat>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag n="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
 
     <rule comment="REGLA: VERB CONJ">
       <pattern>

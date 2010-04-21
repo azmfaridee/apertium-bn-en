@@ -45,6 +45,7 @@
 
     <sdef n="num"       c="Numeral"/>
     <sdef n="vblex"     c="Verb"/>
+    <sdef n="vbser"     c="Be Verb"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
 
     <sdef n="ND"        c="Number to be determined"/>
@@ -1979,6 +1980,7 @@
     <e><p><l>নিষিদ্ধ কর<s n="vblex"/></l><r>ban<s n="vblex"/></r></p></e>
     <e><p><l>ভিত্তি কর<s n="vblex"/></l><r>base<s n="vblex"/></r></p></e>
     <e><p><l>হ<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
+    <e><p><l>হ<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>শুরু হ<s n="vblex"/></l><r>begin<s n="vblex"/></r></p></e>
     <e><p><l>ভিক্ষা কর<s n="vblex"/></l><r>beg<s n="vblex"/></r></p></e>
     <e><p><l>বিশ্বাস কর<s n="vblex"/></l><r>believe<s n="vblex"/></r></p></e>
