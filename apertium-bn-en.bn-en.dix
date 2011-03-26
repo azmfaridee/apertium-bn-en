@@ -558,7 +558,8 @@
     <e><p><l>হাসপাতাল<s n="n"/><s n="mf"/><s n="nn"/></l><r>hospital<s n="n"/></r></p></e>
     <e><p><l>ছাত্রাবাস<s n="n"/><s n="nt"/><s n="nn"/></l><r>hostel<s n="n"/></r></p></e>
     <e><p><l>হোটেল<s n="n"/><s n="nt"/><s n="nn"/></l><r>hotel<s n="n"/></r></p></e>
-    <e><p><l>ঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>house<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>house<s n="n"/></r></p></e>
+    <e c="  1"><p><l>ঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>room<s n="n"/></r></p></e>
     <e><p><l>বাড়ি<s n="n"/><s n="mf"/><s n="nn"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>মানুষ<s n="n"/><s n="mf"/><s n="hu"/></l><r>human<s n="n"/></r></p></e>
     <e><p><l>শত<s n="n"/><s n="nt"/><s n="nn"/></l><r>hundred<s n="n"/></r></p></e>
@@ -894,7 +895,6 @@
     <e><p><l>রাস্তা<s n="n"/><s n="nt"/><s n="nn"/></l><r>road<s n="n"/></r></p></e>
     <e><p><l>ভূমিকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>role<s n="n"/></r></p></e>
     <e><p><l>ছাদ<s n="n"/><s n="nt"/><s n="nn"/></l><r>roof<s n="n"/></r></p></e>
-    <e><p><l>ঘর<s n="n"/><s n="nt"/><s n="nn"/></l><r>room<s n="n"/></r></p></e>
     <e><p><l>মূল<s n="n"/><s n="nt"/><s n="nn"/></l><r>root<s n="n"/></r></p></e>
     <e><p><l>গোলাপ<s n="n"/><s n="nt"/><s n="nn"/></l><r>rose<s n="n"/></r></p></e>
     <e><p><l>গোল<s n="n"/><s n="mf"/><s n="nn"/></l><r>round<s n="n"/></r></p></e>
