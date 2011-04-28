@@ -2621,6 +2621,13 @@
     <e><p><l>তালিকাভুক্ত<s n="adj"/><s n="mf"/></l><r>enlisted<s n="adj"/></r></p></e>
     <e><p><l>ভক্ত<s n="adj"/><s n="mf"/></l><r>fan<s n="adj"/></r></p></e>
     
+    <!-- Adjective (new) -->
+    <e><p><l>বৈদেশিক<s n="adj"/><s n="mf"/></l><r>foreign<s n="adj"/></r></p></e>
+    <e><p><l>পুরান<s n="adj"/><s n="mf"/></l><r>old<s n="adj"/></r></p></e>
+    <e><p><l>মাঝারি<s n="adj"/><s n="mf"/></l><r>medium<s n="adj"/></r></p></e>
+    <e><p><l>মাসিক<s n="adj"/><s n="mf"/></l><r>monthly<s n="adj"/></r></p></e>
+    <e><p><l>প্রাকৃতিক<s n="adj"/><s n="mf"/></l><r>natural<s n="adj"/></r></p></e>
+
     <!-- Proper Nouns (added later)-->
         <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>কক্সবাজার<s n="np"/><s n="top"/><s n="mf"/></l><r>Cox's<b/>Bazar<s n="np"/><s n="top"/></r></p></e>
