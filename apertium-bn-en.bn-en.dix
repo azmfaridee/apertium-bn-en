@@ -3028,14 +3028,13 @@
     <e><p><l>বাকি<s n="adj"/><s n="mf"/></l><r>due<s n="adj"/></r></p></e>
     <e><p><l>সাংবিধানিক<s n="adj"/><s n="mf"/></l><r>constitutional<s n="adj"/></r></p></e>
     <e><p><l>অবসরপ্রাপ্ত<s n="adj"/><s n="mf"/></l><r>retired<s n="adj"/></r></p></e>
-    <e><p><l>শাসক<s n="adj"/><s n="mf"/></l><r>ruler<s n="adj"/></r></p></e>
     <e><p><l>মসৃণ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>smooth<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>নরম<s n="adj"/><s n="mf"/></l><r>soft<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>জুনিয়র<s n="adj"/><s n="mf"/></l><r>junior<s n="adj"/></r></p></e>
     <e><p><l>খোলা<s n="adj"/><s n="mf"/></l><r>open<s n="adj"/></r></p></e>
     <e><p><l>সত্যি<s n="adj"/><s n="mf"/></l><r>true<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>বিশ্বাসী<s n="adj"/><s n="mf"/></l><r>trustworthy<s n="adj"/></r></p></e>
-    <e><p><l>নিয়মিতভাবে<s n="adj"/><s n="mf"/></l><r>regularly<s n="adj"/></r></p></e>
+    <e><p><l>নিয়মিতভাবে<s n="adj"/><s n="mf"/></l><r>regular<s n="adj"/></r></p></e>
     <e><p><l>নেতিবাচক<s n="adj"/><s n="mf"/></l><r>negative<s n="adj"/></r></p></e>
     <e><p><l>সুবর্ণ<s n="adj"/><s n="mf"/></l><r>golden<s n="adj"/></r></p></e>
     <e><p><l>দিনব্যাপী<s n="adj"/><s n="mf"/></l><r>daylong<s n="adj"/></r></p></e>
@@ -3093,7 +3092,7 @@
     <e><p><l>স্পষ্ট<s n="adj"/><s n="mf"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>প্রকাশিত<s n="adj"/><s n="mf"/></l><r>published<s n="adj"/></r></p></e>
     <e><p><l>সশস্ত্র<s n="adj"/><s n="mf"/></l><r>armed<s n="adj"/></r></p></e>
-    <e><p><l>চকচকে<s n="adj"/><s n="mf"/></l><r>glitter<s n="adj"/></r></p></e>
+    <e><p><l>চকচকে<s n="adj"/><s n="mf"/></l><r>glittering<s n="adj"/></r></p></e>
     <e><p><l>নীরব<s n="adj"/><s n="mf"/></l><r>quite<s n="adj"/></r></p></e>
     <e><p><l>বর্তমান<s n="adj"/><s n="mf"/></l><r>present<s n="adj"/></r></p></e>
     <e><p><l>উদ্বোধনী<s n="adj"/><s n="mf"/></l><r>inaugural<s n="adj"/></r></p></e>
@@ -3124,7 +3123,6 @@
     <e><p><l>সম্পর্কিত<s n="adj"/><s n="mf"/></l><r>related<s n="adj"/></r></p></e>
     <e><p><l>অপরিবর্তিত<s n="adj"/><s n="mf"/></l><r>unchanged<s n="adj"/></r></p></e>
     <e><p><l>চতুর্থ<s n="adj"/><s n="mf"/></l><r>fourth<s n="adj"/></r></p></e>
-    <e><p><l>নকশা<s n="adj"/><s n="mf"/></l><r>design<s n="adj"/></r></p></e>
     <e><p><l>বেসামরিক<s n="adj"/><s n="mf"/></l><r>civil<s n="adj"/></r></p></e>
     <e><p><l>সাপ্তাহিক<s n="adj"/><s n="mf"/></l><r>weekly<s n="adj"/></r></p></e>
     <e><p><l>কাল<s n="adj"/><s n="mf"/></l><r>time<s n="adj"/></r></p></e>
@@ -3321,7 +3319,7 @@
     <e><p><l>ভারপ্রাপ্ত<s n="adj"/><s n="mf"/></l><r>acting<s n="adj"/></r></p></e>
     <e><p><l>স্পেশাল<s n="adj"/><s n="mf"/></l><r>special<s n="adj"/></r></p></e>
     <e><p><l>ভৌত<s n="adj"/><s n="mf"/></l><r>physical<s n="adj"/></r></p></e>
-    <e><p><l>বর্ণবাদী<s n="adj"/><s n="mf"/></l><r>racism<s n="adj"/></r></p></e>
+    <e><p><l>বর্ণবাদী<s n="adj"/><s n="mf"/></l><r>racist<s n="adj"/></r></p></e>
     <e><p><l>সাময়িক<s n="adj"/><s n="mf"/></l><r>temporary<s n="adj"/></r></p></e>
     <e><p><l>বেপরোয়া<s n="adj"/><s n="mf"/></l><r>desperate<s n="adj"/></r></p></e>
     <e><p><l>বিভিন্ন<s n="adj"/><s n="mf"/></l><r>several<s n="adj"/></r></p></e>
@@ -3352,7 +3350,6 @@
     <e><p><l>দেরিতে<s n="adj"/><s n="mf"/></l><r>late<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>বিধ্বস্ত<s n="adj"/><s n="mf"/></l><r>destroyed<s n="adj"/></r></p></e>
     <e><p><l>বিশ্বব্যাপী<s n="adj"/><s n="mf"/></l><r>worldwide<s n="adj"/></r></p></e>
-    <e><p><l>কথিত<s n="adj"/><s n="mf"/></l><r>so<s n="adj"/></r></p></e>
     <e><p><l>গ্রামীণ<s n="adj"/><s n="mf"/></l><r>rural<s n="adj"/></r></p></e>
     <e><p><l>সদ্য<s n="adj"/><s n="mf"/></l><r>recent<s n="adj"/></r></p></e>
     <e><p><l>কাল্পনিক<s n="adj"/><s n="mf"/></l><r>imaginative<s n="adj"/></r></p></e>
