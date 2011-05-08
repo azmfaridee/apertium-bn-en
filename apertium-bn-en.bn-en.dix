@@ -3428,7 +3428,7 @@
     <e><p><l>পর্যাপ্ত<s n="adj"/><s n="mf"/></l><r>enough<s n="adj"/></r></p></e>
     <e><p><l>প্রাসঙ্গিক<s n="adj"/><s n="mf"/></l><r>related<s n="adj"/></r></p></e>
     <e><p><l>পাহাড়ি<s n="adj"/><s n="mf"/></l><r>hilly<s n="adj"/></r></p></e>
-    <e><p><l>সর্বশেষ<s n="adj"/><s n="mf"/></l><r>last<s n="adj"/>last<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+    <e><p><l>সর্বশেষ<s n="adj"/><s n="mf"/></l><r>last<s n="adj"/>last<s n="det"/></r></p></e>
     <e><p><l>বলিষ্ঠ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>strong<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>আলোচিত<s n="adj"/><s n="mf"/></l><r>discussed<s n="adj"/></r></p></e>
     <e><p><l>হাস্যকর<s n="adj"/><s n="mf"/></l><r>funny<s n="adj"/><s n="sint"/></r></p></e>
@@ -3490,7 +3490,6 @@
     <e><p><l>অগ্রিম<s n="adj"/><s n="mf"/></l><r>advance<s n="adj"/></r></p></e>
     <e><p><l>আফ্রিকান<s n="adj"/><s n="mf"/></l><r>african<s n="adj"/></r></p></e>
     <e><p><l>সাংস্কৃতিক<s n="adj"/><s n="mf"/></l><r>cultural<s n="adj"/></r></p></e>
-
 
 
     <!-- Proper Nouns (added later)-->
