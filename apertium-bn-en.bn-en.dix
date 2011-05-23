@@ -3577,8 +3577,28 @@
     <e><p><l>অনুষ্ঠিত<s n="adj"/><s n="mf"/></l><r>performed<s n="adj"/></r></p></e>
     <e><p><l>ঘৃণ্য<s n="adj"/><s n="psint"/><s n="mf"/></l><r>despicable<s n="adj"/></r></p></e>
     <e><p><l>উল্লিখিত<s n="adj"/><s n="mf"/></l><r>pointed<s n="adj"/></r></p></e>
-    <e><p><l>ভীষণ<s n="adj"/><s n="mf"/></l><r>terrible<s n="adj"/></r></p></e>   
+    <e><p><l>ভীষণ<s n="adj"/><s n="mf"/></l><r>terrible<s n="adj"/></r></p></e> 
 
+    <!-- Adjectives added @ Mon May 23 11:18:11 UTC 2011 -->
+    <e><p><l>স্বাবলম্বী<s n="adj"/><s n="mf"/></l><r>self-reliant<s n="adj"/></r></p></e>
+    <e><p><l>চারদলীয়<s n="adj"/><s n="mf"/></l><r>four-party<s n="adj"/></r></p></e>
+    <e><p><l>কয়েক<s n="adj"/><s n="mf"/></l><r>few<s n="adj"/></r></p></e>
+    <e><p><l>যাত্রীবাহী<s n="adj"/><s n="mf"/></l><r>passenger<b/>carrying<s n="adj"/></r></p></e>
+    <e><p><l>একাধিক<s n="adj"/><s n="mf"/></l><r>more<b/>than<b/>one<s n="adj"/></r></p></e>
+    <e><p><l>অন্যতম<s n="adj"/><s n="mf"/></l><r>one<b/>of<b/>the<s n="adj"/></r></p></e>
+    <e><p><l>শতাধিক<s n="adj"/><s n="mf"/></l><r>more<b/>than<b/>hundred<s n="adj"/></r></p></e>
+    <e><p><l>বহুদলীয়<s n="adj"/><s n="mf"/></l><r>multi-party<s n="adj"/></r></p></e>
+    <e><p><l>বেসরকারি<s n="adj"/><s n="mf"/></l><r>non-governmental<s n="adj"/></r></p></e>
+    <e><p><l>ভূমিহীন<s n="adj"/><s n="mf"/></l><r>landless<s n="adj"/></r></p></e>
+    <e><p><l>মৌলবাদী<s n="adj"/><s n="mf"/></l><r>fundamentalist<s n="adj"/></r></p></e>
+    <e><p><l>ত্রিমাত্রিক<s n="adj"/><s n="mf"/></l><r>three-dimensional<s n="adj"/></r></p></e>
+    <e><p><l>ওয়ানডে<s n="adj"/><s n="mf"/></l><r>one-day<s n="adj"/></r></p></e>
+    <e><p><l>অন্তত<s n="adj"/><s n="mf"/></l><r>at<b/>least<s n="adj"/></r></p></e>
+    <e><p><l>একদল<s n="adj"/><s n="mf"/></l><r>a<b/>group<b/>of<s n="adj"/></r></p></e>
+    <e><p><l>সন্ত্রাসবিরোধী<s n="adj"/><s n="mf"/></l><r>anti<b/>terrorist<s n="adj"/></r></p></e>
+    <e><p><l>দ্বিবার্ষিক<s n="adj"/><s n="mf"/></l><r>bi<b/>yearly<s n="adj"/></r></p></e>
+    <e><p><l>স্বরাষ্ট্র<s n="adj"/><s n="mf"/></l><r>home<s n="adj"/></r></p></e>
+    <e><p><l>যুব<s n="adj"/><s n="mf"/></l><r>young<s n="adj"/></r></p></e>
 
     <!-- Proper Nouns (added later)-->
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
