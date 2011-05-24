@@ -3600,6 +3600,31 @@
     <e><p><l>স্বরাষ্ট্র<s n="adj"/><s n="mf"/></l><r>home<s n="adj"/></r></p></e>
     <e><p><l>যুব<s n="adj"/><s n="mf"/></l><r>young<s n="adj"/></r></p></e>
 
+    <!-- Adjectives added @ Tue May 24 19:29:10 UTC 2011 -->
+    <e><p><l>হলুদ<s n="adj"/><s n="mf"/></l><r>yellow<s n="adj"/></r></p></e>
+    <e><p><l>নিরাপত্তাহীন<s n="adj"/><s n="mf"/></l><r>insecured<s n="adj"/></r></p></e>
+    <e><p><l>সহজ<s n="adj"/><s n="mf"/></l><r>easy<s n="adj"/></r></p></e>
+    <e><p><l>অর্ধেক<s n="adj"/><s n="mf"/></l><r>half<s n="adj"/></r></p></e>
+    <e><p><l>যোগ্য<s n="adj"/><s n="mf"/></l><r>capable<s n="adj"/></r></p></e>
+    <e><p><l>বাংলা<s n="adj"/><s n="mf"/></l><r>bengali<s n="adj"/></r></p></e>
+    <e><p><l>বিস্তারিত<s n="adj"/><s n="mf"/></l><r>detailed<s n="adj"/></r></p></e>
+    <e><p><l>প্রকৌশল<s n="adj"/><s n="mf"/></l><r>engineering<s n="adj"/></r></p></e>
+    <e><p><l>নিখুঁত<s n="adj"/><s n="mf"/></l><r>perfect<s n="adj"/></r></p></e>
+    <e><p><l>অকৃত্রিম<s n="adj"/><s n="mf"/></l><r>natural<s n="adj"/></r></p></e>
+    <e><p><l>অংশগ্রহণকারী<s n="adj"/><s n="mf"/></l><r>participating<s n="adj"/></r></p></e>
+    <e><p><l>নিহত<s n="adj"/><s n="mf"/></l><r>dead<s n="adj"/></r></p></e>
+    <e><p><l>আগাম<s n="adj"/><s n="mf"/></l><r>advance<s n="adj"/></r></p></e>
+    <e><p><l>প্রতিভাবান<s n="adj"/><s n="mf"/></l><r>talented<s n="adj"/></r></p></e>
+    <e><p><l>অক্ষম<s n="adj"/><s n="mf"/></l><r>unable<s n="adj"/></r></p></e>
+    <e><p><l>প্রদত্ত<s n="adj"/><s n="mf"/></l><r>given<s n="adj"/></r></p></e>
+    <e><p><l>বাতিল<s n="adj"/><s n="mf"/></l><r>rejected<s n="adj"/></r></p></e>
+    <e><p><l>উচ্চ<s n="adj"/><s n="mf"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ভাঙা<s n="adj"/><s n="mf"/></l><r>broken<s n="adj"/></r></p></e>
+    <e><p><l>পরম<s n="adj"/><s n="mf"/></l><r>absolute<s n="adj"/></r></p></e>
+    <e><p><l>শীর্ষ<s n="adj"/><s n="mf"/></l><r>leading<s n="adj"/></r></p></e>
+    <e><p><l>গোছানো<s n="adj"/><s n="mf"/></l><r>organised<s n="adj"/></r></p></e>
+    <e><p><l>গঠিত<s n="adj"/><s n="mf"/></l><r>formed<s n="adj"/></r></p></e>
+
     <!-- Proper Nouns (added later)-->
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>কক্সবাজার<s n="np"/><s n="top"/><s n="mf"/></l><r>Cox's<b/>Bazar<s n="np"/><s n="top"/></r></p></e>
