@@ -3624,6 +3624,18 @@
     <e><p><l>শীর্ষ<s n="adj"/><s n="mf"/></l><r>leading<s n="adj"/></r></p></e>
     <e><p><l>গোছানো<s n="adj"/><s n="mf"/></l><r>organised<s n="adj"/></r></p></e>
     <e><p><l>গঠিত<s n="adj"/><s n="mf"/></l><r>formed<s n="adj"/></r></p></e>
+    
+    <!-- Adjectives added @ Thu May 26 17:18:31 UTC 2011 -->
+    <e><p><l>চমৎকার<s n="adj"/><s n="mf"/></l><r>fascinating<s n="adj"/></r></p></e>
+    <e><p><l>মোটা<s n="adj"/><s n="mf"/></l><r>thick<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>দক্ষিণ<s n="adj"/><s n="mf"/></l><r>south<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ধীর<s n="adj"/><s n="mf"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>উত্তর<s n="adj"/><s n="mf"/></l><r>north<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>দার্শনিক<s n="adj"/><s n="mf"/></l><r>philosopher<s n="adj"/></r></p></e>
+    <e><p><l>সহনশীল<s n="adj"/><s n="mf"/></l><r>tolerant<s n="adj"/></r></p></e>
+    <e><p><l>বাধ্য<s n="adj"/><s n="mf"/></l><r>obedient<s n="adj"/></r></p></e>
+    <e><p><l>পরিচিত<s n="adj"/><s n="mf"/></l><r>familiar<s n="adj"/></r></p></e>
+    <e><p><l>স্বীকৃত<s n="adj"/><s n="mf"/></l><r>acknowledged<s n="adj"/></r></p></e>
 
     <!-- Proper Nouns (added later)-->
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
