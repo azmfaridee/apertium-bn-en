@@ -3720,9 +3720,9 @@
     <!-- Adjectives added @ Tue May 24 19:29:10 UTC 2011 -->
     <e><p><l>হলুদ<s n="adj"/><s n="mf"/></l><r>yellow<s n="adj"/></r></p></e>
     <e><p><l>নিরাপত্তাহীন<s n="adj"/><s n="mf"/></l><r>insecured<s n="adj"/></r></p></e>
-    <e><p><l>সহজ<s n="adj"/><s n="mf"/></l><r>easy<s n="adj"/></r></p></e>
+    <e><p><l>সহজ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>easy<s n="adj"/></r></p></e>
     <e><p><l>অর্ধেক<s n="adj"/><s n="mf"/></l><r>half<s n="adj"/></r></p></e>
-    <e><p><l>যোগ্য<s n="adj"/><s n="mf"/></l><r>capable<s n="adj"/></r></p></e>
+    <e><p><l>যোগ্য<s n="adj"/><s n="sint"/><s n="mf"/></l><r>capable<s n="adj"/></r></p></e>
     <e><p><l>বাংলা<s n="adj"/><s n="mf"/></l><r>bengali<s n="adj"/></r></p></e>
     <e><p><l>বিস্তারিত<s n="adj"/><s n="mf"/></l><r>detailed<s n="adj"/></r></p></e>
     <e><p><l>প্রকৌশল<s n="adj"/><s n="mf"/></l><r>engineering<s n="adj"/></r></p></e>
@@ -3735,10 +3735,10 @@
     <e><p><l>অক্ষম<s n="adj"/><s n="mf"/></l><r>unable<s n="adj"/></r></p></e>
     <e><p><l>প্রদত্ত<s n="adj"/><s n="mf"/></l><r>given<s n="adj"/></r></p></e>
     <e><p><l>বাতিল<s n="adj"/><s n="mf"/></l><r>rejected<s n="adj"/></r></p></e>
-    <e><p><l>উচ্চ<s n="adj"/><s n="mf"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>উচ্চ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ভাঙা<s n="adj"/><s n="mf"/></l><r>broken<s n="adj"/></r></p></e>
     <e><p><l>পরম<s n="adj"/><s n="mf"/></l><r>absolute<s n="adj"/></r></p></e>
-    <e><p><l>শীর্ষ<s n="adj"/><s n="mf"/></l><r>leading<s n="adj"/></r></p></e>
+    <e><p><l>শীর্ষ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>leading<s n="adj"/></r></p></e>
     <e><p><l>গোছানো<s n="adj"/><s n="mf"/></l><r>organised<s n="adj"/></r></p></e>
     <e><p><l>গঠিত<s n="adj"/><s n="mf"/></l><r>formed<s n="adj"/></r></p></e>
     
