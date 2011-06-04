@@ -1986,7 +1986,7 @@
     <e><p><l>লঙ্ঘন<s n="n"/><s n="mf"/><s n="nn"/></l><r>violation<s n="n"/></r></p></e>
     <e><p><l>আক্রমণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>attack<s n="n"/></r></p></e>
     <e><p><l>ছিনতাই<s n="n"/><s n="mf"/><s n="nn"/></l><r>snatch<s n="n"/></r></p></e>
-    <e><p><l>ডাচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>dutch<s n="n"/></r></p></e>
+    <e><p><l>ডাচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>Dutch<s n="n"/></r></p></e>
     <e><p><l>ভর<s n="n"/><s n="mf"/><s n="nn"/></l><r>mass<s n="n"/></r></p></e>
     <e><p><l>মামলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>case<s n="n"/></r></p></e>
     <e><p><l>সমালোচক<s n="n"/><s n="mf"/><s n="el"/></l><r>critic<s n="n"/></r></p></e>
@@ -2083,7 +2083,7 @@
     <e><p><l>রাজি<s n="n"/><s n="mf"/><s n="nn"/></l><r>agreement<s n="n"/></r></p></e>
     <e><p><l>আওতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>custody<s n="n"/></r></p></e>
     <e><p><l>মোটরসাইকেল<s n="n"/><s n="mf"/><s n="nn"/></l><r>motorcycle<s n="n"/></r></p></e>
-    <e><p><l>বাঙালি<s n="n"/><s n="mf"/><s n="hu"/></l><r>bangalee<s n="n"/></r></p></e>
+    <e><p><l>বাঙালি<s n="n"/><s n="mf"/><s n="hu"/></l><r>Bangalee<s n="n"/></r></p></e>
     <e><p><l>পৌরসভা<s n="n"/><s n="mf"/><s n="nn"/></l><r>municipality<s n="n"/></r></p></e>
     <e><p><l>সন্ধান<s n="n"/><s n="mf"/><s n="nn"/></l><r>search<s n="n"/></r></p></e>
     <e><p><l>শিলা<s n="n"/><s n="nt"/><s n="nn"/></l><r>stone<s n="n"/></r></p></e>
@@ -3152,7 +3152,7 @@
     <e><p><l>পরীক্ষিত<s n="adj"/><s n="mf"/></l><r>tested<s n="adj"/></r></p></e>
     <e><p><l>বঞ্চিত<s n="adj"/><s n="sint"/><s n="mf"/></l><r>deprived<s n="adj"/></r></p></e>
     <e><p><l>কঠোর<s n="adj"/><s n="sint"/><s n="mf"/></l><r>hard<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>তামিল<s n="adj"/><s n="mf"/></l><r>tamil<s n="adj"/></r></p></e>
+    <e><p><l>তামিল<s n="adj"/><s n="mf"/></l><r>Tamil<s n="adj"/></r></p></e>
     <e><p><l>কালো<s n="adj"/><s n="mf"/></l><r>black<s n="adj"/></r></p></e>
     <e><p><l>রহস্যময়<s n="adj"/><s n="mf"/></l><r>mysterious<s n="adj"/></r></p></e>
     <e><p><l>দীর্ঘ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e>
@@ -3310,12 +3310,12 @@
     <e><p><l>সংসদীয়<s n="adj"/><s n="mf"/></l><r>parliamentarian<s n="adj"/></r></p></e>
     <e><p><l>নিয়োজিত<s n="adj"/><s n="mf"/></l><r>appointed<s n="adj"/></r></p></e>
     <e><p><l>বিদ্যমান<s n="adj"/><s n="mf"/></l><r>existing<s n="adj"/></r></p></e>
-    <e><p><l>স্বাগত<s n="adj"/><s n="mf"/></l><r>welcomed<s n="adj"/></r></p></e>
+    <e><p><l>স্বাগত<s n="adj"/><s n="mf"/></l><r>welcome<s n="adj"/></r></p></e>
     <e><p><l>সুশীল<s n="adj"/><s n="mf"/></l><r>gentle<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ডেস্কটপ<s n="adj"/><s n="mf"/></l><r>desktop<s n="adj"/></r></p></e>
     <e><p><l>সহনীয়<s n="adj"/><s n="mf"/></l><r>tolerable<s n="adj"/></r></p></e>
     <e><p><l>অনির্দিষ্ট<s n="adj"/><s n="mf"/></l><r>indefinite<s n="adj"/></r></p></e>
-    <e><p><l>নিবিড়<s n="adj"/><s n="mf"/></l><r>quite<s n="adj"/></r></p></e>
+    <e><p><l>নিবিড়<s n="adj"/><s n="mf"/></l><r>quiet<s n="adj"/></r></p></e>
     <e><p><l>আগের<s n="adj"/><s n="mf"/></l><r>previous<s n="adj"/></r></p></e>
     <e><p><l>অচল<s n="adj"/><s n="mf"/></l><r>stationary<s n="adj"/></r></p></e>
     <e><p><l>সংলগ্ন<s n="adj"/><s n="mf"/></l><r>adjoining<s n="adj"/></r></p></e>
@@ -3323,7 +3323,6 @@
     <e><p><l>ব্যস্ত<s n="adj"/><s n="sint"/><s n="mf"/></l><r>busy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>সার্বিক<s n="adj"/><s n="mf"/></l><r>overall<s n="adj"/></r></p></e>
     <e><p><l>অধিকাংশ<s n="adj"/><s n="mf"/></l><r>most<s n="adj"/></r></p></e>
-    <e><p><l>খসড়া<s n="adj"/><s n="mf"/></l><r>draft<s n="adj"/></r></p></e>
     <e><p><l>দেশীয়<s n="adj"/><s n="mf"/></l><r>local<s n="adj"/></r></p></e>
     <e><p><l>বিপুলসংখ্যক<s n="adj"/><s n="mf"/></l><r>huge<s n="adj"/></r></p></e>
     <e><p><l>অন্যান্য<s n="adj"/><s n="mf"/></l><r>others<s n="adj"/></r></p></e>
@@ -3331,30 +3330,26 @@
     <e><p><l>ঔপনিবেশিক<s n="adj"/><s n="mf"/></l><r>colonial<s n="adj"/></r></p></e>
     <e><p><l>অঘোষিত<s n="adj"/><s n="mf"/></l><r>undeclared<s n="adj"/></r></p></e>
     <e><p><l>অসম্ভব<s n="adj"/><s n="mf"/></l><r>impossible<s n="adj"/></r></p></e>
-    <e><p><l>ইহুদি<s n="adj"/><s n="mf"/></l><r>jew<s n="adj"/></r></p></e>
     <e><p><l>ভারী<s n="adj"/><s n="mf"/></l><r>heavy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>সর্বনাশা<s n="adj"/><s n="mf"/></l><r>dangerous<s n="adj"/></r></p></e>
     <e><p><l>রাষ্ট্রীয়<s n="adj"/><s n="mf"/></l><r>national<s n="adj"/></r></p></e>
     <e><p><l>নষ্ট<s n="adj"/><s n="mf"/></l><r>disposed<s n="adj"/></r></p></e>
-    <e><p><l>প্রতারক<s n="adj"/><s n="mf"/></l><r>fraud<s n="adj"/></r></p></e>
     <e><p><l>পুরনো<s n="adj"/><s n="mf"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>সম্মিলিত<s n="adj"/><s n="mf"/></l><r>united<s n="adj"/></r></p></e>
     <e><p><l>লম্বা<s n="adj"/><s n="mf"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>গণতান্ত্রিক<s n="adj"/><s n="mf"/></l><r>democrative<s n="adj"/></r></p></e>
+    <e><p><l>গণতান্ত্রিক<s n="adj"/><s n="mf"/></l><r>democratic<s n="adj"/></r></p></e>
     <e><p><l>চলমান<s n="adj"/><s n="mf"/></l><r>current<s n="adj"/></r></p></e>
     <e><p><l>উপযুক্ত<s n="adj"/><s n="mf"/></l><r>appropriate<s n="adj"/></r></p></e>
-    <e><p><l>কাঁচা<s n="adj"/><s n="mf"/></l><r>green<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>কাঁচা<s n="adj"/><s n="mf"/></l><r>unripe<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>খ্যাতিমান<s n="adj"/><s n="mf"/></l><r>reputed<s n="adj"/></r></p></e>
     <e><p><l>আবশ্যিক<s n="adj"/><s n="mf"/></l><r>mandatory<s n="adj"/></r></p></e>
     <e><p><l>পরিবেশিত<s n="adj"/><s n="mf"/></l><r>presented<s n="adj"/></r></p></e>
-    <e><p><l>অনুসারে<s n="adj"/><s n="mf"/></l><r>accordingly<s n="adj"/></r></p></e>
     <e><p><l>খুব<s n="adj"/><s n="mf"/></l><r>very<s n="adj"/></r></p></e>
     <e><p><l>বিপরীত<s n="adj"/><s n="mf"/></l><r>opposite<s n="adj"/></r></p></e>
-    <e><p><l>আইরিশ<s n="adj"/><s n="mf"/></l><r>irish<s n="adj"/></r></p></e>
     <e><p><l>সুপ্ত<s n="adj"/><s n="mf"/></l><r>hidden<s n="adj"/></r></p></e>
     <e><p><l>বেআইনি<s n="adj"/><s n="mf"/></l><r>illegal<s n="adj"/></r></p></e>
     <e><p><l>মাতাল<s n="adj"/><s n="mf"/></l><r>drunk<s n="adj"/></r></p></e>
-    <e><p><l>যাবজ্জীবন<s n="adj"/><s n="mf"/></l><r>lifetime<s n="adj"/></r></p></e>
+    <e><p><l>যাবজ্জীবন<s n="adj"/><s n="mf"/></l><r>lifelong<s n="adj"/></r></p></e>
     <e><p><l>আগ্রহী<s n="adj"/><s n="mf"/></l><r>interested<s n="adj"/></r></p></e>
     <e><p><l>সমন্বিত<s n="adj"/><s n="mf"/></l><r>possessing<s n="adj"/></r></p></e>
 
