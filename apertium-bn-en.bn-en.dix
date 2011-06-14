@@ -2302,6 +2302,27 @@
     <e><p><l>জানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>acquaintance<s n="n"/></r></p></e>
     <e><p><l>সহসভাপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>president<s n="n"/></r></p></e>    
 
+    <!-- Nouns added @ Tue Jun 14 17:41:15 UTC 2011 -->
+    <e><p><l>গালমন্দ<s n="n"/><s n="nt"/><s n="nn"/></l><r>abuse<s n="n"/></r></p></e>
+    <e><p><l>নেতৃবৃন্দ<s n="n"/><s n="mf"/><s n="nn"/></l><r>leader<s n="n"/></r></p></e>
+    <e><p><l>স্বায়ত্তশাসন<s n="n"/><s n="nt"/><s n="nn"/></l><r>autonomy<s n="n"/></r></p></e>
+    <e><p><l>ঘোরা<s n="n"/><s n="mf"/><s n="nn"/></l><r>travelling<s n="n"/></r></p></e>
+    <e><p><l>সম্মুখীন<s n="n"/><s n="mf"/><s n="nn"/></l><r>confrontation<s n="n"/></r></p></e>
+    <e><p><l>সহ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>tolerance<s n="n"/></r></p></e>
+    <e><p><l>শুনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>listening<s n="n"/></r></p></e>
+    <e><p><l>তৈরি<s n="n"/><s n="mf"/><s n="nn"/></l><r>manufacture<s n="n"/></r></p></e>
+    <e><p><l>নির্ভর<s n="n"/><s n="mf"/><s n="nn"/></l><r>dependence<s n="n"/></r></p></e>
+    <e><p><l>চাঁদা<s n="n"/><s n="mf"/><s n="nn"/></l><r>subscription<s n="n"/></r></p></e>
+    <e><p><l>উত্তোলন<s n="n"/><s n="mf"/><s n="nn"/></l><r>lifting<s n="n"/></r></p></e>
+    <e><p><l>দেখা<s n="n"/><s n="mf"/><s n="nn"/></l><r>seeing<s n="n"/></r></p></e>
+    <e><p><l>ফেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>throwing<s n="n"/></r></p></e>
+    <e><p><l>চালানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>driving<s n="n"/></r></p></e>
+    <e><p><l>বে<s n="n"/><s n="mf"/><s n="nn"/></l><r>bay<s n="n"/></r></p></e>
+    <e><p><l>বাদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>rejection<s n="n"/></r></p></e>
+    <e><p><l>বেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>hour<s n="n"/></r></p></e>
+    <e><p><l>হিসাব<s n="n"/><s n="mf"/><s n="nn"/></l><r>calculation<s n="n"/></r></p></e>
+    <e><p><l>গা<s n="n"/><s n="mf"/><s n="nn"/></l><r>body<s n="n"/></r></p></e>
+
     <!-- Verbs -->
 
     <e><p><l>ত্যাগ কর<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
@@ -3725,6 +3746,15 @@
     <e><p><l>বাধ্য<s n="adj"/><s n="mf"/></l><r>obedient<s n="adj"/></r></p></e>
     <e><p><l>পরিচিত<s n="adj"/><s n="mf"/></l><r>familiar<s n="adj"/></r></p></e>
     <e><p><l>স্বীকৃত<s n="adj"/><s n="mf"/></l><r>acknowledged<s n="adj"/></r></p></e>
+
+    <!-- Adjectives added @ Tue Jun 14 16:58:32 UTC 2011 -->
+    <e><p><l>চঞ্চল<s n="adj"/><s n="mf"/></l><r>restless<s n="adj"/></r></p></e>
+    <e><p><l>দ্বিপক্ষীয়<s n="adj"/><s n="mf"/></l><r>bi-partial<s n="adj"/></r></p></e>
+    <e><p><l>প্রতিবন্ধী<s n="adj"/><s n="mf"/></l><r>handicapped<s n="adj"/></r></p></e>
+    <e><p><l>বন্য<s n="adj"/><s n="mf"/></l><r>wild<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>মহিলা<s n="adj"/><s n="mf"/></l><r>female<s n="adj"/></r></p></e>
+    <e><p><l>শেষ<s n="adj"/><s n="mf"/></l><r>last<s n="adj"/></r></p></e>
+    <e><p><l>চলন্ত<s n="adj"/><s n="mf"/></l><r>moving<s n="adj"/></r></p></e>
 
     <!-- Proper Nouns (added later)-->
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>

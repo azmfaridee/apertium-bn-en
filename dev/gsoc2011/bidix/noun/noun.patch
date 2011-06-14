@@ -1784,7 +1784,7 @@
     <e><p><l>জননী<s n="n"/><s n="f"/><s n="hu"/></l><r>mother<s n="n"/></r></p></e>
     <!-- Nouns (new) -->
     <e><p><l>সূত্র<s n="n"/><s n="nt"/><s n="nn"/></l><r>source<s n="n"/></r></p></e>
-    <e><p><l>নির্দেশ<s n="n"/><s n="mf"/><s n="nn"/></l><r>direction<s n="n"/></r></p></e>
+    <e><p><l>নির্দেশ<s n="n"/><s n="mf"/><s n="nn"/></l><r>order<s n="n"/></r></p></e>
     <e><p><l>ধ্বংস<s n="n"/><s n="mf"/><s n="nn"/></l><r>destruction<s n="n"/></r></p></e>
     <e><p><l>কারাদণ্ড<s n="n"/><s n="mf"/><s n="nn"/></l><r>imprisonment<s n="n"/></r></p></e>
     <e><p><l>উপেক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>ignorance<s n="n"/></r></p></e>
@@ -1820,10 +1820,10 @@
     <e><p><l>প্রভু<s n="n"/><s n="mf"/><s n="el"/></l><r>lord<s n="n"/></r></p></e>
     <e><p><l>সংঘ<s n="n"/><s n="mf"/><s n="nn"/></l><r>organization<s n="n"/></r></p></e>
     <e><p><l>বিদেশ<s n="n"/><s n="mf"/><s n="nn"/></l><r>foreign<s n="n"/></r></p></e>
-    <e><p><l>বাড়িঘর<s n="n"/><s n="mf"/><s n="nn"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>বাড়িঘর<s n="n"/><s n="mf"/><s n="nn"/></l><r>household<s n="n"/></r></p></e>
     <e><p><l>যুদ্ধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>war<s n="n"/></r></p></e>
     <e><p><l>উপলক্ষ<s n="n"/><s n="mf"/><s n="nn"/></l><r>occasion<s n="n"/></r></p></e>
-    <e><p><l>জোট<s n="n"/><s n="mf"/><s n="nn"/></l><r>union<s n="n"/></r></p></e>
+    <e><p><l>জোট<s n="n"/><s n="mf"/><s n="nn"/></l><r>coalition<s n="n"/></r></p></e>
     <e><p><l>ঘুষ<s n="n"/><s n="mf"/><s n="nn"/></l><r>bribe<s n="n"/></r></p></e>
     <e><p><l>সুর<s n="n"/><s n="mf"/><s n="nn"/></l><r>melody<s n="n"/></r></p></e>
     <e><p><l>পরিচিতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>recognition<s n="n"/></r></p></e>
@@ -1851,7 +1851,7 @@
     <e><p><l>চর<s n="n"/><s n="mf"/><s n="nn"/></l><r>spy<s n="n"/></r></p></e>
     <e><p><l>চত্বর<s n="n"/><s n="nt"/><s n="nn"/></l><r>park<s n="n"/></r></p></e>
     <e><p><l>খাদ্যশস্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>crop<s n="n"/></r></p></e>
-    <e><p><l>ব্যাট<s n="n"/><s n="mf"/><s n="nn"/></l><r><s n="n"/></r></p></e>
+    <e><p><l>ব্যাট<s n="n"/><s n="mf"/><s n="nn"/></l><r>bat<s n="n"/></r></p></e>
     <e><p><l>ফুট<s n="n"/><s n="mf"/><s n="nn"/></l><r>foot<s n="n"/></r></p></e>
     <e><p><l>হিসেব<s n="n"/><s n="mf"/><s n="nn"/></l><r>calculation<s n="n"/></r></p></e>
     <e><p><l>রোধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>resistance<s n="n"/></r></p></e>
@@ -1863,7 +1863,7 @@
     <e><p><l>লঙ্ঘন<s n="n"/><s n="mf"/><s n="nn"/></l><r>violation<s n="n"/></r></p></e>
     <e><p><l>আক্রমণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>attack<s n="n"/></r></p></e>
     <e><p><l>ছিনতাই<s n="n"/><s n="mf"/><s n="nn"/></l><r>snatch<s n="n"/></r></p></e>
-    <e><p><l>ডাচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>dutch<s n="n"/></r></p></e>
+    <e><p><l>ডাচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>Dutch<s n="n"/></r></p></e>
     <e><p><l>ভর<s n="n"/><s n="mf"/><s n="nn"/></l><r>mass<s n="n"/></r></p></e>
     <e><p><l>মামলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>case<s n="n"/></r></p></e>
     <e><p><l>সমালোচক<s n="n"/><s n="mf"/><s n="el"/></l><r>critic<s n="n"/></r></p></e>
@@ -1893,7 +1893,7 @@
     <e><p><l>নিন্দা<s n="n"/><s n="nt"/><s n="nn"/></l><r>disrepute<s n="n"/></r></p></e>
     <e><p><l>রঙ<s n="n"/><s n="mf"/><s n="nn"/></l><r>colour<s n="n"/></r></p></e>
     <e><p><l>ভাব<s n="n"/><s n="nt"/><s n="nn"/></l><r>mood<s n="n"/></r></p></e>
-    <e><p><l>অনুসরণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>follow<s n="n"/></r></p></e>
+    <e><p><l>অনুসরণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>following<s n="n"/></r></p></e>
     <e><p><l>আয়োজন<s n="n"/><s n="mf"/><s n="nn"/></l><r>arrangement<s n="n"/></r></p></e>
     <e><p><l>স্বীকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>admit<s n="n"/></r></p></e>
     <e><p><l>শাসন<s n="n"/><s n="nt"/><s n="nn"/></l><r>rule<s n="n"/></r></p></e>
@@ -1919,7 +1919,7 @@
     <e><p><l>বাড়ানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>expansion<s n="n"/></r></p></e>
     <e><p><l>উপকূল<s n="n"/><s n="mf"/><s n="nn"/></l><r>coast<s n="n"/></r></p></e>
     <e><p><l>উন্নতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>progress<s n="n"/></r></p></e>
-    <e><p><l>অপেক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>wait<s n="n"/></r></p></e>
+    <e><p><l>অপেক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>waiting<s n="n"/></r></p></e>
     <e><p><l>ব্যয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>expenditure<s n="n"/></r></p></e>
     <e><p><l>মালামাল<s n="n"/><s n="mf"/><s n="nn"/></l><r>luggage<s n="n"/></r></p></e>
     <e><p><l>প্রিয়<s n="n"/><s n="nt"/><s n="nn"/></l><r>dear<s n="n"/></r></p></e>
@@ -1940,8 +1940,8 @@
     <e><p><l>তোলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>picking<s n="n"/></r></p></e>
     <e><p><l>স্নারকলিপি<s n="n"/><s n="mf"/><s n="nn"/></l><r>memorandum<s n="n"/></r></p></e>
     <e><p><l>বানানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>making<s n="n"/></r></p></e>
-    <e><p><l>দুর্গা<s n="n"/><s n="nt"/><s n="nn"/></l><r>fort<s n="n"/></r></p></e>
-    <e><p><l>ছুটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>run<s n="n"/></r></p></e>
+    <e><p><l>দুর্গা<s n="n"/><s n="nt"/><s n="nn"/></l><r>Durga<s n="n"/></r></p></e>
+    <e><p><l>ছুটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>running<s n="n"/></r></p></e>
     <e><p><l>আসর<s n="n"/><s n="mf"/><s n="nn"/></l><r>party<s n="n"/></r></p></e>
     <e><p><l>অবনতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>degradation<s n="n"/></r></p></e>
     <e><p><l>কর্মসংস্থান<s n="n"/><s n="mf"/><s n="nn"/></l><r>employment<s n="n"/></r></p></e>
@@ -1949,22 +1949,17 @@
     <e><p><l>সমবায়<s n="n"/><s n="nt"/><s n="nn"/></l><r>cooperative<s n="n"/></r></p></e>
     <e><p><l>খেয়াল<s n="n"/><s n="nt"/><s n="nn"/></l><r>consciousness<s n="n"/></r></p></e>
     <e><p><l>তরুণী<s n="n"/><s n="f"/><s n="hu"/></l><r>young<s n="n"/></r></p></e>
-    <e><p><l>গোছানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>organised<s n="n"/></r></p></e>
     <e><p><l>নীতিমালা<s n="n"/><s n="mf"/><s n="nn"/></l><r>policy<s n="n"/></r></p></e>
     <e><p><l>উচ্ছেদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>eviction<s n="n"/></r></p></e>
     <e><p><l>মাদক<s n="n"/><s n="mf"/><s n="nn"/></l><r>drug<s n="n"/></r></p></e>
     <e><p><l>ব্যবস্থাপক<s n="n"/><s n="mf"/><s n="hu"/></l><r>manager<s n="n"/></r></p></e>
     <e><p><l>মিলনায়তন<s n="n"/><s n="mf"/><s n="nn"/></l><r>auditorium<s n="n"/></r></p></e>
     <e><p><l>বুনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>sewing<s n="n"/></r></p></e>
-    <e><p><l>অন্তর্বর্তীকালীন<s n="n"/><s n="nt"/><s n="nn"/></l><r>interum<s n="n"/></r></p></e>
-    <e><p><l>বিপুল<s n="n"/><s n="mf"/><s n="nn"/></l><r>many<s n="n"/></r></p></e>
-    <e><p><l>মোটামুটি<s n="n"/><s n="nt"/><s n="nn"/></l><r>moderate<s n="n"/></r></p></e>
     <e><p><l>উদ্বেগ<s n="n"/><s n="mf"/><s n="nn"/></l><r>anxity<s n="n"/></r></p></e>
-    <e><p><l>সামান্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>few<s n="n"/></r></p></e>
     <e><p><l>রাজি<s n="n"/><s n="mf"/><s n="nn"/></l><r>agreement<s n="n"/></r></p></e>
     <e><p><l>আওতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>custody<s n="n"/></r></p></e>
     <e><p><l>মোটরসাইকেল<s n="n"/><s n="mf"/><s n="nn"/></l><r>motorcycle<s n="n"/></r></p></e>
-    <e><p><l>বাঙালি<s n="n"/><s n="mf"/><s n="hu"/></l><r>bangalee<s n="n"/></r></p></e>
+    <e><p><l>বাঙালি<s n="n"/><s n="mf"/><s n="hu"/></l><r>Bangalee<s n="n"/></r></p></e>
     <e><p><l>পৌরসভা<s n="n"/><s n="mf"/><s n="nn"/></l><r>municipality<s n="n"/></r></p></e>
     <e><p><l>সন্ধান<s n="n"/><s n="mf"/><s n="nn"/></l><r>search<s n="n"/></r></p></e>
     <e><p><l>শিলা<s n="n"/><s n="nt"/><s n="nn"/></l><r>stone<s n="n"/></r></p></e>
@@ -1973,12 +1968,11 @@
     <e><p><l>নিয়তি<s n="n"/><s n="nt"/><s n="nn"/></l><r>fate<s n="n"/></r></p></e>
     <e><p><l>কর্মসূচি<s n="n"/><s n="mf"/><s n="nn"/></l><r>program<s n="n"/></r></p></e>
     <e><p><l>পূরণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>completion<s n="n"/></r></p></e>
-    <e><p><l>অবরোধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>blockage<s n="n"/></r></p></e>
-    <e><p><l>জবানবন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>witness<s n="n"/></r></p></e>
+    <e><p><l>অবরোধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>blockade<s n="n"/></r></p></e>
+    <e><p><l>জবানবন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>testimony<s n="n"/></r></p></e>
     <e><p><l>পরীক্ষার্থী<s n="n"/><s n="mf"/><s n="hu"/></l><r>examinee<s n="n"/></r></p></e>
     <e><p><l>পিছানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>postponing<s n="n"/></r></p></e>
     <e><p><l>চারপাশ<s n="n"/><s n="nt"/><s n="nn"/></l><r>surrounding<s n="n"/></r></p></e>
-    <e><p><l>অক্ষম<s n="n"/><s n="nt"/><s n="nn"/></l><r>unable<s n="n"/></r></p></e>
     <e><p><l>হস্তক্ষেপ<s n="n"/><s n="mf"/><s n="nn"/></l><r>interference<s n="n"/></r></p></e>
     <e><p><l>কার্যালয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>office<s n="n"/></r></p></e>
     <e><p><l>প্রচলন<s n="n"/><s n="nt"/><s n="nn"/></l><r>tradition<s n="n"/></r></p></e>
@@ -2003,7 +1997,7 @@
     <e><p><l>মতিঝিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>Motijhil<s n="n"/></r></p></e>
     <e><p><l>সংযম<s n="n"/><s n="nt"/><s n="nn"/></l><r>restrain<s n="n"/></r></p></e>
     <e><p><l>কাহিনী<s n="n"/><s n="mf"/><s n="nn"/></l><r>story<s n="n"/></r></p></e>
-    <e><p><l>ঘরবাড়ি<s n="n"/><s n="mf"/><s n="nn"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>ঘরবাড়ি<s n="n"/><s n="mf"/><s n="nn"/></l><r>household<s n="n"/></r></p></e>
     <e><p><l>সাহেব<s n="n"/><s n="mf"/><s n="hu"/></l><r>gentleman<s n="n"/></r></p></e>
     <e><p><l>সভাপতিত্ব<s n="n"/><s n="mf"/><s n="nn"/></l><r>presidentship<s n="n"/></r></p></e>
     <e><p><l>লক্ষ্যমাত্রা<s n="n"/><s n="mf"/><s n="nn"/></l><r>target<s n="n"/></r></p></e>
@@ -2015,7 +2009,6 @@
     <e><p><l>অধীন<s n="n"/><s n="nt"/><s n="nn"/></l><r>subordination<s n="n"/></r></p></e>
     <e><p><l>আমানত<s n="n"/><s n="nt"/><s n="nn"/></l><r>deposit<s n="n"/></r></p></e>
     <e><p><l>জলাবদ্ধতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>stagnancy<s n="n"/></r></p></e>
-    <e><p><l>প্রতিবন্ধী<s n="n"/><s n="mf"/><s n="hu"/></l><r>handicapped<s n="n"/></r></p></e>
     <e><p><l>অর্পণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>bestowal<s n="n"/></r></p></e>
     <e><p><l>বিরোধিতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>opposition<s n="n"/></r></p></e>
     <e><p><l>দেরি<s n="n"/><s n="mf"/><s n="nn"/></l><r>delay<s n="n"/></r></p></e>
@@ -2027,17 +2020,16 @@
     <e><p><l>অধিকারী<s n="n"/><s n="mf"/><s n="hu"/></l><r>owner<s n="n"/></r></p></e>
     <e><p><l>ঠিকাদার<s n="n"/><s n="mf"/><s n="hu"/></l><r>contractor<s n="n"/></r></p></e>
     <e><p><l>বকেয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>due<s n="n"/></r></p></e>
-    <e><p><l>প্রচুর<s n="n"/><s n="nt"/><s n="nn"/></l><r>many<s n="n"/></r></p></e>
     <e><p><l>অভিনন্দন<s n="n"/><s n="mf"/><s n="nn"/></l><r>congratulation<s n="n"/></r></p></e>
     <e><p><l>প্রীতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>pleasure<s n="n"/></r></p></e>
-    <e><p><l>মোকাবিলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>face<s n="n"/></r></p></e>
+    <e><p><l>মোকাবিলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>confrontation<s n="n"/></r></p></e>
     <e><p><l>রায়<s n="n"/><s n="mf"/><s n="nn"/></l><r>judgement<s n="n"/></r></p></e>
-    <e><p><l>সংস্কার<s n="n"/><s n="mf"/><s n="nn"/></l><r>purification<s n="n"/></r></p></e>
+    <e><p><l>সংস্কার<s n="n"/><s n="mf"/><s n="nn"/></l><r>amendment<s n="n"/></r></p></e>
     <e><p><l>স্থাপনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>foundation<s n="n"/></r></p></e>
     <e><p><l>দুই<s n="n"/><s n="nt"/><s n="nn"/></l><r>two<s n="n"/></r></p></e>
     <e><p><l>সমঝোতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>agreement<s n="n"/></r></p></e>
     <e><p><l>তৃণমূল<s n="n"/><s n="nt"/><s n="nn"/></l><r>grassroot<s n="n"/></r></p></e>
-    <e><p><l>স্থাপন<s n="n"/><s n="mf"/><s n="nn"/></l><r>place<s n="n"/></r></p></e>
+    <e><p><l>স্থাপন<s n="n"/><s n="mf"/><s n="nn"/></l><r>placement<s n="n"/></r></p></e>
     <e><p><l>শ্রদ্ধা<s n="n"/><s n="mf"/><s n="nn"/></l><r>respect<s n="n"/></r></p></e>
     <e><p><l>বিদায়<s n="n"/><s n="mf"/><s n="nn"/></l><r>farewell<s n="n"/></r></p></e>
     <e><p><l>খ্যাতি<s n="n"/><s n="nt"/><s n="nn"/></l><r>reputation<s n="n"/></r></p></e>
@@ -2046,7 +2038,7 @@
     <e><p><l>প্রণয়ন<s n="n"/><s n="mf"/><s n="nn"/></l><r>composition<s n="n"/></r></p></e>
     <e><p><l>যানবাহন<s n="n"/><s n="nt"/><s n="nn"/></l><r>vehicle<s n="n"/></r></p></e>
     <e><p><l>পালন<s n="n"/><s n="mf"/><s n="nn"/></l><r>maintenance<s n="n"/></r></p></e>
-    <e><p><l>আটক<s n="n"/><s n="mf"/><s n="nn"/></l><r>imprisoned<s n="n"/></r></p></e>
+    <e><p><l>আটক<s n="n"/><s n="mf"/><s n="nn"/></l><r>captive<s n="n"/></r></p></e>
     <e><p><l>অকৃত্রিম<s n="n"/><s n="nt"/><s n="nn"/></l><r>real<s n="n"/></r></p></e>
     <e><p><l>অনানুষ্ঠানিক<s n="n"/><s n="nt"/><s n="nn"/></l><r>informal<s n="n"/></r></p></e>
     <e><p><l>মোতায়েন<s n="n"/><s n="mf"/><s n="nn"/></l><r>station<s n="n"/></r></p></e>
@@ -2064,10 +2056,9 @@
     <e><p><l>চুলকানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>scratch<s n="n"/></r></p></e>
     <e><p><l>পাওনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>due<s n="n"/></r></p></e>
     <e><p><l>কারচুপি<s n="n"/><s n="nt"/><s n="nn"/></l><r>cheat<s n="n"/></r></p></e>
-    <e><p><l>পরিশোধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>pay<s n="n"/></r></p></e>
-    <e><p><l>যোগদান<s n="n"/><s n="mf"/><s n="nn"/></l><r>join<s n="n"/></r></p></e>
-    <e><p><l>রক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>protect<s n="n"/></r></p></e>
-    <e><p><l>অধীর<s n="n"/><s n="nt"/><s n="nn"/></l><r>eager<s n="n"/></r></p></e>
+    <e><p><l>পরিশোধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>payment<s n="n"/></r></p></e>
+    <e><p><l>যোগদান<s n="n"/><s n="mf"/><s n="nn"/></l><r>joining<s n="n"/></r></p></e>
+    <e><p><l>রক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>protection<s n="n"/></r></p></e>
     <e><p><l>জারি<s n="n"/><s n="mf"/><s n="nn"/></l><r>enforcement<s n="n"/></r></p></e>    
     <e><p><l>সাক্ষ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>witness<s n="n"/></r></p></e>
     <e><p><l>মহল<s n="n"/><s n="mf"/><s n="nn"/></l><r>palace<s n="n"/></r></p></e>
@@ -2077,7 +2068,6 @@
     <e><p><l>রটানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>rumor<s n="n"/></r></p></e>
     <e><p><l>আশ্বাস<s n="n"/><s n="mf"/><s n="nn"/></l><r>assurance<s n="n"/></r></p></e>
 	<!-- Nouns added @ Thu May 26 20:54:14 UTC 2011 -->
-    <e><p><l>বাতিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>rejected<s n="n"/></r></p></e>
     <e><p><l>লড়াই<s n="n"/><s n="mf"/><s n="nn"/></l><r>fight<s n="n"/></r></p></e>
     <e><p><l>প্রিন্ট<s n="n"/><s n="mf"/><s n="nn"/></l><r>print<s n="n"/></r></p></e>
     <e><p><l>সংগ্রাম<s n="n"/><s n="mf"/><s n="nn"/></l><r>struggle<s n="n"/></r></p></e>
@@ -2098,21 +2088,18 @@
     <e><p><l>চুরি<s n="n"/><s n="nt"/><s n="nn"/></l><r>theft<s n="n"/></r></p></e>
     <e><p><l>ক্যাম্প<s n="n"/><s n="mf"/><s n="nn"/></l><r>camp<s n="n"/></r></p></e>
     <e><p><l>মন<s n="n"/><s n="mf"/><s n="nn"/></l><r>mind<s n="n"/></r></p></e>
-    <e><p><l>বিশ্বাসী<s n="n"/><s n="mf"/><s n="hu"/></l><r>believer<s n="n"/></r></p></e>
     <e><p><l>ব্যতিক্রম<s n="n"/><s n="mf"/><s n="nn"/></l><r>exception<s n="n"/></r></p></e>
     <e><p><l>প্রতিরক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>defence<s n="n"/></r></p></e>
-    <e><p><l>ভোগ<s n="n"/><s n="mf"/><s n="nn"/></l><r>consume<s n="n"/></r></p></e>
+    <e><p><l>ভোগ<s n="n"/><s n="mf"/><s n="nn"/></l><r>consumption<s n="n"/></r></p></e>
     <e><p><l>বিচার<s n="n"/><s n="mf"/><s n="nn"/></l><r>justice<s n="n"/></r></p></e>
-    <e><p><l>নোংরা<s n="n"/><s n="nt"/><s n="nn"/></l><r>dirty<s n="n"/></r></p></e>
     <e><p><l>চেষ্টা<s n="n"/><s n="mf"/><s n="nn"/></l><r>try<s n="n"/></r></p></e>
     <e><p><l>দোষ<s n="n"/><s n="mf"/><s n="nn"/></l><r>guilt<s n="n"/></r></p></e>
     <e><p><l>প্রেস<s n="n"/><s n="mf"/><s n="nn"/></l><r>press<s n="n"/></r></p></e>
-    <e><p><l>উদযাপন<s n="n"/><s n="mf"/><s n="nn"/></l><r>celebrate<s n="n"/></r></p></e>
+    <e><p><l>উদযাপন<s n="n"/><s n="mf"/><s n="nn"/></l><r>celebration<s n="n"/></r></p></e>
     <e><p><l>অংশগ্রহণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>participation<s n="n"/></r></p></e>
     <e><p><l>অভিনয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>acting<s n="n"/></r></p></e>
     <e><p><l>উৎস<s n="n"/><s n="mf"/><s n="nn"/></l><r>source<s n="n"/></r></p></e>
     <e><p><l>ফি<s n="n"/><s n="mf"/><s n="nn"/></l><r>fee<s n="n"/></r></p></e>
-    <e><p><l>প্রস্তুত<s n="n"/><s n="mf"/><s n="nn"/></l><r>ready<s n="n"/></r></p></e>
     <e><p><l>পরিচালনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>direction<s n="n"/></r></p></e>
     <e><p><l>রাত<s n="n"/><s n="mf"/><s n="nn"/></l><r>night<s n="n"/></r></p></e>
     <e><p><l>রান<s n="n"/><s n="mf"/><s n="nn"/></l><r>run<s n="n"/></r></p></e>
@@ -2128,18 +2115,16 @@
     <e><p><l>পেশা<s n="n"/><s n="mf"/><s n="nn"/></l><r>occupation<s n="n"/></r></p></e>
     <e><p><l>অনুবাদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>translation<s n="n"/></r></p></e>
     <e><p><l>ভূমি<s n="n"/><s n="nt"/><s n="nn"/></l><r>land<s n="n"/></r></p></e>
-    <e><p><l>অনুভব<s n="n"/><s n="mf"/><s n="nn"/></l><r>feel<s n="n"/></r></p></e>
+    <e><p><l>অনুভব<s n="n"/><s n="mf"/><s n="nn"/></l><r>feeling<s n="n"/></r></p></e>
     <e><p><l>গ্রহণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>acceptance<s n="n"/></r></p></e>
     <e><p><l>সি<s n="n"/><s n="nt"/><s n="nn"/></l><r>C<s n="n"/></r></p></e>
     <e><p><l>সই<s n="n"/><s n="mf"/><s n="nn"/></l><r>sign<s n="n"/></r></p></e>
     <e><p><l>পাঠ<s n="n"/><s n="mf"/><s n="nn"/></l><r>reading<s n="n"/></r></p></e>
     <e><p><l>বসবাস<s n="n"/><s n="mf"/><s n="nn"/></l><r>living<s n="n"/></r></p></e>
     <e><p><l>প্রশংসা<s n="n"/><s n="mf"/><s n="nn"/></l><r>admiration<s n="n"/></r></p></e>
-    <e><p><l>অতিক্রম<s n="n"/><s n="mf"/><s n="nn"/></l><r>cross<s n="n"/></r></p></e>
-    <e><p><l>বৃদ্ধ<s n="n"/><s n="mf"/><s n="hu"/></l><r>old<s n="n"/></r></p></e>
+    <e><p><l>অতিক্রম<s n="n"/><s n="mf"/><s n="nn"/></l><r>crossing<s n="n"/></r></p></e>
     <e><p><l>ত্যাগ<s n="n"/><s n="mf"/><s n="nn"/></l><r>sacrifice<s n="n"/></r></p></e>
-    <e><p><l>ঢাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>dhaka<s n="n"/></r></p></e>
-    <e><p><l>অসুস্থ<s n="n"/><s n="nt"/><s n="nn"/></l><r>sick<s n="n"/></r></p></e>
+    <e><p><l>ঢাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>Dhaka<s n="n"/></r></p></e>
     <e><p><l>ভুল<s n="n"/><s n="mf"/><s n="nn"/></l><r>wrong<s n="n"/></r></p></e>
     <e><p><l>বর্ণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>colour<s n="n"/></r></p></e>
     <e><p><l>কথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>speech<s n="n"/></r></p></e>
@@ -2178,7 +2163,6 @@
     <e><p><l>দখল<s n="n"/><s n="mf"/><s n="nn"/></l><r>possession<s n="n"/></r></p></e>
     <e><p><l>উপলব্ধি<s n="n"/><s n="mf"/><s n="nn"/></l><r>realization<s n="n"/></r></p></e>
     <e><p><l>ঘটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>occurrence<s n="n"/></r></p></e>
-    <e><p><l>অশান্ত<s n="n"/><s n="nt"/><s n="nn"/></l><r>restless<s n="n"/></r></p></e>
     <e><p><l>গ্রেপ্তার<s n="n"/><s n="mf"/><s n="nn"/></l><r>arrest<s n="n"/></r></p></e>
     <e><p><l>চাওয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>desire<s n="n"/></r></p></e>
     <e><p><l>আশঙ্কা<s n="n"/><s n="mf"/><s n="nn"/></l><r>doubt<s n="n"/></r></p></e>
@@ -2190,5 +2174,25 @@
     <e><p><l>নিশ্চয়তা<s n="n"/><s n="mf"/><s n="nn"/></l><r>guarantee<s n="n"/></r></p></e>
     <e><p><l>ব্যবস্থা<s n="n"/><s n="mf"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>জানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>acquaintance<s n="n"/></r></p></e>
-    <e><p><l>সহসভাপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>president<s n="n"/></r></p></e>
-    <!--upto now: 1928-->
+    <e><p><l>সহসভাপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>president<s n="n"/></r></p></e>    
+    <!-- Nouns added @ Tue Jun 14 17:41:15 UTC 2011 -->
+    <e><p><l>গালমন্দ<s n="n"/><s n="nt"/><s n="nn"/></l><r>abuse<s n="n"/></r></p></e>
+    <e><p><l>নেতৃবৃন্দ<s n="n"/><s n="mf"/><s n="nn"/></l><r>leader<s n="n"/></r></p></e>
+    <e><p><l>স্বায়ত্তশাসন<s n="n"/><s n="nt"/><s n="nn"/></l><r>autonomy<s n="n"/></r></p></e>
+    <e><p><l>ঘোরা<s n="n"/><s n="mf"/><s n="nn"/></l><r>travelling<s n="n"/></r></p></e>
+    <e><p><l>সম্মুখীন<s n="n"/><s n="mf"/><s n="nn"/></l><r>confrontation<s n="n"/></r></p></e>
+    <e><p><l>সহ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>tolerance<s n="n"/></r></p></e>
+    <e><p><l>শুনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>listening<s n="n"/></r></p></e>
+    <e><p><l>তৈরি<s n="n"/><s n="mf"/><s n="nn"/></l><r>manufacture<s n="n"/></r></p></e>
+    <e><p><l>নির্ভর<s n="n"/><s n="mf"/><s n="nn"/></l><r>dependence<s n="n"/></r></p></e>
+    <e><p><l>চাঁদা<s n="n"/><s n="mf"/><s n="nn"/></l><r>subscription<s n="n"/></r></p></e>
+    <e><p><l>উত্তোলন<s n="n"/><s n="mf"/><s n="nn"/></l><r>lifting<s n="n"/></r></p></e>
+    <e><p><l>দেখা<s n="n"/><s n="mf"/><s n="nn"/></l><r>seeing<s n="n"/></r></p></e>
+    <e><p><l>ফেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>throwing<s n="n"/></r></p></e>
+    <e><p><l>চালানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>driving<s n="n"/></r></p></e>
+    <e><p><l>বে<s n="n"/><s n="mf"/><s n="nn"/></l><r>bay<s n="n"/></r></p></e>
+    <e><p><l>বাদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>rejection<s n="n"/></r></p></e>
+    <e><p><l>বেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>hour<s n="n"/></r></p></e>
+    <e><p><l>হিসাব<s n="n"/><s n="mf"/><s n="nn"/></l><r>calculation<s n="n"/></r></p></e>
+    <e><p><l>গা<s n="n"/><s n="mf"/><s n="nn"/></l><r>body<s n="n"/></r></p></e>
+    <!--upto now: 2192-->
