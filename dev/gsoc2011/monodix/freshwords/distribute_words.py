@@ -15,7 +15,10 @@ POSMAP['adj'] = '/tmp/fresh.adj'
 for i in sys.stdin:
 	line = i.split()
 	pos = line[1].split(',')
-	#print line[0], '-', pos
+	
 	for p in pos:
-		with open(POSMAP[p],'a') as f:
-			f.write(line[0]+'\n')
+		try:
+			with open(POSMAP[p],'a') as f:
+				f.write(line[0]+'\n')
+		except:
+			print p, '*****'
