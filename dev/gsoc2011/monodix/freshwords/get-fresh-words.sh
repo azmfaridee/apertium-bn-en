@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat todo.freq.list | grep -v "\!" | ./distribute_words.py
+grep -v "\!" | ./distribute_words.py
 
 cat ../adjective/adjective.bn.dix | grep "<e.*lm" | sed 's/.*<i>//g' | sed  's/<\/i>.*//g' > /tmp/adjs
 cat ../adjective/fresh.adj | sed 's/,/\t/g' | cut -f1 | cat >> /tmp/adjs
