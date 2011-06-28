@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-grep -v "\!" | ./distribute_words.py
+grep -v "\!" | python ../../../tools/fix-spelling.py | ./distribute_words.py
 echo "--------------------"
 
 

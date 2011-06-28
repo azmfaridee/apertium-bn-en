@@ -14,6 +14,11 @@
 
 import sys, codecs
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+sys.stderr = codecs.getwriter('utf8')(sys.stderr)
+
 words = []
 
 # load the data from stdin from buffer, sometime direct processing creates some
