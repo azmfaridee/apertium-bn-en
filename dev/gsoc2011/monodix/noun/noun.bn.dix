@@ -26,1863 +26,2304 @@
     <pardef n="বই__n_nt">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ের</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ে</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="গড়__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="নবী__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণ</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণকে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণের</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="মা__n_f">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="সই__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ের</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ে</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="ঝড়__n_nt">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ে</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="বোন__n_f">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="f"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="মে__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>তে</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="দশা__n_nt">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="লোক__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="সি__n_nt">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>তে</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="গাভী__n_f">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোকে</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="ডা__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/></r>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোয়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="pl" /><s n="loc" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টায়</l>
-          <r><s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="loc" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="দল__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোকে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="জন__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণ</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণকে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণের</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="বাবা__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l>টার</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <l>টির</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="ওসি__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="লং__n_mf">
+      <e>
+    	  <p>
+	    <l />
+	    <r><s n="n" /><s n="mf" /></r>
+	  </p>
+      </e>
     </pardef>
     <pardef n="ভাই__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ের</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="m"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="গাধা__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোকে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="জজ__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="ইউএনও__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>রা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দেরকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>য়ের</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>দের</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="গরু__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোকে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="রানী__n_f">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণ</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <l />
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণকে</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণের</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="f"/><s n="el"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="f" /><s n="el" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="সম্রাট__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণ</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণকে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণের</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="m"/><s n="el"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="el" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="তারকা__n_mf">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণ</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <l />
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণকে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গণের</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>র</l>
-          <r><s n="n"/><s n="mf"/><s n="el"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="mf" /><s n="el" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
     </pardef>
     <pardef n="বাঘ__n_m">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r>
+          <l />
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলো</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="nom" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টা</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টি</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>কে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোকে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="obj"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="obj" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টাকে</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="obj"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টিকে</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="obj" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>ের</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>গুলোর</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="pl" /><s n="gen" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
       </e>
       <e>
         <p>
           <l>টার</l>
-          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
         </p>
-        <par n="enclitic"/>
+        <par n="enclitic" />
+      </e>
+      <e>
+        <p>
+          <l>টির</l>
+          <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="gen" /><s n="def" /></r>
+        </p>
+        <par n="enclitic" />
       </e>
     </pardef>
+
   </pardefs>
   <section id="main" type="standard">
     <e lm="রওয়া"><i>রওয়া</i><par n="ডা__n_mf"/></e>

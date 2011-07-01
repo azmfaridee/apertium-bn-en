@@ -25,6 +25,8 @@
 বোনটার:বোন<n><f><hu><sg><gen><def>
 বোনটারই:বোন<n><f><hu><sg><gen><def>+ই<adv>
 বোনটারও:বোন<n><f><hu><sg><gen><def>+ও<adv>
+
+
 তারকা:তারকা<n><mf><el><sg><nom>
 তারকাই:তারকা<n><mf><el><sg><nom>+ই<adv>
 তারকাও:তারকা<n><mf><el><sg><nom>+ও<adv>
@@ -52,6 +54,8 @@
 তারকার:তারকা<n><mf><el><sg><gen><def>
 তারকারই:তারকা<n><mf><el><sg><gen><def>+ই<adv>
 তারকারও:তারকা<n><mf><el><sg><gen><def>+ও<adv>
+
+
 ওসি:ওসি<n><mf><hu><sg><nom>
 ওসিই:ওসি<n><mf><hu><sg><nom>+ই<adv>
 ওসিও:ওসি<n><mf><hu><sg><nom>+ও<adv>
@@ -79,6 +83,8 @@
 ওসিটার:ওসি<n><mf><hu><sg><gen><def>
 ওসিটারই:ওসি<n><mf><hu><sg><gen><def>+ই<adv>
 ওসিটারও:ওসি<n><mf><hu><sg><gen><def>+ও<adv>
+
+
 নবী:নবী<n><m><el><sg><nom>
 নবীই:নবী<n><m><el><sg><nom>+ই<adv>
 নবীও:নবী<n><m><el><sg><nom>+ও<adv>
@@ -106,6 +112,8 @@
 নবীর:নবী<n><m><el><sg><gen><def>
 নবীরই:নবী<n><m><el><sg><gen><def>+ই<adv>
 নবীরও:নবী<n><m><el><sg><gen><def>+ও<adv>
+
+
 রানী:রানী<n><f><el><sg><nom>
 রানীই:রানী<n><f><el><sg><nom>+ই<adv>
 রানীও:রানী<n><f><el><sg><nom>+ও<adv>
@@ -133,6 +141,8 @@
 রানীর:রানী<n><f><el><sg><gen><def>
 রানীরই:রানী<n><f><el><sg><gen><def>+ই<adv>
 রানীরও:রানী<n><f><el><sg><gen><def>+ও<adv>
+
+
 জন:জন<n><mf><el><sg><nom>
 জনই:জন<n><mf><el><sg><nom>+ই<adv>
 জনও:জন<n><mf><el><sg><nom>+ও<adv>
@@ -160,6 +170,8 @@
 জনের:জন<n><mf><el><sg><gen><def>
 জনেরই:জন<n><mf><el><sg><gen><def>+ই<adv>
 জনেরও:জন<n><mf><el><sg><gen><def>+ও<adv>
+
+
 জজ:জজ<n><mf><hu><sg><nom>
 জজই:জজ<n><mf><hu><sg><nom>+ই<adv>
 জজও:জজ<n><mf><hu><sg><nom>+ও<adv>
@@ -187,6 +199,8 @@
 জজটার:জজ<n><mf><hu><sg><gen><def>
 জজটারই:জজ<n><mf><hu><sg><gen><def>+ই<adv>
 জজটারও:জজ<n><mf><hu><sg><gen><def>+ও<adv>
+
+
 গাভী:গাভী<n><f><aa><sg><nom>
 গাভীই:গাভী<n><f><aa><sg><nom>+ই<adv>
 গাভীও:গাভী<n><f><aa><sg><nom>+ও<adv>
@@ -214,6 +228,8 @@
 গাভীটার:গাভী<n><f><aa><sg><gen><def>
 গাভীটারই:গাভী<n><f><aa><sg><gen><def>+ই<adv>
 গাভীটারও:গাভী<n><f><aa><sg><gen><def>+ও<adv>
+
+
 দল:দল<n><mf><aa><sg><nom>
 দলই:দল<n><mf><aa><sg><nom>+ই<adv>
 দলও:দল<n><mf><aa><sg><nom>+ও<adv>
@@ -241,6 +257,8 @@
 দলটার:দল<n><mf><aa><sg><gen><def>
 দলটারই:দল<n><mf><aa><sg><gen><def>+ই<adv>
 দলটারও:দল<n><mf><aa><sg><gen><def>+ও<adv>
+
+
 ডা:ডা<n><mf><nn><sg><nom>
 ডাই:ডা<n><mf><nn><sg><nom>+ই<adv>
 ডাও:ডা<n><mf><nn><sg><nom>+ও<adv>
@@ -277,6 +295,8 @@
 ডাটায়:ডা<n><mf><nn><sg><loc><def>
 ডাটায়ই:ডা<n><mf><nn><sg><loc><def>+ই<adv>
 ডাটায়ও:ডা<n><mf><nn><sg><loc><def>+ও<adv>
+
+
 মা:মা<n><f><hu><sg><nom>
 মাই:মা<n><f><hu><sg><nom>+ই<adv>
 মাও:মা<n><f><hu><sg><nom>+ও<adv>
@@ -304,6 +324,8 @@
 মাটার:মা<n><f><hu><sg><gen><def>
 মাটারই:মা<n><f><hu><sg><gen><def>+ই<adv>
 মাটারও:মা<n><f><hu><sg><gen><def>+ও<adv>
+
+
 মে:মে<n><mf><nn><sg><nom>
 মেই:মে<n><mf><nn><sg><nom>+ই<adv>
 মেও:মে<n><mf><nn><sg><nom>+ও<adv>
@@ -340,6 +362,8 @@
 মেটায়:মে<n><mf><nn><sg><loc><def>
 মেটায়ই:মে<n><mf><nn><sg><loc><def>+ই<adv>
 মেটায়ও:মে<n><mf><nn><sg><loc><def>+ও<adv>
+
+
 গরু:গরু<n><mf><aa><sg><nom>
 গরুই:গরু<n><mf><aa><sg><nom>+ই<adv>
 গরুও:গরু<n><mf><aa><sg><nom>+ও<adv>
@@ -367,6 +391,8 @@
 গরুটার:গরু<n><mf><aa><sg><gen><def>
 গরুটারই:গরু<n><mf><aa><sg><gen><def>+ই<adv>
 গরুটারও:গরু<n><mf><aa><sg><gen><def>+ও<adv>
+
+
 ইউএনও:ইউএনও<n><mf><hu><sg><nom>
 ইউএনওই:ইউএনও<n><mf><hu><sg><nom>+ই<adv>
 ইউএনওও:ইউএনও<n><mf><hu><sg><nom>+ও<adv>
@@ -394,6 +420,8 @@
 ইউএনওটার:ইউএনও<n><mf><hu><sg><gen><def>
 ইউএনওটারই:ইউএনও<n><mf><hu><sg><gen><def>+ই<adv>
 ইউএনওটারও:ইউএনও<n><mf><hu><sg><gen><def>+ও<adv>
+
+
 ভাই:ভাই<n><m><hu><sg><nom>
 ভাইই:ভাই<n><m><hu><sg><nom>+ই<adv>
 ভাইও:ভাই<n><m><hu><sg><nom>+ও<adv>
@@ -421,6 +449,8 @@
 ভাইটার:ভাই<n><m><hu><sg><gen><def>
 ভাইটারই:ভাই<n><m><hu><sg><gen><def>+ই<adv>
 ভাইটারও:ভাই<n><m><hu><sg><gen><def>+ও<adv>
+
+
 লোক:লোক<n><m><hu><sg><nom>
 লোকই:লোক<n><m><hu><sg><nom>+ই<adv>
 লোকও:লোক<n><m><hu><sg><nom>+ও<adv>
@@ -448,6 +478,8 @@
 লোকটার:লোক<n><m><hu><sg><gen><def>
 লোকটারই:লোক<n><m><hu><sg><gen><def>+ই<adv>
 লোকটারও:লোক<n><m><hu><sg><gen><def>+ও<adv>
+
+
 বই:বই<n><nt><nn><sg><nom>
 বইই:বই<n><nt><nn><sg><nom>+ই<adv>
 বইও:বই<n><nt><nn><sg><nom>+ও<adv>
@@ -484,6 +516,8 @@
 বইটায়:বই<n><nt><nn><sg><loc><def>
 বইটায়ই:বই<n><nt><nn><sg><loc><def>+ই<adv>
 বইটায়ও:বই<n><nt><nn><sg><loc><def>+ও<adv>
+
+
 সি:সি<n><nt><nn><sg><nom>
 সিই:সি<n><nt><nn><sg><nom>+ই<adv>
 সিও:সি<n><nt><nn><sg><nom>+ও<adv>
@@ -520,6 +554,8 @@
 সিটায়:সি<n><nt><nn><sg><loc><def>
 সিটায়ই:সি<n><nt><nn><sg><loc><def>+ই<adv>
 সিটায়ও:সি<n><nt><nn><sg><loc><def>+ও<adv>
+
+
 সই:সই<n><mf><nn><sg><nom>
 সইই:সই<n><mf><nn><sg><nom>+ই<adv>
 সইও:সই<n><mf><nn><sg><nom>+ও<adv>
@@ -556,6 +592,8 @@
 সইটায়:সই<n><mf><nn><sg><loc><def>
 সইটায়ই:সই<n><mf><nn><sg><loc><def>+ই<adv>
 সইটায়ও:সই<n><mf><nn><sg><loc><def>+ও<adv>
+
+
 ঝড়:ঝড়<n><nt><nn><sg><nom>
 ঝড়ই:ঝড়<n><nt><nn><sg><nom>+ই<adv>
 ঝড়ও:ঝড়<n><nt><nn><sg><nom>+ও<adv>
@@ -592,6 +630,8 @@
 ঝড়টায়:ঝড়<n><nt><nn><sg><loc><def>
 ঝড়টায়ই:ঝড়<n><nt><nn><sg><loc><def>+ই<adv>
 ঝড়টায়ও:ঝড়<n><nt><nn><sg><loc><def>+ও<adv>
+
+
 গড়:গড়<n><mf><nn><sg><nom>
 গড়ই:গড়<n><mf><nn><sg><nom>+ই<adv>
 গড়ও:গড়<n><mf><nn><sg><nom>+ও<adv>
@@ -628,6 +668,8 @@
 গড়টায়:গড়<n><mf><nn><sg><loc><def>
 গড়টায়ই:গড়<n><mf><nn><sg><loc><def>+ই<adv>
 গড়টায়ও:গড়<n><mf><nn><sg><loc><def>+ও<adv>
+
+
 সম্রাট:সম্রাট<n><m><el><sg><nom>
 সম্রাটই:সম্রাট<n><m><el><sg><nom>+ই<adv>
 সম্রাটও:সম্রাট<n><m><el><sg><nom>+ও<adv>
@@ -655,6 +697,8 @@
 সম্রাটের:সম্রাট<n><m><el><sg><gen><def>
 সম্রাটেরই:সম্রাট<n><m><el><sg><gen><def>+ই<adv>
 সম্রাটেরও:সম্রাট<n><m><el><sg><gen><def>+ও<adv>
+
+
 বাঘ:বাঘ<n><m><aa><sg><nom>
 বাঘই:বাঘ<n><m><aa><sg><nom>+ই<adv>
 বাঘও:বাঘ<n><m><aa><sg><nom>+ও<adv>
@@ -682,6 +726,8 @@
 বাঘটার:বাঘ<n><m><aa><sg><gen><def>
 বাঘটারই:বাঘ<n><m><aa><sg><gen><def>+ই<adv>
 বাঘটারও:বাঘ<n><m><aa><sg><gen><def>+ও<adv>
+
+
 দশা:দশা<n><nt><nn><sg><nom>
 দশাই:দশা<n><nt><nn><sg><nom>+ই<adv>
 দশাও:দশা<n><nt><nn><sg><nom>+ও<adv>
