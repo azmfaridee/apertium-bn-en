@@ -13,7 +13,8 @@ cat noun.todo | perl -pe 's/(<).*//g' | cat >> /tmp/nounexis
 
 noe_=`grep -c '' noun.todo`
 
-cat /tmp/nountot | grep -v -w -f /tmp/nounexis > /tmp/bar6
+cat /tmp/nounexis | grep -v '^$' > /tmp/nounexis1
+cat /tmp/nountot | grep -v -w -f /tmp/nounexis1 > /tmp/bar6
 cat /tmp/nountot1 | sed 's/<n>/ <n>/g' | grep -w -f /tmp/bar6 | sed 's/ //g' | sed 's/$/\t\!/g' | cat >> noun.todo
 
 noe=`grep -c '' noun.todo`

@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# with the new lemmas listed along with there mapping pardefs in 'fresh.adj', this script
+# generates the correspoding monodix entries running 'create_adj_monodix_entry.py' and then
+# patches it to the end of the 'adj.patch' with a comment header
+# note: 'fresh.adj' has the following format:
+# lemma<comma>pardefid			where pardefid is defined in 'adj.pardef'
+# and an entry with '!' in place of 'pardefid' is ignored
+
 #backup previous copy of "adj.todo"
 cat fresh.adj | cat > fresh.adj_back
 echo "--------------"

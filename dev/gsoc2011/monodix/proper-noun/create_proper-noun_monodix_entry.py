@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# INPUT: 	lemma<comma>pardefid	where pardefid is defined in 'proper-noun.pardef'
+# OUTPUT:	monodix entry strings for the  given lemma with appropriate pardef mapping
+# note: 	this output is used by 'tag-proper-noun.sh'
+
 import sys, re
 
 table = {}

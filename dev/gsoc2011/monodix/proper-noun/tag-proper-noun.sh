@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# with the new lemmas listed along with there mapping pardefs in 'fresh.proper-noun', this script
+# generates the correspoding monodix entries running 'create_noun_monodix_entry.py' and then
+# patches it to the end of the 'proper-noun.patch' with a comment header
+# note: 'fresh.proper-noun' has the following format:
+# lemma<comma>pardefid			where pardefid is defined in 'proper-noun.pardef'
+# and an entry with '!' in place of 'pardefid' is ignored
+
+
 #backup previous copy of "proper-noun.todo"
 cat fresh.proper-noun | cat > fresh.proper-noun_back
 echo "--------------"

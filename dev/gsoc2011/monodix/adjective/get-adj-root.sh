@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# with the noun pardefs provided in 'adj.pardefs' and the 'adj.bn.dix' this script generates
+# the root inflections for noun and dumps to 'adj.inflections'
+
 cat adj.pardefs | grep -v "^$" | sed 's/,/\t/g' | cut -f1 | sed 's/^/<i>/g' | sed 's/$/<\/i>/g' > /tmp/foo
 cat adjective.bn.dix | sed 's/.*e lm.*//g' | grep -v "^$" > /tmp/foo1
 cat adjective.bn.dix | grep "e lm" | grep -w -f /tmp/foo > /tmp/foo2

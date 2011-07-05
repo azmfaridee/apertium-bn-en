@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# with the new lemmas listed along with there mapping pardefs in 'fresh.adv', this script
+# generates the correspoding monodix entries running 'create_adv_monodix_entry.py' and then
+# patches it to the end of the 'noun.patch' with a comment header
+# note: 'fresh.adv' has the following format:
+# lemma<comma>pardefid			where pardefid is defined in 'adv.pardef'
+# and an entry with '!' in place of 'pardefid' is ignored
+
 #backup previous copy of "adv.todo"
 cat fresh.adv | cat > fresh.adv_back
 echo "--------------"

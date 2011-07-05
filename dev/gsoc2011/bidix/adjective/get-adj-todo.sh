@@ -13,7 +13,8 @@ cat adj.todo | perl -pe 's/(<).*//g' | cat >> /tmp/adjexis
 
 noe_=`grep -c '' adj.todo`
 
-cat /tmp/adjtot | grep -v -w -f /tmp/adjexis > /tmp/bar6
+cat /tmp/adjexis | grep -v '^$' > /tmp/adjexis1
+cat /tmp/adjtot | grep -v -w -f /tmp/adjexis1 > /tmp/bar6
 cat /tmp/adjtot1 | sed 's/<adj>/ <adj>/g' | grep -w -f /tmp/bar6 | sed 's/ //g' | sed 's/$/\t\!/g' | cat >> adj.todo
 
 noe=`grep -c '' adj.todo`
