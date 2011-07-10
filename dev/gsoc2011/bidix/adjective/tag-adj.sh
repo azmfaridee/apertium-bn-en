@@ -25,8 +25,7 @@ perl -pe 's/(\^)(.*?)(\/)//' | perl -pe 's/<comp>|<sup>//' | perl -pe 's/\/?\w*?
 perl -pe 's/\$//g' > /tmp/bar2 && paste /tmp/bar1 /tmp/bar2 | awk '{ if($2 ~ /<adj>/) { print $0 } else { print $1"\t"$1"<adj>" } }' > /tmp/bar3
 
 #tag
-cat adj.todo | egrep -v '\#|\?|\!' | cut -f1 > /tmp/bar4 && cat /tmp/bar3 | cut -f2 | 
-perl -pe 's/ /<b\/>/g' > /tmp/bar5
+cat adj.todo | egrep -v '\#|\?|\!' | cut -f1 > /tmp/bar4 && cat /tmp/bar3 | cut -f2 | perl -pe 's/ /<b\/>/g' > /tmp/bar5
 paste /tmp/bar4 /tmp/bar5 | perl -pe 's/<(\w+)>/<s n="$1"\/>/g' | awk -F'\t' '{ print "    <e><p><l>"$1"</l><r>"$2"</r></p></e>" }' > /tmp/bar6
 
 #append to patch fle
