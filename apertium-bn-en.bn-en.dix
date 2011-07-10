@@ -4991,6 +4991,210 @@
     <e><p><l>শেষ<s n="adj"/><s n="mf"/></l><r>last<s n="adj"/></r></p></e>
     <e><p><l>চলন্ত<s n="adj"/><s n="mf"/></l><r>moving<s n="adj"/></r></p></e>
 
+    <!-- Adjectives added @ Sun Jul 10 13:42:40 UTC 2011 -->
+    <e><p><l>কাজাখ<s n="adj"/><s n="mf"/></l><r>kazakh<s n="adj"/></r></p></e>
+    <e><p><l>স্বায়ত্তশাসিত<s n="adj"/><s n="mf"/></l><r>autonomous<s n="adj"/></r></p></e>
+    <e><p><l>সুউচ্চ<s n="adj"/><s n="mf"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>সর্বশ্রেষ্ঠ<s n="adj"/><s n="mf"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>সংকলিত<s n="adj"/><s n="mf"/></l><r>compiled<s n="adj"/></r></p></e>
+    <e><p><l>লাইভ<s n="adj"/><s n="mf"/></l><r>live<s n="adj"/></r></p></e>
+    <e><p><l>মিঠা<s n="adj"/><s n="mf"/></l><r>sweet<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>মহাদেশীয়<s n="adj"/><s n="mf"/></l><r>continental<s n="adj"/></r></p></e>
+    <e><p><l>ভয়ংকর<s n="adj"/><s n="psint"/><s n="mf"/></l><r>dangerous<s n="adj"/></r></p></e>
+    <e><p><l>বৃত্তাকার<s n="adj"/><s n="mf"/></l><r>circular<s n="adj"/></r></p></e>
+    <e><p><l>বহিঃস্থ<s n="adj"/><s n="mf"/></l><r>outer<s n="adj"/></r></p></e>
+    <e><p><l>পুরোনো<s n="adj"/><s n="mf"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>পরিবর্তনশীল<s n="adj"/><s n="mf"/></l><r>variable<s n="adj"/></r></p></e>
+    <e><p><l>নামকরা<s n="adj"/><s n="mf"/></l><r>famous<s n="adj"/></r></p></e>
+    <e><p><l>নরওয়েজীয়<s n="adj"/><s n="mf"/></l><r>norwegian<s n="adj"/></r></p></e>
+    <e><p><l>গ্রীষ্মকালীন<s n="adj"/><s n="mf"/></l><r>summer<s n="adj"/></r></p></e>
+    <e><p><l>গণপ্রজাতন্ত্রী<s n="adj"/><s n="mf"/></l><r>republic<s n="adj"/></r></p></e>
+    <e><p><l>উচু<s n="adj"/><s n="sint"/><s n="mf"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>আন্টিবায়োটিক<s n="adj"/><s n="mf"/></l><r>antibiotic<s n="adj"/></r></p></e>
+    <e><p><l>আইসল্যান্ডীয়<s n="adj"/><s n="mf"/></l><r>icelandic<s n="adj"/></r></p></e>
+    <e><p><l>অষ্ট্রেলীয়<s n="adj"/><s n="mf"/></l><r>australian<s n="adj"/></r></p></e>
+    <e><p><l>অবিচ্ছিন্ন<s n="adj"/><s n="mf"/></l><r>continuous<s n="adj"/></r></p></e>
+    <e><p><l>অন্তর্নিহিত<s n="adj"/><s n="mf"/></l><r>implicit<s n="adj"/></r></p></e>
+    <e><p><l>সিদ্ধ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>boiled<s n="adj"/></r></p></e>
+    <e><p><l>সমাহিত<s n="adj"/><s n="mf"/></l><r>burried<s n="adj"/></r></p></e>
+    <e><p><l>সংকর<s n="adj"/><s n="mf"/></l><r>hybrid<s n="adj"/></r></p></e>
+    <e><p><l>শ্বেত<s n="adj"/><s n="mf"/></l><r>white<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ল্যাটিন<s n="adj"/><s n="mf"/></l><r>latin<s n="adj"/></r></p></e>
+    <e><p><l>রাশিয়ান<s n="adj"/><s n="mf"/></l><r>russian<s n="adj"/></r></p></e>
+    <e><p><l>যৌগিক<s n="adj"/><s n="mf"/></l><r>composite<s n="adj"/></r></p></e>
+    <e><p><l>মিশনারি<s n="adj"/><s n="mf"/></l><r>missionary<s n="adj"/></r></p></e>
+    <e><p><l>মধ্যম<s n="adj"/><s n="mf"/></l><r>middle<s n="adj"/></r></p></e>
+    <e><p><l>জাপানী<s n="adj"/><s n="mf"/></l><r>japanese<s n="adj"/></r></p></e>
+    <e><p><l>ঘূর্ণায়মান<s n="adj"/><s n="mf"/></l><r>rolling<s n="adj"/></r></p></e>
+    <e><p><l>ইন্দোনেশীয়<s n="adj"/><s n="mf"/></l><r>indonesian<s n="adj"/></r></p></e>
+    <e><p><l>অফিসিয়াল<s n="adj"/><s n="mf"/></l><r>official<s n="adj"/></r></p></e>
+    <e><p><l>নিঃসৃত<s n="adj"/><s n="mf"/></l><r>disposed<s n="adj"/></r></p></e>
+    <e><p><l>সম্মানসূচক<s n="adj"/><s n="mf"/></l><r>respectful<s n="adj"/></r></p></e>
+    <e><p><l>সমালোচিত<s n="adj"/><s n="mf"/></l><r>criticized<s n="adj"/></r></p></e>
+    <e><p><l>রয়াল<s n="adj"/><s n="mf"/></l><r>royal<s n="adj"/></r></p></e>
+    <e><p><l>ভ্রান্ত<s n="adj"/><s n="mf"/></l><r>erroneous<s n="adj"/></r></p></e>
+    <e><p><l>প্রতীকী<s n="adj"/><s n="mf"/></l><r>symbolic<s n="adj"/></r></p></e>
+    <e><p><l>পাহাড়ী<s n="adj"/><s n="mf"/></l><r>rocky<s n="adj"/></r></p></e>
+    <e><p><l>নিমজ্জিত<s n="adj"/><s n="mf"/></l><r>submerged<s n="adj"/></r></p></e>
+    <e><p><l>ধার্মিক<s n="adj"/><s n="mf"/></l><r>religious<s n="adj"/></r></p></e>
+    <e><p><l>দাহ্য<s n="adj"/><s n="sint"/><s n="mf"/></l><r>combustible<s n="adj"/></r></p></e>
+    <e><p><l>দামী<s n="adj"/><s n="mf"/></l><r>expensive<s n="adj"/></r></p></e>
+    <e><p><l>আজারবাইজানি<s n="adj"/><s n="mf"/></l><r>azerbaijani<s n="adj"/></r></p></e>
+    <e><p><l>অস্ট্রোনেশীয়<s n="adj"/><s n="mf"/></l><r>austronesian<s n="adj"/></r></p></e>
+    <e><p><l>অবিচ্ছেদ্য<s n="adj"/><s n="mf"/></l><r>inseparable<s n="adj"/></r></p></e>
+    <e><p><l>অনিয়মিত<s n="adj"/><s n="mf"/></l><r>irregular<s n="adj"/></r></p></e>
+    <e><p><l>স্বর্গীয়<s n="adj"/><s n="mf"/></l><r>heavenly<s n="adj"/></r></p></e>
+    <e><p><l>লবণাক্ত<s n="adj"/><s n="mf"/></l><r>salty<s n="adj"/></r></p></e>
+    <e><p><l>মুদ্রিত<s n="adj"/><s n="mf"/></l><r>printed<s n="adj"/></r></p></e>
+    <e><p><l>মুক্তিপ্রাপ্ত<s n="adj"/><s n="mf"/></l><r>released<s n="adj"/></r></p></e>
+    <e><p><l>মরণোত্তর<s n="adj"/><s n="mf"/></l><r>posthumous<s n="adj"/></r></p></e>
+    <e><p><l>বেসিক<s n="adj"/><s n="mf"/></l><r>basic<s n="adj"/></r></p></e>
+    <e><p><l>বসবাসরত<s n="adj"/><s n="mf"/></l><r>living<s n="adj"/></r></p></e>
+    <e><p><l>ধর্মান্তরিত<s n="adj"/><s n="mf"/></l><r>converted<s n="adj"/></r></p></e>
+    <e><p><l>দেওয়ানি<s n="adj"/><s n="mf"/></l><r>civil<s n="adj"/></r></p></e>
+    <e><p><l>দুরূহ<s n="adj"/><s n="psint"/><s n="mf"/></l><r>complex<s n="adj"/></r></p></e>
+    <e><p><l>করুণাময়<s n="adj"/><s n="mf"/></l><r>graceful<s n="adj"/></r></p></e>
+    <e><p><l>অনুভূত<s n="adj"/><s n="mf"/></l><r>felt<s n="adj"/></r></p></e>
+    <e><p><l>অধিকৃত<s n="adj"/><s n="mf"/></l><r>obtained<s n="adj"/></r></p></e>
+    <e><p><l>সম্ভ্রান্ত<s n="adj"/><s n="mf"/></l><r>honored<s n="adj"/></r></p></e>
+    <e><p><l>মানবীয়<s n="adj"/><s n="mf"/></l><r>humane<s n="adj"/></r></p></e>
+    <e><p><l>বিস্ময়কর<s n="adj"/><s n="mf"/></l><r>surprising<s n="adj"/></r></p></e>
+    <e><p><l>বর্নিত<s n="adj"/><s n="mf"/></l><r>described<s n="adj"/></r></p></e>
+    <e><p><l>ফেডারেল<s n="adj"/><s n="mf"/></l><r>federal<s n="adj"/></r></p></e>
+    <e><p><l>নয়া<s n="adj"/><s n="mf"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>জাগতিক<s n="adj"/><s n="mf"/></l><r>mundane<s n="adj"/></r></p></e>
+    <e><p><l>চ্যাপ্টা<s n="adj"/><s n="sint"/><s n="mf"/></l><r>flat<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>গ্রহনযোগ্য<s n="adj"/><s n="mf"/></l><r>acceptable<s n="adj"/></r></p></e>
+    <e><p><l>উপস্থাপিত<s n="adj"/><s n="mf"/></l><r>submitted<s n="adj"/></r></p></e>
+    <e><p><l>উদ্ধৃত<s n="adj"/><s n="mf"/></l><r>quoted<s n="adj"/></r></p></e>
+    <e><p><l>অ্যামেরিকান<s n="adj"/><s n="mf"/></l><r>american<s n="adj"/></r></p></e>
+    <e><p><l>অগ্রগামী<s n="adj"/><s n="mf"/></l><r>progressive<s n="adj"/></r></p></e>
+    <e><p><l>স্মারক<s n="adj"/><s n="mf"/></l><r>memorial<s n="adj"/></r></p></e>
+    <e><p><l>স্বনামধন্য<s n="adj"/><s n="mf"/></l><r>reputated<s n="adj"/></r></p></e>
+    <e><p><l>সূক্ষ্ম<s n="adj"/><s n="sint"/><s n="mf"/></l><r>delicate<s n="adj"/></r></p></e>
+    <e><p><l>সামঞ্জস্যপূর্ণ<s n="adj"/><s n="mf"/></l><r>compatible<s n="adj"/></r></p></e>
+    <e><p><l>সর্বজনীন<s n="adj"/><s n="mf"/></l><r>universal<s n="adj"/></r></p></e>
+    <e><p><l>মাংসাশী<s n="adj"/><s n="mf"/></l><r>carnivorous<s n="adj"/></r></p></e>
+    <e><p><l>ভূগর্ভস্থ<s n="adj"/><s n="mf"/></l><r>underground<s n="adj"/></r></p></e>
+    <e><p><l>ব্রাজিলীয়<s n="adj"/><s n="mf"/></l><r>brazilian<s n="adj"/></r></p></e>
+    <e><p><l>বিশ্বজনীন<s n="adj"/><s n="mf"/></l><r>cosmopolitan<s n="adj"/></r></p></e>
+    <e><p><l>প্রফুল্ল<s n="adj"/><s n="mf"/></l><r>cheerful<s n="adj"/></r></p></e>
+    <e><p><l>পক্ষপাতী<s n="adj"/><s n="mf"/></l><r>favoring<s n="adj"/></r></p></e>
+    <e><p><l>নিঝুম<s n="adj"/><s n="mf"/></l><r>silent<s n="adj"/></r></p></e>
+    <e><p><l>নবগঠিত<s n="adj"/><s n="mf"/></l><r>new-built<s n="adj"/></r></p></e>
+    <e><p><l>ত্বরান্বিত<s n="adj"/><s n="mf"/></l><r>accelerated<s n="adj"/></r></p></e>
+    <e><p><l>জ্ঞানী<s n="adj"/><s n="mf"/></l><r>wise<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ইন্টারমিডিয়েট<s n="adj"/><s n="mf"/></l><r>intermediate<s n="adj"/></r></p></e>
+    <e><p><l>আবশ্যকীয়<s n="adj"/><s n="mf"/></l><r>compulsory<s n="adj"/></r></p></e>
+    <e><p><l>আবশ্যক<s n="adj"/><s n="mf"/></l><r>compulsory<s n="adj"/></r></p></e>
+    <e><p><l>আফ্রো<s n="adj"/><s n="mf"/></l><r>afro<s n="adj"/></r></p></e>
+    <e><p><l>অন্তর্বর্তী<s n="adj"/><s n="mf"/></l><r>intermediate<s n="adj"/></r></p></e>
+    <e><p><l>অত্যধিক<s n="adj"/><s n="mf"/></l><r>excessive<s n="adj"/></r></p></e>
+    <e><p><l>সুসংহত<s n="adj"/><s n="mf"/></l><r>integrated<s n="adj"/></r></p></e>
+    <e><p><l>সমান্তরাল<s n="adj"/><s n="mf"/></l><r>parallel<s n="adj"/></r></p></e>
+    <e><p><l>সমানুপাতিক<s n="adj"/><s n="mf"/></l><r>proportional<s n="adj"/></r></p></e>
+    <e><p><l>সমকোণী<s n="adj"/><s n="mf"/></l><r>right-angled<s n="adj"/></r></p></e>
+    <e><p><l>সংযোজিত<s n="adj"/><s n="mf"/></l><r>added<s n="adj"/></r></p></e>
+    <e><p><l>শোষিত<s n="adj"/><s n="mf"/></l><r>absorbed<s n="adj"/></r></p></e>
+    <e><p><l>রুক্ষ<s n="adj"/><s n="sint"/><s n="mf"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ভার্চুয়াল<s n="adj"/><s n="mf"/></l><r>virtual<s n="adj"/></r></p></e>
+    <e><p><l>বৃদ্ধ<s n="adj"/><s n="mf"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>বর্ণনামূলক<s n="adj"/><s n="mf"/></l><r>descriptive<s n="adj"/></r></p></e>
+    <e><p><l>পূজিত<s n="adj"/><s n="mf"/></l><r>worshipped<s n="adj"/></r></p></e>
+    <e><p><l>নেতৃস্থানীয়<s n="adj"/><s n="mf"/></l><r>leading<s n="adj"/></r></p></e>
+    <e><p><l>দৈহিক<s n="adj"/><s n="mf"/></l><r>physical<s n="adj"/></r></p></e>
+    <e><p><l>দয়ালু<s n="adj"/><s n="mf"/></l><r>kind<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>চুড়ান্ত<s n="adj"/><s n="mf"/></l><r>final<s n="adj"/></r></p></e>
+    <e><p><l>গবেষণামূলক<s n="adj"/><s n="mf"/></l><r>experimental<s n="adj"/></r></p></e>
+    <e><p><l>ইউনাইটেড<s n="adj"/><s n="mf"/></l><r>united<s n="adj"/></r></p></e>
+    <e><p><l>আয়নিত<s n="adj"/><s n="mf"/></l><r>ionised<s n="adj"/></r></p></e>
+    <e><p><l>আবিস্কৃত<s n="adj"/><s n="mf"/></l><r>discovered<s n="adj"/></r></p></e>
+    <e><p><l>আপতিত<s n="adj"/><s n="mf"/></l><r>incident<s n="adj"/></r></p></e>
+    <e><p><l>অর্ধপরিবাহী<s n="adj"/><s n="mf"/></l><r>semiconducter<s n="adj"/></r></p></e>
+    <e><p><l>অপেশাদার<s n="adj"/><s n="mf"/></l><r>amateur<s n="adj"/></r></p></e>
+    <e><p><l>হেভি<s n="adj"/><s n="mf"/></l><r>heavy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>সৃষ্টিশীল<s n="adj"/><s n="mf"/></l><r>creative<s n="adj"/></r></p></e>
+    <e><p><l>সুবিধাজনক<s n="adj"/><s n="mf"/></l><r>convenient<s n="adj"/></r></p></e>
+    <e><p><l>সম্মানজনক<s n="adj"/><s n="mf"/></l><r>honourable<s n="adj"/></r></p></e>
+    <e><p><l>শৈল্পিক<s n="adj"/><s n="mf"/></l><r>artistic<s n="adj"/></r></p></e>
+    <e><p><l>লোভি<s n="adj"/><s n="mf"/></l><r>dreadful<s n="adj"/></r></p></e>
+    <e><p><l>ভাজা<s n="adj"/><s n="mf"/></l><r>fried<s n="adj"/></r></p></e>
+    <e><p><l>ফোনেটিক<s n="adj"/><s n="mf"/></l><r>phonetic<s n="adj"/></r></p></e>
+    <e><p><l>প্রাগৈতিহাসিক<s n="adj"/><s n="mf"/></l><r>prehistoric<s n="adj"/></r></p></e>
+    <e><p><l>প্রতিযোগিতামূলক<s n="adj"/><s n="mf"/></l><r>competitive<s n="adj"/></r></p></e>
+    <e><p><l>নেপালি<s n="adj"/><s n="mf"/></l><r>nepali<s n="adj"/></r></p></e>
+    <e><p><l>নাক্ষত্রিক<s n="adj"/><s n="mf"/></l><r>sidereal<s n="adj"/></r></p></e>
+    <e><p><l>দূর্বল<s n="adj"/><s n="sint"/><s n="mf"/></l><r>weak<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>থাই<s n="adj"/><s n="mf"/></l><r>thai<s n="adj"/></r></p></e>
+    <e><p><l>টেকনিক্যাল<s n="adj"/><s n="mf"/></l><r>technical<s n="adj"/></r></p></e>
+    <e><p><l>ঘনীভূত<s n="adj"/><s n="mf"/></l><r>concentrated<s n="adj"/></r></p></e>
+    <e><p><l>গুজরাটি<s n="adj"/><s n="mf"/></l><r>gujarati<s n="adj"/></r></p></e>
+    <e><p><l>ক্ষতিগ্রস্থ<s n="adj"/><s n="mf"/></l><r>damaged<s n="adj"/></r></p></e>
+    <e><p><l>ওয়েস্টার্ন<s n="adj"/><s n="mf"/></l><r>western<s n="adj"/></r></p></e>
+    <e><p><l>ইন্ডাস্ট্রিয়াল<s n="adj"/><s n="mf"/></l><r>industrial<s n="adj"/></r></p></e>
+    <e><p><l>অ্যাস্ট্রোনমিক্যাল<s n="adj"/><s n="mf"/></l><r>astronomical<s n="adj"/></r></p></e>
+    <e><p><l>অসাধারন<s n="adj"/><s n="mf"/></l><r>exceptional<s n="adj"/></r></p></e>
+    <e><p><l>হাল্কা<s n="adj"/><s n="sint"/><s n="mf"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>সুবৃহৎ<s n="adj"/><s n="mf"/></l><r>subrhathuge<s n="adj"/></r></p></e>
+    <e><p><l>সর্বকনিষ্ঠ<s n="adj"/><s n="mf"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>সমকক্ষ<s n="adj"/><s n="mf"/></l><r>equal<s n="adj"/></r></p></e>
+    <e><p><l>যুক্তরাষ্ট্রীয়<s n="adj"/><s n="mf"/></l><r>federal<s n="adj"/></r></p></e>
+    <e><p><l>মুসলীম<s n="adj"/><s n="mf"/></l><r>muslim<s n="adj"/></r></p></e>
+    <e><p><l>মঙ্গোলীয়<s n="adj"/><s n="mf"/></l><r>mongolian<s n="adj"/></r></p></e>
+    <e><p><l>ভিয়েতনামীয়<s n="adj"/><s n="mf"/></l><r>vietnamese<s n="adj"/></r></p></e>
+    <e><p><l>ভয়ানক<s n="adj"/><s n="sint"/><s n="mf"/></l><r>frightening<s n="adj"/></r></p></e>
+    <e><p><l>বিক্ষিপ্ত<s n="adj"/><s n="mf"/></l><r>scattered<s n="adj"/></r></p></e>
+    <e><p><l>বাইনারি<s n="adj"/><s n="mf"/></l><r>binary<s n="adj"/></r></p></e>
+    <e><p><l>পৈত্রিক<s n="adj"/><s n="mf"/></l><r>paternal<s n="adj"/></r></p></e>
+    <e><p><l>নূতন<s n="adj"/><s n="sint"/><s n="mf"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>নিস্ক্রিয়<s n="adj"/><s n="mf"/></l><r>inactive<s n="adj"/></r></p></e>
+    <e><p><l>নগণ্য<s n="adj"/><s n="psint"/><s n="mf"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>চুক্তিবদ্ধ<s n="adj"/><s n="mf"/></l><r>covenanted<s n="adj"/></r></p></e>
+    <e><p><l>গোলাপী<s n="adj"/><s n="mf"/></l><r>pink<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>নকআউট<s n="adj"/><s n="mf"/></l><r>knockout<s n="adj"/></r></p></e>
+    <e><p><l>তুলনীয়<s n="adj"/><s n="mf"/></l><r>comparable<s n="adj"/></r></p></e>
+    <e><p><l>গবাদি<s n="adj"/><s n="mf"/></l><r>cattle<s n="adj"/></r></p></e>
+    <e><p><l>ক্রোয়েশীয়<s n="adj"/><s n="mf"/></l><r>croatian<s n="adj"/></r></p></e>
+    <e><p><l>ইচ্ছুক<s n="adj"/><s n="mf"/></l><r>willing<s n="adj"/></r></p></e>
+    <e><p><l>আইনী<s n="adj"/><s n="mf"/></l><r>legal<s n="adj"/></r></p></e>
+    <e><p><l>অসমাপ্ত<s n="adj"/><s n="mf"/></l><r>incomplete<s n="adj"/></r></p></e>
+    <e><p><l>অনুসৃত<s n="adj"/><s n="mf"/></l><r>followed<s n="adj"/></r></p></e>
+    <e><p><l>স্কেলার<s n="adj"/><s n="mf"/></l><r>scaler<s n="adj"/></r></p></e>
+    <e><p><l>সভ্য<s n="adj"/><s n="mf"/></l><r>cultured<s n="adj"/></r></p></e>
+    <e><p><l>শ্বেতাঙ্গ<s n="adj"/><s n="mf"/></l><r>white<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>রোমান্টিক<s n="adj"/><s n="mf"/></l><r>romantic<s n="adj"/></r></p></e>
+    <e><p><l>যুদ্ধকালীন<s n="adj"/><s n="mf"/></l><r>wartime<s n="adj"/></r></p></e>
+    <e><p><l>মার্কিনী<s n="adj"/><s n="mf"/></l><r>american<s n="adj"/></r></p></e>
+    <e><p><l>ভাসমান<s n="adj"/><s n="mf"/></l><r>floating<s n="adj"/></r></p></e>
+    <e><p><l>ব্যাচেলর<s n="adj"/><s n="mf"/></l><r>bachelor<s n="adj"/></r></p></e>
+    <e><p><l>বিক্রিত<s n="adj"/><s n="mf"/></l><r>sold<s n="adj"/></r></p></e>
+    <e><p><l>বাঙ্গালী<s n="adj"/><s n="mf"/></l><r>bengali<s n="adj"/></r></p></e>
+    <e><p><l>ফার্স্ট<s n="adj"/><s n="mf"/></l><r>first<s n="adj"/></r></p></e>
+    <e><p><l>প্রযুক্ত<s n="adj"/><s n="mf"/></l><r>applied<s n="adj"/></r></p></e>
+    <e><p><l>প্রমিত<s n="adj"/><s n="mf"/></l><r>standard<s n="adj"/></r></p></e>
+    <e><p><l>পূর্ণবয়স্ক<s n="adj"/><s n="mf"/></l><r>adult<s n="adj"/></r></p></e>
+    <e><p><l>পাঠ্য<s n="adj"/><s n="mf"/></l><r>text<s n="adj"/></r></p></e>
+    <e><p><l>পরিবর্ধিত<s n="adj"/><s n="mf"/></l><r>updated<s n="adj"/></r></p></e>
+    <e><p><l>নিরস্ত্র<s n="adj"/><s n="mf"/></l><r>unarmed<s n="adj"/></r></p></e>
+    <e><p><l>নিবেদিত<s n="adj"/><s n="mf"/></l><r>dedicated<s n="adj"/></r></p></e>
+    <e><p><l>নিবন্ধিত<s n="adj"/><s n="mf"/></l><r>registered<s n="adj"/></r></p></e>
+    <e><p><l>দক্ষিণপূর্ব<s n="adj"/><s n="mf"/></l><r>southeast<s n="adj"/></r></p></e>
+    <e><p><l>ছোটখাট<s n="adj"/><s n="mf"/></l><r>minor<s n="adj"/></r></p></e>
+    <e><p><l>চিরন্তন<s n="adj"/><s n="mf"/></l><r>immortal<s n="adj"/></r></p></e>
+    <e><p><l>গন্য<s n="adj"/><s n="mf"/></l><r>considered<s n="adj"/></r></p></e>
+    <e><p><l>কেন্দ্রীভূত<s n="adj"/><s n="mf"/></l><r>centralized<s n="adj"/></r></p></e>
+    <e><p><l>উভচর<s n="adj"/><s n="mf"/></l><r>amphibian<s n="adj"/></r></p></e>
+    <e><p><l>উপবৃত্তাকার<s n="adj"/><s n="mf"/></l><r>elliptical<s n="adj"/></r></p></e>
+    <e><p><l>ইলেকট্রিক<s n="adj"/><s n="mf"/></l><r>electrical<s n="adj"/></r></p></e>
+    <e><p><l>ইরানী<s n="adj"/><s n="mf"/></l><r>iranian<s n="adj"/></r></p></e>
+    <e><p><l>ইরানি<s n="adj"/><s n="mf"/></l><r>iranian<s n="adj"/></r></p></e>
+    <e><p><l>সিঙ্গল<s n="adj"/><s n="mf"/></l><r>single<s n="adj"/></r></p></e>
+    <e><p><l>সহজলভ্য<s n="adj"/><s n="mf"/></l><r>available<s n="adj"/></r></p></e>
+    <e><p><l>সমাজবাদী<s n="adj"/><s n="mf"/></l><r>socialist<s n="adj"/></r></p></e>
+    <e><p><l>সংগ্রামী<s n="adj"/><s n="mf"/></l><r>fighting<s n="adj"/></r></p></e>
+    <e><p><l>শীতকালীন<s n="adj"/><s n="mf"/></l><r>winter<s n="adj"/></r></p></e>
+    <e><p><l>জিনেটিক<s n="adj"/><s n="mf"/></l><r>genetic<s n="adj"/></r></p></e>
+
     <!-- Proper Nouns (added later)-->
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>কক্সবাজার<s n="np"/><s n="top"/><s n="mf"/></l><r>Cox's<b/>Bazar<s n="np"/><s n="top"/></r></p></e>
