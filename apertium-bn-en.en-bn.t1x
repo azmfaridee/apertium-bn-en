@@ -19,6 +19,8 @@
     </def-cat>
     <def-cat n="art">
       <cat-item tags="det.def.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.dem.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -98,6 +100,12 @@
       <attr-item tags="adj.sint.comp"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.sint.sup"/>
+    </def-attr>
+
+     <def-attr n="a_art">
+      <attr-item tags="det"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.dem"/>
     </def-attr>
 
     <!-- Vblex Attribute -->
@@ -231,6 +239,49 @@
               <lit-tag v="5"/>
               <lit-tag v="def"/>
               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ART ADJ NOM">
+      <pattern>
+        <pattern-item n="art"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="art_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="3" side="tl" part="anim"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_art"/>     
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen"/>        
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen" link-to="2"/> 
+              <clip pos="3" side="tl" part="anim" link-to="3"/> 
+              <clip pos="3" side="tl" part="nbr" link-to="4"/>
+              <lit-tag v="5"/>
+              <clip pos="3" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

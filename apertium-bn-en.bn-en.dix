@@ -42,6 +42,7 @@
     <sdef n="p3"        c="Third person"/>
 
     <sdef n="dem"       c="Demonstrative"/>
+    <sdef n="ind"       c="Indefinite"/>
 
     <sdef n="num"       c="Numeral"/>
     <sdef n="vblex"     c="Verb"/>
@@ -7281,6 +7282,9 @@
     <e><p><l>যীশু<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesus<s n="np"/></r></p></e>
     <e><p><l>মোশতাক<s n="np"/><s n="ant"/><s n="m"/></l><r>Mosataq<s n="np"/></r></p></e>
     <e><p><l>ভেনাস<s n="np"/><s n="ant"/><s n="f"/></l><r>Venus<s n="np"/></r></p></e>
+
+    <e><p><l>এই<s n="det"/><s n="dem"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>একটি<s n="det"/><s n="ind"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
 
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
