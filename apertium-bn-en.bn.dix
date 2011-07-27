@@ -87,7 +87,7 @@
 
     <pardef n="separa">
       <e>
-        <re>[.\?;:!।]</re>
+        <re>[.\?;:!৷।]</re>
         <p>
           <l/>
           <r><s n="sent"/></r>
