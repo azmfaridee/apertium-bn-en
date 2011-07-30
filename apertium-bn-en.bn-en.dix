@@ -37,6 +37,11 @@
     <sdef n="hu"        c="Human"/>
     <sdef n="el"        c="Elite"/>
 
+    <sdef n="nom"          c="Nominative"/>
+    <sdef n="obj"          c="Objective"/>
+    <sdef n="gen"          c="Genitive"/>
+    <sdef n="loc"          c="Locative"/>
+
     <sdef n="p1"        c="First person"/>
     <sdef n="p2"        c="Second person"/>
     <sdef n="p3"        c="Third person"/>
@@ -111,16 +116,16 @@
     <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>theirs<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e r="RL"><p><l>আমার<s n="det"/><s n="pos"/><s n="sp"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>আমাদের<s n="det"/><s n="pos"/><s n="sp"/></l><r>our<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>তাদের<s n="det"/><s n="pos"/><s n="sp"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>আমার<s n="det"/><s n="gen"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>আমাদের<s n="det"/><s n="gen"/></l><r>our<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>তাদের<s n="det"/><s n="gen"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 
-    <e r="RL"><p><l>তোমার<s n="det"/><s n="pos"/><s n="ND"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>তোমার<s n="det"/><s n="gen"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 
 
     <!-- Nouns -->
                             <!-- TODO: Add gender on the Bengali side -->
-    <e><p><l>মেয়ে<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
+    <e><p><l>মেয়ে<s n="n"/><s n="f"/><s n="hu"/></l><r>daughter<s n="n"/></r></p></e>
     <e><p><l>ক্ষমতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ability<s n="n"/></r></p></e>
     <e><p><l>জঘন্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>abomination<s n="n"/></r></p></e>
     <e><p><l>গালাগাল<s n="n"/><s n="nt"/><s n="nn"/></l><r>abuse<s n="n"/></r></p></e>
@@ -509,7 +514,7 @@
     <e><p><l>দান<s n="n"/><s n="nt"/><s n="nn"/></l><r>gift<s n="n"/></r></p></e>
     <e><p><l>আদা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ginger<s n="n"/></r></p></e>
     <e><p><l>বালিকা<s n="n"/><s n="f"/><s n="hu"/></l><r>girl<s n="n"/></r></p></e>
-    <e><p><l>মেয়ে<s n="n"/><s n="mf"/><s n="hu"/></l><r>girl<s n="n"/></r></p></e>
+    <e><p><l>মেয়ে<s n="n"/><s n="f"/><s n="hu"/></l><r>girl<s n="n"/></r></p></e>
     <e><p><l>দৃষ্টি<s n="n"/><s n="nt"/><s n="nn"/></l><r>glance<s n="n"/></r></p></e>
     <e><p><l>লক্ষ্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>goal<s n="n"/></r></p></e>
     <e><p><l>সোনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>gold<s n="n"/></r></p></e>
