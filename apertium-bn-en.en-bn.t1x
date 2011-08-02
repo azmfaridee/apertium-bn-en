@@ -227,7 +227,7 @@
       </pattern>
       <action>
         <out>
-          <chunk name="nom" case="caseFirstWord">
+          <chunk name="art_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -443,7 +443,7 @@
         </choose>
 
         <out>
-          <chunk name="verbcj1" case="caseFirstWord">
+          <chunk name="vbser_vblex" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
