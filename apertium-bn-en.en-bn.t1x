@@ -19,6 +19,8 @@
     </def-cat>
     <def-cat n="art">
       <cat-item tags="det.def.*"/>
+    </def-cat>
+    <def-cat n="det">
       <cat-item tags="det.ind.*"/>
       <cat-item tags="det.dem.*"/>
     </def-cat>
@@ -103,7 +105,10 @@
     </def-attr>
 
      <def-attr n="a_art">
-      <attr-item tags="det"/>
+      <attr-item tags="det.def"/>
+    </def-attr>
+
+     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
       <attr-item tags="det.dem"/>
     </def-attr>
@@ -245,15 +250,15 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ART ADJ NOM">
+    <rule comment="REGLA: DET ADJ NOM">
       <pattern>
-        <pattern-item n="art"/>
+        <pattern-item n="det"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
         <out>
-          <chunk name="art_adj_nom" case="caseFirstWord">
+          <chunk name="det_adj_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="3" side="tl" part="gen"/></tag>
@@ -263,7 +268,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_art"/>     
+              <clip pos="1" side="tl" part="a_det"/>     
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
@@ -438,7 +443,7 @@
         </choose>
 
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk name="verbcj1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
