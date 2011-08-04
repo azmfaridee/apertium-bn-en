@@ -274,9 +274,13 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-		<!--call-macro n="set_person">
-			<with-param pos="2"/>
-		</call-macro-->
+		<let>
+		  <var n="person"/>
+		  <concat>
+			<lit-tag v="p3"/>
+			<lit-tag v="infml"/>
+		  </concat>
+		</let>
         <out>
           <chunk name="art_nom" case="caseFirstWord">
             <tags>
