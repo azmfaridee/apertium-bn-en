@@ -10,6 +10,10 @@
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
     </def-cat>
+    <def-cat n="SVP">
+      <cat-item tags="SVP"/>
+      <cat-item tags="SVP.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -84,6 +88,34 @@
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+	<!--just ignore SVP-->
+    <rule comment="REGLA: SN SVP SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVP"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="obj"/>
+        </let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
           </chunk>
         </out>
       </action>
