@@ -14,8 +14,10 @@
     <def-cat n="verbcj">
       <cat-item tags="vblex.past"/>
       <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.pri"/>
       <cat-item tags="vblex.past.*"/>
       <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.pri.*"/>
     </def-cat>
     <def-cat n="art">
       <cat-item tags="det.def.*"/>
@@ -134,8 +136,9 @@
     <def-var n="EOS"/>
   </section-def-vars>
 
-  
+  <!--macros here-->
   <section-def-macros>
+	<!--set the correct person attribute in the "person" variable specially for "prn_subj"-->
   	<def-macro n="set_person" npar="1">
 		<choose>
 		<when>
@@ -182,15 +185,16 @@
   	</def-macro>
   </section-def-macros>  
 
+<!--rules here-->
   <section-rules>
 
     <!-- Sintagmas nominales -->
-
     <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
 		  <concat>
@@ -287,6 +291,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
 		  <concat>
@@ -324,6 +329,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
 		  <concat>
@@ -368,6 +374,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
 		  <concat>
@@ -420,6 +427,7 @@
         <choose>
           <when>
             <test>
+			<!--if not demostrative-->
               <not>
                 <equal>
                   <clip pos="1" side="tl" part="tipus_prn"/>
@@ -427,6 +435,7 @@
                 </equal>
               </not>
             </test>
+			<!--assign the appropriate person tag into "person" variable-->
 			<call-macro n="set_person">
 				<with-param pos="1"/>
 			</call-macro>
@@ -526,7 +535,7 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
-              <tag><var n="person"/></tag>
+              <tag><var n="person"/></tag><!--value set by the rules that catch the subject-->
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
@@ -549,7 +558,7 @@
       <action>
         <choose>
 
-          <!-- Condition for present indefinite -->
+          <!-- Condition for simple present -->
           <when>
             <test>
               <equal> 
@@ -561,6 +570,23 @@
               <clip pos="1" side="tl" part="temps"/>
               <concat>
                 <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
+
+          <!-- Condition for present indefinite -->
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pri"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <lit-tag v="pres"/>
                 <lit-tag v="smpl"/>
               </concat>
             </let>
@@ -586,11 +612,8 @@
 
         <!-- Add person tag -->
         <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <concat>
-            <clip pos="1" side="tl" part="temps"/>
-            <var n="person"/>
-          </concat>
+          <clip pos="1" side="tl" part="pers"/>
+          <var n="person"/>
         </let>
 
         <!-- Actual output -->
@@ -599,9 +622,17 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
+			  <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <!--clip pos="1" side="tl" part="whole"/-->
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
