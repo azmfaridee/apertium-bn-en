@@ -50,6 +50,10 @@
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.pres.*"/>
     </def-cat>
+    <def-cat n="vbser_past">
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbser.past.*"/>
+    </def-cat>
     <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
     </def-cat>
@@ -100,7 +104,8 @@
       <attr-item tags="pres.cnt"/>
       <attr-item tags="past"/>
       <attr-item tags="past.smpl"/>
-      <attr-item tags="past.cnt"/>        
+      <attr-item tags="past.cnt"/>   
+      <attr-item tags="plprft"/>     
       <attr-item tags="inf"/>
       <!-- present indefinite? -->
       <attr-item tags="pri"/>
@@ -206,6 +211,21 @@
                 <!-- replace 'pri' with 'pres' -->
                 <clip pos="1" side="tl" part="temps"/>
                 <lit-tag v="pres"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="past"/>
+              </equal>
+            </test>
+            <let>
+                <clip pos="1" side="tl" part="temps"/>
+                <concat>
+                <lit-tag v="past"/>
+                <lit-tag v="plprft"/>
+                </concat>
             </let>
           </when>
         </choose>
@@ -589,6 +609,33 @@
         </out>
       </action>
    </rule>
+
+	<!--principle "was", "were"-->
+    <rule comment="REGLA: VBSER PAST">
+      <pattern>
+        <pattern-item n="vbser_past"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vbser_past" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag><!--value set by the rules that catch the subject-->
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 
     <rule comment="REGLA: VERB CONJ">
       <pattern>

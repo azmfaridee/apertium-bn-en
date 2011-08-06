@@ -18,6 +18,10 @@
     <sdef n="sp"        c="Singular/Plural"/>
     <sdef n="pl"        c="Plural"/>
     <sdef n="def"        c="Definite"/>
+
+    <sdef n="fam"          c="Familiar"/>
+    <sdef n="infml"        c="Informal"/>
+    <sdef n="pol"          c="Polite"/>
     
     <sdef n="sint"         c="Synthetic"/>
     <sdef n="psint"        c="Partially synthetic"/>
@@ -48,6 +52,21 @@
 
     <sdef n="dem"       c="Demonstrative"/>
     <sdef n="ind"       c="Indefinite"/>
+
+    <sdef n="inf"          c="Infinitive"/>
+    <sdef n="ger"          c="Gerund"/>
+    <sdef n="ft"           c="Future"/>
+    <sdef n="pres"         c="Future"/>
+    <sdef n="past"         c="Past"/>
+    <sdef n="smpl"         c="Simple"/>
+    <sdef n="pres"         c="Future"/>
+    <sdef n="cnt"          c="Continuous"/>
+    <sdef n="hbtl"         c="Habitual"/>
+    <sdef n="prft"         c="Perfect"/>
+    <sdef n="plprft"       c="Perfect"/>
+    <sdef n="ppst"         c="Past Participle"/>
+    <sdef n="pcnd"         c="Conditional Participle"/>
+    <sdef n="imp"          c="Imperative"/>
 
     <sdef n="num"       c="Numeral"/>
     <sdef n="vblex"     c="Verb"/>
@@ -3567,7 +3586,8 @@
     <e><p><l>ভাটা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ebbtide<s n="n"/></r></p></e>
 
     <!-- Verbs -->
-
+    <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/></r></p></e>
     <e><p><l>ত্যাগ কর<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
     <e><p><l>অপহরণ কর<s n="vblex"/></l><r>abduct<s n="vblex"/></r></p></e>
     <e><p><l>শপথ করে ত্যাগ কর<s n="vblex"/></l><r>abjure<s n="vblex"/></r></p></e>
