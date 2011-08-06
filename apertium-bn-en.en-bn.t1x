@@ -29,6 +29,9 @@
       <cat-item tags="det.pos.*"/>
       <cat-item tags="det.ord.*"/>
     </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -132,6 +135,11 @@
       <attr-item tags="det.pos"/>
       <attr-item tags="det.ord"/>
     </def-attr>
+    
+     <def-attr n="a_num">
+      <attr-item tags="num"/>
+      <attr-item tags="num.hu"/>
+    </def-attr>
 
     <!-- Vblex Attribute -->
     <def-attr n="a_vblex">
@@ -145,6 +153,7 @@
     <def-var n="case" v="&lt;nom&gt;"/>
     <def-var n="genere"/>
     <def-var n="person"/>
+    <def-var n="determiner"/>
     <def-var n="EOS"/>
   </section-def-vars>
 
@@ -376,6 +385,37 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+      <choose>
+		<when>
+		<!--if the determiner is a<det><ind><sg> append animacy of nom to the এক<num>-->
+			<test>
+				<and>
+					<equal> 
+						<clip pos="1" side="sl" part="a_det"/>
+						<lit-tag v="det.ind"/>
+					</equal>
+					<equal> 
+						<clip pos="1" side="sl" part="nbr"/>
+						<lit-tag v="sg"/>
+					</equal>
+				</and>
+			</test>
+			<let>
+				<var n="determiner"/>
+				<concat>
+					<clip pos="1" side="tl" part="a_num"/>
+					<clip pos="2" side="tl" part="anim"/>
+				</concat>
+			</let>
+		</when>
+		<!--in all oher cases just put the determiner attribute-->
+		<otherwise>
+			<let>
+				<var n="determiner"/>
+				<clip pos="1" side="tl" part="a_det"/>
+			</let>
+		</otherwise>
+		</choose>
 		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
@@ -395,7 +435,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_det"/>     
+              <var n="determiner"/>     
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
