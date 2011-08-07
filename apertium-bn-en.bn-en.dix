@@ -812,6 +812,7 @@
     <e><p><l>কবি<s n="n"/><s n="mf"/><s n="hu"/></l><r>poet<s n="n"/></r></p></e>
     <e><p><l>পয়েন্ট<s n="n"/><s n="mf"/><s n="nn"/></l><r>point<s n="n"/></r></p></e>
     <e><p><l>পুলিশ<s n="n"/><s n="mf"/><s n="hu"/></l><r>policeman<s n="n"/></r></p></e>
+    <e><p><l>পুলিশ<s n="n"/><s n="mf"/><s n="hu"/></l><r>police<s n="n"/></r></p></e>
     <e><p><l>ভোট<s n="n"/><s n="mf"/><s n="nn"/></l><r>poll<s n="n"/></r></p></e>
     <e><p><l>অংশ<s n="n"/><s n="nt"/><s n="nn"/></l><r>portion<s n="n"/></r></p></e>
     <e><p><l>প্রতিকৃতি<s n="n"/><s n="nt"/><s n="nn"/></l><r>portrait<s n="n"/></r></p></e>
@@ -914,7 +915,8 @@
     <e><p><l>ফল<s n="n"/><s n="nt"/><s n="nn"/></l><r>result<s n="n"/></r></p></e>
     <e><p><l>ফেরত<s n="n"/><s n="mf"/><s n="nn"/></l><r>return<s n="n"/></r></p></e>
     <e><p><l>রাজস্ব<s n="n"/><s n="mf"/><s n="nn"/></l><r>revenue<s n="n"/></r></p></e>
-    <e><p><l>ধান<s n="n"/><s n="mf"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
+    <e><p><l>ভাত<s n="n"/><s n="mf"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
+    <e r="LR"><p><l>ধান<s n="n"/><s n="mf"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
     <e><p><l>দাঙ্গা<s n="n"/><s n="nt"/><s n="nn"/></l><r>riot<s n="n"/></r></p></e>
     <e><p><l>ঝুঁকি<s n="n"/><s n="nt"/><s n="nn"/></l><r>risk<s n="n"/></r></p></e>
     <e><p><l>নদী<s n="n"/><s n="nt"/><s n="nn"/></l><r>river<s n="n"/></r></p></e>

@@ -60,6 +60,9 @@
     <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
     </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -108,6 +111,7 @@
       <attr-item tags="past"/>
       <attr-item tags="past.smpl"/>
       <attr-item tags="past.cnt"/>   
+      <attr-item tags="prft"/>     
       <attr-item tags="plprft"/>     
       <attr-item tags="inf"/>
       <!-- present indefinite? -->
@@ -616,6 +620,62 @@
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="temps" link-to="4"/>
               <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+    <rule comment="REGLA: VBHAVER VBLEX">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<!--fix the temps for bn-->
+		<call-macro n="fix_vbser_temps">
+			<with-param pos="1"/>
+		</call-macro>
+      	<choose>
+      		<when>
+      			<test>
+      				<equal>
+      					<clip pos="1" side="sl" part="temps"/>
+						<lit-tag v="pres"/>
+      				</equal>
+      			</test>
+      			<let>
+      				<clip pos="1" side="tl" part="temps"/>
+					<lit-tag v="prft"/>
+      			</let>
+      		</when>
+      		<when>
+      			<test>
+      				<equal>
+      					<clip pos="1" side="tl" part="temps"/>
+						<lit-tag v="past"/>
+      				</equal>
+      			</test>
+      			<let>
+      				<clip pos="1" side="tl" part="temps"/>
+					<lit-tag v="plprft"/>
+      			</let>
+      		</when>
+      	</choose>
+        <out>
+          <chunk name="vbhaver_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
