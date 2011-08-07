@@ -243,6 +243,42 @@
           </when>
         </choose>
   	</def-macro>
+
+	<!--mainly appends anmacy to এক<num>-->
+  	<def-macro n="fix_determiner" npar="2">
+	<choose>
+		<when>
+		<!--if the determiner is a<det><ind><sg> append animacy of nom to the এক<num>-->
+			<test>
+				<and>
+					<equal> 
+						<clip pos="1" side="sl" part="a_det"/>
+						<lit-tag v="det.ind"/>
+					</equal>
+					<equal> 
+						<clip pos="1" side="sl" part="nbr"/>
+						<lit-tag v="sg"/>
+					</equal>
+				</and>
+			</test>
+			<let>
+				<var n="determiner"/>
+				<concat>
+					<clip pos="1" side="tl" part="a_num"/>
+					<clip pos="2" side="tl" part="anim"/>
+				</concat>
+			</let>
+		</when>
+		<!--in all oher cases just put the determiner attribute-->
+		<otherwise>
+			<let>
+				<var n="determiner"/>
+				<clip pos="1" side="tl" part="a_det"/>
+			</let>
+		</otherwise>
+		</choose>
+  	</def-macro>
+  	
   </section-def-macros>  
 
 <!--rules here-->
@@ -389,38 +425,12 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-      <choose>
-		<when>
-		<!--if the determiner is a<det><ind><sg> append animacy of nom to the এক<num>-->
-			<test>
-				<and>
-					<equal> 
-						<clip pos="1" side="sl" part="a_det"/>
-						<lit-tag v="det.ind"/>
-					</equal>
-					<equal> 
-						<clip pos="1" side="sl" part="nbr"/>
-						<lit-tag v="sg"/>
-					</equal>
-				</and>
-			</test>
-			<let>
-				<var n="determiner"/>
-				<concat>
-					<clip pos="1" side="tl" part="a_num"/>
-					<clip pos="2" side="tl" part="anim"/>
-				</concat>
-			</let>
-		</when>
-		<!--in all oher cases just put the determiner attribute-->
-		<otherwise>
-			<let>
-				<var n="determiner"/>
-				<clip pos="1" side="tl" part="a_det"/>
-			</let>
-		</otherwise>
-		</choose>
-		<!--by deafult, 3rd person informal-->
+		<!--assign proper determiner tag into te variable 'determiner'-->
+		<call-macro n="fix_determiner">
+			<with-param pos="1"/>
+			<with-param pos="2"/>
+		</call-macro>
+  		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
 		  <concat>
@@ -465,6 +475,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<call-macro n="fix_determiner">
+			<with-param pos="1"/>
+			<with-param pos="3"/>
+		</call-macro>
 		<!--by deafult, 3rd person informal-->
 		<let>
 		  <var n="person"/>
@@ -484,7 +498,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_det"/>     
+              <var n="determiner"/>     
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
