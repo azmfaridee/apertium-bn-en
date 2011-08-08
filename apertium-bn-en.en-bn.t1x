@@ -69,6 +69,11 @@
       <cat-item tags="vaux.*"/>
     </def-cat>
 
+    <def-cat n="ftaux">
+      <cat-item lemma="shall" tags="vaux.inf"/>
+      <cat-item lemma="will" tags="vaux.inf"/>
+    </def-cat>
+
     <def-cat n="be">
       <cat-item lemma="be" tags="vbser.inf"/>
     </def-cat>
@@ -748,6 +753,52 @@
         </out>
       </action>
    </rule>
+
+	<!--future continuous-->
+    <rule comment="REGLA: FTAUX BE VBLEX">
+      <pattern>
+        <pattern-item n="ftaux"/>
+        <pattern-item n="be"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <!-- if the verb has gerund tag -->
+                <clip pos="3" side="sl" part="a_vblex"/>
+                <lit-tag v="ger"/>
+              </equal>
+            </test>
+            <let>
+              <!-- add cnt tag -->
+              <clip pos="2" side="tl" part="temps"/>
+               <lit-tag v="ft.cnt"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="ftaux_be_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="2" side="tl" part="temps" link-to="2"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="temps" link-to="4"/>
+              <clip pos="2" side="tl" part="temps" link-to="5"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 
 
 	<!--just passes the SVP chunk to ignore in t2x-->
