@@ -46,6 +46,10 @@
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
     </def-cat>
+    
+    <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
 	<!--to be verb, present indefinite -->
     <def-cat n="vbser_pri">
       <cat-item tags="vbser.pri"/>
@@ -57,12 +61,21 @@
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbser.past.*"/>
     </def-cat>
-    <def-cat n="vbser">
-      <cat-item tags="vbser.*"/>
-    </def-cat>
+
     <def-cat n="vbhaver">
       <cat-item tags="vbhaver.*"/>
     </def-cat>
+    <def-cat n="vaux">
+      <cat-item tags="vaux.*"/>
+    </def-cat>
+
+    <def-cat n="be">
+      <cat-item lemma="be" tags="vbser.inf"/>
+    </def-cat>
+    <def-cat n="been">
+      <cat-item lemma="been" tags="vbser.pp"/>
+    </def-cat>
+    
   </section-def-cats>
 
   <section-def-attrs>
@@ -113,7 +126,10 @@
       <attr-item tags="pres.cnt"/>
       <attr-item tags="past"/>
       <attr-item tags="past.smpl"/>
-      <attr-item tags="past.cnt"/>   
+      <attr-item tags="past.cnt"/>  
+      <attr-item tags="ft"/>
+      <attr-item tags="ft.smpl"/>
+      <attr-item tags="ft.cnt"/> 
       <attr-item tags="prft"/>     
       <attr-item tags="plprft"/>     
       <attr-item tags="inf"/>
@@ -701,6 +717,38 @@
         </out>
       </action>
    </rule>
+
+    <rule comment="REGLA: VAUX VBLEX">
+      <pattern>
+        <pattern-item n="vaux"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+      	<let>
+      		<clip pos="1" side="tl" part="temps"/>
+      		<lit-tag v="ft.smpl"/>
+      	</let>
+        <out>
+          <chunk name="vaux_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 
 	<!--just passes the SVP chunk to ignore in t2x-->
     <rule comment="REGLA: VBSER PRES">
