@@ -130,10 +130,14 @@
 
 
 
-    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>theirs<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="pos"/></l><r>theirs<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    
 
     <e r="RL"><p><l>আমার<s n="det"/><s n="gen"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>আমাদের<s n="det"/><s n="gen"/></l><r>our<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
@@ -4529,6 +4533,7 @@
     <e><p><l>আমেরিকান<s n="adj"/><s n="mf"/></l><r>american<s n="adj"/></r></p></e>
     <e><p><l>পূর্ণাঙ্গ<s n="adj"/><s n="mf"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>সুন্দর<s n="adj"/><s n="sint"/><s n="mf"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>সুন্দরী<s n="adj"/><s n="f"/></l><r>beautiful<s n="adj"/></r></p></e>
     <e><p><l>সংরক্ষিত<s n="adj"/><s n="mf"/></l><r>reserved<s n="adj"/></r></p></e>
     <e><p><l>সম্পূর্ণ<s n="adj"/><s n="mf"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>মুসলমান<s n="adj"/><s n="mf"/></l><r>muslim<s n="adj"/></r></p></e>
@@ -5028,7 +5033,7 @@
     <e><p><l>সর্বশ্রেষ্ঠ<s n="adj"/><s n="mf"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>সংকলিত<s n="adj"/><s n="mf"/></l><r>compiled<s n="adj"/></r></p></e>
     <e><p><l>লাইভ<s n="adj"/><s n="mf"/></l><r>live<s n="adj"/></r></p></e>
-    <e><p><l>মিঠা<s n="adj"/><s n="mf"/></l><r>sweet<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>মিঠা<s n="adj"/><s n="mf"/></l><r>sweet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>মহাদেশীয়<s n="adj"/><s n="mf"/></l><r>continental<s n="adj"/></r></p></e>
     <e><p><l>ভয়ংকর<s n="adj"/><s n="psint"/><s n="mf"/></l><r>dangerous<s n="adj"/></r></p></e>
     <e><p><l>বৃত্তাকার<s n="adj"/><s n="mf"/></l><r>circular<s n="adj"/></r></p></e>
@@ -5259,7 +5264,6 @@
     <e><p><l>সন্তুষ্ট<s n="adj"/><s n="mf"/></l><r>satisfied<s n="adj"/></r></p></e>
     <e><p><l>ভরাট<s n="adj"/><s n="mf"/></l><r>full<s n="adj"/></r></p></e>
     <e><p><l>সরল<s n="adj"/><s n="psint"/><s n="mf"/></l><r>simple<s n="adj"/></r></p></e>
-    <e><p><l>সুন্দরী<s n="adj"/><s n="f"/></l><r>beautiful<s n="adj"/></r></p></e>
     <e><p><l>সুস্পষ্ট<s n="adj"/><s n="psint"/><s n="mf"/></l><r>obvious<s n="adj"/></r></p></e>
     <e><p><l>কাঙ্ক্ষিত<s n="adj"/><s n="mf"/></l><r>desired<s n="adj"/></r></p></e>
     <e><p><l>অভিজ্ঞ<s n="adj"/><s n="psint"/><s n="mf"/></l><r>experienced<s n="adj"/></r></p></e>
@@ -5620,6 +5624,7 @@
 
     <!-- Proper Nouns (added later)-->
     <e><p><l>জাহের<s n="np"/><s n="ant"/><s n="m"/></l><r>Zaher<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>বাংলা<s n="np"/><s n="al"/><s n="mf"/></l><r>Bengali<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>কক্সবাজার<s n="np"/><s n="top"/><s n="mf"/></l><r>Cox's<b/>Bazar<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>ইব্রাহিম<s n="np"/><s n="ant"/><s n="m"/></l><r>Ibrahim<s n="np"/><s n="ant"/></r></p></e>

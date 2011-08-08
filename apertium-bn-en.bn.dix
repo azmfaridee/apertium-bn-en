@@ -3045,25 +3045,25 @@
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="loc" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>এরা</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>এগুলো</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ঐগুলো</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ঐসব</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
@@ -3075,7 +3075,7 @@
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ওগুলো</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></r>
