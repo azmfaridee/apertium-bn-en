@@ -5178,7 +5178,7 @@
     <e><p><l>পৈত্রিক<s n="adj"/><s n="mf"/></l><r>paternal<s n="adj"/></r></p></e>
     <e><p><l>নূতন<s n="adj"/><s n="sint"/><s n="mf"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>নিস্ক্রিয়<s n="adj"/><s n="mf"/></l><r>inactive<s n="adj"/></r></p></e>
-    <e><p><l>নগণ্য<s n="adj"/><s n="psint"/><s n="mf"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e>
+    <!--e><p><l>নগণ্য<s n="adj"/><s n="psint"/><s n="mf"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e-->
     <e><p><l>চুক্তিবদ্ধ<s n="adj"/><s n="mf"/></l><r>covenanted<s n="adj"/></r></p></e>
     <e><p><l>গোলাপী<s n="adj"/><s n="mf"/></l><r>pink<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>নকআউট<s n="adj"/><s n="mf"/></l><r>knockout<s n="adj"/></r></p></e>
@@ -5619,6 +5619,7 @@
     <e><p><l>কেন্দ্রিক<s n="adj"/><s n="mf"/></l><r>centered<s n="adj"/></r></p></e>
 
     <!-- Proper Nouns (added later)-->
+    <e><p><l>জাহের<s n="np"/><s n="ant"/><s n="m"/></l><r>Zaher<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>কুড়িগ্রাম<s n="np"/><s n="top"/><s n="mf"/></l><r>Kurigram<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>কক্সবাজার<s n="np"/><s n="top"/><s n="mf"/></l><r>Cox's<b/>Bazar<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>ইব্রাহিম<s n="np"/><s n="ant"/><s n="m"/></l><r>Ibrahim<s n="np"/><s n="ant"/></r></p></e>
