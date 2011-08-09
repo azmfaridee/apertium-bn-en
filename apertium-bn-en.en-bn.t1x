@@ -188,6 +188,17 @@
 
   <!--macros here-->
   <section-def-macros>
+
+  	<def-macro n="set_third_person" npar="0">
+  		<let>
+		  <var n="person"/>
+		  <concat>
+			<lit-tag v="p3"/>
+			<lit-tag v="infml"/>
+		  </concat>
+		</let>
+  	</def-macro>
+		
 	<!--set the correct person attribute in the "person" variable specially for "prn_subj"-->
   	<def-macro n="set_person" npar="1">
 		<choose>
@@ -316,14 +327,7 @@
       </pattern>
       <action>
 		<!--by deafult, 3rd person informal-->
-		<let>
-		  <var n="person"/>
-		  <concat>
-			<lit-tag v="p3"/>
-			<lit-tag v="infml"/>
-		  </concat>
-		</let>
-		
+		<call-macro n="set_third_person"/>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
@@ -413,17 +417,11 @@
       </pattern>
       <action>
 		<!--by deafult, 3rd person informal-->
+		<call-macro n="set_third_person"/>
 		<let>
-		  <var n="person"/>
-		  <concat>
-			<lit-tag v="p3"/>
-			<lit-tag v="infml"/>
-		  </concat>
-		</let>
-		<!--let>
 		  	<var n="temp"/>
 			<lit-tag v=""/>
-		</let-->
+		</let>
 		<choose>
 			<!--when nominal is noun and singular add "def" tag-->
 			<when>
@@ -480,13 +478,7 @@
 			<with-param pos="2"/>
 		</call-macro>
   		<!--by deafult, 3rd person informal-->
-		<let>
-		  <var n="person"/>
-		  <concat>
-			<lit-tag v="p3"/>
-			<lit-tag v="infml"/>
-		  </concat>
-		</let>
+		<call-macro n="set_third_person"/>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
@@ -528,13 +520,7 @@
 			<with-param pos="3"/>
 		</call-macro>
 		<!--by deafult, 3rd person informal-->
-		<let>
-		  <var n="person"/>
-		  <concat>
-			<lit-tag v="p3"/>
-			<lit-tag v="infml"/>
-		  </concat>
-		</let>
+		<call-macro n="set_third_person"/>
         <out>
           <chunk name="det_adj_nom" case="caseFirstWord">
             <tags>
