@@ -182,6 +182,7 @@
     <def-var n="genere"/>
     <def-var n="person"/>
     <def-var n="determiner"/>
+    <def-var n="temp"/>
     <def-var n="EOS"/>
   </section-def-vars>
 
@@ -419,12 +420,36 @@
 			<lit-tag v="infml"/>
 		  </concat>
 		</let>
+		<!--let>
+		  	<var n="temp"/>
+			<lit-tag v=""/>
+		</let-->
+		<choose>
+			<!--when nominal is noun and singular add "def" tag-->
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="2" side="tl" part="nbr"/>
+							<lit-tag v="sg"/>
+						</equal>
+						<equal>
+							<clip pos="2" side="tl" part="a_nom"/>
+							<lit-tag v="n"/>
+						</equal>
+					</and>
+				</test>
+				<let>
+					<var n="temp"/>
+					<lit-tag v="def"/>
+				</let>
+			</when>
+		</choose>
         <out>
           <chunk name="art_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
-              <tag><clip pos="2" side="tl" part="anim"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
               <tag><lit-tag v="nom"/></tag>
             </tags>
@@ -432,10 +457,10 @@
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="gen" link-to="2"/> 
-              <clip pos="2" side="tl" part="anim" link-to="3"/> 
-              <clip pos="2" side="tl" part="nbr" link-to="4"/>
-              <lit-tag v="5"/>
-              <lit-tag v="def"/>
+              <clip pos="2" side="tl" part="anim"/> 
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <lit-tag v="4"/>
+              <var n="temp"/><!--'def' tag when singular-->
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
