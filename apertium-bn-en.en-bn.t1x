@@ -450,6 +450,7 @@
               <tag><clip pos="2" side="tl" part="gen"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
               <tag><lit-tag v="nom"/></tag>
+              <tag><var n="temp"/></tag><!--'def' tag when singular-->
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
@@ -458,7 +459,7 @@
               <clip pos="2" side="tl" part="anim"/> 
               <clip pos="2" side="tl" part="nbr" link-to="3"/>
               <lit-tag v="4"/>
-              <var n="temp"/><!--'def' tag when singular-->
+              <lit-tag v="5"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
