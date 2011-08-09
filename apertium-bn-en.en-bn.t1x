@@ -382,6 +382,7 @@
       </action>
     </rule>
 
+
     <rule comment="RELGA: ADJ">
       <pattern>
         <pattern-item n="adj"/>
@@ -473,7 +474,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-		<!--assign proper determiner tag into te variable 'determiner'-->
+		<!--assign proper determiner tag into the variable 'determiner'-->
 		<call-macro n="fix_determiner">
 			<with-param pos="1"/>
 			<with-param pos="2"/>
@@ -491,7 +492,6 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
-              <tag><clip pos="2" side="tl" part="anim"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
               <tag><lit-tag v="nom"/></tag>
             </tags>
@@ -505,9 +505,9 @@
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="gen" link-to="2"/> 
-              <clip pos="2" side="tl" part="anim" link-to="3"/> 
-              <clip pos="2" side="tl" part="nbr" link-to="4"/>
-              <lit-tag v="5"/>
+              <clip pos="2" side="tl" part="anim"/> 
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <lit-tag v="4"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>

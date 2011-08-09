@@ -245,7 +245,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -273,7 +273,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -352,7 +352,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -380,7 +380,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -524,7 +524,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -610,7 +610,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -638,7 +638,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -717,7 +717,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -824,7 +824,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="f" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -910,7 +910,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -938,7 +938,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -1017,7 +1017,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1046,7 +1046,7 @@
         <par n="enclitic" />
       </e>
       <e>
-        <p>
+        <p r="LR">
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
         </p>
@@ -1124,7 +1124,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1210,7 +1210,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1238,7 +1238,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -1317,7 +1317,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="f" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1403,7 +1403,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1431,7 +1431,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="nn" /><s n="sg" /><s n="obj" /><s n="def" /></r>
@@ -1510,7 +1510,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1661,7 +1661,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1740,7 +1740,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1834,7 +1834,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="m" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -1920,7 +1920,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -2006,7 +2006,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -2092,7 +2092,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -2178,7 +2178,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="mf" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -2459,7 +2459,7 @@
         </p>
         <par n="enclitic" />
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="n" /><s n="m" /><s n="aa" /><s n="sg" /><s n="nom" /><s n="def" /></r>
@@ -28223,7 +28223,7 @@
           <r><s n="num" /><s n="an" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="num" /><s n="an" /></r>
@@ -28235,7 +28235,7 @@
           <r><s n="num" /><s n="an" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="num" /><s n="nn" /></r>
@@ -28247,7 +28247,7 @@
           <r><s n="num" /><s n="nn" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>টা</l>
           <r><s n="num" /><s n="aa" /></r>
