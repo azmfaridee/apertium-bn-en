@@ -588,6 +588,43 @@
     </rule>
 
 
+    <rule comment="REGLA: NUM NOM">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+		<call-macro n="set_third_person"/>
+        <out>
+          <chunk name="num_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="2" side="tl" part="anim"/> 
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/> 
+              <clip pos="2" side="tl" part="anim"/> 
+              <lit-tag v="sg"/>
+              <lit-tag v="4"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: PRNSUBJ">
       <pattern>
         <pattern-item n="prn_subj"/>

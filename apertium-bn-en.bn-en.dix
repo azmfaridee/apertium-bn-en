@@ -2183,7 +2183,6 @@
     <e><p><l>রায়<s n="n"/><s n="mf"/><s n="nn"/></l><r>judgement<s n="n"/></r></p></e>
     <e><p><l>সংস্কার<s n="n"/><s n="mf"/><s n="nn"/></l><r>amendment<s n="n"/></r></p></e>
     <e><p><l>স্থাপনা<s n="n"/><s n="mf"/><s n="nn"/></l><r>foundation<s n="n"/></r></p></e>
-    <e><p><l>দুই<s n="n"/><s n="nt"/><s n="nn"/></l><r>two<s n="n"/></r></p></e>
     <e><p><l>সমঝোতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>agreement<s n="n"/></r></p></e>
     <e><p><l>তৃণমূল<s n="n"/><s n="nt"/><s n="nn"/></l><r>grassroot<s n="n"/></r></p></e>
     <e><p><l>স্থাপন<s n="n"/><s n="mf"/><s n="nn"/></l><r>placement<s n="n"/></r></p></e>
@@ -7318,6 +7317,19 @@
     <e><p><l>মোশতাক<s n="np"/><s n="ant"/><s n="m"/></l><r>Mosataq<s n="np"/></r></p></e>
     <e><p><l>ভেনাস<s n="np"/><s n="ant"/><s n="f"/></l><r>Venus<s n="np"/></r></p></e>
 
+    <!-- Numbers -->
+    <e><p><l>এক<s n="num"/></l><r>one<s n="num"/><s n="sg"/></r></p></e>
+    <e><p><l>দুই<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>তিন<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>চার<s n="num"/></l><r>four<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>পাঁচ<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ছয়<s n="num"/></l><r>six<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>সাত<s n="num"/></l><r>seven<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>আট<s n="num"/></l><r>eight<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>নয়<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>দশ<s n="num"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
+
+    
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
