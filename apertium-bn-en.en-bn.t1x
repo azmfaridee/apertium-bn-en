@@ -64,6 +64,7 @@
 
     <def-cat n="vbhaver">
       <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbhaver.pres"/>
     </def-cat>
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
@@ -79,7 +80,10 @@
     </def-cat>
     <def-cat n="been">
       <cat-item lemma="been" tags="vbser.pp"/>
+      <cat-item lemma="been" tags="vblex.pp"/>
     </def-cat>
+
+
     
   </section-def-cats>
 
@@ -280,6 +284,31 @@
         </choose>
   	</def-macro>
 
+  	
+	<!--replaces 'cnt' for 'ger'-->
+  	<def-macro n="fix_ger_cnt" npar="2">
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <!-- if the verb has gerund tag -->
+                <clip pos="2" side="sl" part="a_vblex"/>
+                <lit-tag v="ger"/>
+              </equal>
+            </test>
+            <let>
+              <!-- add cnt tag -->
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="cnt"/>
+              </concat>
+            </let>
+          </when>
+        </choose>
+  	</def-macro>
+
+  	
 	<!--mainly appends anmacy to এক<num>-->
   	<def-macro n="fix_determiner" npar="2">
 	<choose>
@@ -626,6 +655,118 @@
     </rule>
 
 
+	<!--principle "am"/"is"; just passes the SVP chunk to ignore in t2x-->
+    <rule comment="REGLA: VBSER PRES">
+      <pattern>
+        <pattern-item n="vbser_pri"/>
+      </pattern>
+      <action>
+		<!--fix the temps for bn-->
+		<call-macro n="fix_vbser_temps">
+			<with-param pos="1"/>
+		</call-macro>
+        <out>
+          <chunk name="vbser_pri" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SVP"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="vbser"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+	<!--principle "was", "were"-->
+    <rule comment="REGLA: VBSER PAST">
+      <pattern>
+        <pattern-item n="vbser_past"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vbser_past" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag><!--value set by the rules that catch the subject-->
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+	<!--principle "was", "were"-->
+    <!--rule comment="REGLA: TEST">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="test" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule-->
+
+
+	<!--perfect continuous-->
+    <rule comment="REGLA: VBHAVER VBSER VBLEX">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vbser"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="fix_vbser_temps">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="fix_ger_cnt">
+			<with-param pos="1"/>
+			<with-param pos="3"/>
+		</call-macro>
+        <out>
+          <chunk name="vbhaver_vbser_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+   
     <rule comment="REGLA: VBSER VBLEX">
       <pattern>
         <pattern-item n="vbser"/>
@@ -636,25 +777,10 @@
 		<call-macro n="fix_vbser_temps">
 			<with-param pos="1"/>
 		</call-macro>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <!-- if the verb has gerund tag -->
-                <clip pos="2" side="sl" part="a_vblex"/>
-                <lit-tag v="ger"/>
-              </equal>
-            </test>
-            <let>
-              <!-- add cnt tag -->
-              <clip pos="1" side="tl" part="temps"/>
-              <concat>
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="cnt"/>
-              </concat>
-            </let>
-          </when>
-        </choose>
+		<call-macro n="fix_ger_cnt">
+			<with-param pos="1"/>
+			<with-param pos="2"/>
+		</call-macro>
         <out>
           <chunk name="vbser_vblex" case="caseFirstWord">
             <tags>
@@ -765,6 +891,8 @@
       </action>
    </rule>
 
+
+
 	<!--future continuous-->
     <rule comment="REGLA: FTAUX BE VBLEX">
       <pattern>
@@ -804,61 +932,6 @@
               <clip pos="2" side="tl" part="temps" link-to="4"/>
               <clip pos="2" side="tl" part="temps" link-to="5"/>
               <clip pos="3" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-   </rule>
-
-
-
-	<!--just passes the SVP chunk to ignore in t2x-->
-    <rule comment="REGLA: VBSER PRES">
-      <pattern>
-        <pattern-item n="vbser_pri"/>
-      </pattern>
-      <action>
-		<!--fix the temps for bn-->
-		<call-macro n="fix_vbser_temps">
-			<with-param pos="1"/>
-		</call-macro>
-        <out>
-          <chunk name="vbser_pri" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SVP"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="vbser"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-   </rule>
-
-	<!--principle "was", "were"-->
-    <rule comment="REGLA: VBSER PAST">
-      <pattern>
-        <pattern-item n="vbser_past"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="vbser_past" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
-              <tag><var n="person"/></tag><!--value set by the rules that catch the subject-->
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="vblex"/>
-              <clip pos="1" side="tl" part="temps" link-to="2"/>
-              <clip pos="1" side="tl" part="temps" link-to="3"/>
-              <clip pos="1" side="tl" part="temps" link-to="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -953,6 +1026,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule>
 <!-- REGLA: reset variables-->
