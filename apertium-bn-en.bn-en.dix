@@ -4,7 +4,10 @@
     <sdef n="n"         c="Noun"/>
     <sdef n="np"           c="Proper noun"/>    
     <sdef n="adj"          c="Adjective"/>
+    <sdef n="post"         c="Postposition"/>
+    <sdef n="pr"         c="Preposition"/>
     <sdef n="det"         c="Determiner"/>
+    <sdef n="predet"         c="Pre Determiner"/><!--en part 'all'-->
     <sdef n="prn"       c="Pronoun"/>
     <sdef n="subj"      c="Subject"/>
     <sdef n="obj"       c="Object"/>
@@ -52,6 +55,8 @@
 
     <sdef n="dem"       c="Demonstrative"/>
     <sdef n="ind"       c="Indefinite"/>
+
+    <sdef n="tn"       c="Tonico"/><!--en part 'all'-->
 
     <sdef n="inf"          c="Infinitive"/>
     <sdef n="ger"          c="Gerund"/>
@@ -136,7 +141,8 @@
     <e r="LR"><p><l>নিজেরা<s n="prn"/><s n="ref"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-
+    
+    <e><p><l>সকল<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     
 
     <e r="RL"><p><l>আমার<s n="det"/><s n="gen"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
@@ -147,6 +153,8 @@
 
     <e><p><l>এই<s n="det"/><s n="dem"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>এক<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    
+    <e><p><l>সকল<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>all<s n="predet"/><s n="sp"/></r></p></e>
 
     <!-- Nouns -->
                             <!-- TODO: Add gender on the Bengali side -->
@@ -7329,6 +7337,8 @@
     <e><p><l>নয়<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>দশ<s n="num"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
 
+    <!-- Postpositions -->
+    <e><p><l>থেকে<s n="post"/></l><r>since<s n="pr"/></r></p></e>
     
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

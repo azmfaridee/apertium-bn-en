@@ -29,6 +29,9 @@
       <cat-item tags="det.pos.*"/>
       <cat-item tags="det.ord.*"/>
     </def-cat>
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+    </def-cat>
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
@@ -97,6 +100,9 @@
     </def-attr>
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
+    </def-attr>
+    <def-attr n="a_post">
+      <attr-item tags="post"/>
     </def-attr>
     <def-attr n="tipus_prn">
       <attr-item tags="ref"/>
@@ -981,8 +987,7 @@
         <pattern-item n="verbcj"/>
       </pattern>
       <action>
-        <choose>
-
+      	<choose>	
           <!-- Condition for simple present -->
           <when>
             <test>
@@ -1035,12 +1040,6 @@
           </when>
         </choose>
 
-        <!-- Add person tag -->
-        <let>
-          <clip pos="1" side="tl" part="pers"/>
-          <var n="person"/>
-        </let>
-
         <!-- Actual output -->
         <out>
           <chunk name="verbcj" case="caseFirstWord">
@@ -1064,6 +1063,26 @@
       </action>
     </rule>
 
+
+	<!--pre/post positions-->
+    <rule comment="REGLA: POST">
+      <pattern>
+        <pattern-item n="pr"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST"/></tag>
+              <tag><clip pos="1" side="tl" part="a_post"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
 
     <rule>
 <!-- REGLA: reset variables-->
