@@ -4222,7 +4222,8 @@
     <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>লেখ<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>বিরক্ত কর<s n="vblex"/></l><r>disturb<s n="vblex"/></r></p></e>
-	
+    <e><p><l>যা<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+
 	<!-- Adjective (added later) -->
     <e><p><l>সংগঠিত<s n="adj"/><s n="mf"/></l><r>organized<s n="adj"/></r></p></e>
     <e><p><l>বিভক্ত<s n="adj"/><s n="mf"/></l><r>divided<s n="adj"/></r></p></e>
@@ -7347,9 +7348,9 @@
     <e><p><l>পাশে<s n="post"/></l><r>beside<s n="pr"/></r></p></e>
     <e><p><l>ব্যতীত<s n="post"/></l><r>except<s n="pr"/></r></p></e>
     <e><p><l>বাদে<s n="post"/></l><r>except<s n="pr"/></r></p></e>
-    <e><p><l>ছাড়া<s n="post"/></l>except<r><s n="pr"/></r></p></e>
+    <e><p><l>ছাড়া<s n="post"/></l><r>except<s n="pr"/></r></p></e>
     <e><p><l>মধ্যে<s n="post"/></l><r>among<s n="pr"/></r></p></e>
-    <e><p><l>মধ্যে<s n="post"/></l><r>between<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>মধ্যে<s n="post"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>বাইরে<s n="post"/></l><r>out<b/>of<s n="pr"/></r></p></e>
     <e><p><l>চেয়ে<s n="post"/></l><r><s n="pr"/></r></p></e>
     <e><p><l>প্রতি<s n="post"/></l><r><s n="pr"/></r></p></e>
@@ -7365,7 +7366,7 @@
     <e><p><l>অবধি<s n="post"/></l><r>up<b/>to<s n="pr"/></r></p></e>
     <e><p><l>বরাবর<s n="post"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>শুধুই<s n="post"/></l><r>only<s n="pr"/></r></p></e>
-    
+
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
