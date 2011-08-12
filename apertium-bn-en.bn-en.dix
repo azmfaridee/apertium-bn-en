@@ -7339,6 +7339,32 @@
 
     <!-- Postpositions -->
     <e><p><l>থেকে<s n="post"/></l><r>since<s n="pr"/></r></p></e>
+    <e><p><l>থেকে<s n="post"/></l><r>from<s n="pr"/></r></p></e>
+    <e><p><l>পরে<s n="post"/></l><r>after<s n="pr"/></r></p></e>
+    <e><p><l>বিরুদ্ধে<s n="post"/></l><r>against<s n="pr"/></r></p></e>
+    <e><p><l>বনাম<s n="post"/></l><r>against<s n="pr"/></r></p></e>
+    <e><p><l>আগে<s n="post"/></l><r>before<s n="pr"/></r></p></e>
+    <e><p><l>পাশে<s n="post"/></l><r>beside<s n="pr"/></r></p></e>
+    <e><p><l>ব্যতীত<s n="post"/></l><r>except<s n="pr"/></r></p></e>
+    <e><p><l>বাদে<s n="post"/></l><r>except<s n="pr"/></r></p></e>
+    <e><p><l>ছাড়া<s n="post"/></l>except<r><s n="pr"/></r></p></e>
+    <e><p><l>মধ্যে<s n="post"/></l><r>among<s n="pr"/></r></p></e>
+    <e><p><l>মধ্যে<s n="post"/></l><r>between<s n="pr"/></r></p></e>
+    <e><p><l>বাইরে<s n="post"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>চেয়ে<s n="post"/></l><r><s n="pr"/></r></p></e>
+    <e><p><l>প্রতি<s n="post"/></l><r><s n="pr"/></r></p></e>
+    <e><p><l>দিকে<s n="post"/></l><r>towards<s n="pr"/></r></p></e>
+    <e><p><l>তলদেশে<s n="post"/></l><r>under<s n="pr"/></r></p></e>
+    <e><p><l>উপর<s n="post"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>দ্বারা<s n="post"/></l><r>by<s n="pr"/></r></p></e>
+    <e><p><l>কর্তৃক<s n="post"/></l><r>by<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>সঙ্গে<s n="post"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>সাথে<s n="post"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>জন্য<s n="post"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>মতো<s n="post"/></l><r>like<s n="pr"/></r></p></e>
+    <e><p><l>অবধি<s n="post"/></l><r>up<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>বরাবর<s n="post"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>শুধুই<s n="post"/></l><r>only<s n="pr"/></r></p></e>
     
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
