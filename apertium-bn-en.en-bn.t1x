@@ -86,7 +86,9 @@
       <cat-item lemma="been" tags="vblex.pp"/>
     </def-cat>
 
-
+    <def-cat n="vbdo">
+      <cat-item tags="vbdo.*"/>
+    </def-cat>
     
   </section-def-cats>
 
@@ -314,7 +316,64 @@
         </choose>
   	</def-macro>
 
-  	
+
+	<!--append 'smpl' to indefinite tenses-->
+  	<def-macro n="cond_simple_indefinite" npar="1">
+      	<choose>	
+          <!-- Condition for simple present -->
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pres"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
+
+          <!-- Condition for present indefinite -->
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pri"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <lit-tag v="pres"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
+
+          <!-- Condition for past indefinitie -->
+          <when>
+            <test>
+              <equal> 
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="past"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <concat>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="smpl"/>
+              </concat>
+            </let>
+          </when>
+        </choose>
+  	</def-macro>
+
+
 	<!--mainly appends anmacy to এক<num>-->
   	<def-macro n="fix_determiner" npar="2">
 	<choose>
@@ -1067,59 +1126,9 @@
         <pattern-item n="verbcj"/>
       </pattern>
       <action>
-      	<choose>	
-          <!-- Condition for simple present -->
-          <when>
-            <test>
-              <equal> 
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="pres"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="temps"/>
-              <concat>
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="smpl"/>
-              </concat>
-            </let>
-          </when>
-
-          <!-- Condition for present indefinite -->
-          <when>
-            <test>
-              <equal> 
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="pri"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="temps"/>
-              <concat>
-                <lit-tag v="pres"/>
-                <lit-tag v="smpl"/>
-              </concat>
-            </let>
-          </when>
-
-          <!-- Condition for past indefinitie -->
-          <when>
-            <test>
-              <equal> 
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="past"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="temps"/>
-              <concat>
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="smpl"/>
-              </concat>
-            </let>
-          </when>
-        </choose>
-
+		<call-macro n="cond_simple_indefinite">
+			<with-param pos="1"/>
+		</call-macro>
         <!-- Actual output -->
         <out>
           <chunk name="verbcj" case="caseFirstWord">
@@ -1142,6 +1151,57 @@
         </out>
       </action>
     </rule>
+
+	<!--interrogative with do/did-->
+    <rule comment="REGLA: VBDO">
+      <pattern>
+        <pattern-item n="vbdo"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vbdo" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SVD"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+    <rule comment="REGLA: VBDO VBLEX">
+      <pattern>
+        <pattern-item n="vbdo"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="cond_simple_indefinite">
+			<with-param pos="1"/>
+		</call-macro>
+        <out>
+          <chunk name="vbdo_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag><!--value set by the rules that catch the subject-->
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 
 
 	<!--pre/post positions-->
