@@ -14,6 +14,10 @@
       <cat-item tags="SVP"/>
       <cat-item tags="SVP.*"/>
     </def-cat>
+    <def-cat n="SVD">
+      <cat-item tags="SVD"/>
+      <cat-item tags="SVD.*"/>
+    </def-cat>
     <def-cat n="POST">
       <cat-item tags="POST"/>
       <cat-item tags="POST.*"/>
@@ -39,6 +43,22 @@
       <attr-item tags="obj"/>
       <attr-item tags="loc"/>
       <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="pres.smpl"/>
+      <attr-item tags="pres.cnt"/>
+      <attr-item tags="past"/>
+      <attr-item tags="past.smpl"/>
+      <attr-item tags="past.cnt"/>  
+      <attr-item tags="ft"/>
+      <attr-item tags="ft.smpl"/>
+      <attr-item tags="ft.cnt"/> 
+      <attr-item tags="prft"/>     
+      <attr-item tags="plprft"/>     
+      <attr-item tags="inf"/>
+      <!-- present indefinite? -->
+      <attr-item tags="pri"/>
     </def-attr>
   </section-def-attrs>
 
@@ -125,6 +145,7 @@
       </action>
     </rule>
 
+	<!--postposition-->
     <rule comment="REGLA: SN SV POST SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -164,6 +185,42 @@
         </out>
       </action>
     </rule>
+
+
+	<!--interrogative with do verb-->
+    <rule comment="REGLA: SVD SN SV">
+      <pattern>
+        <pattern-item n="SVD"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+		<let>
+			<clip pos="3" part="temps"/>
+			<clip pos="1" part="temps"/>
+		</let>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </interchunk>

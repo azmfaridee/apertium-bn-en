@@ -28204,6 +28204,26 @@
         </p>
       </e>
     </pardef>
+   <pardef n="কি__det">
+		<e>
+        	<p>
+          		<l/>
+          		<r><s n="det"/><s n="itg"/><s n="sp"/></r>
+        	</p>
+      	</e>
+		<e r="RL">
+        	<p>
+          		<l/>
+          		<r><s n="det"/><s n="itg"/><s n="sg"/></r>
+        	</p>
+      	</e>
+		<e r="RL">
+        	<p>
+          		<l/>
+          		<r><s n="det"/><s n="itg"/><s n="pl"/></r>
+        	</p>
+      	</e>
+    </pardef>
 
 
     <!-- Numerals -->
@@ -36501,6 +36521,7 @@
     <e lm="আপনাদের"><i>আপনাদের</i><par n="এর__det" /></e>
     <e lm="এর"><i>এর</i><par n="এর__det" /></e>
     <e lm="একটি"><i>একটি</i><par n="উভয়__det" /></e>
+    <e lm="কি"><i>কি</i><par n="কি__det" /></e>
 
     <!-- Numerals -->
 
