@@ -809,6 +809,51 @@
       </action>
    </rule>
 
+	<!--future continuous-->
+    <rule comment="REGLA: FTAUX BE VBLEX">
+      <pattern>
+        <pattern-item n="ftaux"/>
+        <pattern-item n="be"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <!-- if the verb has gerund tag -->
+                <clip pos="3" side="sl" part="a_vblex"/>
+                <lit-tag v="ger"/>
+              </equal>
+            </test>
+            <let>
+              <!-- add cnt tag -->
+              <clip pos="2" side="tl" part="temps"/>
+               <lit-tag v="ft.cnt"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="ftaux_be_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="2" side="tl" part="temps" link-to="2"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="temps" link-to="4"/>
+              <clip pos="2" side="tl" part="temps" link-to="5"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 	<!--future perfect-->
     <rule comment="REGLA: FTAUX VBHAVER VBLEX">
       <pattern>
@@ -845,6 +890,52 @@
       </action>
    </rule>
    
+	<!--future perfect continuous-->
+    <rule comment="REGLA: FTAUX VBHAVER VBSER VBLEX">
+      <pattern>
+        <pattern-item n="ftaux"/>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vbser"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <!-- if the verb has gerund tag -->
+                <clip pos="4" side="sl" part="a_vblex"/>
+                <lit-tag v="ger"/>
+              </equal>
+            </test>
+            <let>
+              <!-- add cnt tag -->
+              <clip pos="2" side="tl" part="temps"/>
+               <lit-tag v="ft.cnt"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="ftaux_vbhaver_vbser_vblex" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="2" side="tl" part="temps" link-to="2"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="temps" link-to="4"/>
+              <clip pos="2" side="tl" part="temps" link-to="5"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
     <rule comment="REGLA: VBSER VBLEX">
       <pattern>
         <pattern-item n="vbser"/>
@@ -963,53 +1054,6 @@
               <clip pos="1" side="tl" part="temps" link-to="4"/>
               <clip pos="1" side="tl" part="temps" link-to="5"/>
               <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-   </rule>
-
-
-
-	<!--future continuous-->
-    <rule comment="REGLA: FTAUX BE VBLEX">
-      <pattern>
-        <pattern-item n="ftaux"/>
-        <pattern-item n="be"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <!-- if the verb has gerund tag -->
-                <clip pos="3" side="sl" part="a_vblex"/>
-                <lit-tag v="ger"/>
-              </equal>
-            </test>
-            <let>
-              <!-- add cnt tag -->
-              <clip pos="2" side="tl" part="temps"/>
-               <lit-tag v="ft.cnt"/>
-            </let>
-          </when>
-        </choose>
-        <out>
-          <chunk name="ftaux_be_vblex" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="tl" part="temps"/></tag>
-              <tag><var n="person"/></tag>
-            </tags>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <lit-tag v="vblex"/>
-              <clip pos="2" side="tl" part="temps" link-to="2"/>
-              <clip pos="2" side="tl" part="temps" link-to="3"/>
-              <clip pos="2" side="tl" part="temps" link-to="4"/>
-              <clip pos="2" side="tl" part="temps" link-to="5"/>
-              <clip pos="3" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
