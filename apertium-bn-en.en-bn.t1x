@@ -437,7 +437,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adj" link-to="2"/>
-              <clip pos="1" side="tl" part="gen" link-to="3"/>
+              <clip pos="1" side="tl" part="a_adj" link-to="3"/>
+              <clip pos="1" side="tl" part="gen" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -765,7 +766,7 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="sl" part="lemh"/>
             </lu>
           </chunk>
         </out>
@@ -1029,16 +1030,16 @@
       </action>
    </rule>
 
-    <rule comment="REGLA: VAUX VBLEX">
+    <rule comment="REGLA: FTAUX VBLEX">
       <pattern>
-        <pattern-item n="vaux"/>
+        <pattern-item n="ftaux"/>
         <pattern-item n="vblex"/>
       </pattern>
       <action>
-      	<let>
-      		<clip pos="1" side="tl" part="temps"/>
-      		<lit-tag v="ft.smpl"/>
-      	</let>
+		<let>
+			<clip pos="1" side="tl" part="temps"/>
+			<lit-tag v="ft.smpl"/>
+		</let>
         <out>
           <chunk name="vaux_vblex" case="caseFirstWord">
             <tags>

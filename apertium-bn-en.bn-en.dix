@@ -122,9 +122,9 @@
     <e r="LR"><p><l>নিজে<s n="prn"/><s n="ref"/><s n="aa"/><s n="mf"/><s n="sg"/></l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
 
 
-     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+     <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
-     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="dem"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
