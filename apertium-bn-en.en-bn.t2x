@@ -2,22 +2,42 @@
 <interchunk>
 
   <section-def-cats>
+	<!--noun phrase-->  
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+	<!--verb-->
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
     </def-cat>
-    <def-cat n="SVP">
-      <cat-item tags="SVP"/>
-      <cat-item tags="SVP.*"/>
+    
+	<!--verb, present/past indefinite; am, is, are-->
+    <def-cat n="SVI">
+      <cat-item tags="SVPR"/><!--present-->
+      <cat-item tags="SVPR.*"/>
+      <cat-item tags="SVPS"/><!--past-->
+      <cat-item tags="SVPS.*"/>
     </def-cat>
+
+	<!--only present indefinite-->
+    <def-cat n="SVP">
+      <cat-item tags="SVPR"/><!--present-->
+      <cat-item tags="SVPR.*"/>
+    </def-cat>
+
+	<!--do verb; do, did, does-->
     <def-cat n="SVD">
       <cat-item tags="SVD"/>
       <cat-item tags="SVD.*"/>
     </def-cat>
+	<!--verb, gerund-->
+    <def-cat n="SVG">
+      <cat-item tags="SVG"/>
+      <cat-item tags="SVG.*"/>
+    </def-cat>
+	<!--postpositions-->
     <def-cat n="POST">
       <cat-item tags="POST"/>
       <cat-item tags="POST.*"/>
@@ -37,6 +57,15 @@
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p2.pol"/>
+      <attr-item tags="p2.infml"/>
+      <attr-item tags="p3.pol"/>
+      <attr-item tags="p3.infml"/>
+      <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="case">
       <attr-item tags="nom"/>
@@ -216,6 +245,42 @@
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+	<!--interrogative with be verb-->
+    <rule comment="REGLA: SVI SN SVG">
+      <pattern>
+        <pattern-item n="SVI"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVG"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+			<lit v="what"/>
+			<lit-tag v="det.itg"/>
+			<lit v="{^"/>
+			<lit v="কি"/>
+			<lit-tag v="det.itg.sg"/>
+			<lit v="$}"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="1" part="temps"/>
+			<lit-tag v="cnt"/>
+            <clip pos="2" part="pers"/>
+			<clip pos="3" part="chcontent"/>
           </chunk>
         </out>
       </action>

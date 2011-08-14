@@ -6,6 +6,12 @@
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
+    <def-cat n="ger">
+      <cat-item name="vbger"/>
+    </def-cat>
+    <def-cat n="vbsp">
+      <cat-item name="vbser_past"/>
+    </def-cat>
   </section-def-cats>
 
 
@@ -14,6 +20,34 @@
       <attr-item tags="n"/>
       <attr-item tags="np"/>
     </def-attr>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p2.pol"/>
+      <attr-item tags="p2.infml"/>
+      <attr-item tags="p3.pol"/>
+      <attr-item tags="p3.infml"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="pres.smpl"/>
+      <attr-item tags="pres.cnt"/>
+      <attr-item tags="past"/>
+      <attr-item tags="past.smpl"/>
+      <attr-item tags="past.cnt"/>  
+      <attr-item tags="ft"/>
+      <attr-item tags="ft.smpl"/>
+      <attr-item tags="ft.cnt"/> 
+      <attr-item tags="prft"/>     
+      <attr-item tags="plprft"/>     
+      <attr-item tags="inf"/>
+      <!-- present indefinite? -->
+      <attr-item tags="pri"/>
+    </def-attr>
+    
   </section-def-attrs>
 
   <section-def-vars>
@@ -30,6 +64,40 @@
         <out>
           <lu>
             <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: vbser past: was, were">
+      <pattern>
+        <pattern-item n="vbsp"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="lemh"/>
+            <lit-tag v="vblex"/>
+            <clip pos="1" part="temps"/>
+            <clip pos="0" part="pers"/>
+            <clip pos="1" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: gerund">
+      <pattern>
+        <pattern-item n="ger"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="lemh"/>
+            <lit-tag v="vblex"/>
+            <clip pos="0" part="temps"/>
+            <clip pos="0" part="pers"/>
+            <clip pos="1" part="lemq"/>
           </lu>
         </out>
       </action>
