@@ -114,6 +114,32 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: SN SV">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SN SV SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -125,6 +151,10 @@
           <clip pos="3" part="case"/>
           <lit-tag v="obj"/>
         </let>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
         <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -188,6 +218,10 @@
           <clip pos="4" part="case"/>
           <lit-tag v="obj"/>
         </let>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
         <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -228,6 +262,10 @@
 		<let>
 			<clip pos="3" part="temps"/>
 			<clip pos="1" part="temps"/>
+		</let>
+		<let>
+			<clip pos="3" part="pers"/>
+			<clip pos="2" part="pers"/>
 		</let>
         <out>
           <chunk>
