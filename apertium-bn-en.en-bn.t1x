@@ -161,6 +161,8 @@
       <attr-item tags="inf"/>
       <!-- present indefinite? -->
       <attr-item tags="pri"/>
+      <!-- past participle? -->
+      <attr-item tags="pp"/>
       <attr-item tags="TD"/>
     </def-attr>
     
@@ -286,10 +288,16 @@
           </when>
           <when>
             <test>
+			  <or>
               <equal> 
                 <clip pos="1" side="sl" part="temps"/>
                 <lit-tag v="past"/>
               </equal>
+              <equal> 
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="pp"/>
+              </equal>
+			  </or>
             </test>
             <let>
                 <clip pos="1" side="tl" part="temps"/>

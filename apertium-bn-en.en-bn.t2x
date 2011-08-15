@@ -339,6 +339,20 @@
         <pattern-item n="SV"/>
       </pattern>
       <action>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="3" part="lem"/>
+						<lit v="verbcj"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="3" part="temps"/>
+					<clip pos="1" part="temps"/>
+				</let>
+			</when>
+		</choose>
         <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -357,8 +371,8 @@
 	  <b pos="2"/>
           <chunk>
             <clip pos="3" part="lem"/>
-			<lit-tag v="SVG"/>
-            <clip pos="1" part="temps"/>
+			<lit-tag v="SV"/>
+            <clip pos="3" part="temps"/>
             <clip pos="2" part="pers"/>
 			<clip pos="3" part="chcontent"/>
           </chunk>
