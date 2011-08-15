@@ -143,6 +143,7 @@
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="pres"/>
@@ -156,9 +157,11 @@
       <attr-item tags="ft.cnt"/> 
       <attr-item tags="prft"/>     
       <attr-item tags="plprft"/>     
+      <attr-item tags="ger"/>  
       <attr-item tags="inf"/>
       <!-- present indefinite? -->
       <attr-item tags="pri"/>
+      <attr-item tags="TD"/>
     </def-attr>
     
     <!-- Adjective Attributes -->
@@ -1212,10 +1215,17 @@
           <chunk name="vbger" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SVG"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><lit-tag v="TD"/></tag>
+              <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="sl" part="temps" link-to="2"/>
+              <clip pos="1" side="sl" part="temps" link-to="3"/>
+              <clip pos="1" side="sl" part="temps" link-to="4"/>
+              <clip pos="1" side="sl" part="temps" link-to="5"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

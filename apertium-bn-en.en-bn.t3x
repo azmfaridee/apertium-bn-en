@@ -86,22 +86,5 @@
       </action>
     </rule>
 
-    <rule comment="CHUNK: gerund">
-      <pattern>
-        <pattern-item n="ger"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" part="lemh"/>
-            <lit-tag v="vblex"/>
-            <clip pos="0" part="temps"/>
-            <clip pos="0" part="pers"/>
-            <clip pos="1" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
   </section-rules>
 </postchunk>

@@ -88,6 +88,7 @@
       <attr-item tags="inf"/>
       <!-- present indefinite? -->
       <attr-item tags="pri"/>
+      <attr-item tags="TD"/>
     </def-attr>
   </section-def-attrs>
 
@@ -276,7 +277,7 @@
 	  <b pos="2"/>
           <chunk>
             <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
+			<lit-tag v="SVG"/>
             <clip pos="1" part="temps"/>
 			<lit-tag v="cnt"/>
             <clip pos="2" part="pers"/>
