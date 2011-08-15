@@ -267,7 +267,7 @@
 		</let>
   	</def-macro>
 
-	<!--replace the "pri" and "ger" to "pres" and "cnt"-->
+	<!--replace the "pri" to "pres" and "past" to "past.plprft"-->
   	<def-macro n="fix_vbser_temps" npar="1">
         <choose>
           <when>
@@ -302,6 +302,41 @@
         </choose>
   	</def-macro>
 
+	<!--replace the "pri" or "pres" to "prft" and "past" to "plprft"-->
+  	<def-macro n="fix_vbhaver_temps" npar="1">
+      	<choose>
+      		<when>
+      			<test>
+      				<or>
+		  				<equal>
+		  					<clip pos="1" side="sl" part="temps"/>
+							<lit-tag v="pri"/>
+		  				</equal>
+		  				<equal>
+		  					<clip pos="1" side="sl" part="temps"/>
+							<lit-tag v="pres"/>
+		  				</equal>
+      				</or>
+      			</test>
+      			<let>
+      				<clip pos="1" side="tl" part="temps"/>
+					<lit-tag v="prft"/>
+      			</let>
+      		</when>
+      		<when>
+      			<test>
+      				<equal>
+      					<clip pos="1" side="tl" part="temps"/>
+						<lit-tag v="past"/>
+      				</equal>
+      			</test>
+      			<let>
+      				<clip pos="1" side="tl" part="temps"/>
+					<lit-tag v="plprft"/>
+      			</let>
+      		</when>
+      	</choose>
+  	</def-macro>
   	
 	<!--replaces 'cnt' for 'ger'-->
   	<def-macro n="fix_ger_cnt" npar="2">
@@ -888,6 +923,35 @@
    </rule>
 
 
+	<!--verb to have-->
+    <rule comment="REGLA: VBHAVER">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+      </pattern>
+      <action>
+		<!--fix the temps for bn-->
+		<call-macro n="fix_vbhaver_temps">
+			<with-param pos="1"/>
+		</call-macro>
+        <out>
+          <chunk name="vbhaver" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SVH"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <!--lit-tag v="vbhaver"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="lemq"/-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+
+
 	<!--perfect continuous-->
     <rule comment="REGLA: VBHAVER VBSER VBLEX">
       <pattern>
@@ -1092,38 +1156,9 @@
         <pattern-item n="vblex"/>
       </pattern>
       <action>
-      	<choose>
-      		<when>
-      			<test>
-      				<or>
-		  				<equal>
-		  					<clip pos="1" side="sl" part="temps"/>
-							<lit-tag v="pri"/>
-		  				</equal>
-		  				<equal>
-		  					<clip pos="1" side="sl" part="temps"/>
-							<lit-tag v="pres"/>
-		  				</equal>
-      				</or>
-      			</test>
-      			<let>
-      				<clip pos="1" side="tl" part="temps"/>
-					<lit-tag v="prft"/>
-      			</let>
-      		</when>
-      		<when>
-      			<test>
-      				<equal>
-      					<clip pos="1" side="tl" part="temps"/>
-						<lit-tag v="past"/>
-      				</equal>
-      			</test>
-      			<let>
-      				<clip pos="1" side="tl" part="temps"/>
-					<lit-tag v="plprft"/>
-      			</let>
-      		</when>
-      	</choose>
+		<call-macro n="fix_vbhaver_temps">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <chunk name="vbhaver_vblex" case="caseFirstWord">
             <tags>

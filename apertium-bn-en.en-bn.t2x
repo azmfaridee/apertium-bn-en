@@ -27,6 +27,12 @@
       <cat-item tags="SVPR.*"/>
     </def-cat>
 
+	<!--have verb; have, has, had-->
+    <def-cat n="SVH">
+      <cat-item tags="SVH"/>
+      <cat-item tags="SVH.*"/>
+    </def-cat>
+
 	<!--do verb; do, did, does-->
     <def-cat n="SVD">
       <cat-item tags="SVD"/>
@@ -324,6 +330,43 @@
         </out>
       </action>
     </rule>
+
+	<!--interrogative with have verb-->
+    <rule comment="REGLA: SVH SN SV">
+      <pattern>
+        <pattern-item n="SVH"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+			<lit v="what"/>
+			<lit-tag v="det.itg"/>
+			<lit v="{^"/>
+			<lit v="কি"/>
+			<lit-tag v="det.itg.sg"/>
+			<lit v="$}"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+			<lit-tag v="SVG"/>
+            <clip pos="1" part="temps"/>
+            <clip pos="2" part="pers"/>
+			<clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
 
   </section-rules>
