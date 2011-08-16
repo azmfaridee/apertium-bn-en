@@ -331,79 +331,77 @@
     </rule>
 
 
-	<!--interrogative with SVP: Am I rich?-->
-    <rule comment="REGLA: SVP SN SN">
+	<!--interrogative with SVI: Am I rich? Was I rich?-->
+    <rule comment="REGLA: SVI SN SN">
       <pattern>
-        <pattern-item n="SVP"/>
+        <pattern-item n="SVI"/>
         <pattern-item n="SN"/>
         <pattern-item n="SN"/>
       </pattern>
       <action>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-	  <b pos="1"/>
-          <chunk>
-			<lit v="what"/>
-			<lit-tag v="det.itg"/>
-			<lit v="{^"/>
-			<lit v="কি"/>
-			<lit-tag v="det.itg.sg"/>
-			<lit v="$}"/>
-          </chunk>
-	  <b pos="2"/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" part="temps"/>
+						<lit-tag v="pres"/>
+					</equal>
+				</test>
+				<out>
+				  <chunk>
+					<clip pos="2" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+					<lit v="what"/>
+					<lit-tag v="det.itg"/>
+					<lit v="{^"/>
+					<lit v="কি"/>
+					<lit-tag v="det.itg.sg"/>
+					<lit v="$}"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+					<clip pos="3" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" part="temps"/>
+						<lit-tag v="past"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="1" part="pers"/>
+					<clip pos="2" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+			  <b/>
+				  <chunk>
+					<lit v="what"/>
+					<lit-tag v="det.itg"/>
+					<lit v="{^"/>
+					<lit v="কি"/>
+					<lit-tag v="det.itg.sg"/>
+					<lit v="$}"/>
+				  </chunk>
+			  <b/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b/>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+		</choose>
 
-	<!--interrogative with SVPS: Was I rich?-->
-    <rule comment="REGLA: SVPS SN SN">
-      <pattern>
-        <pattern-item n="SVPS"/>
-        <pattern-item n="SN"/>
-        <pattern-item n="SN"/>
-      </pattern>
-      <action>
-		<let>
-			<clip pos="1" part="pers"/>
-			<clip pos="2" part="pers"/>
-		</let>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-	  <b/>
-          <chunk>
-			<lit v="what"/>
-			<lit-tag v="det.itg"/>
-			<lit v="{^"/>
-			<lit v="কি"/>
-			<lit-tag v="det.itg.sg"/>
-			<lit v="$}"/>
-          </chunk>
-	  <b/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-	  <b/>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-        </out>
       </action>
     </rule>
 
