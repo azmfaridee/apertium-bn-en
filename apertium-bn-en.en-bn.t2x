@@ -195,65 +195,59 @@
       </action>
     </rule>
 
-	<!--just ignore SVP-->
-    <rule comment="REGLA: SN SVP SN">
+	<!--simple present, simple past-->
+    <rule comment="REGLA: SN SVI SN">
       <pattern>
         <pattern-item n="SN"/>
-        <pattern-item n="SVP"/>
+        <pattern-item n="SVI"/>
         <pattern-item n="SN"/>
       </pattern>
       <action>
-        <let>
-          <clip pos="3" part="case"/>
-          <lit-tag v="obj"/>
-        </let>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-	  <b pos="1"/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="pres"/>
+					</equal>
+				</test>
+				<out>
+					<chunk>
+					<clip pos="1" part="whole"/>
+					</chunk>
+					<b pos="1"/>
+					<chunk>
+					<clip pos="3" part="whole"/>
+					</chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="past"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="2" part="pers"/>
+					<clip pos="1" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+		</choose>
 
-	<!--past indefinite-->
-    <rule comment="REGLA: SN SVPS SN">
-      <pattern>
-        <pattern-item n="SN"/>
-        <pattern-item n="SVPS"/>
-        <pattern-item n="SN"/>
-      </pattern>
-      <action>
-		<let>
-			<clip pos="2" part="pers"/>
-			<clip pos="1" part="pers"/>
-		</let>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-	  <b pos="1"/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-	  <b pos="2"/>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-        </out>
       </action>
     </rule>
 
