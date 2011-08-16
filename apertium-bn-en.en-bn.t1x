@@ -962,6 +962,38 @@
 
 
 
+	<!--have been, had been-->
+    <rule comment="REGLA: VBHAVER VBSER">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vbser"/>
+      </pattern>
+      <action>
+		<call-macro n="fix_vbhaver_temps">
+			<with-param pos="1"/>
+		</call-macro>
+        <out>
+          <chunk name="vbhaver_vbser" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SVHB"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+			  <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <lit v="আছ"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
+
+
 	<!--perfect continuous-->
     <rule comment="REGLA: VBHAVER VBSER VBLEX">
       <pattern>

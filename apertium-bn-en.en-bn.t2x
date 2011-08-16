@@ -39,6 +39,12 @@
       <cat-item tags="SVH.*"/>
     </def-cat>
 
+	<!--have been, had been-->
+    <def-cat n="SVHB">
+      <cat-item tags="SVHB"/>
+      <cat-item tags="SVHB.*"/>
+    </def-cat>
+
 	<!--future auxilary verb; shall be, will be-->
     <def-cat n="SVF">
       <cat-item tags="SVF"/>
@@ -250,6 +256,59 @@
 
       </action>
     </rule>
+
+
+	<!--have been, had been-->
+    <rule comment="REGLA: SN SVHB SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVHB"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="prft"/>
+					</equal>
+				</test>
+				<out>
+					<chunk>
+					<clip pos="1" part="whole"/>
+					</chunk>
+					<b pos="1"/>
+					<chunk>
+					<clip pos="3" part="whole"/>
+					</chunk>
+				</out>
+			</when>
+			<otherwise>
+				<let>
+					<clip pos="2" part="pers"/>
+					<clip pos="1" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+				</out>
+			</otherwise>
+		</choose>
+
+      </action>
+    </rule>
+
+
 
 	<!--future; shall be, will be-->
     <rule comment="REGLA: SN SVF SN">
