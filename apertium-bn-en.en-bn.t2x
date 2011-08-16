@@ -348,7 +348,7 @@
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
-	  <b pos="1"/>
+	  <b/>
           <chunk>
 			<lit v="what"/>
 			<lit-tag v="det.itg"/>
@@ -357,13 +357,13 @@
 			<lit-tag v="det.itg.sg"/>
 			<lit v="$}"/>
           </chunk>
-	  <b pos="2"/>
+	  <b/>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
           </chunk>
-	  <b pos="3"/>
+	  <b/>
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
