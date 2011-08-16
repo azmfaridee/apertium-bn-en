@@ -27,6 +27,12 @@
       <cat-item tags="SVPR.*"/>
     </def-cat>
 
+	<!--only past indefinite-->
+    <def-cat n="SVPS">
+      <cat-item tags="SVPS"/><!--past-->
+      <cat-item tags="SVPS.*"/>
+    </def-cat>
+
 	<!--have verb; have, has, had-->
     <def-cat n="SVH">
       <cat-item tags="SVH"/>
@@ -256,6 +262,73 @@
       </action>
     </rule>
 
+
+	<!--interrogative with SVP-->
+    <rule comment="REGLA: SVP SN SN">
+      <pattern>
+        <pattern-item n="SVP"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+			<lit v="what"/>
+			<lit-tag v="det.itg"/>
+			<lit v="{^"/>
+			<lit v="কি"/>
+			<lit-tag v="det.itg.sg"/>
+			<lit v="$}"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+	<!--interrogative with SVP-->
+    <rule comment="REGLA: SVPS SN SN">
+      <pattern>
+        <pattern-item n="SVPS"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+			<lit v="what"/>
+			<lit-tag v="det.itg"/>
+			<lit v="{^"/>
+			<lit v="কি"/>
+			<lit-tag v="det.itg.sg"/>
+			<lit v="$}"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+	  <b pos="3"/>
+        </out>
+      </action>
+    </rule>
 
 	<!--interrogative with do verb-->
     <rule comment="REGLA: SVD SN SV">

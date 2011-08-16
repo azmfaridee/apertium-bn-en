@@ -2979,7 +2979,7 @@
     <e><p><l>সরণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>displacement<s n="n"/></r></p></e>
     <e><p><l>সময়কাল<s n="n"/><s n="nt"/><s n="nn"/></l><r>period<s n="n"/></r></p></e>
     <e><p><l>সন্ন্যাসী<s n="n"/><s n="mf"/><s n="hu"/></l><r>monk<s n="n"/></r></p></e>
-    <e><p><l>শিষ্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>student<s n="n"/></r></p></e>
+    <e r="LR"><p><l>শিষ্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>student<s n="n"/></r></p></e>
     <e><p><l>লোগো<s n="n"/><s n="nt"/><s n="nn"/></l><r>logo<s n="n"/></r></p></e>
     <e><p><l>যৌগ<s n="n"/><s n="nt"/><s n="nn"/></l><r>compound<s n="n"/></r></p></e>
     <e><p><l>ব্যাবহার<s n="n"/><s n="mf"/><s n="nn"/></l><r>utilization<s n="n"/></r></p></e>
