@@ -217,6 +217,40 @@
       </action>
     </rule>
 
+	<!--past indefinite-->
+    <rule comment="REGLA: SN SVPS SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVPS"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 	<!--postposition-->
     <rule comment="REGLA: SN SV POST SN">
       <pattern>

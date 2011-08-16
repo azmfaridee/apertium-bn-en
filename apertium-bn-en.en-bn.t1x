@@ -923,6 +923,8 @@
               <clip pos="1" side="tl" part="lemh"/>
               <lit-tag v="vblex"/>
               <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
