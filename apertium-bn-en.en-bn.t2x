@@ -39,6 +39,12 @@
       <cat-item tags="SVH.*"/>
     </def-cat>
 
+	<!--future auxilary verb; shall be, will be-->
+    <def-cat n="SVF">
+      <cat-item tags="SVF"/>
+      <cat-item tags="SVF.*"/>
+    </def-cat>
+
 	<!--do verb; do, did, does-->
     <def-cat n="SVD">
       <cat-item tags="SVD"/>
@@ -222,6 +228,40 @@
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SVPS"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+	<!--future; shall be, will be-->
+    <rule comment="REGLA: SN SVF SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVF"/>
         <pattern-item n="SN"/>
       </pattern>
       <action>

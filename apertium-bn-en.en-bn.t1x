@@ -998,6 +998,34 @@
       </action>
    </rule>
 
+	<!--"shall be", "will be"-->
+    <rule comment="REGLA: FTAUX BE">
+      <pattern>
+        <pattern-item n="ftaux"/>
+        <pattern-item n="be"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="ftaux_be" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SVF"/></tag>
+              <tag><lit-tag v="ft.smpl"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <lit v="হ"/>
+              <lit-tag v="vblex"/>
+              <clip pos="1" side="tl" part="temps" link-to="2"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="temps" link-to="5"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
 	<!--future continuous-->
     <rule comment="REGLA: FTAUX BE VBLEX">
       <pattern>
