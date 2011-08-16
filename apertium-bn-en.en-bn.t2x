@@ -297,7 +297,7 @@
     </rule>
 
 
-	<!--interrogative with SVP-->
+	<!--interrogative with SVP: Am I rich?-->
     <rule comment="REGLA: SVP SN SN">
       <pattern>
         <pattern-item n="SVP"/>
@@ -330,7 +330,7 @@
       </action>
     </rule>
 
-	<!--interrogative with SVP-->
+	<!--interrogative with SVPS: Was I rich?-->
     <rule comment="REGLA: SVPS SN SN">
       <pattern>
         <pattern-item n="SVPS"/>
@@ -338,6 +338,10 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+		<let>
+			<clip pos="1" part="pers"/>
+			<clip pos="2" part="pers"/>
+		</let>
         <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -360,11 +364,16 @@
             <clip pos="3" part="chcontent"/>
           </chunk>
 	  <b pos="3"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
         </out>
       </action>
     </rule>
 
-	<!--interrogative with do verb-->
+	<!--interrogative with do verb: Do I work?-->
     <rule comment="REGLA: SVD SN SV">
       <pattern>
         <pattern-item n="SVD"/>
@@ -402,7 +411,7 @@
       </action>
     </rule>
 
-	<!--interrogative with be verb-->
+	<!--interrogative with be verb: Am I working?-->
     <rule comment="REGLA: SVI SN SVG">
       <pattern>
         <pattern-item n="SVI"/>
@@ -438,7 +447,7 @@
       </action>
     </rule>
 
-	<!--interrogative with have verb-->
+	<!--interrogative with have verb: Have I worked?-->
     <rule comment="REGLA: SVH SN SV">
       <pattern>
         <pattern-item n="SVH"/>
