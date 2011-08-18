@@ -130,9 +130,7 @@
       <action>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -150,15 +148,11 @@
 		</let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -181,21 +175,15 @@
 		</let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
+            <clip pos="3" part="whole"/>
           </chunk>
 	  <b pos="2"/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -324,21 +312,15 @@
 		</let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
+            <clip pos="3" part="whole"/>
           </chunk>
 	  <b pos="2"/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -363,27 +345,19 @@
 		</let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
-            <clip pos="4" part="lem"/>
-            <clip pos="4" part="tags"/>
-            <clip pos="4" part="chcontent"/>
+            <clip pos="4" part="whole"/>
           </chunk>
       <b pos="2"/>
           <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
+            <clip pos="3" part="whole"/>
           </chunk>
 	  <b pos="3"/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -482,21 +456,15 @@
 		</let>
         <out>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
 	  <b pos="2"/>
           <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
+            <clip pos="3" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -512,9 +480,7 @@
       <action>
         <out>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>
@@ -562,9 +528,7 @@
 		</choose>
         <out>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="2" part="whole"/>
           </chunk>
 	  <b pos="1"/>
           <chunk>

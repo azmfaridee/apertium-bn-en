@@ -210,6 +210,15 @@
     <def-var n="EOS"/>
   </section-def-vars>
 
+  <section-def-lists>
+
+    <def-list n="possessive"><!--forces the subject to be of genitive/possessive case-->
+      <list-item v="আছ"/>	
+    </def-list>
+
+  </section-def-lists>
+
+
   <!--macros here-->
   <section-def-macros>
 
