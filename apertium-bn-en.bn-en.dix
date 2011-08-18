@@ -5,6 +5,7 @@
     <sdef n="np"           c="Proper noun"/>    
     <sdef n="adj"          c="Adjective"/>
     <sdef n="adv"          c="Adverbs"/>
+    <sdef n="preadv"          c="Pre-adverbs"/>
     <sdef n="post"         c="Postposition"/>
     <sdef n="pr"         c="Preposition"/>
     <sdef n="det"         c="Determiner"/>
@@ -5737,6 +5738,7 @@
     <e><p><l>সম্ভবতঃ<s n="adv"/></l><r>probably<s n="adv"/></r></p></e>
     <e><p><l>হুবহু<s n="adv"/></l><r>exactly<s n="adv"/></r></p></e>
     <e><p><l>গাণিতিকভাবে<s n="adv"/></l><r>mathematically<s n="adv"/></r></p></e>
+    <e><p><l>খুব<s n="adv"/></l><r>very<s n="preadv"/></r></p></e>
     <!--upto now: 97-->
 
     <!-- Proper Nouns (added later)-->
