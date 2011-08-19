@@ -6,6 +6,7 @@
     <sdef n="adj"          c="Adjective"/>
     <sdef n="adv"          c="Adverbs"/>
     <sdef n="preadv"          c="Pre-adverbs"/>
+    <sdef n="cnjadv"          c="Conjunctive-adverbs"/>
     <sdef n="post"         c="Postposition"/>
     <sdef n="pr"         c="Preposition"/>
     <sdef n="det"         c="Determiner"/>
@@ -5738,8 +5739,174 @@
     <e><p><l>সম্ভবতঃ<s n="adv"/></l><r>probably<s n="adv"/></r></p></e>
     <e><p><l>হুবহু<s n="adv"/></l><r>exactly<s n="adv"/></r></p></e>
     <e><p><l>গাণিতিকভাবে<s n="adv"/></l><r>mathematically<s n="adv"/></r></p></e>
+    <!-- adverbs added @ Fri Aug 19 08:35:54 UTC 2011 -->
+    <e><p><l>সুতরাং<s n="adv"/></l><r>so<s n="preadv"/></r></p></e>
+    <e><p><l>সুতরাং<s n="adv"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>অতএব<s n="adv"/></l><r>so<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>তাই<s n="adv"/></l><r>so<s n="preadv"/></r></p></e>
+    <e><p><l>এত<s n="adv"/></l><r>so<b/>much<s n="adv"/></r></p></e>
     <e><p><l>খুব<s n="adv"/></l><r>very<s n="preadv"/></r></p></e>
-    <!--upto now: 97-->
+    <e r="LR"><p><l>অতি<s n="adv"/></l><r>very<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>অত্যন্ত<s n="adv"/></l><r>very<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>খুবই<s n="adv"/></l><r>very<s n="preadv"/></r></p></e>
+    <e><p><l>অন্য<b/>কোথাও<s n="adv"/></l><r>elsewhere<s n="adv"/></r></p></e>
+    <e><p><l>অন্যথায়<s n="adv"/></l><r>else<s n="adv"/></r></p></e>
+    <e><p><l>অন্যদিকে<s n="adv"/></l><r>in<b/>contrast<s n="adv"/></r></p></e>
+    <e><p><l>অপরদিকে<s n="adv"/></l><r>on<b/>the<b/>other<b/>hand<s n="adv"/></r></p></e>
+    <e><p><l>অবশেষে<s n="adv"/></l><r>finally<s n="adv"/></r></p></e>
+    <e><p><l>অবশ্যই<s n="adv"/></l><r>of<b/>course<s n="adv"/></r></p></e>
+    <e><p><l>অসম্ভবভাবে<s n="adv"/></l><r>impossibly<s n="adv"/></r></p></e>
+    <e><p><l>অস্বাভাবিকভাবে<s n="adv"/></l><r>strangely<s n="adv"/></r></p></e>
+    <e><p><l>আগামীকাল<s n="adv"/></l><r>tomorrow<s n="adv"/></r></p></e>
+    <e><p><l>আগে<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
+    <e><p><l>আগে<s n="adv"/></l><r>before<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>আগেই<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>আগেও<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>পূর্বে<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
+    <e><p><l>আজ<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+    <e><p><l>আজও<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+    <e><p><l>আজকে<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+    <e><p><l>আবার<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>আবারও<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>আরো<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
+    <e><p><l>আরো<s n="adv"/></l><r>more<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>আরও<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>আরও<b/>বেশি<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
+    <e><p><l>আলাদাভাবে<s n="adv"/></l><r>separately<s n="adv"/></r></p></e>
+    <e><p><l>আসলে<s n="adv"/></l><r>in<b/>fact<s n="adv"/></r></p></e>
+    <e><p><l>ইতিমধ্যে<s n="adv"/></l><r>already<s n="adv"/></r></p></e>
+    <e><p><l>ইতিমধ্যেই<s n="adv"/></l><r>already<s n="adv"/></r></p></e>
+    <e><p><l>উদ্দেশ্যপূর্ণভাবে<s n="adv"/></l><r>intentionally<s n="adv"/></r></p></e>
+    <e><p><l>উপরন্তু<s n="adv"/></l><r>in<b/>addition<s n="adv"/></r></p></e>
+    <e><p><l>উপরে<s n="adv"/></l><r>above<s n="adv"/></r></p></e>
+    <e><p><l>ঋণাত্মকভাবে<s n="adv"/>negatively</l><r>negatively<s n="adv"/></r></p></e>
+    <e><p><l>একইভাবে<s n="adv"/></l><r>alike<s n="adv"/></r></p></e>
+    <e><p><l>একবার<s n="adv"/></l><r>once<s n="adv"/></r></p></e>
+    <e><p><l>একসঙ্গে<s n="adv"/></l><r>at<b/>the<b/>same<b/>time<s n="adv"/></r></p></e>
+    <e><p><l>একা<s n="adv"/></l><r>alone<s n="adv"/></r></p></e>
+    <e><p><l>এখন<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>এখনও<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>এখানে<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+    <e><p><l>এদিকে<s n="adv"/></l><r>meanwhile<s n="adv"/></r></p></e>
+    <e><p><l>এভাবে<s n="adv"/></l><r>thus<s n="adv"/></r></p></e>
+    <e><p><l>এভাবেই<s n="adv"/></l><r>thus<s n="adv"/></r></p></e>
+    <e><p><l>এমনকি<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
+    <e><p><l>এরপর<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>ও<s n="adv"/></l><r>and<s n="adv"/></r></p></e>
+    <e><p><l>কখনো<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+    <e><p><l>কখনোই<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+    <e><p><l>কম<s n="adv"/></l><r>less<s n="adv"/></r></p></e>
+    <e><p><l>কমপক্ষে<s n="adv"/></l><r>at<s n="adv"/></r></p></e>
+    <e><p><l>কারণ<s n="adv"/></l><r>because<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>কেননা<s n="adv"/></l><r>because<s n="cnjadv"/></r></p></e>
+    <e><p><l>কেন<s n="adv"/></l><r>why<s n="adv"/></r></p></e>
+    <e><p><l>কেমন<s n="adv"/></l><r>how<s n="adv"/></r></p></e>
+    <e><p><l>কোথাও<s n="adv"/></l><r>somewhere<s n="adv"/></r></p></e>
+    <e><p><l>কোথায়<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+    <e><p><l>কোনও<b/>ভাবে<s n="adv"/></l><r>somehow<s n="adv"/></r></p></e>
+    <e><p><l>গতকাল<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
+    <e><p><l>গুরুতরভাবে<s n="adv"/></l><r>seriously<s n="adv"/></r></p></e>
+    <e><p><l>ঘনঘন<s n="adv"/></l><r>frequently<s n="adv"/></r></p></e>
+    <e><p><l>চমৎ‍কারভাবে<s n="adv"/></l><r>excellently<s n="adv"/></r></p></e>
+    <e><p><l>চারদিকে<s n="adv"/></l><r>around<s n="adv"/></r></p></e>
+    <e><p><l>চিরতরে<s n="adv"/></l><r>forever<s n="adv"/></r></p></e>
+    <e><p><l>তখন<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>তবুও<s n="adv"/></l><r>yet<s n="adv"/></r></p></e>
+    <e><p><l>তা<b/>সত্ত্বেও<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>তারপর<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>তাহলে<s n="adv"/></l><r>if<s n="cnjadv"/></r></p></e>
+    <e><p><l>তাৎক্ষণিকভাবে<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
+    <e><p><l>তৃতীয়ত<s n="adv"/></l><r>thirdly<s n="adv"/></r></p></e>
+    <e><p><l>দুঃখিত<s n="adv"/></l><r>sorry<s n="adv"/></r></p></e>
+    <e><p><l>দুইবার<s n="adv"/></l><r>twice<s n="adv"/></r></p></e>
+    <e><p><l>দুবার<s n="adv"/></l><r>twice<s n="adv"/></r></p></e>
+    <e><p><l>দূরে<s n="adv"/></l><r>away<s n="adv"/></r></p></e>
+    <e><p><l>দৃঢ়ভাবে<s n="adv"/></l><r>firmly<s n="adv"/></r></p></e>
+    <e><p><l>দ্বিতীয়ত<s n="adv"/></l><r>secondly<s n="adv"/></r></p></e>
+    <e><p><l>দ্রুত<s n="adv"/></l><r>fast<s n="adv"/></r></p></e>
+    <e><p><l>দ্রুতভাবে<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
+    <e><p><l>ধনাত্মকভাবে<s n="adv"/></l><r>positively<s n="adv"/></r></p></e>
+    <e><p><l>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e><p><l>ধীরে<b/>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e><p><l>না<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+    <e><p><l>নিঃশব্দে<s n="adv"/></l><r>silently<s n="adv"/></r></p></e>
+    <e><p><l>নিকটে<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
+    <e><p><l>নিচে<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
+    <e><p><l>নির্বোধভাবে<s n="adv"/></l><r>foolishly<s n="adv"/></r></p></e>
+    <e><p><l>নির্ভুলভাবে<s n="adv"/></l><r>perfectly<s n="adv"/></r></p></e>
+    <e><p><l>নিয়মিতভাবে<s n="adv"/></l><r>regularly<s n="adv"/></r></p></e>
+    <e><p><l>পর<s n="adv"/></l><r>after<s n="adv"/></r></p></e>
+    <e><p><l>পরদিন<s n="adv"/></l><r>next<b/>day<s n="adv"/></r></p></e>
+    <e><p><l>পরিবর্তে<s n="adv"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>পরিশেষে<s n="adv"/></l><r>finally<s n="adv"/></r></p></e>
+    <e><p><l>পরিষ্কার<b/>ভাবে<s n="adv"/></l><r>clearly<s n="adv"/></r></p></e>
+    <e><p><l>পর্যন্ত<s n="adv"/></l><r>until<s n="cnjadv"/></r></p></e>
+    <e><p><l>পর্যায়ক্রমে<s n="adv"/></l><r>gradually<s n="adv"/></r></p></e>
+    <e><p><l>পুনরায়<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>পেছনে<s n="adv"/></l><r>behind<s n="adv"/></r></p></e>
+    <e><p><l>প্রতিদিনই<s n="adv"/></l><r>every<b/>day<s n="adv"/></r></p></e>
+    <e><p><l>প্রথমত<s n="adv"/></l><r>firstly<s n="adv"/></r></p></e>
+    <e><p><l>প্রথমে<s n="adv"/></l><r>first<s n="adv"/></r></p></e>
+    <e><p><l>প্রাথমিকভাবে<s n="adv"/></l><r>initially<s n="adv"/></r></p></e>
+    <e><p><l>প্রায়<s n="adv"/></l><r>about<s n="adv"/></r></p></e>
+    <e><p><l>প্রায়ই<s n="adv"/></l><r>often<s n="adv"/></r></p></e>
+    <e><p><l>প্রায়শই<s n="adv"/></l><r>often<s n="adv"/></r></p></e>
+    <e><p><l>প্রয়োজনীয়ভাবে<s n="adv"/></l><r>necessarily<s n="adv"/></r></p></e>
+    <e><p><l>বটে<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
+    <e><p><l>বরং<s n="adv"/></l><r>rather<s n="adv"/></r></p></e>
+    <e><p><l>বর্তমানে<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>বাইরে<s n="adv"/></l><r>outside<s n="adv"/></r></p></e>
+    <e><p><l>বাণিজ্যিকভাবে<s n="adv"/></l><r>commercially<s n="adv"/></r></p></e>
+    <e><p><l>বারংবার<s n="adv"/></l><r>repeatedly<s n="adv"/></r></p></e>
+    <e><p><l>বার্ষিক<s n="adv"/></l><r>annual<s n="adv"/></r></p></e>
+    <e><p><l>বাস্তবিকপক্ষে<s n="adv"/></l><r>practically<s n="adv"/></r></p></e>
+    <e><p><l>বাড়ি<s n="adv"/></l><r>home<s n="adv"/></r></p></e>
+    <e><p><l>বিশ্বব্যাপী<s n="adv"/></l><r>globally<s n="adv"/></r></p></e>
+    <e><p><l>ভাল<s n="adv"/></l><r>good<s n="adv"/></r></p></e>
+    <e><p><l>ভুল<s n="adv"/></l><r>wrong<s n="adv"/></r></p></e>
+    <e><p><l>মাত্র<s n="adv"/></l><r>only<s n="adv"/></r></p></e>
+    <e><p><l>মুক্ত<b/>ভাবে<s n="adv"/></l><r>freely<s n="adv"/></r></p></e>
+    <e><p><l>মুক্তভাবে<s n="adv"/></l><r>freely<s n="adv"/></r></p></e>
+    <e><p><l>যখন<s n="adv"/></l><r>when<s n="adv"/></r></p></e>
+    <e><p><l>যদিও<s n="adv"/></l><r>although<s n="cnjadv"/></r></p></e>
+    <e><p><l>যুক্তিযুক্ত<b/>ভাবে<s n="adv"/></l><r>reasonably<s n="adv"/></r></p></e>
+    <e><p><l>যেখানে<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+    <e><p><l>যেন<s n="adv"/></l><r>as<s n="preadv"/></r></p></e>
+    <e><p><l>যেন<s n="adv"/></l><r>as<s n="cnjadv"/></r></p></e>
+    <e><p><l>রাতারাতি<s n="adv"/></l><r>overnight<s n="adv"/></r></p></e>
+    <e><p><l>শতকরা<s n="adv"/></l><r>percent<s n="adv"/></r></p></e>
+    <e><p><l>শান্তিপূর্ণভাবে<s n="adv"/></l><r>peacefully<s n="adv"/></r></p></e>
+    <e><p><l>শিগগিরই<s n="adv"/></l><r>soon<s n="adv"/></r></p></e>
+    <e><p><l>শীঘ্রই<s n="adv"/></l><r>soon<s n="adv"/></r></p></e>
+    <e><p><l>শুধু<s n="adv"/></l><r>only<s n="adv"/></r></p></e>
+    <e><p><l>সত্যিই<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
+    <e><p><l>সবচেয়ে<s n="adv"/></l><r>most<s n="adv"/></r></p></e>
+    <e><p><l>সরকারী<b/>ভাবে<s n="adv"/></l><r>officially<s n="adv"/></r></p></e>
+    <e><p><l>সরাসরিভাবে<s n="adv"/></l><r>directly<s n="adv"/></r></p></e>
+    <e><p><l>সর্বত্র<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
+    <e><p><l>সর্বদা<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+    <e><p><l>সহজভাবে<s n="adv"/></l><r>simply<s n="adv"/></r></p></e>
+    <e><p><l>সহজেই<s n="adv"/></l><r>easily<s n="adv"/></r></p></e>
+    <e><p><l>সাম্প্রতিক<b/>কালে<s n="adv"/></l><r>recently<s n="adv"/></r></p></e>
+    <e><p><l>সুন্দরভাবে<s n="adv"/></l><r>beautifully<s n="adv"/></r></p></e>
+    <e><p><l>সেখানে<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+    <e><p><l>সেরা<s n="adv"/></l><r>best<s n="adv"/></r></p></e>
+    <e><p><l>স্পষ্টতঃ<s n="adv"/>clearly</l><r>clearly<s n="adv"/></r></p></e>
+    <e><p><l>হঠাৎ<s n="adv"/></l><r>suddenly<s n="adv"/></r></p></e>
+    <e><p><l>হালকা<b/>ভাবে<s n="adv"/></l><r>lightly<s n="adv"/></r></p></e>
+    <e><p><l>হয়ত<s n="adv"/></l><r>perhaps<s n="adv"/></r></p></e>
+    <e><p><l>বিশেষত<s n="adv"/></l><r>especially<s n="adv"/></r></p></e>
+    <e><p><l>শুধুমাত্র<s n="adv"/></l><r>only<s n="adv"/></r></p></e>
+    <e><p><l>অধিকাংশ<s n="adv"/></l><r>most<s n="adv"/></r></p></e>
+    <e><p><l>সংক্ষেপে<s n="adv"/></l><r>shortly<s n="adv"/></r></p></e>
+    <e><p><l>প্রথমদিকে<s n="adv"/></l><r>initially<s n="adv"/></r></p></e>
+    <e><p><l>স্বাধীনভাবে<s n="adv"/></l><r>freely<s n="adv"/></r></p></e>
+    <e><p><l>স্বেচ্ছায়<s n="adv"/></l><r>voluntarily<s n="adv"/></r></p></e>
+    <e><p><l>অন্যভাবে<s n="adv"/></l><r>otherwise<s n="adv"/></r></p></e>
+    <e><p><l>অন্ততঃ<s n="adv"/></l><r>at<b/>least<s n="adv"/></r></p></e>
+    <e><p><l>সামগ্রিকভাবে<s n="adv"/></l><r>overall<s n="adv"/></r></p></e>
+    <!--upto now: 258-->
+
 
     <!-- Proper Nouns (added later)-->
     <e><p><l>জাহের<s n="np"/><s n="ant"/><s n="m"/></l><r>Zaher<s n="np"/><s n="ant"/></r></p></e>
