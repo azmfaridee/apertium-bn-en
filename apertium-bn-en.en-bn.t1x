@@ -612,6 +612,49 @@
     </rule>
 
 
+    <!-- New rule for ADJ NOM with adverb -->
+    <rule comment="RELGA: ADV ADJ NOM">
+      <pattern>
+        <pattern-item n="adv"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+			<lu>
+              <clip pos="1" side="tl" part="whole"/>
+			</lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen"/>        
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen" link-to="2"/> 
+              <clip pos="3" side="tl" part="anim"/> 
+              <clip pos="3" side="tl" part="nbr" link-to="3"/>
+              <lit-tag v="4"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="RELGA: ADJ">
       <pattern>
         <pattern-item n="adj"/>

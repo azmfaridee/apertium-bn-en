@@ -5727,6 +5727,8 @@
     <e><p><l>একত্রে<s n="adv"/></l><r>jointly<s n="adv"/></r></p></e>
     <e><p><l>সাধারণতঃ<s n="adv"/></l><r>generally<s n="adv"/></r></p></e>
     <e><p><l>আস্তে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>ধীরে<b/>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
     <e><p><l>মূলতঃ<s n="adv"/></l><r>originally<s n="adv"/></r></p></e>
     <e><p><l>ক্রমশ<s n="adv"/></l><r>gradually<s n="adv"/></r></p></e>
     <e><p><l>তুলনামূলকভাবে<s n="adv"/></l><r>relatively<s n="adv"/></r></p></e>
@@ -5826,8 +5828,6 @@
     <e><p><l>দ্রুত<s n="adv"/></l><r>fast<s n="adv"/></r></p></e>
     <e><p><l>দ্রুতভাবে<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
     <e><p><l>ধনাত্মকভাবে<s n="adv"/></l><r>positively<s n="adv"/></r></p></e>
-    <e><p><l>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
-    <e><p><l>ধীরে<b/>ধীরে<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
     <e><p><l>না<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>নিঃশব্দে<s n="adv"/></l><r>silently<s n="adv"/></r></p></e>
     <e><p><l>নিকটে<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
