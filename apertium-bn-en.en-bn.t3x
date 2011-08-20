@@ -25,6 +25,7 @@
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p2.pol"/>
+      <attr-item tags="p2.fam"/>
       <attr-item tags="p2.infml"/>
       <attr-item tags="p3.pol"/>
       <attr-item tags="p3.infml"/>

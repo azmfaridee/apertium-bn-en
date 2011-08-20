@@ -267,7 +267,7 @@
 			  <var n="person"/>
 			  <concat>
 				<clip pos="1" side="tl" part="pers"/>
-				<lit-tag v="pol"/>
+				<lit-tag v="fam"/>
 			  </concat>
 			</let>
 		  </when>

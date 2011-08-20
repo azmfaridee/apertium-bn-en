@@ -253,7 +253,6 @@
     <e><p><l>হাড়<s n="n"/><s n="nt"/><s n="nn"/></l><r>bone<s n="n"/></r></p></e>
     <e><p><l>বই<s n="n"/><s n="nt"/><s n="nn"/></l><r>book<s n="n"/></r></p></e>
     <e><p><l>সীমারেখা<s n="n"/><s n="nt"/><s n="nn"/></l><r>border<s n="n"/></r></p></e>
-    <e><p><l>বালক<s n="n"/><s n="m"/><s n="hu"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>বর্জন<s n="n"/><s n="nt"/><s n="nn"/></l><r>boycott<s n="n"/></r></p></e>
     <e><p><l>শাখা<s n="n"/><s n="mf"/><s n="nn"/></l><r>branch<s n="n"/></r></p></e>
     <e><p><l>রুটি<s n="n"/><s n="nt"/><s n="nn"/></l><r>bread<s n="n"/></r></p></e>
@@ -1793,6 +1792,7 @@
     <e><p><l>সিডি<s n="n"/><s n="mf"/><s n="nn"/></l><r>CD<s n="n"/></r></p></e>
     <e><p><l>চিৎকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>screaming<s n="n"/></r></p></e>
     <e><p><l>ছেলে<s n="n"/><s n="mf"/><s n="hu"/></l><r>boy<s n="n"/></r></p></e>
+    <e r="LR"><p><l>বালক<s n="n"/><s n="m"/><s n="hu"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>হিন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>Hindi<s n="n"/></r></p></e>
     <e><p><l>বাচ্চা<s n="n"/><s n="mf"/><s n="aa"/></l><r>child<s n="n"/></r></p></e>
     <e><p><l>আত্মহত্যা<s n="n"/><s n="mf"/><s n="nn"/></l><r>suicide<s n="n"/></r></p></e>
