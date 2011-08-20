@@ -220,8 +220,9 @@
 
   <section-def-lists>
 
-    <def-list n="possessive"><!--forces the subject to be of genitive/possessive case-->
-      <list-item v="আছ"/>	
+    <def-list n="possessiveverb"><!--forces the subject to be of genitive/possessive case-->
+      <list-item v="have"/>	
+      <list-item v="need"/>	
     </def-list>
 
   </section-def-lists>
@@ -1053,7 +1054,15 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <lit v="prpers"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="pers" link-to="5"/>
+              <clip pos="1" side="tl" part="pers" link-to="6"/>
+              <clip pos="1" side="tl" part="anim"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -1707,6 +1716,24 @@
 		<call-macro n="cond_si_tl">
 			<with-param pos="1"/>
 		</call-macro>
+		<let>
+            <var n="temp"/>
+            <lit v=""/>
+		</let>
+		<choose>
+			<when>
+				<test>
+					<in caseless="yes">
+					  <clip pos="1" side="sl" part="lemh"/>
+					  <list n="possessiveverb"/>
+					</in>
+				</test>
+				<let>
+					<var n="temp"/>
+					<lit-tag v="vpos"/>
+				</let>
+			</when>
+		</choose>
         <!-- Actual output -->
         <out>
           <chunk name="verbcj" case="caseFirstWord">
@@ -1714,6 +1741,7 @@
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
 			  <tag><lit-tag v="PD"/></tag>
+			  <tag><var n="temp"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>

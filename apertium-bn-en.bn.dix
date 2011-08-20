@@ -3129,7 +3129,7 @@
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ওর</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r>
@@ -3165,7 +3165,7 @@
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ওদের</l>
           <r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></r>

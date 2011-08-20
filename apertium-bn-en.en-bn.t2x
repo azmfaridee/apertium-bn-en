@@ -114,12 +114,57 @@
       <attr-item tags="pri"/>
       <attr-item tags="TD"/>
     </def-attr>
+    <!-- Vblex Attribute -->
+    <def-attr n="a_vblex">
+      <attr-item tags="ger"/>
+      <attr-item tags="vpos"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="nombre"/>
     <def-var n="genere"/>
   </section-def-vars>
+
+  <!--macros here-->
+  <section-def-macros>
+  	<def-macro n="set_third_person" npar="1">
+  		<let>
+		  <clip pos="1" part="pers"/>
+		  <concat>
+			<lit-tag v="p3"/>
+			<lit-tag v="infml"/>
+		  </concat>
+		</let>
+  	</def-macro>
+
+  	<def-macro n="fix_verb_possession" npar="2">
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="a_vblex"/>
+						<lit-tag v="vpos"/>
+					</equal>
+				</test>
+				<let>
+				  <clip pos="1" part="case"/>
+				  <lit-tag v="gen"/>
+				</let>
+				<let>
+				  <clip pos="2" part="a_vblex"/>
+				  <lit v=""/>
+				</let>
+				<call-macro n="set_third_person">
+					<with-param pos="2"/>
+				</call-macro>
+			</when>
+		</choose>
+  	</def-macro>
+
+  </section-def-macros>
+
+
 
   <section-rules>
 
@@ -146,6 +191,10 @@
 			<clip pos="2" part="pers"/>
 			<clip pos="1" part="pers"/>
 		</let>
+		<call-macro n="fix_verb_possession">
+			<with-param pos="1"/>
+			<with-param pos="2"/>
+		</call-macro>
         <out>
           <chunk>
             <clip pos="1" part="whole"/>
@@ -173,6 +222,10 @@
 			<clip pos="2" part="pers"/>
 			<clip pos="1" part="pers"/>
 		</let>
+		<call-macro n="fix_verb_possession">
+			<with-param pos="1"/>
+			<with-param pos="2"/>
+		</call-macro>
         <out>
           <chunk>
             <clip pos="1" part="whole"/>
