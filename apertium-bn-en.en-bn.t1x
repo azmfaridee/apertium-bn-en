@@ -48,6 +48,8 @@
       <cat-item tags="adv.*"/>
       <cat-item tags="preadv"/>
       <cat-item tags="preadv.*"/>
+      <cat-item tags="cnjadv"/>
+      <cat-item tags="cnjadv.*"/>
     </def-cat>
     <def-cat n="genitive">
       <cat-item tags="gen"/>
@@ -621,7 +623,7 @@
       </pattern>
       <action>
         <out>
-          <chunk name="adj_nom" case="caseFirstWord">
+          <chunk name="adv_adj_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="3" side="tl" part="gen"/></tag>
@@ -686,7 +688,7 @@
       </pattern>
       <action>
         <out>
-          <chunk name="adj" case="caseFirstWord">
+          <chunk name="adv_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="tl" part="a_adj"/></tag>
@@ -860,6 +862,63 @@
     </rule>
 
 
+    <rule comment="REGLA: DET ADV ADJ NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+		<call-macro n="fix_determiner">
+			<with-param pos="1"/>
+			<with-param pos="4"/>
+		</call-macro>
+		<!--by deafult, 3rd person informal-->
+		<call-macro n="set_third_person"/>
+        <out>
+          <chunk name="det_adv_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="4" side="tl" part="gen"/></tag>
+              <tag><clip pos="4" side="tl" part="anim"/></tag>
+              <tag><clip pos="4" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+              <tag><var n="person"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <var n="determiner"/>     
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+			<lu>
+              <clip pos="2" side="tl" part="whole"/>
+			</lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="gen"/>        
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="gen" link-to="2"/> 
+              <clip pos="4" side="tl" part="anim" link-to="3"/> 
+              <clip pos="4" side="tl" part="nbr" link-to="4"/>
+              <lit-tag v="5"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: NUM NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -926,8 +985,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><var n="person"/></tag>
               <tag><lit-tag v="nom"/></tag>
+              <tag><var n="person"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -1134,7 +1193,7 @@
 			<with-param pos="3"/>
 		</call-macro>
         <out>
-          <chunk name="vbhaver_vbser_vblex" case="caseFirstWord">
+          <chunk name="vbhaver_vbser_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1257,7 +1316,7 @@
           </when>
         </choose>
         <out>
-          <chunk name="ftaux_be_vblex" case="caseFirstWord">
+          <chunk name="ftaux_be_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="temps"/></tag>
@@ -1416,7 +1475,7 @@
 			<with-param pos="2"/>
 		</call-macro>
         <out>
-          <chunk name="vbser_vblex" case="caseFirstWord">
+          <chunk name="vbser_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1482,7 +1541,7 @@
 			<with-param pos="1"/>
 		</call-macro>
         <out>
-          <chunk name="vbhaver_vblex" case="caseFirstWord">
+          <chunk name="vbhaver_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1550,7 +1609,7 @@
 			<lit-tag v="ft.smpl"/>
 		</let>
         <out>
-          <chunk name="vaux_vblex" case="caseFirstWord">
+          <chunk name="vaux_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1618,7 +1677,7 @@
 		</call-macro>
         <!-- Actual output -->
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk name="verbcj_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1708,7 +1767,7 @@
 			<with-param pos="1"/>
 		</call-macro>
         <out>
-          <chunk name="vbdo_vblex" case="caseFirstWord">
+          <chunk name="vbdo_vblex_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="sl" part="temps"/></tag>
@@ -1767,7 +1826,7 @@
       </pattern>
       <action>
         <out>
-          <chunk name="vbger" case="caseFirstWord">
+          <chunk name="vbger_adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SVG"/></tag>
               <tag><lit-tag v="TD"/></tag>
