@@ -832,7 +832,7 @@
               <tag><clip pos="3" side="tl" part="gen"/></tag>
               <tag><clip pos="3" side="tl" part="nbr"/></tag>
               <tag><lit-tag v="nom"/></tag>
-              <tag><var n="temp"/></tag><!--'def' tag when singular-->
+              <!--tag><var n="temp"/></tag--><!--'def' tag when singular-->
               <tag><var n="person"/></tag>
             </tags>
             <lu>
@@ -852,7 +852,6 @@
               <clip pos="3" side="tl" part="anim"/> 
               <clip pos="3" side="tl" part="nbr" link-to="3"/>
               <lit-tag v="4"/>
-              <lit-tag v="5"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
           </chunk>

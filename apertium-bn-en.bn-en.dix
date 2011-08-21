@@ -1511,7 +1511,6 @@
     <e><p><l>কোন<s n="n"/><s n="mf"/><s n="nn"/></l><r>angle<s n="n"/></r></p></e>
     <e><p><l>খেলোয়াড়<s n="n"/><s n="mf"/><s n="hu"/></l><r>player<s n="n"/></r></p></e>
     <e><p><l>চিবানো<s n="n"/><s n="mf"/><s n="nn"/></l><r>chewing<s n="n"/></r></p></e>
-    <e><p><l>সিস্টেম<s n="n"/><s n="mf"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>কোচ<s n="n"/><s n="mf"/><s n="nn"/></l><r>coach<s n="n"/></r></p></e>
     <e><p><l>প্রধানমন্ত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>prime<b/>minister<s n="n"/></r></p></e>
     <e><p><l>চলন্ত<s n="n"/><s n="nt"/><s n="nn"/></l><r>running<s n="n"/></r></p></e>
@@ -2344,6 +2343,7 @@
     <e><p><l>অবলম্বন<s n="n"/><s n="mf"/><s n="nn"/></l><r>support<s n="n"/></r></p></e>
     <e><p><l>নিশ্চয়তা<s n="n"/><s n="mf"/><s n="nn"/></l><r>guarantee<s n="n"/></r></p></e>
     <e><p><l>ব্যবস্থা<s n="n"/><s n="mf"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
+    <e r="LR"><p><l>সিস্টেম<s n="n"/><s n="mf"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>জানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>acquaintance<s n="n"/></r></p></e>
     <e><p><l>সহসভাপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>president<s n="n"/></r></p></e>    
 
