@@ -3604,6 +3604,8 @@
     <e><p><l>ভাটা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ebbtide<s n="n"/></r></p></e>
 
     <!-- Verbs -->
+    <e><p><l>আছ<s n="vblex"/><s n="pres"/></l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>আছ<s n="vblex"/><s n="pres"/></l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>আছ<s n="vblex"/><s n="pres"/></l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
     <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/></r></p></e>
