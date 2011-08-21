@@ -1162,6 +1162,7 @@
     <e><p><l>ক্ষত<s n="n"/><s n="nt"/><s n="nn"/></l><r>wound<s n="n"/></r></p></e>
     <e><p><l>লেখক<s n="n"/><s n="mf"/><s n="hu"/></l><r>writer<s n="n"/></r></p></e>
     <e><p><l>লিখন<s n="n"/><s n="nt"/><s n="nn"/></l><r>writing<s n="n"/></r></p></e>
+    <e r="LR"><p><l>লিখা<s n="n"/><s n="mf"/><s n="nn"/></l><r>writing<s n="n"/></r></p></e>
     <e><p><l>বছর<s n="n"/><s n="nt"/><s n="nn"/></l><r>year<s n="n"/></r></p></e>
     <e><p><l>শূন্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>zero<s n="n"/></r></p></e>
     <e><p><l>রাশি<s n="n"/><s n="nt"/><s n="nn"/></l><r>zodiac<s n="n"/></r></p></e>
@@ -1740,7 +1741,6 @@
     <e><p><l>হাওয়া<s n="n"/><s n="mf"/><s n="nn"/></l><r>air<s n="n"/></r></p></e>
     <e><p><l>বাসনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>desire<s n="n"/></r></p></e>
     <e><p><l>সন্তান<s n="n"/><s n="mf"/><s n="hu"/></l><r>child<s n="n"/></r></p></e>
-    <e><p><l>লিখা<s n="n"/><s n="mf"/><s n="nn"/></l><r>writing<s n="n"/></r></p></e>
     <e><p><l>বিচারপতি<s n="n"/><s n="mf"/><s n="hu"/></l><r><s n="n"/></r></p></e>
     <e><p><l>নাটক<s n="n"/><s n="mf"/><s n="nn"/></l><r>play<s n="n"/></r></p></e>
     <e><p><l>চ্যালেঞ্জ<s n="n"/><s n="mf"/><s n="nn"/></l><r>challenge<s n="n"/></r></p></e>

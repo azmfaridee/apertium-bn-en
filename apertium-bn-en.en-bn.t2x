@@ -71,6 +71,11 @@
       <cat-item tags="POST"/>
       <cat-item tags="POST.*"/>
     </def-cat>
+
+    <def-cat n="for">
+      <cat-item lemma="for" tags="pr"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -641,6 +646,127 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: SN SVI SN POST SN; [The Bengali script] [is] [the writing system] [for] [the Bengali language].">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVI"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="POST"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="gen"/>
+        </let>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="pres"/>
+					</equal>
+				</test>
+				<out>
+					<chunk>
+					<clip pos="1" part="whole"/>
+					</chunk>
+					<b pos="1"/>
+					<chunk>
+					<clip pos="5" part="whole"/>
+					</chunk>
+					<b pos="2"/>
+					<chunk>
+					<clip pos="4" part="whole"/>
+					</chunk>
+					<b pos="3"/>
+					<chunk>
+					<clip pos="3" part="whole"/>
+					</chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="past"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="2" part="pers"/>
+					<clip pos="1" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+				    <clip pos="5" part="whole"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+				    <clip pos="4" part="whole"/>
+				  </chunk>
+			  <b pos="3"/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b pos="4"/>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+		</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SV SN POST SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="POST"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="gen"/>
+        </let>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="1" part="pers"/>
+		</let>
+		<call-macro n="fix_verb_possession">
+			<with-param pos="1"/>
+			<with-param pos="2"/>
+		</call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+	  <b pos="1"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+	  <b pos="2"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+	  <b pos="3"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+	  <b pos="4"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
   </section-rules>
