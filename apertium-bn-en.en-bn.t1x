@@ -28,6 +28,7 @@
       <cat-item tags="det.gen.*"/>
       <cat-item tags="det.pos.*"/>
       <cat-item tags="det.ord.*"/>
+      <cat-item tags="det.itg.*"/>
     </def-cat>
     <def-cat n="pr">
       <cat-item tags="pr"/>
@@ -184,6 +185,10 @@
       <attr-item tags="adj.sint.sup"/>
     </def-attr>
 
+     <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+    </def-attr>
+
      <def-attr n="a_art">
       <attr-item tags="det.def"/>
     </def-attr>
@@ -292,16 +297,23 @@
         <choose>
           <when>
             <test>
-              <equal> 
-                <!-- en part has pri to denote the present, bn uses pres -->
-                <clip pos="1" side="sl" part="temps"/>
-                <lit-tag v="pri"/>
-              </equal>
+  				<or>
+	  				<equal>
+	  					<clip pos="1" side="sl" part="temps"/>
+						<lit-tag v="pri"/>
+	  				</equal>
+	  				<equal>
+	  					<clip pos="1" side="sl" part="temps"/>
+						<lit-tag v="pres"/>
+	  				</equal>
+  				</or>
             </test>
             <let>
-                <!-- replace 'pri' with 'pres' -->
+                <!-- replace 'pri' with 'pres.smpl' -->
                 <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="pres"/>
+				<concat>
+                	<lit-tag v="pres"/>
+				</concat>
             </let>
           </when>
           <when>
@@ -675,6 +687,27 @@
               <clip pos="1" side="tl" part="a_adj" link-to="2"/>
               <clip pos="1" side="tl" part="a_adj" link-to="3"/>
               <clip pos="1" side="tl" part="gen" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RELGA: ADV">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_adv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+			  <clip pos="1" side="tl" part="a_adv"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1105,19 +1138,22 @@
       </pattern>
       <action>
 		<!--fix the temps for bn-->
-		<call-macro n="fix_vbser_temps">
+		<call-macro n="cond_si_tl">
 			<with-param pos="1"/>
 		</call-macro>
         <out>
           <chunk name="vbser_pri" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SVPR"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><lit-tag v="pres"/></tag>
+              <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="vbser"/>
+              <lit-tag v="vblex"/>
               <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

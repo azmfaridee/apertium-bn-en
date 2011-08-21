@@ -62,6 +62,11 @@
       <cat-item tags="SVG.*"/>
     </def-cat>
 	<!--postpositions-->
+    <def-cat n="ADV">
+      <cat-item tags="ADV"/>
+      <cat-item tags="ADV.*"/>
+    </def-cat>
+	<!--postpositions-->
     <def-cat n="POST">
       <cat-item tags="POST"/>
       <cat-item tags="POST.*"/>
@@ -605,6 +610,36 @@
       </action>
     </rule>
 
+
+	<!--interrogative with adverb: How are you?-->
+    <rule comment="REGLA: ADV SVI SN">
+      <pattern>
+        <pattern-item n="ADV"/>
+        <pattern-item n="SVI"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+		<let>
+			<clip pos="2" part="pers"/>
+			<clip pos="3" part="pers"/>
+		</let>
+		<out>
+		  	<chunk>
+				<clip pos="3" part="whole"/>
+		  	</chunk>
+			<b pos="1"/>
+		  	<chunk>
+				<clip pos="1" part="whole"/>
+		  	</chunk>
+			<b pos="2"/>
+		  	<chunk>
+				<clip pos="2" part="lem"/>
+				<clip pos="2" part="tags"/>
+				<clip pos="2" part="chcontent"/>
+		  	</chunk>
+		</out>
+      </action>
+    </rule>
 
 
 
