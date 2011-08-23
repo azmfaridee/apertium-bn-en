@@ -142,10 +142,7 @@
   	<def-macro n="set_third_person" npar="1">
   		<let>
 		  <clip pos="1" part="pers"/>
-		  <concat>
-			<lit-tag v="p3"/>
-			<lit-tag v="infml"/>
-		  </concat>
+		  <lit-tag v="p3.infml"/>
 		</let>
   	</def-macro>
 
@@ -308,6 +305,66 @@
 
       </action>
     </rule>
+
+	<!--simple present, simple past with gerund-->
+    <rule comment="REGLA: SVG SVI SN">
+      <pattern>
+        <pattern-item n="SVG"/>
+        <pattern-item n="SVI"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="pres"/>
+					</equal>
+				</test>
+				<out>
+					<chunk>
+					<clip pos="1" part="lem"/>
+					<lit-tag v="SVG"/>
+					<lit-tag v="ger"/>
+					<clip pos="1" part="chcontent"/>
+					</chunk>
+					<b pos="1"/>
+					<chunk>
+					<clip pos="3" part="whole"/>
+					</chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="past"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="2" part="pers"/>
+					<clip pos="1" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+		</choose>
+
+      </action>
+    </rule>
+
 
 
 	<!--have been, had been-->
@@ -722,6 +779,87 @@
 		</choose>
       </action>
     </rule>
+
+    <rule comment="REGLA: SVG SVI SN POST SN; [The Bengali script] [is] [the writing system] [for] [the Bengali language].">
+      <pattern>
+        <pattern-item n="SVG"/>
+        <pattern-item n="SVI"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="POST"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="gen"/>
+        </let>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="pres"/>
+					</equal>
+				</test>
+				<out>
+					<chunk>
+					<clip pos="1" part="lem"/>
+					<lit-tag v="SVG"/>
+					<lit-tag v="ger"/>
+					<clip pos="1" part="chcontent"/>
+					</chunk>
+					<b pos="1"/>
+					<chunk>
+					<clip pos="5" part="whole"/>
+					</chunk>
+					<b pos="2"/>
+					<chunk>
+					<clip pos="4" part="whole"/>
+					</chunk>
+					<b pos="3"/>
+					<chunk>
+					<clip pos="3" part="whole"/>
+					</chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" part="temps"/>
+						<lit-tag v="past"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="2" part="pers"/>
+					<clip pos="1" part="pers"/>
+				</let>
+				<out>
+				  <chunk>
+				    <clip pos="1" part="whole"/>
+				  </chunk>
+			  <b pos="1"/>
+				  <chunk>
+				    <clip pos="5" part="whole"/>
+				  </chunk>
+			  <b pos="2"/>
+				  <chunk>
+				    <clip pos="4" part="whole"/>
+				  </chunk>
+			  <b pos="3"/>
+				  <chunk>
+				    <clip pos="3" part="whole"/>
+				  </chunk>
+			  <b pos="4"/>
+				  <chunk>
+				    <clip pos="2" part="whole"/>
+				  </chunk>
+				</out>
+			</when>
+		</choose>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: SN SV SN POST SN">
       <pattern>

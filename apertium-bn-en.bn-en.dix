@@ -1919,7 +1919,7 @@
     <e><p><l>মশা<s n="n"/><s n="nt"/><s n="nn"/></l><r>mosquito<s n="n"/></r></p></e>
     <e><p><l>পোস্টার<s n="n"/><s n="mf"/><s n="nn"/></l><r>poster<s n="n"/></r></p></e>
     <e><p><l>প্রতিশ্রুতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>promise<s n="n"/></r></p></e>
-    <e><p><l>হাটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>walking<s n="n"/></r></p></e>
+    <e><p><l>হাঁটা<s n="n"/><s n="mf"/><s n="nn"/></l><r>walking<s n="n"/></r></p></e>
     <e><p><l>উপাচার্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>vice<b/>chancellor<s n="n"/></r></p></e>
     <e><p><l>দেবী<s n="n"/><s n="f"/><s n="hu"/></l><r>goddess<s n="n"/></r></p></e>
     <e><p><l>ইঞ্চি<s n="n"/><s n="mf"/><s n="nn"/></l><r>inch<s n="n"/></r></p></e>
@@ -3602,6 +3602,32 @@
     <e><p><l>ভিত<s n="n"/><s n="nt"/><s n="nn"/></l><r>foundation<s n="n"/></r></p></e>
     <e><p><l>ভার্সন<s n="n"/><s n="nt"/><s n="nn"/></l><r>version<s n="n"/></r></p></e>
     <e><p><l>ভাটা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ebbtide<s n="n"/></r></p></e>
+    <!-- Nouns added @ Tue Aug 23 14:01:32 UTC 2011 -->
+    <e><p><l>আসীন<s n="n"/><s n="nt"/><s n="nn"/></l><r>infinite<s n="n"/></r></p></e>
+    <e><p><l>সেন্টিমিটার<s n="n"/><s n="nt"/><s n="nn"/></l><r>centimetre<s n="n"/></r></p></e>
+    <e><p><l>বাদ্যযন্ত্র<s n="n"/><s n="nt"/><s n="nn"/></l><r>instrument<s n="n"/></r></p></e>
+    <e><p><l>তাৎপর্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>significance<s n="n"/></r></p></e>
+    <e><p><l>উচ্চভূমি<s n="n"/><s n="nt"/><s n="nn"/></l><r>highland<s n="n"/></r></p></e>
+    <e><p><l>সংখ্যাগরিষ্ঠতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>majority<s n="n"/></r></p></e>
+    <e><p><l>ত্রয়ী<s n="n"/><s n="nt"/><s n="nn"/></l><r>trilogy<s n="n"/></r></p></e>
+    <e><p><l>শিক্ষাপ্রতিষ্ঠান<s n="n"/><s n="nt"/><s n="nn"/></l><r>educational<b/>institution<s n="n"/></r></p></e>
+    <e><p><l>বংশগতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>inheritance<s n="n"/></r></p></e>
+    <e><p><l>প্রথমার্ধ<s n="n"/><s n="mf"/><s n="nn"/></l><r>first<b/>half<s n="n"/></r></p></e>
+    <e><p><l>ফিকশন<s n="n"/><s n="mf"/><s n="nn"/></l><r>fiction<s n="n"/></r></p></e>
+    <e><p><l>মণি<s n="n"/><s n="nt"/><s n="nn"/></l><r>stone<s n="n"/></r></p></e>
+    <e><p><l>ভাইসরয়<s n="n"/><s n="mf"/><s n="hu"/></l><r>viceroy<s n="n"/></r></p></e>
+    <e><p><l>গৌরব<s n="n"/><s n="mf"/><s n="nn"/></l><r>pride<s n="n"/></r></p></e>
+    <e><p><l>সহায়িকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>subsidiary<s n="n"/></r></p></e>
+    <e><p><l>ছন্দ<s n="n"/><s n="nt"/><s n="nn"/></l><r>rhythm<s n="n"/></r></p></e>
+    <e><p><l>বিরোধীতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>opposition<s n="n"/></r></p></e>
+    <e><p><l>দায়িত্বভার<s n="n"/><s n="mf"/><s n="nn"/></l><r>responsibility<s n="n"/></r></p></e>
+    <e><p><l>গ্রন্থি<s n="n"/><s n="nt"/><s n="nn"/></l><r>gland<s n="n"/></r></p></e>
+    <e><p><l>ক্যু<s n="n"/><s n="mf"/><s n="nn"/></l><r>cue<s n="n"/></r></p></e>
+    <e><p><l>বর্গমাইল<s n="n"/><s n="nt"/><s n="nn"/></l><r>squar<b/>kilometer<s n="n"/></r></p></e>
+    <e><p><l>প্রদানকারী<s n="n"/><s n="mf"/><s n="hu"/></l><r>provider<s n="n"/></r></p></e>
+    <e><p><l>গানিতিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>mathematician<s n="n"/></r></p></e>
+    <e><p><l>প্রসারণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>expansion<s n="n"/></r></p></e>
+    <e><p><l>আততায়ী<s n="n"/><s n="mf"/><s n="hu"/></l><r>assassin<s n="n"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>আছ<s n="vblex"/><s n="pres"/></l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4371,7 +4397,8 @@
     <e><p><l>গৃহীত<s n="adj"/><s n="mf"/></l><r>accepted<s n="adj"/></r></p></e>
     <e><p><l>বিখ্যাত<s n="adj"/><s n="mf"/></l><r>famous<s n="adj"/></r></p></e>
     <e><p><l>এশীয়<s n="adj"/><s n="mf"/></l><r>asian<s n="adj"/></r></p></e>
-    <e><p><l>কঠিন<s n="adj"/><s n="sint"/><s n="mf"/></l><r>solid<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="RL"><p><l>কঠিন<s n="adj"/><s n="sint"/><s n="mf"/></l><r>solid<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>কঠিন<s n="adj"/><s n="sint"/><s n="mf"/></l><r>tough<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>বিশাল<s n="adj"/><s n="mf"/></l><r>huge<s n="adj"/></r></p></e>
     <e><p><l>বিবাহিত<s n="adj"/><s n="mf"/></l><r>married<s n="adj"/></r></p></e>
     <e><p><l>সমকালীন<s n="adj"/><s n="mf"/></l><r>contemporary<s n="adj"/></r></p></e>
