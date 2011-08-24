@@ -2889,7 +2889,7 @@
           <r>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>তোমায়</l>
           <r>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r>

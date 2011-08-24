@@ -2826,7 +2826,9 @@
     <e><p><l>রং<s n="n"/><s n="nt"/><s n="nn"/></l><r>color<s n="n"/></r></p></e>
     <e><p><l>ভিতর<s n="n"/><s n="nt"/><s n="nn"/></l><r>inside<s n="n"/></r></p></e>
     <e><p><l>তরঙ্গ<s n="n"/><s n="nt"/><s n="nn"/></l><r>wave<s n="n"/></r></p></e>
-    <e><p><l>কাব্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>poetry<s n="n"/></r></p></e>
+    <e><p><l>কবিতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>poetry<s n="n"/></r></p></e>
+    <e r="LR"><p><l>কাব্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>poetry<s n="n"/></r></p></e>
+    <e r="LR"><p><l>পদ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>poetry<s n="n"/></r></p></e>
     <e><p><l>সমীকরণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>equation<s n="n"/></r></p></e>
     <e><p><l>পাওয়ার<s n="n"/><s n="nt"/><s n="nn"/></l><r>power<s n="n"/></r></p></e>
     <e><p><l>চিহ্ন<s n="n"/><s n="nt"/><s n="nn"/></l><r>symbol<s n="n"/></r></p></e>
@@ -3499,7 +3501,6 @@
     <e><p><l>পেনাল্টি<s n="n"/><s n="mf"/><s n="nn"/></l><r>penalty<s n="n"/></r></p></e>
     <e><p><l>পার্শ্ব<s n="n"/><s n="mf"/><s n="nn"/></l><r>side<s n="n"/></r></p></e>
     <e><p><l>পান্ডুলিপি<s n="n"/><s n="nt"/><s n="nn"/></l><r>manuscript<s n="n"/></r></p></e>
-    <e><p><l>পদ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>poetry<s n="n"/></r></p></e>
     <e><p><l>নির্মান<s n="n"/><s n="mf"/><s n="nn"/></l><r>construction<s n="n"/></r></p></e>
     <e><p><l>দানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>grain<s n="n"/></r></p></e>
     <e><p><l>তরঙ্গদৈর্ঘ্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>wavelength<s n="n"/></r></p></e>
@@ -3637,6 +3638,7 @@
     <e><p><l>আছ<s n="vblex"/><s n="pres"/></l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
     <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>আছ<s n="vblex"/><s n="plprft"/></l><r>be<s n="vbser"/><s n="past"/></r></p></e>
+    <e><p><l>পড়<s n="vblex"/></l><r>read<s n="vblex"/></r></p></e>
     <e><p><l>ত্যাগ কর<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
     <e><p><l>অপহরণ কর<s n="vblex"/></l><r>abduct<s n="vblex"/></r></p></e>
     <e><p><l>শপথ করে ত্যাগ কর<s n="vblex"/></l><r>abjure<s n="vblex"/></r></p></e>
