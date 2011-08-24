@@ -533,8 +533,14 @@
 			<let>
 				<var n="determiner"/>
 				<concat>
-					<clip pos="1" side="tl" part="a_num"/>
-					<clip pos="2" side="tl" part="anim"/>
+					<clip pos="1" side="tl" part="lemh"/>
+					<concat>
+						<concat>
+							<clip pos="1" side="tl" part="a_num"/>
+							<clip pos="2" side="tl" part="anim"/>
+						</concat>
+						<clip pos="1" side="tl" part="lemq"/>
+					</concat>
 				</concat>
 			</let>
 		</when>
@@ -542,7 +548,7 @@
 		<otherwise>
 			<let>
 				<var n="determiner"/>
-				<clip pos="1" side="tl" part="a_det"/>
+				<clip pos="1" side="tl" part="whole"/>
 			</let>
 		</otherwise>
 		</choose>
@@ -947,9 +953,7 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
               <var n="determiner"/>     
-              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -991,9 +995,7 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
               <var n="determiner"/>     
-              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -1043,9 +1045,7 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
               <var n="determiner"/>     
-              <clip pos="2" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -1104,9 +1104,7 @@
               <tag><var n="person"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
               <var n="determiner"/>     
-              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
 			<lu>
