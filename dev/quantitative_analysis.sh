@@ -3,7 +3,7 @@
 # provide the corpus file as the only argument, with the format like this: "english_sentence.*reference_sentence" per line
 # usage: sh quantitative_analysis.sh test-data1.txt
 
-HOME="."
+HOME="../"
 
 N=`cat $1 | sed 's/[\.].*//g' | wc -w`
 printf "%-3s = %d\n" "N" $N
